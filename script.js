@@ -256,12 +256,34 @@ function getPayoffAudioPath(characterName, questionNumber, option) {
     return `assets/audio/voice-overs/${charUpper}/${charUpper}_Q${qNum}_Payoff_${option}.mp3`;
 }
 
+// Promise-safe helpers to avoid AbortError when pause() interrupts a pending play()
+let _voicePlayPromise = null;
+
+function playVoice() {
+    _voicePlayPromise = voiceAudio.play();
+    if (_voicePlayPromise) {
+        _voicePlayPromise.catch(err => {
+            if (err.name !== 'AbortError') console.error('Voice play error:', err);
+        });
+    }
+    return _voicePlayPromise;
+}
+
+function pauseVoice() {
+    if (_voicePlayPromise) {
+        _voicePlayPromise.then(() => voiceAudio.pause()).catch(() => {});
+        _voicePlayPromise = null;
+    } else {
+        voiceAudio.pause();
+    }
+}
+
 // Function to load new audio into voiceAudio element
 function loadVoiceAudio(audioPath) {
     if (currentVoicePath === audioPath) return; // Already loaded
     
-    // Pause current audio
-    voiceAudio.pause();
+    // Pause current audio (promise-safe)
+    pauseVoice();
     
     // Update source
     console.log('Loading voice audio:', audioPath);
@@ -269,11 +291,14 @@ function loadVoiceAudio(audioPath) {
     currentVoicePath = audioPath;
     
     // Reconnect to audio context if initialized
-    if (audioInitialized && voiceSource) {
-        voiceSource.disconnect();
-        voiceSource = audioContext.createMediaElementSource(voiceAudio);
-        voiceSource.connect(analyser);
-        voiceSource.connect(audioContext.destination);
+    if (audioInitialized) {
+        if (!voiceSource) {
+            // Source node doesn't exist yet (initAudio ran before first src was set) — create it now
+            voiceSource = audioContext.createMediaElementSource(voiceAudio);
+            voiceSource.connect(analyser);
+            voiceSource.connect(audioContext.destination);
+        }
+        // If voiceSource already exists, it automatically tracks the new src — no action needed
     }
     
     console.log('Loaded voice audio:', audioPath);
@@ -407,7 +432,7 @@ document.getElementById('audioBtn').addEventListener('click', () => {
             initAudio();
         }
         audioContext.resume().then(() => {
-            voiceAudio.play();
+            playVoice();
             musicAudio.play();
             
             isPlaying = true;
@@ -417,7 +442,7 @@ document.getElementById('audioBtn').addEventListener('click', () => {
             analyzeAudio();
         });
     } else {
-        voiceAudio.pause();
+        pauseVoice();
         musicAudio.pause();
         isPlaying = false;
             const charDisplayName = characterData ? characterData.character.name : 'Story';
@@ -583,18 +608,18 @@ function createBackgroundElement(sceneName, containerType = 'question') {
             for (let i = 0; i < 2; i++) {
                 const segment = document.createElement('div');
                 segment.className = 'layer-segment';
-                const object = document.createElement('object');
-                object.setAttribute('data', `${config.path}/${layerConfig.file}`);
-                object.setAttribute('type', 'image/svg+xml');
-                segment.appendChild(object);
+                const img = document.createElement('img');
+                img.src = `${config.path}/${layerConfig.file}`;
+                img.alt = '';
+                segment.appendChild(img);
                 layerDiv.appendChild(segment);
             }
         } else {
             // Single segment
-            const object = document.createElement('object');
-            object.setAttribute('data', `${config.path}/${layerConfig.file}`);
-            object.setAttribute('type', 'image/svg+xml');
-            layerDiv.appendChild(object);
+            const img = document.createElement('img');
+            img.src = `${config.path}/${layerConfig.file}`;
+            img.alt = '';
+            layerDiv.appendChild(img);
         }
         
         container.appendChild(layerDiv);
@@ -804,7 +829,7 @@ document.querySelectorAll('.option-button').forEach(button => {
             }
             
             // Stop active voice-over
-            voiceAudio.pause();
+            pauseVoice();
             voiceAudio.currentTime = 0;
             
             // Stop lip-sync animation
@@ -944,7 +969,7 @@ function showCharacterIntro() {
             initAudio();
         }
         audioContext.resume().then(() => {
-            voiceAudio.play();
+            playVoice();
             musicAudio.play();
             isPlaying = true;
             lastBlinkTime = performance.now();
@@ -967,7 +992,7 @@ function closeIntro() {
     restartBtn.onclick = null; // Reset to use the event listener instead
     
     // Stop intro audio
-    voiceAudio.pause();
+    pauseVoice();
     voiceAudio.currentTime = 0;
     isPlaying = false;
     switchMouth('smile');
@@ -996,7 +1021,7 @@ function closeIntro() {
     setTimeout(() => {
         if (audioContext) {
             audioContext.resume().then(() => {
-                voiceAudio.play();
+                playVoice();
                 musicAudio.play();
                 isPlaying = true;
                 lastBlinkTime = performance.now();
@@ -1041,7 +1066,7 @@ document.getElementById('nextBtn').addEventListener('click', () => {
         // Start playing the new question audio automatically
         if (audioContext) {
             audioContext.resume().then(() => {
-                voiceAudio.play();
+                playVoice();
                 isPlaying = true;
                 lastBlinkTime = performance.now();
                 analyzeAudio();
