@@ -515,15 +515,21 @@ async function loadBackgroundsConfig() {
                             return;
                         }
 
-                        const layers = entry.files.map(file => {
-                            const match = file.match(/layer_(\d+)/i);
-                            const layerNumber = match ? parseInt(match[1], 10) : 1;
-                            return {
-                                layerNumber,
-                                file,
-                                duplicateSegments: true
-                            };
-                        });
+                        const layers = entry.files
+                            .map(file => {
+                                // Support both plain strings and objects { file, enabled }
+                                const fileName = typeof file === 'object' ? file.file : file;
+                                const enabled = typeof file === 'object' ? file.enabled !== false : true;
+                                if (!enabled) return null;
+                                const match = fileName.match(/layer_(\d+)/i);
+                                const layerNumber = match ? parseInt(match[1], 10) : 1;
+                                return {
+                                    layerNumber,
+                                    file: fileName,
+                                    duplicateSegments: true
+                                };
+                            })
+                            .filter(Boolean);
 
                         // Reverse layer order so lower numbers render behind higher numbers.
                         const maxLayerNumber = Math.max(...layers.map(layer => layer.layerNumber));
