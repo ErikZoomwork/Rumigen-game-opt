@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUMIGEN Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Preload critical SVG backgrounds -->
+    <link rel="preload" as="fetch" href="SVG/backgrounds/backgrounds.json">
+    <link rel="preload" as="fetch" href="SVG/backgrounds/exports.json">
+</head>
+<body>
+    <!-- Loading Bar -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-container">
+            <img src="assets/images/rumigen-logo.png" alt="RUMIGEN" class="loading-logo">
+            <div class="loading-bar-wrapper">
+                <div class="loading-bar-fill" id="loading-bar"></div>
+            </div>
+            <div class="loading-text" id="loading-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen active">
+        <div class="welcome-content">
+            <img src="assets/images/rumigen-logo.png" alt="RUMIGEN" class="rumigen-logo">
+            <h1 class="game-title">RUMIGEN Scenario Game</h1>
+            <p class="game-subtitle">An interactive exploration of food system values and trade-offs</p>
+            <button class="btn-primary" onclick="showCharacterSelection()">Start Game</button>
+        </div>
+    </div>
+
+    <!-- Character Selection Screen -->
+    <div id="character-screen" class="screen">
+        <div class="character-container">
+            <img src="assets/images/rumigen-logo.png" alt="RUMIGEN" class="character-logo">
+            <h1>Select Your Character</h1>
+            <p class="character-subtitle">Choose who you want to experience the journey as</p>
+            <div class="character-selection-wrapper">
+                <button class="nav-arrow left" id="scroll-left" aria-label="Scroll left">‹</button>
+                <div class="character-grid" id="character-grid">
+                    <div class="character-card" onclick="selectEmma()">
+                        <img src="assets/images/Character - Emma.jpg" alt="Emma" class="character-image" onerror="this.style.display='none'">
+                        <div class="character-content">
+                            <div class="character-name">Emma</div>
+                            <div class="character-role">The Active Citizen</div>
+                            <div class="character-bio">Emma, 28, lives in the city and works at an NGO with a focus on the environment. She enjoys cooking and browsing secondhand shops. Her friends come from all walks of life, and they often get into thoughtful (and fun) conversations about values, choices, and the world around them. Raised in the inner city, Emma enjoys exploring local markets and learning about how products are made as she has limited experience with how farming and food production looks like in the countryside.</div>
+                            <button class="select-btn">Select Emma →</button>
+                        </div>
+                    </div>
+                    <div class="character-card" onclick="selectLuca()">
+                        <img src="assets/images/Character - Luca.jpg" alt="Luca" class="character-image" onerror="this.style.display='none'">
+                        <div class="character-content">
+                            <div class="character-name">Luca</div>
+                            <div class="character-role">The Farmer</div>
+                            <div class="character-bio">Luca, 45, is a second-generation farmer running a mixed farm with crops and livestock. Proud of his heritage, he's navigating the challenges of modernising his family business while staying sustainable. Growing up on the farm, Luca understands the pressures of meeting consumer demands and complying with ever-evolving regulations. He's deeply connected to the land and strives to balance tradition and innovation.</div>
+                            <button class="select-btn">Select Luca →</button>
+                        </div>
+                    </div>
+                    <div class="character-card" onclick="selectClara()">
+                        <img src="assets/images/Character - Clara.jpg" alt="Clara" class="character-image" onerror="this.style.display='none'">
+                        <div class="character-content">
+                            <div class="character-name">Clara</div>
+                            <div class="character-role">The Policymaker</div>
+                            <div class="character-bio">Clara, 38, is a government official specialising in agriculture and food policy. She's known for her diplomatic skills and passion for improving food systems. With a degree in environmental law, Clara has worked in local and international agencies. She believes in stakeholder collaboration to craft policies that benefit both producers and consumers.</div>
+                            <button class="select-btn">Select Clara →</button>
+                        </div>
+                    </div>
+                    <div class="character-card" onclick="selectAhmed()">
+                        <img src="assets/images/Character - Ahmed.jpg" alt="Dr. Ahmed" class="character-image" onerror="this.style.display='none'">
+                        <div class="character-content">
+                            <div class="character-name">Dr. Ahmed</div>
+                            <div class="character-role">The Researcher</div>
+                            <div class="character-bio">Dr. Ahmed, 52, is a renowned scientist specialising in animal genetics and sustainable agriculture. He spends his days in labs and classrooms, mentoring young researchers. With decades of research and numerous publications, Ahmed bridges the gap between academia and practice. He's driven to find solutions to improve productivity while preserving biodiversity.</div>
+                            <button class="select-btn">Select Ahmed →</button>
+                        </div>
+                    </div>
+                    <div class="character-card" onclick="selectSofia()">
+                        <img src="assets/images/Character - Sofia.jpg" alt="Sofia" class="character-image" onerror="this.style.display='none'">
+                        <div class="character-content">
+                            <div class="character-name">Sofia</div>
+                            <div class="character-role">The Private Sector Representative</div>
+                            <div class="character-bio">Sofia, 34, is an ambitious marketing executive in a global food corporation. She's passionate about innovation and scaling sustainable business models. After earning an MBA, Sofia joined the agri-food industry, focusing on strategies that align profitability with sustainability. She enjoys negotiating partnerships and advocating for corporate responsibility.</div>
+                            <button class="select-btn">Select Sofia →</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="nav-arrow right" id="scroll-right" aria-label="Scroll right">›</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen">
+        <!-- Background scenes will be dynamically generated here by script.js -->
+        <!-- See BACKGROUND_CONFIG in script.js to add new backgrounds -->
+
+        <div class="pilot-badge">🎯 PILOT DEMO</div>
+
+        <!-- Intro Background Container -->
+        <div class="intro-container" id="introContainer"></div>
+
+        <!-- Left column wrapper for modal and restart button -->
+        <div class="left-column-wrapper">
+            <!-- Character Intro Modal -->
+            <div class="tradeoff-modal" id="introModal">
+                <div class="tradeoff-content">
+                    <div class="tradeoff-title" id="introTitle">Character Story</div>
+                    <div class="tradeoff-choice">Let me introduce myself:</div>
+                    <div class="tradeoff-explanation" id="introText">Introduction text will appear here.</div>
+                </div>
+            </div>
+
+            <!-- Trade-off Modal -->
+            <div class="tradeoff-modal" id="tradeoffModal">
+                <div class="tradeoff-content">
+                    <div class="tradeoff-title" id="tradeoffTitle">Your Choice</div>
+                    <div class="tradeoff-choice">Here's what I learned:</div>
+                    <div class="tradeoff-explanation" id="tradeoffText">Trade-off text will appear here.</div>
+                    <button class="continue-button" onclick="closeTradeoff()">Continue →</button>
+                </div>
+            </div>
+
+            <button class="restart-button" id="nextBtn" style="opacity: 0; pointer-events: none;">Next Question →</button>
+        </div>
+
+        <button class="audio-control" id="audioBtn">Play Story</button>
+
+        <!-- Character Display: SVGs are injected dynamically by script.js when a character is selected -->
+        <div class="character-display" id="character-display"></div>
+
+        <!-- Questions Panel -->
+        <div class="questions-panel hidden">
+            <img src="assets/images/rumigen-logo.png" alt="RUMIGEN" class="questions-logo">
+            <div class="question-header" id="questionLocation">📍 LOCATION: Shopping District</div>
+            <div class="emma-intro">
+                <p id="questionContext"><strong>Emma says:</strong> I'm about to head out to shop for food for my party. Where should I go? It's Saturday morning so all possible locations are open.</p>
+            </div>
+            <div class="question-text" id="questionText">
+                Where do you go shopping?
+            </div>
+            <div class="options-container">
+                <div class="option-button clickable" data-option="A" id="optionA">
+                    <span class="option-label">A</span>
+                    <span class="option-text">
+                        <span class="option-title">The farmers' market</span>
+                        <span class="option-description">It's the furthest away with mid-price produce. You would be supporting farmers and getting high-quality fresh produce, but they might not have everything you need.</span>
+                    </span>
+                </div>
+                <div class="option-button clickable" data-option="B" id="optionB">
+                    <span class="option-label">B</span>
+                    <span class="option-text">
+                        <span class="option-title">The specialty store</span>
+                        <span class="option-description">It's a bit further away and more expensive but has all products you need, and you would be supporting a local sustainable business.</span>
+                    </span>
+                </div>
+                <div class="option-button clickable" data-option="C" id="optionC">
+                    <span class="option-label">C</span>
+                    <span class="option-text">
+                        <span class="option-title">The supermarket chain</span>
+                        <span class="option-description">It's cheaper, closest to your apartment and is guaranteed to have all products and ingredients you need, but they are less transparent about their products.</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

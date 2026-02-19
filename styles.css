@@ -1,0 +1,1424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8fafc;
+    overflow: hidden;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+
+.loading-container {
+    text-align: center;
+    width: 280px;
+}
+
+.loading-logo {
+    width: 160px;
+    height: auto;
+    margin-bottom: 28px;
+    opacity: 0.85;
+}
+
+.loading-bar-wrapper {
+    width: 100%;
+    height: 6px;
+    background: #e2e8f0;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+.loading-bar-fill {
+    height: 100%;
+    width: 40%;
+    background: #185285;
+    border-radius: 3px;
+    animation: loadingPulse 1.2s ease-in-out infinite;
+    transform-origin: left;
+}
+
+@keyframes loadingPulse {
+    0%   { transform: translateX(-100%); }
+    100% { transform: translateX(350%); }
+}
+
+.loading-text {
+    color: #64748b;
+    font-size: 0.95rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Screen Management */
+.screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
+
+.screen.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Welcome Screen */
+#welcome-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8fafc;
+    overflow-y: auto;
+}
+
+.welcome-content {
+    text-align: center;
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.rumigen-logo {
+    max-width: 300px;
+    width: 80%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.game-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1e3a8a;
+}
+
+.game-subtitle {
+    color: #64748b;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary {
+    background: #185285;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(24, 82, 133, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(24, 82, 133, 0.4);
+}
+
+/* Character Selection Screen */
+#character-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8fafc;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.character-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.character-container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+}
+
+.character-logo {
+    max-width: 300px;
+    width: 60%;
+    height: auto;
+    margin: 0 auto 2rem auto;
+    display: block;
+}
+
+.character-subtitle {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.character-selection-wrapper {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.character-grid {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.character-grid::-webkit-scrollbar {
+    display: none;
+}
+
+.character-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 calc(33.333% - 1.35rem);
+    min-width: 280px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.character-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.character-card.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.character-card.disabled:hover {
+    transform: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-image {
+    width: 100%;
+    aspect-ratio: 16/9;
+    max-height: 280px;
+    object-fit: contain;
+    object-position: center;
+    padding: 1.5rem;
+    background: white;
+}
+
+.character-content {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.character-name {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    margin-bottom: 0.25rem;
+}
+
+.character-role {
+    color: #64748b;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
+.character-bio {
+    color: #475569;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin-bottom: 1.5rem;
+    flex: 1;
+}
+
+.select-btn {
+    display: block;
+    width: 100%;
+    background: #185285;
+    color: white;
+    padding: 0.875rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.select-btn:hover {
+    background: #1a5f96;
+}
+
+.character-card.disabled .select-btn {
+    background: #cbd5e0;
+    cursor: not-allowed;
+}
+
+.character-card.disabled .select-btn:hover {
+    background: #cbd5e0;
+}
+
+/* Mobile Responsive for Character Cards */
+@media (max-width: 768px) {
+    .character-container {
+        padding: 20px;
+    }
+
+    .character-logo {
+        max-width: 220px;
+        margin-bottom: 1.5rem;
+    }
+
+    .character-container h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .character-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .character-grid {
+        gap: 1rem;
+        padding: 10px 0;
+    }
+
+    .character-card {
+        min-width: 260px;
+        flex: 0 0 85vw;
+        max-height: 70dvh;
+    }
+
+    .character-image {
+        max-height: 180px;
+        padding: 1rem;
+    }
+
+    .character-content {
+        padding: 1rem;
+        overflow-y: auto;
+    }
+
+    .character-name {
+        font-size: 1.4rem;
+    }
+
+    .character-role {
+        font-size: 0.9rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .character-bio {
+        font-size: 0.85rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    .select-btn {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .nav-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .nav-arrow.left {
+        left: -15px;
+    }
+
+    .nav-arrow.right {
+        right: -15px;
+    }
+}
+
+/* Navigation Arrows */
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: 2px solid #1e3a8a;
+    color: #1e3a8a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 10;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-arrow:hover {
+    background: #1e3a8a;
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.nav-arrow.left {
+    left: -25px;
+}
+
+.nav-arrow.right {
+    right: -25px;
+}
+
+.nav-arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.nav-arrow:disabled:hover {
+    background: white;
+    color: #1e3a8a;
+    transform: translateY(-50%);
+}
+
+/* Game Screen Styles */
+#game-screen {
+    background: #b8e6e3;
+}
+
+/* Question Backgrounds (switchable) */
+.question-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    overflow: hidden;
+    z-index: 100;
+    transition: opacity 1.5s ease, transform 1.5s ease;
+    display: none;
+    opacity: 0;
+}
+
+.question-background.active {
+    display: block;
+    opacity: 1;
+}
+
+.question-background.fade-out {
+    opacity: 0;
+    transform: scale(1.05);
+}
+
+.parallax-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    min-width: 200vw;
+    height: 100dvh;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    will-change: transform;
+    transform: translateZ(0);
+    transform-origin: center center;
+    backface-visibility: hidden;
+}
+
+.parallax-layer img,
+.parallax-layer object {
+    height: 100dvh;
+    width: auto;
+    min-width: 100vw;
+    pointer-events: none;
+    display: inline-block;
+    flex-shrink: 0;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+
+.layer-segment {
+    height: 100dvh;
+    width: 100vw;
+    min-width: 100vw;
+    flex-shrink: 0;
+    position: relative;
+    display: inline-flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.layer-segment object,
+.layer-segment img {
+    width: 100%;
+    min-width: 100vw;
+    height: 100dvh;
+    display: block;
+    object-fit: cover;
+}
+
+/* Layer z-indices */
+.layer-1 { z-index: 1; }
+.layer-2 { z-index: 2; }
+.layer-3 { z-index: 3; }
+.layer-4 { z-index: 4; }
+.layer-5 { z-index: 5; }
+.layer-6 { z-index: 6; }
+.layer-7 { z-index: 7; }
+.layer-8 { z-index: 8; }
+.layer-9 { z-index: 9; }
+.layer-10 { z-index: 10; }
+.layer-11 { z-index: 11; }
+.layer-12 { z-index: 12; }
+.layer-13 { z-index: 13; }
+.layer-14 { z-index: 14; }
+.layer-15 { z-index: 15; }
+
+/* Parallax Effect Keyframes */
+@keyframes scrollLeft {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+}
+
+@keyframes scrollRight {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes zoomGentle {
+    from { transform: translateZ(0) scale(1.0); }
+    to   { transform: translateZ(0) scale(1.04); }
+}
+
+@keyframes zoomSoft {
+    from { transform: translateZ(0) scale(1.0); }
+    to   { transform: translateZ(0) scale(1.05); }
+}
+
+@keyframes driftLeft  { from { transform: translateZ(0) translateX(0);    } to { transform: translateZ(0) translateX(-6vw); } }
+@keyframes driftRight { from { transform: translateZ(0) translateX(-6vw); } to { transform: translateZ(0) translateX(0);   } }
+
+@keyframes zoomMedium {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+/* Parallax Effect: scroll-left (default) */
+.parallax-effect-scroll-left .parallax-layer {
+    animation: scrollLeft var(--parallax-duration, 60s) linear infinite;
+}
+.parallax-effect-scroll-left .layer-1 { animation: scrollLeft 40s linear infinite; }
+.parallax-effect-scroll-left .layer-2 { animation: scrollLeft 50s linear infinite; }
+.parallax-effect-scroll-left .layer-7 { animation: scrollLeft 55s linear infinite; }
+.parallax-effect-scroll-left .layer-3 { animation: scrollLeft 60s linear infinite; }
+.parallax-effect-scroll-left .layer-4 { animation: scrollLeft 80s linear infinite; }
+.parallax-effect-scroll-left .layer-5 { animation: scrollLeft 100s linear infinite; }
+.parallax-effect-scroll-left .layer-6 { animation: scrollLeft 120s linear infinite; }
+
+/* Parallax Effect: scroll-right */
+.parallax-effect-scroll-right .parallax-layer {
+    animation: scrollRight var(--parallax-duration, 60s) linear infinite;
+}
+.parallax-effect-scroll-right .layer-1 { animation: scrollRight 40s linear infinite; }
+.parallax-effect-scroll-right .layer-2 { animation: scrollRight 50s linear infinite; }
+.parallax-effect-scroll-right .layer-7 { animation: scrollRight 55s linear infinite; }
+.parallax-effect-scroll-right .layer-3 { animation: scrollRight 60s linear infinite; }
+.parallax-effect-scroll-right .layer-4 { animation: scrollRight 80s linear infinite; }
+.parallax-effect-scroll-right .layer-5 { animation: scrollRight 100s linear infinite; }
+.parallax-effect-scroll-right .layer-6 { animation: scrollRight 120s linear infinite; }
+
+/* Parallax Effect: zoom-gentle */
+.parallax-effect-zoom-gentle .parallax-layer {
+    animation: zoomGentle var(--parallax-zoom-duration, 30s) ease-in-out infinite alternate;
+}
+.parallax-effect-zoom-gentle .layer-1 { animation: zoomGentle 20s ease-in-out infinite alternate; }
+.parallax-effect-zoom-gentle .layer-2 { animation: zoomGentle 24s ease-in-out infinite alternate; }
+.parallax-effect-zoom-gentle .layer-7 { animation: zoomGentle 26s ease-in-out infinite alternate; }
+.parallax-effect-zoom-gentle .layer-3 { animation: zoomGentle 28s ease-in-out infinite alternate; }
+.parallax-effect-zoom-gentle .layer-4 { animation: zoomGentle 32s ease-in-out infinite alternate; }
+.parallax-effect-zoom-gentle .layer-5 { animation: zoomGentle 36s ease-in-out infinite alternate; }
+.parallax-effect-zoom-gentle .layer-6 { animation: zoomGentle 40s ease-in-out infinite alternate; }
+
+/* Parallax Effect: zoom (gentle scale in/out, single-segment, no seam) */
+.parallax-effect-zoom .parallax-layer {
+    animation: zoomSoft 25s ease-in-out infinite alternate;
+    /* Single-copy mode: use 100vw so transform-origin center works correctly */
+    width: 100vw;
+    min-width: 100vw;
+    left: 0;
+}
+/* Hide the duplicate scroll segment */
+.parallax-effect-zoom .parallax-layer .layer-segment:nth-child(2),
+.parallax-effect-zoom .parallax-layer > object:nth-child(2) {
+    display: none;
+}
+/* Make the single segment fill the layer */
+.parallax-effect-zoom .parallax-layer .layer-segment {
+    width: 100vw;
+    min-width: 100vw;
+}
+.parallax-effect-zoom .parallax-layer .layer-segment object,
+.parallax-effect-zoom .parallax-layer .layer-segment img,
+.parallax-effect-zoom .parallax-layer > object,
+.parallax-effect-zoom .parallax-layer > img {
+    width: 100vw;
+    min-width: 100vw;
+}
+/* Foreground layers zoom slightly faster, background layers slower */
+.parallax-effect-zoom .layer-1 { animation: zoomSoft 18s ease-in-out infinite alternate; }
+.parallax-effect-zoom .layer-2 { animation: zoomSoft 22s ease-in-out infinite alternate; }
+.parallax-effect-zoom .layer-7 { animation: zoomSoft 26s ease-in-out infinite alternate; }
+.parallax-effect-zoom .layer-3 { animation: zoomSoft 30s ease-in-out infinite alternate; }
+.parallax-effect-zoom .layer-4 { animation: zoomSoft 36s ease-in-out infinite alternate; }
+.parallax-effect-zoom .layer-5 { animation: zoomSoft 42s ease-in-out infinite alternate; }
+.parallax-effect-zoom .layer-6 { animation: zoomSoft 50s ease-in-out infinite alternate; }
+
+/* Parallax Effect: drift (gentle left/right sway, no zoom) */
+.parallax-effect-drift .parallax-layer {
+    animation: driftLeft 25s ease-in-out infinite alternate;
+    /* Single-copy mode: oversized layer centered so both sides have buffer */
+    width: 114vw;
+    min-width: 114vw;
+    left: -7vw;
+}
+/* Hide the duplicate scroll segment — not needed for drift */
+.parallax-effect-drift .parallax-layer .layer-segment:nth-child(2),
+.parallax-effect-drift .parallax-layer > object:nth-child(2) {
+    display: none;
+}
+/* Make the single segment fill the oversized layer */
+.parallax-effect-drift .parallax-layer .layer-segment {
+    width: 114vw;
+    min-width: 114vw;
+}
+.parallax-effect-drift .parallax-layer .layer-segment object,
+.parallax-effect-drift .parallax-layer .layer-segment img,
+.parallax-effect-drift .parallax-layer > object,
+.parallax-effect-drift .parallax-layer > img {
+    width: 114vw;
+    min-width: 114vw;
+}
+/* Foreground layers drift more, background layers drift less — creates depth */
+.parallax-effect-drift .layer-1 { animation: driftLeft  18s ease-in-out infinite alternate; }
+.parallax-effect-drift .layer-2 { animation: driftLeft  22s ease-in-out infinite alternate; }
+.parallax-effect-drift .layer-7 { animation: driftLeft  26s ease-in-out infinite alternate; }
+.parallax-effect-drift .layer-3 { animation: driftLeft  30s ease-in-out infinite alternate; }
+.parallax-effect-drift .layer-4 { animation: driftLeft  36s ease-in-out infinite alternate; }
+.parallax-effect-drift .layer-5 { animation: driftLeft  42s ease-in-out infinite alternate; }
+.parallax-effect-drift .layer-6 { animation: driftLeft  50s ease-in-out infinite alternate; }
+
+/* Parallax Effect: static (no animation) */
+.parallax-effect-static .parallax-layer {
+    animation: none;
+}
+.parallax-effect-static .layer-1,
+.parallax-effect-static .layer-2,
+.parallax-effect-static .layer-7,
+.parallax-effect-static .layer-3,
+.parallax-effect-static .layer-4,
+.parallax-effect-static .layer-5,
+.parallax-effect-static .layer-6 {
+    animation: none;
+}
+
+/* Parallax Effect: mixed (foreground scrolls, background zooms) */
+.parallax-effect-mixed .parallax-layer {
+    animation: scrollLeft var(--parallax-duration, 60s) linear infinite;
+}
+.parallax-effect-mixed .layer-1 { animation: scrollLeft 40s linear infinite; }
+.parallax-effect-mixed .layer-2 { animation: scrollLeft 50s linear infinite; }
+.parallax-effect-mixed .layer-7 { animation: scrollLeft 55s linear infinite; }
+.parallax-effect-mixed .layer-3 { animation: zoomGentle 22s ease-in-out infinite; }
+.parallax-effect-mixed .layer-4 { animation: zoomGentle 25s ease-in-out infinite; }
+.parallax-effect-mixed .layer-5 { animation: zoomGentle 28s ease-in-out infinite; }
+.parallax-effect-mixed .layer-6 { animation: zoomMedium 30s ease-in-out infinite; }
+
+/* Payoff Scene Containers */
+.payoff-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    z-index: 200;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+    pointer-events: none;
+    background: #b8e6e3;
+    overflow: hidden;
+    display: none;
+}
+
+.payoff-container.active {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+
+/* Intro container - same style as payoff */
+.intro-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    z-index: 200;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+    pointer-events: none;
+    background: #b8e6e3;
+    overflow: hidden;
+    display: none;
+}
+
+.intro-container.active {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: none;
+}
+
+/* Intro container uses the same parallax-layer structure as payoff */
+.intro-container .layer-1 { z-index: 1; }
+.intro-container .layer-2 { z-index: 2; }
+.intro-container .layer-3 { z-index: 3; }
+.intro-container .layer-4 { z-index: 4; }
+.intro-container .layer-5 { z-index: 5; }
+.intro-container .layer-6 { z-index: 6; }
+.intro-container .layer-7 { z-index: 7; }
+.intro-container .layer-8 { z-index: 8; }
+.intro-container .layer-9 { z-index: 9; }
+.intro-container .layer-10 { z-index: 10; }
+.intro-container .layer-11 { z-index: 11; }
+.intro-container .layer-12 { z-index: 12; }
+.intro-container .layer-13 { z-index: 13; }
+.intro-container .layer-14 { z-index: 14; }
+.intro-container .layer-15 { z-index: 15; }
+
+/* Payoff containers use the same parallax-layer structure as question backgrounds */
+.payoff-container .layer-1 { z-index: 1; }
+.payoff-container .layer-2 { z-index: 2; }
+.payoff-container .layer-3 { z-index: 3; }
+.payoff-container .layer-4 { z-index: 4; }
+.payoff-container .layer-5 { z-index: 5; }
+.payoff-container .layer-6 { z-index: 6; }
+.payoff-container .layer-7 { z-index: 7; }
+.payoff-container .layer-8 { z-index: 8; }
+.payoff-container .layer-9 { z-index: 9; }
+.payoff-container .layer-10 { z-index: 10; }
+.payoff-container .layer-11 { z-index: 11; }
+.payoff-container .layer-12 { z-index: 12; }
+.payoff-container .layer-13 { z-index: 13; }
+.payoff-container .layer-14 { z-index: 14; }
+.payoff-container .layer-15 { z-index: 15; }
+
+/* Questions Panel */
+.questions-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: auto;
+    width: 50vw;
+    height: 100dvh;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+    z-index: 300;
+    transition: opacity 0.8s ease;
+}
+
+.questions-panel.hidden {
+    opacity: 0 !important;
+    pointer-events: none;
+}
+
+.question-header {
+    display: none;
+}
+
+.questions-logo {
+    max-width: 22vw;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emma-intro {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.emma-intro strong {
+    color: #185285;
+}
+
+.question-text {
+    font-size: 22px;
+    color: #2d3748;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option-button {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 15px;
+    padding: 20px 25px;
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.option-button.clickable:hover {
+    border-color: #185285;
+    background: linear-gradient(135deg, rgba(24, 82, 133, 0.05), rgba(24, 82, 133, 0.08));
+    transform: translateX(5px);
+}
+
+.option-button.locked {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #f7fafc;
+}
+
+.option-label {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #185285;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.option-button.locked .option-label {
+    background: #cbd5e0;
+}
+
+.option-text {
+    color: #2d3748;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.option-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #1e3a8a;
+}
+
+.option-description {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .tradeoff-modal {
+        position: relative;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        transform: none;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: none;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10px;
+        overflow-y: auto;
+        z-index: 100;
+        box-sizing: border-box;
+        flex: 1;
+    }
+
+    .tradeoff-modal.active {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100dvh;
+        padding: 20px;
+        gap: 0;
+        box-sizing: border-box;
+        overflow: visible;
+        z-index: 10000;
+    }
+
+    .tradeoff-content {
+        padding: 25px;
+        width: max-content;
+        max-width: calc(100vw - 40px);
+        height: auto;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow-y: visible;
+    }
+
+    .tradeoff-content > * {
+        width: 100%;
+    }
+
+    .tradeoff-title {
+        font-size: clamp(16px, 4vw, 20px);
+        margin-bottom: 8px;
+    }
+
+    .tradeoff-choice {
+        font-size: clamp(14px, 3.5vw, 18px);
+        margin-bottom: 6px;
+    }
+
+    .tradeoff-explanation {
+        font-size: clamp(13px, 3vw, 16px);
+        line-height: 1.5;
+    }
+
+    .questions-logo {
+        max-width: 200px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rumigen-logo {
+        max-width: 220px;
+    }
+
+    .questions-panel {
+        width: 100vw;
+        height: 100dvh;
+        padding: max(20px, env(safe-area-inset-top)) 20px max(30px, env(safe-area-inset-bottom)) 20px;
+        justify-content: flex-start;
+        opacity: 0;
+        transition: opacity 2s ease;
+    }
+
+    .questions-panel.show {
+        opacity: 1;
+    }
+
+    .question-header {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .emma-intro {
+        padding: 12px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+
+    .question-text {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    .option-button {
+        padding: 12px 15px;
+        border-radius: 12px;
+        gap: 10px;
+    }
+
+    .options-container {
+        gap: 12px;
+    }
+
+    .option-label {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        margin-right: 12px;
+    }
+
+    .option-text {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .option-title {
+        font-size: 16px;
+    }
+
+    .option-description {
+        font-size: 13px;
+    }
+
+    .tradeoff-modal.active ~ .restart-button {
+        opacity: 1;
+        pointer-events: auto;
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        z-index: 10001;
+    }
+}
+
+/* Landscape orientation on mobile */
+@media (max-height: 600px) and (orientation: landscape) {
+    #welcome-screen {
+        padding: 10px;
+    }
+
+    .welcome-content {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100dvh;
+    }
+
+    .rumigen-logo {
+        max-width: 140px;
+        margin-bottom: 0.5rem;
+    }
+
+    .game-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .game-subtitle {
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn-primary {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.95rem;
+        width: auto;
+        min-width: 180px;
+    }
+
+    #character-screen {
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .character-container {
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .character-logo {
+        max-width: 100px;
+        margin-bottom: 0.3rem;
+    }
+
+    .character-container h1 {
+        font-size: 1.1rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .character-subtitle {
+        font-size: 0.75rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .character-grid {
+        gap: 0.75rem;
+        padding: 5px 0;
+    }
+
+    .character-card {
+        min-width: 180px;
+        max-height: 280px;
+    }
+
+    .character-image {
+        max-height: 80px;
+        padding: 0.5rem;
+    }
+
+    .character-content {
+        padding: 0.5rem;
+    }
+
+    .character-name {
+        font-size: 1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .character-role {
+        font-size: 0.7rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .character-bio {
+        font-size: 0.65rem;
+        line-height: 1.3;
+        margin-bottom: 0.5rem;
+    }
+
+    .select-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.75rem;
+    }
+}
+
+/* Emma Character */
+.character-display {
+    position: fixed;
+    bottom: 0;
+    right: 25%;
+    transform: translateX(50%);
+    width: min(800px, 50vw);
+    max-height: 100dvh;
+    height: auto;
+    z-index: 250;
+    transition: left 0.8s ease, right 0.8s ease, transform 0.8s ease, width 0.8s ease, max-height 0.8s ease;
+}
+
+@media (max-width: 1200px) {
+    .character-display {
+        width: min(600px, 45vw);
+    }
+}
+
+@media (max-width: 768px) {
+    .character-display {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        max-height: 75dvh;
+        bottom: env(safe-area-inset-bottom, 0);
+    }
+
+    .character-display.answered {
+        left: auto;
+        right: 5%;
+        transform: none;
+        width: 50vw;
+        max-height: 60dvh;
+    }
+}
+
+@media (max-width: 480px) {
+    .character-display {
+        width: 100vw;
+        max-height: 75dvh;
+    }
+}
+
+.character-layers {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.layer object {
+    width: 100%;
+    height: auto;
+    max-height: 100dvh;
+    object-fit: contain;
+    object-position: bottom;
+    pointer-events: none;
+    display: block;
+}
+
+.layer-base { z-index: 2; }
+.layer-shirt { z-index: 5; }
+.layer-eyes {
+    z-index: 3;
+    opacity: 0;
+}
+.layer-eyes.active { opacity: 1; }
+
+.layer-mouth {
+    z-index: 4;
+    opacity: 0;
+}
+.layer-mouth.active { opacity: 1; }
+
+/* Controls */
+.audio-control {
+    display: none;
+}
+
+.audio-control:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(24, 82, 133, 0.4);
+}
+
+.intro-audio-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.restart-button {
+    position: relative;
+    background: #185285;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(24, 82, 133, 0.4);
+    transition: all 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+    flex-shrink: 0;
+    width: fit-content;
+    align-self: flex-start;
+}
+
+.payoff-container.active ~ .left-column-wrapper .restart-button {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.left-column-wrapper:has(#introModal.active) .restart-button {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.restart-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 40px rgba(24, 82, 133, 0.5);
+}
+
+.pilot-badge {
+    display: none;
+}
+
+/* Left column wrapper for modal and restart button */
+.left-column-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: max-content;
+    max-width: 60vw;
+    min-width: 280px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: 10000;
+}
+
+.left-column-wrapper > * {
+    pointer-events: auto;
+}
+
+/* Trade-off Banner */
+.tradeoff-modal {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    display: none;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .tradeoff-modal {
+        width: 100vw;
+        padding: 0;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+    .left-column-wrapper {
+        justify-content: space-between;
+        padding: 20px;
+        max-width: 100vw;
+        min-width: unset;
+    }
+}
+
+/* Make modal wider on short screens */
+@media (max-height: 600px) {
+    .left-column-wrapper {
+        max-width: 65vw;
+    }
+    .tradeoff-content {
+        padding: 15px;
+    }
+    .tradeoff-title {
+        margin-bottom: 10px;
+    }
+    .tradeoff-choice {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-height: 500px) {
+    .left-column-wrapper {
+        max-width: 70vw;
+        padding: 15px;
+    }
+    .tradeoff-content {
+        padding: 12px;
+    }
+}
+
+@media (max-height: 400px) {
+    .left-column-wrapper {
+        max-width: 75vw;
+        padding: 12px;
+    }
+}
+
+@media (max-height: 350px) {
+    .left-column-wrapper {
+        max-width: 80vw;
+        padding: 10px;
+    }
+}
+
+@media (max-height: 300px) {
+    .left-column-wrapper {
+        max-width: 85vw;
+        padding: 10px;
+    }
+}
+
+@media (max-height: 250px) {
+    .left-column-wrapper {
+        max-width: 90vw;
+        padding: 8px;
+    }
+}
+
+.tradeoff-modal.active {
+    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* NOTE: .tradeoff-modal base starts hidden (display:none, opacity:0);
+   adding .active makes it visible with a fade-in transition. */
+
+.tradeoff-content {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: block;
+    width: max-content;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+.tradeoff-explanation {
+    width: 100%;
+}
+
+.tradeoff-title {
+    font-size: 28px;
+    color: #185285;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.tradeoff-choice {
+    font-size: 22px;
+    color: #2d3748;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.tradeoff-explanation {
+    font-size: 18px;
+    color: #4a5568;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.continue-button {
+    display: none;
+}

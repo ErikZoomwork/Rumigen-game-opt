@@ -1,0 +1,297 @@
+{
+  "Ahmed": {
+    "character": {
+      "name": "Dr. Ahmed",
+      "role": "The Researcher",
+      "bio": "Dr. Ahmed, 52, is a renowned scientist specialising in animal genetics and sustainable agriculture. He spends his days in labs and classrooms, mentoring young researchers. With decades of research and numerous publications, Ahmed bridges the gap between academia and practice. He's driven to find solutions to improve productivity while preserving biodiversity.",
+      "music": "assets/audio/music/Ahmed_Song.mp3"
+    },
+    "intro": {
+      "text": "I'm preparing for a busy day of work! I start my morning with a seminar. After I have my meetings with my team and my students. We talk about topics as leading voices in agriculture and genetics but also about the future of sustainable farming.\n\nBy answering a few questions, you can help me get through the day!",
+      "background": "ahmed-q1",
+      "parallaxEffect": "zoom"
+    },
+    "questions": [
+      {
+        "number": 1,
+        "location": "University Seminar",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "context": "Dr. Ahmed says: In the morning, I present at a seminar where researchers debate genetic diversity in agriculture, weighing short-term yield gains against the long-term value of biodiversity.",
+        "text": "How do you advocate for biodiversity in your research?",
+        "options": {
+          "A": "Preserve Wild Breeds: you focus on preserving wild and local breeds, even at the cost of reduced agricultural output.",
+          "B": "Balance Improvement: you promote programs that balance genetic improvement with maintaining a broad gene pool.",
+          "C": "Selective Breeding: you emphasize selective breeding for traits that maximize productivity, even if it reduces genetic variation."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Ahmed's Choice: Preserve Wild Breeds",
+            "text": "I'm standing for genetic heritage and ecosystem health. This builds resilience but may limit competitiveness in high-output markets.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "Ahmed's Choice: Balance Improvement",
+            "text": "I'm working to future-proof agriculture while meeting present needs. It's a strategic mix of science, stewardship, and practicality.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "Ahmed's Choice: Selective Breeding",
+            "text": "I'm advancing science to deliver results now. It's efficient and results-driven but risks narrowing genetic resilience.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 2,
+        "location": "Research Lab",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "context": "Dr. Ahmed says: Back in the lab, my team presents a breakthrough genetic technique. While it promises to significantly improve productivity, ethical concerns about its application spark debate.",
+        "text": "How do you address the situation?",
+        "options": {
+          "A": "Halt Application: you halt the application, advocating for broader societal acceptance before implementation.",
+          "B": "Pilot Technique: you support piloting the technique, balancing ethical concerns with transparency and dialogue.",
+          "C": "Immediate Application: you push for immediate application of the technology to maximize agricultural efficiency."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Ahmed's Choice: Halt Application",
+            "text": "I'm prioritizing societal dialogue over technological speed. This protects public trust but may delay urgent solutions.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "Ahmed's Choice: Pilot Technique",
+            "text": "I'm charting a responsible path, testing innovation while keeping ethical debates open. It builds credibility, though it may slow progress.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "Ahmed's Choice: Immediate Application",
+            "text": "I'm moving fast to bring innovation to the field. It's ambitious, but risks public backlash and ethical dilemmas if trust is not built.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 3,
+        "location": "University Office",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "context": "Dr. Ahmed says: After lunch, I meet with your students. They are split between focusing on theoretical breakthroughs and pursuing practical applications in farming.",
+        "text": "How do you guide them?",
+        "options": {
+          "A": "Integrate Theory: you promote integrating theory with practical, real-world farming applications.",
+          "B": "Theoretical Breakthroughs: you encourage focusing on theoretical breakthroughs that advance the field globally.",
+          "C": "Field-Based Research: you prioritize field-based research that directly benefits local communities and ecosystems."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Ahmed's Choice: Integrate Theory",
+            "text": "I'm mentoring the next generation to bridge research and reality. It's well-rounded, though not always easy to balance.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "Ahmed's Choice: Theoretical Breakthroughs",
+            "text": "I'm fueling big-picture thinking and scientific innovation. It's intellectually rich, though practical outcomes may take longer to emerge.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "Ahmed's Choice: Field-Based Research",
+            "text": "I'm rooting research in real-world relevance. It builds immediate benefits for communities, but may receive less recognition in academic circles.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 4,
+        "location": "Policy Roundtable",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "context": "Dr. Ahmed says: In the afternoon, I join a policy roundtable on mitigating livestock's impact on climate change. The group discusses strategies ranging from intensive systems to low-input approaches.",
+        "text": "What strategy do you support?",
+        "options": {
+          "A": "Low-Input Systems: advocating for low-input systems that focus on natural adaptation and minimal environmental impact.",
+          "B": "Balanced Systems: developing balanced systems that incorporate genetic traits for resilience and lower emissions.",
+          "C": "Intensive Optimization: promoting intensive systems that optimize efficiency and minimize emissions."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Ahmed's Choice: Low-Input Systems",
+            "text": "I'm pursuing harmony with nature, advocating for less intervention and more resilience. It's transformative but may be seen as niche or less scalable.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "Ahmed's Choice: Balanced Systems",
+            "text": "I'm combining innovation with ecological awareness. It's a compromise that aims to satisfy productivity and sustainability goals.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "Ahmed's Choice: Intensive Optimization",
+            "text": "I'm working to scale impact fast through optimized systems. It's efficient, but could strain ecological systems and social acceptance.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 5,
+        "location": "University Office",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "context": "Dr. Ahmed says: I receive an invitation to join a public-private partnership aimed at accelerating innovation in animal breeding. I must decide how to approach this collaboration.",
+        "text": "What role do you take?",
+        "options": {
+          "A": "Academia Leads: you ensure academia leads the initiative to maintain transparency and ethical oversight.",
+          "B": "Balanced Collaboration: you support a balanced approach, emphasizing the need for academia-industry collaboration.",
+          "C": "Private Sector Leads: you advocate for the private sector to lead, leveraging their resources for rapid results."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Ahmed's Choice: Academia Leads",
+            "text": "I'm guarding ethical rigor and public trust. It preserves integrity but may limit funding or innovation pace.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "Ahmed's Choice: Balanced Collaboration",
+            "text": "I'm building bridges—leveraging strengths on both sides. It fosters synergy, though managing expectations can be challenging.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "Ahmed's Choice: Private Sector Leads",
+            "text": "I'm aiming for speed and scalability through industry muscle. It can accelerate innovation but raises questions about accountability.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 6,
+        "location": "Research Lab",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "context": "Dr. Ahmed says: As I finish my day in the lab, I receive an email criticizing your involvement in projects funded by large corporations. I knows this could spark controversy.",
+        "text": "How do you respond?",
+        "options": {
+          "A": "Public Funding: you prioritize public funding to maintain independence and align fully with societal goals.",
+          "B": "Transparent Partnerships: you promote transparency in partnerships, ensuring ethical practices and public accountability.",
+          "C": "Corporate Funding: you emphasize the necessity of corporate funding for advancing impactful research."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Ahmed's Choice: Public Funding",
+            "text": "I'm committed to independence and the public good. This ensures alignment with social values but may limit resources or project scope.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "Ahmed's Choice: Transparent Partnerships",
+            "text": "I'm opening the doors to scrutiny to build trust. It's a strong middle ground, but requires constant effort and communication.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "Ahmed's Choice: Corporate Funding",
+            "text": "I'm defending the pragmatic route-funding fuels science. It's realistic, though public trust may hinge on transparency.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 7,
+        "location": "Home",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "context": "Dr. Ahmed says: During dinner, I receive a call about a grant focused on improving livestock health through genetic innovation. Please help me decide on the focus of my application.",
+        "text": "What aspect do you prioritize?",
+        "options": {
+          "A": "Natural Traits: preserving natural health traits in traditional breeds, even at the cost of lower output.",
+          "B": "Balanced Traits: improving genetic traits that balance health, welfare, and environmental sustainability.",
+          "C": "Disease Resistance: enhancing productivity by selecting animals with higher disease resistance."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Ahmed's Choice: Natural Traits",
+            "text": "I'm protecting genetic heritage and ecological balance. It's future-oriented, but may need more support to compete with commercial systems.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "Ahmed's Choice: Balanced Traits",
+            "text": "I'm addressing multiple challenges at once: productivity, welfare, and environment. It's ambitious and holistic, but not a quick fix.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "Ahmed's Choice: Disease Resistance",
+            "text": "I'm focused on optimizing animal performance. It's impactful for food systems but may overlook long-term ecosystem complexity.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 8,
+        "location": "Home",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "context": "Dr. Ahmed says: Later in the evening, I'm are asked to provide input for a policy briefing on sustainable livestock systems. I know my perspective will shape how these systems are supported.",
+        "text": "What is your main message?",
+        "options": {
+          "A": "Small-Scale Systems: promote small-scale, diverse systems as the cornerstone of sustainable food systems.",
+          "B": "Integrated Practices: advocate for policies that integrate sustainable practices into productive systems.",
+          "C": "Intensive Farming: support intensive farming systems to meet global food demands efficiently."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Ahmed's Choice: Small-Scale Systems",
+            "text": "I'm reimagining the food system from the ground up. It's community-driven and resilient, but may face barriers to broad adoption.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "Ahmed's Choice: Integrated Practices",
+            "text": "I'm aligning policy with innovation and stewardship. It's a balanced approach with wide appeal, though implementation may be complex.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "Ahmed's Choice: Intensive Farming",
+            "text": "I'm focusing on feeding the world efficiently. It's production-first, but may sideline environmental or social concerns.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      }
+    ]
+  }
+}

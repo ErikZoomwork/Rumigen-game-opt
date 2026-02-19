@@ -1,0 +1,297 @@
+{
+  "Emma": {
+    "character": {
+      "name": "Emma",
+      "role": "The Active Citizen",
+      "bio": "Emma, 28, lives in the city and works at an NGO with a focus on the environment. She enjoys cooking and browsing secondhand shops. Her friends come from all walks of life, and they often get into thoughtful (and fun) conversations about values, choices, and the world around them. Raised in the inner city, Emma enjoys exploring local markets and learning about how products are made as she has limited experience with how farming and food production looks like in the countryside.",
+      "music": "assets/audio/music/Emma_Song.mp3"
+    },
+    "intro": {
+      "text": "I am preparing a dinner party for my friends, which has me reflecting on my food choices, values and the bigger picture of sustainability. I need your help deciding where to shop. I care about the environment, but I also need to be practical. What do you think I should do?\n\nBy answering a few questions, you can help me get through the day!",
+      "background": "emma-q1",
+      "parallaxEffect": "drift"
+    },
+    "questions": [
+      {
+        "number": 1,
+        "location": "Shopping District",
+        "background": "emma-q1",
+        "parallaxEffect": "drift",
+        "context": "Emma says: I'm about to head out to shop for food for my party. Where should I go? It's Saturday morning so all possible locations are open.",
+        "text": "Where do you go shopping?",
+        "options": {
+          "A": "The farmers' market: it's the furthest away with mid-price produce. You would be supporting farmers and getting high-quality fresh produce, but they might not have everything you need.",
+          "B": "The specialty store: it's a bit further away and more expensive but has all products you need, and you would be supporting a local sustainable business.",
+          "C": "The supermarket chain: it's cheaper, closest to your apartment and is guaranteed to have all products and ingredients you need, but they are less transparent about their products."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Emma's Choice: The Farmers' Market",
+            "text": "I contributed directly to farmers and chose fresh, seasonal food with a lower environmental footprint. It did take more time, though, and I needed a second stop to complete my list.",
+            "payoffParallaxEffect": "drift"
+          },
+          "B": {
+            "title": "Emma's Choice: The Specialty Store",
+            "text": "I supported a local business with sustainable practices and good quality products. It did take a while to travel there and was on the pricier side, which makes it harder to maintain.",
+            "payoffParallaxEffect": "drift"
+          },
+          "C": {
+            "title": "Emma's Choice: The Supermarket",
+            "text": "I saved time and money with a convenient one-stop shop. However, my choices did support long supply chains and less transparent, industrial production.",
+            "payoffParallaxEffect": "drift"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 2,
+        "location": "Your Apartment",
+        "background": "emma-q1",
+        "parallaxEffect": "drift",
+        "context": "Emma says: On my way home, I saw a flyer that explained the benefits of local, small-scale farming. As I unpack my groceries and see the variety of brands and labels it gets me thinking.",
+        "text": "When buying groceries, what matters most to you? Both in terms of price and the labels you trust.",
+        "options": {
+          "A": "Sustainability First: supporting sustainable, local, or transparent food systems is your top priority, even if it costs more or limits your choices.",
+          "B": "Balanced Approach: you try to balance affordability with sustainability, looking for some eco-friendly or certified options when possible.",
+          "C": "Convenience & Affordability: convenience, affordability, and familiar big brands matter most, even if sustainability is less clear."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Emma's Choice: Sustainability First",
+            "text": "I put environmental and ethical values first, choosing local, certified, or minimally processed products. It supports small-scale farmers and sustainability, though it can come with higher costs, fewer options and less convenience.",
+            "payoffParallaxEffect": "drift"
+          },
+          "B": {
+            "title": "Emma's Choice: Balanced Approach",
+            "text": "I try to balance price, convenience, and sustainability, picking certified or local products when I can. It's a practical approach, but the trade-offs aren't always clear.",
+            "payoffParallaxEffect": "drift"
+          },
+          "C": {
+            "title": "Emma's Choice: Convenience & Affordability",
+            "text": "I love easy, accessible shopping and stick to familiar brands. It's practical and budget-friendly, but it does come with a higher environmental footprint and less transparency.",
+            "payoffParallaxEffect": "drift"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 3,
+        "location": "Dinner Party",
+        "background": "emma-q1",
+        "parallaxEffect": "drift",
+        "context": "Emma says: My dinner party has started. One of my friends starts a discussion on animal welfare rights and how they should be a priority in farming and when buying food.",
+        "text": "How do you respond to animal welfare concerns in your shopping habits?",
+        "options": {
+          "A": "Plant-Based: you avoid animal products, preferring to shop plant based and eating vegetarian or vegan.",
+          "B": "Certified Products: you support products with certifications ensuring better living conditions for animals, even if they are pricier, and you eat less meat.",
+          "C": "No Priority: you don't prioritize or think about animal welfare when shopping."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Emma's Choice: Plant-Based",
+            "text": "I eliminate animal-based foods. It significantly reduces the environmental and animal welfare impact, but also limits my diet.",
+            "payoffParallaxEffect": "drift"
+          },
+          "B": {
+            "title": "Emma's Choice: Certified Products",
+            "text": "You support higher animal welfare through labeled products or a partially plant-based diet. These often cost more, but reflect a concern for how animals are raised and treated.",
+            "payoffParallaxEffect": "drift"
+          },
+          "C": {
+            "title": "Emma's Choice: No Priority",
+            "text": "Your choices are driven by cost or convenience, and animal welfare isn't a deciding factor. This approach supports mainstream supply chains, but often involves lower standards of animal care.",
+            "payoffParallaxEffect": "drift"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 4,
+        "location": "Dinner Party",
+        "background": "emma-q1",
+        "parallaxEffect": "drift",
+        "context": "Emma says: Later in the evening, I listen as my friends debate the role of environmental protection in food production, with one arguing it is essential and another claiming it distracts from increasing productivity to feed a growing global population.",
+        "text": "How do you perceive environmental protection in our food systems?",
+        "options": {
+          "A": "Environmental Priority: you often think about environmental protection and try to prioritize products that seem to be supportive of it.",
+          "B": "Moderate Green: you try to be greener by shopping for organic and more sustainable products, but don't think about environmental protection itself that much.",
+          "C": "Other Priorities: you don't really think about it."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Emma's Choice: Environmental Priority",
+            "text": "I make conscious decisions to reduce my environmental footprint. It does require effort and comes with a higher cost, but it contributes to long-term ecological health.",
+            "payoffParallaxEffect": "drift"
+          },
+          "B": {
+            "title": "Emma's Choice: Moderate Green",
+            "text": "I try to shop more sustainably, but environmental protection isn't my central focus. It supports better practices but the impact is limited.",
+            "payoffParallaxEffect": "drift"
+          },
+          "C": {
+            "title": "Emma's Choice: Other Priorities",
+            "text": "I don't really consider environmental impact in food choices, I focus on other priorities! It's a stress-free approach but it does allow unsustainable practices to continue to go unchallenged.",
+            "payoffParallaxEffect": "drift"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 5,
+        "location": "Dinner Party",
+        "background": "emma-q1",
+        "parallaxEffect": "drift",
+        "context": "Emma says: My friends then move on to another debate about the growing importance of local food, with some arguing that buying local is always better for sustainability while others believe global trade is essential for affordability, availability, and food security.",
+        "text": "How do you view buying local vs. imported products?",
+        "options": {
+          "A": "Strictly Local: you strictly support locally sourced food, buying most of your products from local farmer markets and coops, even if it means you pay more for your food.",
+          "B": "Mixed Local: you see local food as a way to support local farmers, you buy some of your food locally and are willing to pay a little bit more for these products.",
+          "C": "Global Trade: you prioritize affordability and don't mind buying imported products."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Emma's Choice: Strictly Local",
+            "text": "I fully commit to local food systems, resulting in sustainability and community support. This does mean there is less variety and higher prices so it does require a little more planning.",
+            "payoffParallaxEffect": "drift"
+          },
+          "B": {
+            "title": "Emma's Choice: Mixed Local",
+            "text": "I try to support local farmers, but also still enjoy the benefits of global trade. It's a thoughtful middle path, but my impact is smaller.",
+            "payoffParallaxEffect": "drift"
+          },
+          "C": {
+            "title": "Emma's Choice: Global Trade",
+            "text": "I choose imported products, it gives me variety and is budget-friendly. However it supports longer supply chains, so higher emissions and less local support.",
+            "payoffParallaxEffect": "drift"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 6,
+        "location": "Dinner Party (Evening)",
+        "background": "emma-q1",
+        "parallaxEffect": "drift",
+        "context": "Emma says: One of my friends, who works in climate monitoring, raises food system resilience, pointing to droughts and extreme weather and how they can disrupt supply chains, which leads us to discuss how climate events shape our views on trade and global supply chains.",
+        "text": "What do you think about this?",
+        "options": {
+          "A": "Self-Reliant Systems: you believe that self-reliant, small-scale food systems are essential to long-term sustainability and should be prioritized.",
+          "B": "Balanced Resilience: you support balanced systems with moderate resilience but higher environmental awareness.",
+          "C": "Robust Supply Chains: you prefer systems with robust supply chains that guarantee affordability and availability, even during times of crisis or uncertainty."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Emma's Choice: Self-Reliant Systems",
+            "text": "I focus on smaller-scale, resilient systems that depend less on global trade. If a crisis occurs I can easily get products however de availability is limited and it costs more.",
+            "payoffParallaxEffect": "drift"
+          },
+          "B": {
+            "title": "Emma's Choice: Balanced Resilience",
+            "text": "I support systems that balance resilience and sustainability relying somewhat on global trade but mindful of risks. This is more adaptable, but not fully future-proof.",
+            "payoffParallaxEffect": "drift"
+          },
+          "C": {
+            "title": "Emma's Choice: Robust Supply",
+            "text": "I value consistent access and low prices. Which makes the climate a bit more vulnerable.",
+            "payoffParallaxEffect": "drift"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 7,
+        "location": "Dinner Party (Evening)",
+        "background": "emma-q1",
+        "parallaxEffect": "drift",
+        "context": "Emma says: During dessert, a heated discussion breaks out: who should be leading the transition for more sustainable products? And who should pay for it?",
+        "text": "Who do you think should be leading on this issue?",
+        "options": {
+          "A": "Shared Responsibility: I believe it should be a mix. I am willing to pay a moderate premium for products that clearly support sustainable practices.",
+          "B": "Institutional Lead: I think companies and policy makers should be leading on this issue, ensuring companies are not hiking prices for consumers.",
+          "C": "Personal Investment: I don't mind paying significantly more for products that are proven to have minimal environmental impact, and it makes me feel aware and responsible for my choices."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Emma's Choice: Shared Responsibility",
+            "text": "You're open to paying slightly more to support sustainable transitions. It's a practical middle ground, though real impact still depends on broader system shifts.",
+            "payoffParallaxEffect": "drift"
+          },
+          "B": {
+            "title": "Emma's Choice: Institutional Lead",
+            "text": "You place responsibility on institutions and don't want rising costs passed to consumers. While this reduces your personal burden, it may delay change if market demand is low.",
+            "payoffParallaxEffect": "drift"
+          },
+          "C": {
+            "title": "Emma's Choice: Personal Investment",
+            "text": "You embrace the idea of paying more for better products and systems. This puts values into action, but may strain budgets or limit access for others.",
+            "payoffParallaxEffect": "drift"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 8,
+        "location": "Your Apartment (Night)",
+        "background": "emma-q1",
+        "parallaxEffect": "drift",
+        "context": "Emma says: My friends have left and I have started cleaning up. On the radio there is a discussion about policies supporting food self-sufficiency in Europe and how they can rely less on other countries. I think about this and reflect on our debates earlier this evening.",
+        "text": "How do think about this topic?",
+        "options": {
+          "A": "Self-Sufficiency Focus: you support self-sufficiency policies, favoring locally-produced products even if they limit variety.",
+          "B": "Balanced Policy: you prefer to support policies that encourage a balanced approach to self-sufficiency while maintaining trade options.",
+          "C": "Trade Focus: you value affordable imports and don't prioritize self-sufficiency as long as products meet your needs."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "Emma's Choice: Self-Sufficiency",
+            "text": "I favor regional production. It reduces import reliance but can lead to less variety.",
+            "payoffParallaxEffect": "drift"
+          },
+          "B": {
+            "title": "Emma's Choice: Balanced Policy",
+            "text": "I support regional food security but also keep global partnerships. It's flexible forward-thinking, though may require policy changes and public support.",
+            "payoffParallaxEffect": "drift"
+          },
+          "C": {
+            "title": "Emma's Choice: Trade Focus",
+            "text": "I support trade and affordability, even if it means reliance on other regions.",
+            "payoffParallaxEffect": "drift"
+          }
+        },
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      }
+    ]
+  }
+}

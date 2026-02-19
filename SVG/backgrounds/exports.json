@@ -1,0 +1,666 @@
+{
+    "exports":  [
+                    {
+                        "character":  "Ahmed",
+                        "questions":  [
+                                          1
+                                      ],
+                        "name":  "ahmed-q1",
+                        "displayName":  "Ahmed - Q1",
+                        "path":  "SVG/exports/Ahmed/Ahmed - Q1",
+                        "files":  [
+                                      "Ahmed - Q1 - layer_01.svg",
+                                      "Ahmed - Q1 - layer_02.svg",
+                                      "Ahmed - Q1 - layer_03.svg",
+                                      "Ahmed - Q1 - layer_04.svg",
+                                      "Ahmed - Q1 - layer_05.svg",
+                                      "Ahmed - Q1 - layer_06.svg",
+                                      "Ahmed - Q1 - layer_07.svg",
+                                      "Ahmed - Q1 - layer_08.svg",
+                                      "Ahmed - Q1 - layer_09.svg",
+                                      "Ahmed - Q1 - layer_10.svg",
+                                      "Ahmed - Q1 - layer_11.svg",
+                                      "Ahmed - Q1 - layer_12.svg",
+                                      "Ahmed - Q1 - layer_13.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Ahmed",
+                        "questions":  [
+                                          2
+                                      ],
+                        "name":  "ahmed-q2",
+                        "displayName":  "Ahmed - Q2",
+                        "path":  "SVG/exports/Ahmed/Ahmed - Q2",
+                        "files":  [
+                                      "Ahmed - Q2 - layer_01.svg",
+                                      "Ahmed - Q2 - layer_02.svg",
+                                      "Ahmed - Q2 - layer_03.svg",
+                                      "Ahmed - Q2 - layer_04.svg",
+                                      "Ahmed - Q2 - layer_05.svg",
+                                      "Ahmed - Q2 - layer_06.svg",
+                                      "Ahmed - Q2 - layer_07.svg",
+                                      "Ahmed - Q2 - layer_08.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Ahmed",
+                        "questions":  [
+                                          3
+                                      ],
+                        "name":  "ahmed-q3",
+                        "displayName":  "Ahmed - Q3",
+                        "path":  "SVG/exports/Ahmed/Ahmed - Q3",
+                        "files":  [
+                                      "Ahmed - Q3 - layer_01.svg",
+                                      "Ahmed - Q3 - layer_02.svg",
+                                      "Ahmed - Q3 - layer_03.svg",
+                                      "Ahmed - Q3 - layer_04.svg",
+                                      "Ahmed - Q3 - layer_05.svg",
+                                      "Ahmed - Q3 - layer_06.svg",
+                                      "Ahmed - Q3 - layer_07.svg",
+                                      "Ahmed - Q3 - layer_08.svg",
+                                      "Ahmed - Q3 - layer_09.svg",
+                                      "Ahmed - Q3 - layer_10.svg",
+                                      "Ahmed - Q3 - layer_11.svg",
+                                      "Ahmed - Q3 - layer_12.svg",
+                                      "Ahmed - Q3 - layer_13.svg",
+                                      "Ahmed - Q3 - layer_14.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Ahmed",
+                        "questions":  [
+                                          4
+                                      ],
+                        "name":  "ahmed-q4",
+                        "displayName":  "Ahmed - Q4",
+                        "path":  "SVG/exports/Ahmed/Ahmed - Q4",
+                        "files":  [
+                                      "Ahmed - Q4 - layer_01.svg",
+                                      "Ahmed - Q4 - layer_02.svg",
+                                      "Ahmed - Q4 - layer_03.svg",
+                                      "Ahmed - Q4 - layer_04.svg",
+                                      "Ahmed - Q4 - layer_05.svg",
+                                      "Ahmed - Q4 - layer_06.svg",
+                                      "Ahmed - Q4 - layer_07.svg",
+                                      "Ahmed - Q4 - layer_08.svg",
+                                      "Ahmed - Q4 - layer_09.svg",
+                                      "Ahmed - Q4 - layer_10.svg",
+                                      "Ahmed - Q4 - layer_11.svg",
+                                      "Ahmed - Q4 - layer_12.svg",
+                                      "Ahmed - Q4 - layer_13.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Ahmed",
+                        "questions":  [
+                                          5
+                                      ],
+                        "name":  "ahmed-q5",
+                        "displayName":  "Ahmed - Q5",
+                        "path":  "SVG/exports/Ahmed/Ahmed - Q5",
+                        "files":  [
+                                      "Ahmed - Q5 - layer_01.svg",
+                                      "Ahmed - Q5 - layer_02.svg",
+                                      "Ahmed - Q5 - layer_03.svg",
+                                      "Ahmed - Q5 - layer_04.svg",
+                                      "Ahmed - Q5 - layer_05.svg",
+                                      "Ahmed - Q5 - layer_06.svg",
+                                      "Ahmed - Q5 - layer_07.svg",
+                                      "Ahmed - Q5 - layer_08.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Ahmed",
+                        "questions":  [
+                                          6
+                                      ],
+                        "name":  "ahmed-q6",
+                        "displayName":  "Ahmed - Q6",
+                        "path":  "SVG/exports/Ahmed/Ahmed - Q6",
+                        "files":  [
+                                      "Ahmed - Q6 - layer_01.svg",
+                                      "Ahmed - Q6 - layer_02.svg",
+                                      "Ahmed - Q6 - layer_03.svg",
+                                      "Ahmed - Q6 - layer_04.svg",
+                                      "Ahmed - Q6 - layer_05.svg",
+                                      "Ahmed - Q6 - layer_06.svg",
+                                      "Ahmed - Q6 - layer_07.svg",
+                                      "Ahmed - Q6 - layer_08.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Ahmed",
+                        "questions":  [
+                                          7
+                                      ],
+                        "name":  "ahmed-q7",
+                        "displayName":  "Ahmed - Q7",
+                        "path":  "SVG/exports/Ahmed/Ahmed - Q7",
+                        "files":  [
+                                      "Ahmed - Q7 - layer_01.svg",
+                                      "Ahmed - Q7 - layer_02.svg",
+                                      "Ahmed - Q7 - layer_03.svg",
+                                      "Ahmed - Q7 - layer_04.svg",
+                                      "Ahmed - Q7 - layer_05.svg",
+                                      "Ahmed - Q7 - layer_06.svg",
+                                      "Ahmed - Q7 - layer_07.svg",
+                                      "Ahmed - Q7 - layer_08.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Ahmed",
+                        "questions":  [
+                                          8
+                                      ],
+                        "name":  "ahmed-q8",
+                        "displayName":  "Ahmed - Q8",
+                        "path":  "SVG/exports/Ahmed/Ahmed - Q8",
+                        "files":  [
+                                      "Ahmed - Q8 - layer_01.svg",
+                                      "Ahmed - Q8 - layer_02.svg",
+                                      "Ahmed - Q8 - layer_03.svg",
+                                      "Ahmed - Q8 - layer_04.svg",
+                                      "Ahmed - Q8 - layer_05.svg",
+                                      "Ahmed - Q8 - layer_06.svg",
+                                      "Ahmed - Q8 - layer_07.svg",
+                                      "Ahmed - Q8 - layer_08.svg",
+                                      "Ahmed - Q8 - layer_09.svg",
+                                      "Ahmed - Q8 - layer_10.svg",
+                                      "Ahmed - Q8 - layer_11.svg",
+                                      "Ahmed - Q8 - layer_12.svg",
+                                      "Ahmed - Q8 - layer_13.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Clara",
+                        "questions":  [
+                                          1
+                                      ],
+                        "name":  "clara-q1",
+                        "displayName":  "Clara - Q1",
+                        "path":  "SVG/exports/Clara/Clara - Q1",
+                        "files":  [
+                                      "Clara - Q1 - layer_01.svg",
+                                      "Clara - Q1 - layer_02.svg",
+                                      "Clara - Q1 - layer_03.svg",
+                                      "Clara - Q1 - layer_04.svg",
+                                      "Clara - Q1 - layer_05.svg",
+                                      "Clara - Q1 - layer_06.svg",
+                                      "Clara - Q1 - layer_07.svg",
+                                      "Clara - Q1 - layer_08.svg",
+                                      "Clara - Q1 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Clara",
+                        "questions":  [
+                                          2,
+                                          3,
+                                          4,
+                                          6
+                                      ],
+                        "name":  "clara-q2-q3-q4-q6",
+                        "displayName":  "Clara - Q2, Q3, Q4, Q6",
+                        "path":  "SVG/exports/Clara/Clara - Q2, Q3, Q4, Q6",
+                        "files":  [
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_01.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_02.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_03.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_04.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_05.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_06.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_07.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_08.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_09.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_10.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_11.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_12.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_13.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_14.svg",
+                                      "Clara - Q2, Q3, Q4, Q6 - layer_15.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Clara",
+                        "questions":  [
+                                          7
+                                      ],
+                        "name":  "clara-q7",
+                        "displayName":  "Clara - Q7",
+                        "path":  "SVG/exports/Clara/Clara - Q7",
+                        "files":  [
+                                      "Clara - Q7 - layer_01.svg",
+                                      "Clara - Q7 - layer_02.svg",
+                                      "Clara - Q7 - layer_03.svg",
+                                      "Clara - Q7 - layer_04.svg",
+                                      "Clara - Q7 - layer_05.svg",
+                                      "Clara - Q7 - layer_06.svg",
+                                      "Clara - Q7 - layer_07.svg",
+                                      "Clara - Q7 - layer_08.svg",
+                                      "Clara - Q7 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Clara",
+                        "questions":  [
+                                          8
+                                      ],
+                        "name":  "clara-q8",
+                        "displayName":  "Clara - Q8",
+                        "path":  "SVG/exports/Clara/Clara - Q8",
+                        "files":  [
+                                      "Clara - Q8 - layer_01.svg",
+                                      "Clara - Q8 - layer_02.svg",
+                                      "Clara - Q8 - layer_03.svg",
+                                      "Clara - Q8 - layer_04.svg",
+                                      "Clara - Q8 - layer_05.svg",
+                                      "Clara - Q8 - layer_06.svg",
+                                      "Clara - Q8 - layer_07.svg",
+                                      "Clara - Q8 - layer_08.svg",
+                                      "Clara - Q8 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Emma",
+                        "questions":  [
+                                          1
+                                      ],
+                        "name":  "emma-q1",
+                        "displayName":  "Emma - Q1",
+                        "path":  "SVG/exports/Emma/Emma - Q1",
+                        "files":  [
+                                      "Emma - Q1 - layer_01.svg",
+                                      "Emma - Q1 - layer_02.svg",
+                                      "Emma - Q1 - layer_03.svg",
+                                      "Emma - Q1 - layer_04.svg",
+                                      "Emma - Q1 - layer_05.svg",
+                                      "Emma - Q1 - layer_06.svg",
+                                      "Emma - Q1 - layer_07.svg",
+                                      "Emma - Q1 - layer_08.svg",
+                                      "Emma - Q1 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Emma",
+                        "questions":  [
+                                          2
+                                      ],
+                        "name":  "emma-q2",
+                        "displayName":  "Emma - Q2",
+                        "path":  "SVG/exports/Emma/Emma - Q2",
+                        "files":  [
+                                      "Emma - Q2 - layer_01.svg",
+                                      "Emma - Q2 - layer_02.svg",
+                                      "Emma - Q2 - layer_03.svg",
+                                      "Emma - Q2 - layer_04.svg",
+                                      "Emma - Q2 - layer_05.svg",
+                                      "Emma - Q2 - layer_06.svg",
+                                      "Emma - Q2 - layer_07.svg",
+                                      "Emma - Q2 - layer_08.svg",
+                                      "Emma - Q2 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Emma",
+                        "questions":  [
+                                          3,
+                                          4,
+                                          5
+                                      ],
+                        "name":  "emma-q3-q4-q5",
+                        "displayName":  "Emma - Q3, Q4, Q5",
+                        "path":  "SVG/exports/Emma/Emma - Q3, Q4, Q5",
+                        "files":  [
+                                      "Emma - Q3, Q4, Q5 - layer_01.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_02.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_03.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_04.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_05.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_06.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_07.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_08.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_09.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_10.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_11.svg",
+                                      "Emma - Q3, Q4, Q5 - layer_12.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Emma",
+                        "questions":  [
+                                          6,
+                                          7
+                                      ],
+                        "name":  "emma-q6-q7",
+                        "displayName":  "Emma - Q6, Q7",
+                        "path":  "SVG/exports/Emma/Emma - Q6, Q7",
+                        "files":  [
+                                      "Emma - Q6, Q7 - layer_01.svg",
+                                      "Emma - Q6, Q7 - layer_02.svg",
+                                      "Emma - Q6, Q7 - layer_03.svg",
+                                      "Emma - Q6, Q7 - layer_04.svg",
+                                      "Emma - Q6, Q7 - layer_05.svg",
+                                      "Emma - Q6, Q7 - layer_06.svg",
+                                      "Emma - Q6, Q7 - layer_07.svg",
+                                      "Emma - Q6, Q7 - layer_08.svg",
+                                      "Emma - Q6, Q7 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Emma",
+                        "questions":  [
+                                          8
+                                      ],
+                        "name":  "emma-q8",
+                        "displayName":  "Emma - Q8",
+                        "path":  "SVG/exports/Emma/Emma - Q8",
+                        "files":  [
+                                      "Emma - Q8 - layer_01.svg",
+                                      "Emma - Q8 - layer_02.svg",
+                                      "Emma - Q8 - layer_03.svg",
+                                      "Emma - Q8 - layer_04.svg",
+                                      "Emma - Q8 - layer_05.svg",
+                                      "Emma - Q8 - layer_06.svg",
+                                      "Emma - Q8 - layer_07.svg",
+                                      "Emma - Q8 - layer_08.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Luca",
+                        "questions":  [
+                                          1,
+                                          2
+                                      ],
+                        "name":  "luca-q1-q2",
+                        "displayName":  "Luca - Q1 \u0026 Q2",
+                        "path":  "SVG/exports/Luca/Luca - Q1 \u0026 Q2",
+                        "files":  [
+                                      "Luca - Q1 \u0026 Q2 - layer_01.svg",
+                                      "Luca - Q1 \u0026 Q2 - layer_02.svg",
+                                      "Luca - Q1 \u0026 Q2 - layer_03.svg",
+                                      "Luca - Q1 \u0026 Q2 - layer_04.svg",
+                                      "Luca - Q1 \u0026 Q2 - layer_05.svg",
+                                      "Luca - Q1 \u0026 Q2 - layer_06.svg",
+                                      "Luca - Q1 \u0026 Q2 - layer_07.svg",
+                                      "Luca - Q1 \u0026 Q2 - layer_08.svg",
+                                      "Luca - Q1 \u0026 Q2 - layer_09.svg",
+                                      "Luca - Q1 \u0026 Q2 - layer_10.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Luca",
+                        "questions":  [
+                                          3
+                                      ],
+                        "name":  "luca-q3",
+                        "displayName":  "Luca - Q3",
+                        "path":  "SVG/exports/Luca/Luca - Q3",
+                        "files":  [
+                                      "Luca - Q3 - layer_01.svg",
+                                      "Luca - Q3 - layer_02.svg",
+                                      "Luca - Q3 - layer_03.svg",
+                                      "Luca - Q3 - layer_04.svg",
+                                      "Luca - Q3 - layer_05.svg",
+                                      "Luca - Q3 - layer_06.svg",
+                                      "Luca - Q3 - layer_07.svg",
+                                      "Luca - Q3 - layer_08.svg",
+                                      "Luca - Q3 - layer_09.svg",
+                                      "Luca - Q3 - layer_10.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Luca",
+                        "questions":  [
+                                          4,
+                                          5
+                                      ],
+                        "name":  "luca-q4-q5",
+                        "displayName":  "Luca - Q4 \u0026 Q5",
+                        "path":  "SVG/exports/Luca/Luca - Q4 \u0026 Q5",
+                        "files":  [
+                                      "Luca - Q4 \u0026 Q5 - layer_01.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_02.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_03.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_04.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_05.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_06.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_07.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_08.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_09.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_10.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_11.svg",
+                                      "Luca - Q4 \u0026 Q5 - layer_12.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Luca",
+                        "questions":  [
+                                          6
+                                      ],
+                        "name":  "luca-q6",
+                        "displayName":  "Luca - Q6",
+                        "path":  "SVG/exports/Luca/Luca - Q6",
+                        "files":  [
+                                      "Luca - Q6 - layer_01.svg",
+                                      "Luca - Q6 - layer_02.svg",
+                                      "Luca - Q6 - layer_03.svg",
+                                      "Luca - Q6 - layer_04.svg",
+                                      "Luca - Q6 - layer_05.svg",
+                                      "Luca - Q6 - layer_06.svg",
+                                      "Luca - Q6 - layer_07.svg",
+                                      "Luca - Q6 - layer_08.svg",
+                                      "Luca - Q6 - layer_09.svg",
+                                      "Luca - Q6 - layer_10.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Luca",
+                        "questions":  [
+                                          7
+                                      ],
+                        "name":  "luca-q7",
+                        "displayName":  "Luca - Q7",
+                        "path":  "SVG/exports/Luca/Luca - Q7",
+                        "files":  [
+                                      "Luca - Q7 - layer_01.svg",
+                                      "Luca - Q7 - layer_02.svg",
+                                      "Luca - Q7 - layer_03.svg",
+                                      "Luca - Q7 - layer_04.svg",
+                                      "Luca - Q7 - layer_05.svg",
+                                      "Luca - Q7 - layer_06.svg",
+                                      "Luca - Q7 - layer_07.svg",
+                                      "Luca - Q7 - layer_08.svg",
+                                      "Luca - Q7 - layer_09.svg",
+                                      "Luca - Q7 - layer_10.svg",
+                                      "Luca - Q7 - layer_11.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Luca",
+                        "questions":  [
+                                          8
+                                      ],
+                        "name":  "luca-q8",
+                        "displayName":  "Luca - Q8",
+                        "path":  "SVG/exports/Luca/Luca - Q8",
+                        "files":  [
+                                      "Luca - Q8 - layer_01.svg",
+                                      "Luca - Q8 - layer_02.svg",
+                                      "Luca - Q8 - layer_03.svg",
+                                      "Luca - Q8 - layer_04.svg",
+                                      "Luca - Q8 - layer_05.svg",
+                                      "Luca - Q8 - layer_06.svg",
+                                      "Luca - Q8 - layer_07.svg",
+                                      "Luca - Q8 - layer_08.svg",
+                                      "Luca - Q8 - layer_09.svg",
+                                      "Luca - Q8 - layer_10.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Sofia",
+                        "questions":  [
+                                          1
+                                      ],
+                        "name":  "sofia-q1",
+                        "displayName":  "Sofia - Q1",
+                        "path":  "SVG/exports/Sofia/Sofia - Q1",
+                        "files":  [
+                                      "Sofia - Q1 - layer_01.svg",
+                                      "Sofia - Q1 - layer_02.svg",
+                                      "Sofia - Q1 - layer_03.svg",
+                                      "Sofia - Q1 - layer_04.svg",
+                                      "Sofia - Q1 - layer_05.svg",
+                                      "Sofia - Q1 - layer_06.svg",
+                                      "Sofia - Q1 - layer_07.svg",
+                                      "Sofia - Q1 - layer_08.svg",
+                                      "Sofia - Q1 - layer_09.svg",
+                                      "Sofia - Q1 - layer_10.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Sofia",
+                        "questions":  [
+                                          2
+                                      ],
+                        "name":  "sofia-q2",
+                        "displayName":  "Sofia - Q2",
+                        "path":  "SVG/exports/Sofia/Sofia - Q2",
+                        "files":  [
+                                      "Sofia - Q2 - layer_01.svg",
+                                      "Sofia - Q2 - layer_02.svg",
+                                      "Sofia - Q2 - layer_03.svg",
+                                      "Sofia - Q2 - layer_04.svg",
+                                      "Sofia - Q2 - layer_05.svg",
+                                      "Sofia - Q2 - layer_06.svg",
+                                      "Sofia - Q2 - layer_07.svg",
+                                      "Sofia - Q2 - layer_08.svg",
+                                      "Sofia - Q2 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Sofia",
+                        "questions":  [
+                                          3
+                                      ],
+                        "name":  "sofia-q3",
+                        "displayName":  "Sofia - Q3",
+                        "path":  "SVG/exports/Sofia/Sofia - Q3",
+                        "files":  [
+                                      "Sofia - Q3 - layer_01.svg",
+                                      "Sofia - Q3 - layer_02.svg",
+                                      "Sofia - Q3 - layer_03.svg",
+                                      "Sofia - Q3 - layer_04.svg",
+                                      "Sofia - Q3 - layer_05.svg",
+                                      "Sofia - Q3 - layer_06.svg",
+                                      "Sofia - Q3 - layer_07.svg",
+                                      "Sofia - Q3 - layer_08.svg",
+                                      "Sofia - Q3 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Sofia",
+                        "questions":  [
+                                          4
+                                      ],
+                        "name":  "sofia-q4",
+                        "displayName":  "Sofia - Q4",
+                        "path":  "SVG/exports/Sofia/Sofia - Q4",
+                        "files":  [
+                                      "Sofia - Q4 - layer_01.svg",
+                                      "Sofia - Q4 - layer_02.svg",
+                                      "Sofia - Q4 - layer_03.svg",
+                                      "Sofia - Q4 - layer_04.svg",
+                                      "Sofia - Q4 - layer_05.svg",
+                                      "Sofia - Q4 - layer_06.svg",
+                                      "Sofia - Q4 - layer_07.svg",
+                                      "Sofia - Q4 - layer_08.svg",
+                                      "Sofia - Q4 - layer_09.svg",
+                                      "Sofia - Q4 - layer_10.svg",
+                                      "Sofia - Q4 - layer_11.svg",
+                                      "Sofia - Q4 - layer_12.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Sofia",
+                        "questions":  [
+                                          5
+                                      ],
+                        "name":  "sofia-q5",
+                        "displayName":  "Sofia - Q5",
+                        "path":  "SVG/exports/Sofia/Sofia - Q5",
+                        "files":  [
+                                      "Sofia - Q5 - layer_01.svg",
+                                      "Sofia - Q5 - layer_02.svg",
+                                      "Sofia - Q5 - layer_03.svg",
+                                      "Sofia - Q5 - layer_04.svg",
+                                      "Sofia - Q5 - layer_05.svg",
+                                      "Sofia - Q5 - layer_06.svg",
+                                      "Sofia - Q5 - layer_07.svg",
+                                      "Sofia - Q5 - layer_08.svg",
+                                      "Sofia - Q5 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Sofia",
+                        "questions":  [
+                                          6
+                                      ],
+                        "name":  "sofia-q6",
+                        "displayName":  "Sofia - Q6",
+                        "path":  "SVG/exports/Sofia/Sofia - Q6",
+                        "files":  [
+                                      "Sofia - Q6 - layer_01.svg",
+                                      "Sofia - Q6 - layer_02.svg",
+                                      "Sofia - Q6 - layer_03.svg",
+                                      "Sofia - Q6 - layer_04.svg",
+                                      "Sofia - Q6 - layer_05.svg",
+                                      "Sofia - Q6 - layer_06.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Sofia",
+                        "questions":  [
+                                          7
+                                      ],
+                        "name":  "sofia-q7",
+                        "displayName":  "Sofia - Q7",
+                        "path":  "SVG/exports/Sofia/Sofia - Q7",
+                        "files":  [
+                                      "Sofia - Q7 - layer_01.svg",
+                                      "Sofia - Q7 - layer_02.svg",
+                                      "Sofia - Q7 - layer_03.svg",
+                                      "Sofia - Q7 - layer_04.svg",
+                                      "Sofia - Q7 - layer_05.svg",
+                                      "Sofia - Q7 - layer_06.svg",
+                                      "Sofia - Q7 - layer_07.svg",
+                                      "Sofia - Q7 - layer_08.svg",
+                                      "Sofia - Q7 - layer_09.svg"
+                                  ]
+                    },
+                    {
+                        "character":  "Sofia",
+                        "questions":  [
+                                          8
+                                      ],
+                        "name":  "sofia-q8",
+                        "displayName":  "Sofia - Q8",
+                        "path":  "SVG/exports/Sofia/Sofia - Q8",
+                        "files":  [
+                                      "Sofia - Q8 - layer_01.svg",
+                                      "Sofia - Q8 - layer_02.svg",
+                                      "Sofia - Q8 - layer_03.svg",
+                                      "Sofia - Q8 - layer_04.svg",
+                                      "Sofia - Q8 - layer_05.svg",
+                                      "Sofia - Q8 - layer_06.svg",
+                                      "Sofia - Q8 - layer_07.svg",
+                                      "Sofia - Q8 - layer_08.svg",
+                                      "Sofia - Q8 - layer_09.svg",
+                                      "Sofia - Q8 - layer_10.svg",
+                                      "Sofia - Q8 - layer_11.svg",
+                                      "Sofia - Q8 - layer_12.svg"
+                                  ]
+                    }
+                ]
+}
