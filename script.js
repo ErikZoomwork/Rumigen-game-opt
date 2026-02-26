@@ -462,6 +462,7 @@ let characterData = null;
 // Track current question and score
 let currentQuestion = 0;
 let totalScore = 0;
+let isInIntroModal = false; // Flag to prevent event listener during intro
 
 // ===== DYNAMIC BACKGROUND SYSTEM =====
 // Backgrounds are loaded dynamically from SVG/backgrounds/backgrounds.json
@@ -773,7 +774,7 @@ function loadPayoffBackground(sceneName, parallaxEffect = 'scroll-left') {
 // Function to load character data from JSON
 async function loadCharacterData(characterName) {
     try {
-        const response = await fetch(`data/scenarios/${characterName}_scenario.json`);
+        const response = await fetch(`data/scenarios/${characterName}_scenario.json?t=${Date.now()}`);
         if (!response.ok) throw new Error(`Failed to load ${characterName} data`);
         
         const data = await response.json();
@@ -927,6 +928,7 @@ document.querySelectorAll('.option-button').forEach(button => {
 });
 
 function showCharacterIntro() {
+    isInIntroModal = true; // Prevent event listener from firing during intro
     const charName = characterData ? characterData.character.name : 'Character';
     const introData = characterData ? characterData.intro : { text: 'Welcome to the game!', parallaxEffect: 'scroll-left' };
     
@@ -985,6 +987,7 @@ function showCharacterIntro() {
 }
 
 function closeIntro() {
+    isInIntroModal = false; // Allow event listener to fire again
     document.getElementById('introModal').classList.remove('active');
     const introContainer = document.getElementById('introContainer');
     introContainer.classList.remove('active');
@@ -1043,6 +1046,11 @@ function closeTradeoff() {
 
 // Next question button
 document.getElementById('nextBtn').addEventListener('click', () => {
+    // Prevent listener from firing during intro modal
+    if (isInIntroModal) {
+        return;
+    }
+    
     currentQuestion++;
     
     if (currentQuestion < characterQuestions.length) {
@@ -1129,6 +1137,9 @@ function loadQuestion(index) {
     
     document.getElementById('optionC').querySelector('.option-title').textContent = optC.title;
     document.getElementById('optionC').querySelector('.option-description').textContent = optC.description;
+    
+    // Update previous button state
+    updatePrevButtonState();
 }
 
 // Function to show final scenario based on score
@@ -1140,22 +1151,22 @@ function showScenario() {
     
     if (totalScore <= 12) {
         scenario = 1;
-        scenarioTitle = "The High-Tech Future";
-        scenarioText = "Animal production is largely automated and highly industrialized, resembling factories. Simplicity and uniformity are favored, treating animals as objects in the service of profit. Europe becomes the most technologically advanced agricultural region in the world, providing consistent and reliable production of red meat and dairy products for domestic and foreign markets.";
+        scenarioTitle = "The High-Technology Scenario";
+        scenarioText = "<p>Let us imagine a future with no technological limits in order to ensure large-scale production of milk and meat at low cost. Animal production is largely automated and highly industrialised, similar to factory systems. Simplicity and uniformity are prioritised.</p><p>This means that animals are treated as objects serving a profitability goal, and they find it difficult to express their natural behaviour. In this system, livestock control is strict, and it is possible to monitor their health and efficiency through statistical measurements.</p><p>Significant financial resources are invested in research, innovation, and the development of new technologies. Funding comes from the European Union and national governments, but also—and above all—from private companies. Competition in the development of new technologies is fierce, and large companies with substantial budgets dominate the market.</p><p>Large-scale farms have a competitive advantage, leading to the disappearance of smaller farms. The European Union has now become the most technologically advanced agricultural region in the world, thanks to these very large farms and their high-tech infrastructure.</p><p>Europe provides a constant and reliable supply of red meat and dairy products to the EU and to international markets. Southern regions are unable to compete with the EU in the production of low-cost meat and become incapable of providing their populations with sustainably and locally produced food.</p><p>In the long term, large companies in other regions of the world will also gain access to new technologies, although not at the same pace as European companies.</p>";
     } else if (totalScore >= 20) {
         scenario = 3;
-        scenarioTitle = "The Pastoral Future";
-        scenarioText = "EU policies drastically reduce the production, processing, and sale of red meat and dairy products due to environmental concerns. Many beef farms close or switch to pork, poultry, or crop production, which have lower environmental impacts. With limited economic scale, advanced technologies see little investment, and basic breeding techniques persist. Agroforestry and natural grazing systems become common, prioritizing environmental preservation and animal welfare.";
+        scenarioTitle = "The Nature-Based Scenario";
+        scenarioText = "<p>In this scenario, EU citizens and policymakers have decided that current methods of animal production are too harmful to the environment and the climate. New European policies have been introduced, requiring farmers, processing industries, and retailers to drastically limit their production, processing, and sale of red meat and dairy products.</p><p>Many cattle farms have closed or converted their animal production to other activities. Some cattle farms have been converted to pig and poultry farming, which emit fewer greenhouse gases and require less agricultural land for feed. Others have been converted to plant-based production, which requires even less land.</p><p>Within the livestock sector, there is little funding or incentive to invest in new cutting-edge technologies, as the economic scale is too small to be profitable. Basic breeding technologies, such as crossbreeding cattle with desired traits, continue to be used.</p><p>The preservation of the natural environment and animal welfare are absolute priorities. Farming systems such as agroforestry, where animals graze in more natural landscapes, become widespread. These systems allow animals to behave more in line with their natural instincts and help address various health and welfare issues.</p><p>Very little European cattle and sheep farming remains. These systems supply high-quality meat at high prices to affluent consumers in niche markets. At the same time, European citizens with low or middle incomes must significantly reduce their meat consumption or seek alternative sources of animal protein.</p><p>Some people have shifted towards more plant-based diets, but not everyone is willing to give up red meat and dairy products and rely on imported products.</p>";
     } else {
         scenario = 2;
-        scenarioTitle = "The Precautionary Future";
-        scenarioText = "Livestock farming emphasizes animal welfare, disease resistance, and reducing environmental and climate impacts. Farms resemble today's agricultural landscape, with cows and sheep grazing, and animal breeds are adapted to regional climates and conditions. Social connections between farmers and rural communities are close, and animals are bred to meet European market demands while minimizing environmental impacts.";
+        scenarioTitle = "The Precautionary Scenario";
+        scenarioText = "<p>In this future scenario, the main objective is to create an efficient and low-risk agricultural production system. Livestock farming focuses on animal welfare, disease resistance, and reducing the environmental and climate impact of animal production.</p><p>At first glance, agriculture and landscapes resemble what we know today. When travelling through the countryside, you would pass farms and fields that look familiar, sometimes with cows and sheep grazing. Animal breeds are adapted to regional climates and geographical conditions.</p><p>Social ties between farmers and other rural communities are strong, and even stronger than they are today. Animals are bred and selected to meet the requirements of the European market, while ensuring high productivity with a limited impact on the environment.</p><p>In line with current trends, the number of farms in Europe will decrease over time, and large farms will be more competitive than small ones. Advanced breeding technologies, such as genome editing and laboratory breeding, are permitted in the EU, but only after thorough assessment and on the condition that they improve animal health or reduce environmental and climate footprints.</p><p>Within the EU, a biobank exists containing samples of eggs and sperm from different breeds, so that older breeds can be restored in case certain characteristics of new breeds are later regretted.</p><p>European livestock farming offers red meat and dairy products across different price and quality ranges to meet consumer demand within the EU. However, the limited use of technology by European farmers represents a competitive disadvantage compared to other regions of the world, which may have more liberal regulations.</p><p>As a result, EU animal production is no longer sufficient to export to countries outside the EU, as is the case today.</p>";
     }
     
     // Hide tradeoff modal and show scenario result
     document.getElementById('tradeoffModal').classList.remove('active');
     document.getElementById('tradeoffTitle').textContent = `${charName}'s Future: ${scenarioTitle}`;
-    document.getElementById('tradeoffText').textContent = `Based on your choices (Score: ${totalScore}/24), Rumigen's future is: ${scenarioText}`;
+    document.getElementById('tradeoffText').innerHTML = `${scenarioText}`;
     document.getElementById('tradeoffModal').classList.add('active');
     const btn = document.getElementById('nextBtn');
     btn.textContent = 'Play Again';
@@ -1184,3 +1195,78 @@ payoffAudio.addEventListener('ended', () => {
 
 switchMouth('smile');
 switchEyes('normal');
+// Disclaimer Modal Functions
+function closedisclaimer() {
+    const disclaimerModal = document.getElementById('disclaimer-modal');
+    if (disclaimerModal) {
+        disclaimerModal.style.display = 'none';
+    }
+}
+
+// Navigation Functions
+function goHome() {
+    // Reset game state
+    currentQuestion = 0;
+    totalScore = 0;
+    selectedCharacter = '';
+    characterData = null;
+    characterQuestions = [];
+    
+    // Hide game screen and show character selection
+    showScreen('character-screen');
+    
+    // Stop all audio
+    pauseVoice();
+    payoffAudio.pause();
+    musicAudio.pause();
+}
+
+function gotoPreviousQuestion() {
+    if (currentQuestion > 0) {
+        currentQuestion--;
+        loadQuestion(currentQuestion);
+        
+        // Hide tradeoff modal if visible
+        document.getElementById('tradeoffModal').classList.remove('active');
+        document.querySelectorAll('.payoff-container').forEach(container => {
+            container.classList.remove('active');
+        });
+        document.querySelectorAll('.question-background').forEach(bg => bg.classList.remove('fade-out'));
+        document.querySelector('.character-display').classList.remove('answered');
+        document.querySelector('.questions-panel').classList.remove('hidden');
+        
+        // Reset audio
+        pauseVoice();
+        payoffAudio.pause();
+        
+        // Play the previous question audio
+        if (audioContext) {
+            audioContext.resume().then(() => {
+                playVoice();
+                isPlaying = true;
+                lastBlinkTime = performance.now();
+                analyzeAudio();
+            });
+        }
+    }
+}
+
+// Update previous button state based on current question
+function updatePrevButtonState() {
+    const prevBtn = document.getElementById('prevBtn');
+    if (prevBtn) {
+        if (currentQuestion > 0) {
+            prevBtn.disabled = false;
+        } else {
+            prevBtn.disabled = true;
+        }
+    }
+}
+
+// Show disclaimer when page loads
+window.addEventListener('load', () => {
+    const disclaimerModal = document.getElementById('disclaimer-modal');
+    if (disclaimerModal) {
+        disclaimerModal.style.display = 'flex';
+    }
+});

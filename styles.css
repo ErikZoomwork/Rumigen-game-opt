@@ -119,6 +119,50 @@ body {
     margin-right: auto;
 }
 
+/* Intro Text Section */
+.intro-text-section {
+    background: #f0f9ff;
+    border: 2px solid #0ea5e9;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-text-section p {
+    color: #1e293b;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* Staggered fade-in animation for intro lines */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.intro-line {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0;
+}
+
+.intro-line-1 { animation-delay: 0.3s; }
+.intro-line-2 { animation-delay: 0.8s; }
+.intro-line-3 { animation-delay: 1.3s; }
+.intro-line-4 { animation-delay: 1.8s; }
+.intro-line-5 { animation-delay: 2.3s; }
+
 .btn-primary {
     background: #185285;
     color: white;
@@ -773,6 +817,51 @@ body {
     pointer-events: none;
 }
 
+/* Questions Panel Navigation Buttons */
+.questions-nav-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    justify-content: flex-start;
+}
+
+.nav-btn {
+    background: #f0f9ff;
+    color: #185285;
+    border: 2px solid #0ea5e9;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+    background: #0ea5e9;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.nav-btn:active {
+    transform: translateY(0);
+}
+
+.home-btn {
+    min-width: 100px;
+}
+
+.prev-btn {
+    min-width: 150px;
+}
+
+.nav-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    border-color: #cbd5e0;
+    color: #94a3b8;
+}
+
 .question-header {
     display: none;
 }
@@ -1317,6 +1406,10 @@ body {
         max-width: 100vw;
         min-width: unset;
     }
+    .tradeoff-content {
+        max-height: 60vh;
+        overflow-y: auto;
+    }
 }
 
 /* Make modal wider on short screens */
@@ -1326,6 +1419,8 @@ body {
     }
     .tradeoff-content {
         padding: 15px;
+        max-height: 55vh;
+        overflow-y: auto;
     }
     .tradeoff-title {
         margin-bottom: 10px;
@@ -1342,6 +1437,8 @@ body {
     }
     .tradeoff-content {
         padding: 12px;
+        max-height: 50vh;
+        overflow-y: auto;
     }
 }
 
@@ -1392,6 +1489,8 @@ body {
     max-width: 100%;
     box-sizing: border-box;
     height: fit-content;
+    max-height: 80vh;
+    overflow-y: auto;
 }
 
 .tradeoff-explanation {
@@ -1421,4 +1520,110 @@ body {
 
 .continue-button {
     display: none;
+}
+/* Disclaimer Modal */
+.disclaimer-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50000;
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.disclaimer-content {
+    background: white;
+    border-radius: 12px;
+    padding: 3rem;
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.4s ease;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.disclaimer-content h2 {
+    color: #185285;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.disclaimer-content p {
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.disclaimer-btn {
+    background: #185285;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.disclaimer-btn:hover {
+    background: #0f3a5f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(24, 82, 133, 0.3);
+}
+
+.disclaimer-btn:active {
+    transform: translateY(0);
+}
+
+#tradeoffText p {
+    margin-bottom: 1rem;
+}
+
+/* Scrollbar styling for tradeoff content */
+.tradeoff-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.tradeoff-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.tradeoff-content::-webkit-scrollbar-thumb {
+    background: #185285;
+    border-radius: 10px;
+}
+
+.tradeoff-content::-webkit-scrollbar-thumb:hover {
+    background: #0f3a5f;
 }
