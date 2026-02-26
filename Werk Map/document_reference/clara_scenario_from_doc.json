@@ -1,0 +1,298 @@
+{
+  "Clara": {
+    "character": {
+      "name": "Clara",
+      "role": "The Policymaker",
+      "description": "Meet Clara, the policymaker balancing competing interests and long-term visions for food systems.",
+      "bio": "Clara, 52, is a Member of Parliament in a Northern European country focusing on agriculture and food security. She has 20 years of experience in policy and has served multiple constituencies. Clara is pragmatic and aware of the many competing interests that food policy must balance: farmers' livelihoods, consumers' concerns, environmental goals, international trade obligations, and budget constraints. She knows that designing effective policy requires understanding diverse perspectives.",
+      "music": "assets/audio/music/Clara_Song.mp3"
+    },
+    "intro": {
+      "text": "I'm working on a comprehensive food policy proposal that will shape the agricultural sector for the next decade. It's a complex challenge with many stakeholders and competing interests. I need to make decisions about sustainability, trade, support for farmers, and consumer choices. What approach do you think works best?\n\nBy answering a few questions, you can help me design this policy!",
+      "background": "clara-q1",
+      "parallaxEffect": "zoom"
+    },
+    "questions": [
+      {
+        "number": 1,
+        "context": "Clara says: A major debate in my committee is about how much government should regulate sustainable farming practices. Some argue for strict regulations, others prefer voluntary approaches.",
+        "text": "What role should government play in promoting sustainable farming?",
+        "options": {
+          "A": "Rural Support: policies that strongly support small-scale and local farmers to preserve rural livelihoods.",
+          "B": "Balanced Growth: balanced policies that integrate sustainability with economic growth.",
+          "C": "Food Security: policies that focus on maximizing food production to ensure food security for all."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: rural support",
+            "text": "I place rural resilience and equity at the center. This strengthens local economies but may require extra investment and coordination to scale.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: balanced growth",
+            "text": "I'm building policies that address both ecological concerns and economic realities. It's a realistic path forward but could lack bold action where needed.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: food security",
+            "text": "I aim to secure a steady food supply for everyone, prioritizing availability above all. While efficient, this may come at the cost of long-term environmental and social resilience.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Brussels Office",
+        "background": "clara-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 2,
+        "context": "Clara says: There's pressure from the agricultural lobby to increase subsidies to compete with cheaper imports, but the finance minister wants budget cuts. How do I balance these demands?",
+        "text": "How should government support farmers economically?",
+        "options": {
+          "A": "Voice Underrepresented: you advocate for underrepresented groups, ensuring their voices are heard and prioritized.",
+          "B": "Common Ground: you seek common ground, crafting policies that balance diverse stakeholder needs.",
+          "C": "Large Producers: you prioritize the interests of large-scale producers to ensure economic stability."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: voice underrepresented",
+            "text": "I champion equity in decision-making. This can bring fresh perspectives and justice to policy—but may challenge dominant interests.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: common ground",
+            "text": "I'm navigating competing priorities with diplomacy. It's a fair, inclusive approach, though reaching consensus may delay urgent decisions.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: large producers",
+            "text": "I'm safeguarding economic output and stability. This can keep systems running efficiently but may reinforce existing inequalities or environmental issues.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Meeting Room",
+        "background": "clara-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 3,
+        "context": "Clara says: International trade negotiations are ongoing. Do I push for trade agreements that protect domestic farmers, or should I prioritize consumer access to affordable imported food?",
+        "text": "What's your trade policy priority?",
+        "options": {
+          "A": "Agroecological Systems: policies that prioritize agroecological systems, even at the expense of lower outputs.",
+          "B": "Climate-Smart: policies promoting climate-smart practices that balance productivity with resilience.",
+          "C": "Intensive High-Yield: policies that encourage intensive, high-yield systems with lower emissions."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: agroecological systems",
+            "text": "I'm committing to systems that work with nature, not against it. This fosters long-term health but may limit short-term yields and scalability.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: climate-smart",
+            "text": "I'm taking a forward-looking, balanced approach. It supports productivity and adaptation, though implementation can be complex and uneven.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: intensive high-yield",
+            "text": "I'm maximising output while cutting emissions—focusing on tech-driven solutions. It's efficient, but may still strain natural resources and ecosystems.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Meeting Room",
+        "background": "clara-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 4,
+        "context": "Clara says: A heated debate is emerging about land use. Agricultural land is being lost to urban development. What policy approach should I take?",
+        "text": "How should government protect agricultural land?",
+        "options": {
+          "A": "Strict Standards: push for strict animal welfare standards, emphasizing ethics over cost concerns.",
+          "B": "Moderate Standards: advocate for moderate standards that improve welfare without burdening producers.",
+          "C": "Minimal Regulations: support minimal regulations to keep production costs low and food affordable."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: strict standards",
+            "text": "I'm setting a high ethical bar, protecting animal rights regardless of cost. It leads by example, but could face economic resistance.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: moderate standards",
+            "text": "I'm advancing animal welfare step by step, balancing compassion with practicality. It's politically viable, though progress may be slow.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: minimal regulations",
+            "text": "I'm prioritizing cost control and market stability. While effective in keeping food prices low, this overlooks ethical and consumer concerns and might be at the expense of animals and environment.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Meeting Room",
+        "background": "clara-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 5,
+        "context": "Clara says: Rural communities are struggling with depopulation. Some argue that supporting small-scale, sustainable farming is key to keeping communities alive. Others say larger, more efficient farms are the future.",
+        "text": "What scale of farming should policy support?",
+        "options": {
+          "A": "Low-Input Protection: low-input systems that protect biodiversity at all costs.",
+          "B": "Mixed Systems: mixed systems that balance biodiversity with agricultural productivity, their implementation might be more unlikely and difficult for farmers, due to the higher costs.",
+          "C": "High-Yield Efficiency: high-yield systems that prioritize efficiency over biodiversity."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: low-input protection",
+            "text": "I'm focused on ecological integrity, even if yields drop. It's a nature-first approach that may demand major shifts in consumption and distribution.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: mixed systems",
+            "text": "I'm promoting innovation that doesn't pit nature against farming. It's complex to implement but supports multiple goals.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: high-yield efficiency",
+            "text": "I'm working toward maximum output, which can feed more people. Yet, this often means sacrificing ecological health and long-term viability.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Meeting Room",
+        "background": "clara-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 6,
+        "context": "Clara says: There's debate in my committee about animal welfare standards. Some argue for strict rules; others worry about competitiveness with imports from regions with weaker standards.",
+        "text": "How strict should animal welfare standards be?",
+        "options": {
+          "A": "Self-Sufficient Systems: advocate for long-term investments in sustainable, self-sufficient food systems.",
+          "B": "Local Subsidies: support local farmers with subsidies to build resilience and maintain supply.",
+          "C": "Scale Imports: scale up imports to ensure affordable and consistent food supplies."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: self-sufficient systems",
+            "text": "I'm rethinking the system to prevent future shocks. It's visionary, but slower to implement, and may require public support for higher costs.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: local subsidies",
+            "text": "I'm investing in your region's future while responding to crisis. It supports long-term stability, but may not fully meet short-term needs.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: scale imports",
+            "text": "I'm acting fast to stabilize prices and supply. It's efficient for immediate relief but could entrench global dependencies and emissions.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Meeting Room",
+        "background": "clara-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 7,
+        "context": "Clara says: Research shows that shifting to plant-based diets would reduce agricultural land use and environmental impact. Should policy actively encourage dietary change?",
+        "text": "Should government promote dietary change toward plant-based options?",
+        "options": {
+          "A": "Strong Regulation: push for strong regulation that makes some foods more expensive due to higher sustainability standards.",
+          "B": "Gradual Changes: encourage gradual changes that balance affordability with environmental goals.",
+          "C": "Minimize Costs: minimize costs for companies to keep food prices affordable."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: strong regulation",
+            "text": "I'm enforcing accountability and pushing systems to evolve. It may raise prices, but puts sustainability front and center",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: gradual changes",
+            "text": "I'm promoting a just transition. It's strategic and balanced, but requires monitoring and adjustment to stay effective.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: minimize costs",
+            "text": "I'm cautious about placing too much burden on companies or consumers. This maintains accessibility, but could slow environmental progress.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Brussels Office (Evening)",
+        "background": "clara-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 8,
+        "context": "Clara says: Looking ahead, I need to think about how our food system should adapt to climate change, population growth, and resource limits. What vision should guide long-term policy?",
+        "text": "What vision should guide long-term food policy?",
+        "options": {
+          "A": "Localized Low-Input: a localized, low-input system prioritizing resilience and environmental stewardship.",
+          "B": "Balanced Innovation: a balanced system integrating innovation, sustainability, and stakeholder collaboration.",
+          "C": "Efficient Global: a highly efficient global system focused on affordability and availability."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: localized low-input",
+            "text": "I imagine a deeply sustainable, community-rooted food future. It's regenerative and values-driven, though harder to scale quickly.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: balanced innovation",
+            "text": "I see a future built on shared goals and innovation. It's inclusive and adaptable, though may require constant negotiation and leadership.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: efficient global",
+            "text": "I envision a streamlined, interconnected food system that feeds the world affordably. It's productive, but may be vulnerable to shocks and ethics blind spots.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Home",
+        "background": "clara-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "Sofia": {
+    "character": {
+      "name": "Sofia",
+      "role": "The Private Sector Representative",
+      "description": "Meet Sofia, the private sector representative navigating innovation, profit, and social responsibility.",
+      "bio": "Sofia, 41, is the CEO of a sustainable food company specializing in organic, plant-based products. She founded her company 15 years ago and has grown it to serve major supermarkets and restaurants across Northern Europe. Sofia is passionate about building a profitable business while addressing environmental and social challenges. She balances investor expectations, consumer demands, regulatory requirements, and a personal commitment to sustainability. She works closely with farmers, suppliers, and retailers.",
+      "music": "assets/audio/music/Sofia_Song.mp3"
+    },
+    "intro": {
+      "text": "I'm growing my sustainable food business, but I face constant trade-offs. I need to balance profitability with my environmental and social values. I also need to compete with larger companies and respond to what consumers want. What strategic direction do you think is right for my company?\n\nBy answering a few questions, you can help me navigate these decisions!",
+      "background": "sofia-q1",
+      "parallaxEffect": "zoom"
+    },
+    "questions": [
+      {
+        "number": 1,
+        "context": "Sofia says: A major supermarket chain wants to stock my products at a lower margin to reach more consumers. A luxury chain wants to stock them at a higher price, supporting smaller-scale production. How should I expand?",
+        "text": "What market should I prioritize?",
+        "options": {
+          "A": "Ethical Cooperative: fully commit to the cooperative, prioritizing sustainability and ethical sourcing.",
+          "B": "Balanced Partnership: establish a partnership with the cooperative, balancing cost and sustainability.",
+          "C": "Large Suppliers: partner with large suppliers to ensure lower production costs and higher margins."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: ethical cooperative",
+            "text": "I'm putting principles first and investing in a transparent, ethical model. It's aligned with sustainability but may demand higher consumer prices or tighter margins.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: balanced partnership",
+            "text": "I'm building supply chains that respect both sustainability and business health. It's adaptable, but requires ongoing negotiation and trust.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: large suppliers",
+            "text": "I'm protecting margins and scaling efficiently. It's financially sound, but risks distancing the brand from ethical sourcing values.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Corporate Office",
+        "background": "sofia-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 2,
+        "context": "Sofia says: Currently, all my ingredients come from local farmers I know well, ensuring quality and fair prices. A supplier offers global sourcing at 30% lower cost. Should I scale with cheaper global ingredients?",
+        "text": "How should I source ingredients?",
+        "options": {
+          "A": "Full Traceability: launch a progressive campaign emphasizing full traceability and eco-certifications.",
+          "B": "Gradual Transparency: promote transparency initiatives that show the company is moving toward sustainability.",
+          "C": "Value Focus: highlight the affordability and convenience of products without focusing on production details."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: full traceability",
+            "text": "I'm taking a stand for openness and sustainability. It's high-impact branding, but requires systems that match the message.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: gradual transparency",
+            "text": "I'm signaling positive change without overpromising. It's a calculated step that can build consumer trust over time.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: value focus",
+            "text": "I'm doubling down on what sells: simple value. It appeals to mass markets but may overlook rising demands for accountability.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Meeting Room",
+        "background": "sofia-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 3,
+        "context": "Sofia says: I've had opportunities to vertically integrate—to own the farms that supply my ingredients. This would give me more control and potentially lower costs. Should I do this?",
+        "text": "Should I vertically integrate by owning farms?",
+        "options": {
+          "A": "Overhaul Logistics: overhaul logistics to minimize emissions, even if it increases short-term costs.",
+          "B": "Gradual Investment: gradually invest in greener logistics that balance environmental impact with costs.",
+          "C": "Current Systems: maintain current logistics systems to keep operations cost-efficient."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: overhaul logistics",
+            "text": "I'm making a bold move to align logistics with climate goals. It shows leadership but requires financial and stakeholder resilience.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: gradual investment",
+            "text": "I'm balancing environmental concerns with economic logic. It's a steady path forward, measured, but progress-oriented.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: current systems",
+            "text": "I'm optimizing for operational efficiency and cost control. It keeps margins intact, but may draw criticism in sustainability assessments.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Corporate Office",
+        "background": "sofia-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 4,
+        "context": "Sofia says: I receive requests to certify our products as organic, EU eco-label, and other certifications. These certifications are expensive but improve marketability. How should I approach this?",
+        "text": "What certifications should I pursue?",
+        "options": {
+          "A": "Full Support: fully support the startup, prioritizing innovation that aligns with sustainability goals.",
+          "B": "Cautious Investment: invest cautiously, balancing risk with the potential for long-term gains.",
+          "C": "Proven Technologies: focus on proven technologies that ensure quick returns."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: full support",
+            "text": "I'm investing in transformation over certainty. It's visionary and values-driven, but comes with financial risk and the need for patient capital.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: cautious investment",
+            "text": "I'm taking a calculated risk on innovation. It's the middle road—supporting change while protecting stability.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: proven technologies",
+            "text": "I'm playing it safe and smart. Ensuring ROI and minimizing risk. It's strategic, though it may limit disruptive innovation.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Conference",
+        "background": "sofia-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 5,
+        "context": "Sofia says: There's pressure from investors to maximize shareholder returns. There's also pressure from consumers for lower prices and from my own values to invest more in sustainability. How do I balance these pressures?",
+        "text": "How should I balance profit with sustainability values?",
+        "options": {
+          "A": "High Standards: push for high welfare standards, aligning with consumer demand and ethical responsibility.",
+          "B": "Moderate Policies: advocate for moderate welfare policies that improve standards without drastic cost increases.",
+          "C": "Minimal Improvements: support minimal welfare improvements to maintain supplier relationships and affordability."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: high standards",
+            "text": "I'm responding to the ethical imperative head-on. It strengthens the brand's values, but may require supply chain reform and consumer buy-in.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: moderate policies",
+            "text": "I'm lifting standards at a manageable pace. It signals responsibility without shocking the supply chain.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: minimal improvements",
+            "text": "I'm prioritizing supplier stability and cost control. It's business-friendly, but may fall short of consumer or advocacy expectations.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Corporate Office",
+        "background": "sofia-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 6,
+        "context": "Sofia says: A startup competitor using marketing focused on environmental claims (some verified, some not fully substantiated) is undercutting my prices. How should I respond?",
+        "text": "How should I handle competitors using dubious green claims?",
+        "options": {
+          "A": "Local Systems: focus on local suppliers and self-reliant systems to strengthen long-term resilience.",
+          "B": "Diversify Chains: diversify supply chains, balancing resilience with environmental and social considerations.",
+          "C": "Large Suppliers: source from large suppliers to ensure consistent supply at the lowest cost."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: local systems",
+            "text": "I'm building long-term resilience through proximity and sustainability. It's bold and values-led, but may raise costs and limit supply flexibility.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: diversify chains",
+            "text": "I'm managing complexity for resilience. It's a smart balance, adaptive and robust, though harder to coordinate.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: large suppliers",
+            "text": "I'm ensuring business continuity through scale and efficiency. It's low-risk short term but may increase vulnerability to future shocks.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Crisis Management Room",
+        "background": "sofia-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 7,
+        "context": "Sofia says: A major food company has offered to acquire my business. The offer is attractive financially, but I'm concerned they'll dilute my values. Should I remain independent or accept the offer?",
+        "text": "Should I consider being acquired or remain independent?",
+        "options": {
+          "A": "Sustainable Initiative: the sustainable initiative, prioritizing long-term brand value over immediate profits.",
+          "B": "Balanced Growth: a balanced approach that ensures financial growth while introducing sustainable options.",
+          "C": "High-Margin Product: the high-margin product, focusing on maximizing profitability for the company."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: sustainable initiative",
+            "text": "I'm investing in future brand equity and purpose. It's a bold move that signals leadership, even if it slows short-term gains.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: balanced growth",
+            "text": "I'm aligning sustainability with financial strategy. It's steady and adaptable, but requires careful storytelling and product design.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: high-margin product",
+            "text": "I'm staying focused on profitability. It's clear-cut for growth, but may fall behind on ethical or environmental expectations.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Board Meeting",
+        "background": "sofia-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 8,
+        "context": "Sofia says: As my company grows, I'm thinking about my legacy. What lasting impact do I want my company to have beyond profits?",
+        "text": "What should be my company's ultimate goal?",
+        "options": {
+          "A": "Lead by Example: the private sector must lead by example, taking bold steps toward sustainability regardless of regulation.",
+          "B": "Collaboration: collaboration between the private sector and policymakers is key to balanced solutions.",
+          "C": "Efficiency Priority: the private sector should prioritize efficiency and profitability, with minimal regulation."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: lead by example",
+            "text": "I'm calling for bold action beyond compliance. It's ambitious and inspiring, but it demands vision, transparency, and commitment.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: collaboration",
+            "text": "I'm building bridges between sectors for real change. It's practical and inclusive, though consensus-building takes time.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: efficiency priority",
+            "text": "I'm emphasizing the market's role in driving progress. It's a clean message, but may invite criticism for downplaying accountability.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Panel Discussion",
+        "background": "sofia-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1031 @@
+====================================================================================================
+DETAILED TEXT DIFFERENCES - Option Content Comparison
+====================================================================================================
+
+
+====================================================================================================
+EMMA
+====================================================================================================
+
+Q1: Where do you go shopping?
+Context: Emma says: I'm about to head out to shop for food for my party. Where should I go? It's Saturday morning so all possible locations are open.
+
+  Option A:
+    Original (184 chars):
+      The farmers' market: it's the furthest away with mid-price produce. You would be supporting farmers and getting high-quality fresh produce, but they might not have everything you need.
+    Document (211 chars):
+      The farmers' market: it's the furthest away with mid-price produce. You would be supporting farmers and getting high-quality fresh produce that is produced ethically, but they might not have everything you need.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (179 chars):
+      The supermarket chain: it's cheaper, closest to your apartment and is guaranteed to have all products and ingredients you need, but they are less transparent about their products.
+    Document (242 chars):
+      The supermarket chain: it's cheaper, closest to your apartment and is guaranteed to have all products and ingredients you need, but you cannot be sure if the products are sustainably produced as they are less transparent about their products.
+    ➜ Text differs (not strict subset)
+
+
+Q2: When buying groceries, what matters most to you? Both in terms of price and the labels you trust.
+Context: Emma says: On my way home, I saw a flyer that explained the benefits of local, small-scale farming. As I unpack my groceries and see the variety of brands and labels it gets me thinking.
+
+  Option A:
+    Original (148 chars):
+      Sustainability First: supporting sustainable, local, or transparent food systems is your top priority, even if it costs more or limits your choices.
+    Document (126 chars):
+      Supporting sustainable, local, or transparent food systems is your top priority, even if it costs more or limits your choices.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (138 chars):
+      Balanced Approach: you try to balance affordability with sustainability, looking for some eco-friendly or certified options when possible.
+    Document (119 chars):
+      You try to balance affordability with sustainability, looking for some eco-friendly or certified options when possible.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (131 chars):
+      Convenience & Affordability: convenience, affordability, and familiar big brands matter most, even if sustainability is less clear.
+    Document (100 chars):
+      Convenience, affordability, and familiar big brands matter most, sustainability is no issue for you.
+    ➜ Text differs (not strict subset)
+
+
+Q3: How do you respond to animal welfare concerns in your shopping habits?
+Context: Emma says: My dinner party has started. One of my friends starts a discussion on animal welfare rights and how they should be a priority in farming and when buying food.
+
+  Option A:
+    Original (102 chars):
+      Plant-Based: you avoid animal products, preferring to shop plant based and eating vegetarian or vegan.
+    Document (89 chars):
+      You avoid animal products, preferring to shop plant based and eating vegetarian or vegan.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (156 chars):
+      Certified Products: you support products with certifications ensuring better living conditions for animals, even if they are pricier, and you eat less meat.
+    Document (136 chars):
+      You support products with certifications ensuring better living conditions for animals, even if they are pricier, and you eat less meat.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (78 chars):
+      No Priority: you don't prioritize or think about animal welfare when shopping.
+    Document (65 chars):
+      You don't prioritize or think about animal welfare when shopping.
+    ➜ Text differs (not strict subset)
+
+
+Q4: How do you perceive environmental protection in our food systems?
+Context: Emma says: Later in the evening, I listen as my friends debate the role of environmental protection in food production, with one arguing it is essential and another claiming it distracts from increasing productivity to feed a growing global population.
+
+  Option A:
+    Original (135 chars):
+      Environmental Priority: you often think about environmental protection and try to prioritize products that seem to be supportive of it.
+    Document (111 chars):
+      You often think about environmental protection and try to prioritize products that seem to be supportive of it.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (157 chars):
+      Moderate Green: you try to be greener by shopping for organic and more sustainable products, but don't think about environmental protection itself that much.
+    Document (141 chars):
+      You try to be greener by shopping for organic and more sustainable products, but don't think about environmental protection itself that much.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (50 chars):
+      Other Priorities: you don't really think about it.
+    Document (32 chars):
+      You don't really think about it.
+    ➜ Text differs (not strict subset)
+
+
+Q5: How do you view buying local vs. imported products?
+Context: Emma says: My friends then move on to another debate about the growing importance of local food, with some arguing that buying local is always better for sustainability while others believe global trade is essential for affordability, availability, and food security.
+
+  Option A:
+    Original (169 chars):
+      Strictly Local: you strictly support locally sourced food, buying most of your products from local farmer markets and coops, even if it means you pay more for your food.
+    Document (153 chars):
+      You strictly support locally sourced food, buying most of your products from local farmer markets and coops, even if it means you pay more for your food.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (161 chars):
+      Mixed Local: you see local food as a way to support local farmers, you buy some of your food locally and are willing to pay a little bit more for these products.
+    Document (148 chars):
+      You see local food as a way to support local farmers, you buy some of your food locally and are willing to pay a little bit more for these products.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (83 chars):
+      Global Trade: you prioritize affordability and don't mind buying imported products.
+    Document (69 chars):
+      You prioritize affordability and don't mind buying imported products.
+    ➜ Text differs (not strict subset)
+
+
+Q6: What do you think about this?
+Context: Emma says: One of my friends, who works in climate monitoring, raises food system resilience, pointing to droughts and extreme weather and how they can disrupt supply chains, which leads us to discuss how climate events shape our views on trade and global supply chains.
+
+  Option A:
+    Original (146 chars):
+      Self-Reliant Systems: you believe that self-reliant, small-scale food systems are essential to long-term sustainability and should be prioritized.
+    Document (124 chars):
+      You believe that self-reliant, small-scale food systems are essential to long-term sustainability and should be prioritized.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (110 chars):
+      Balanced Resilience: you support balanced systems with moderate resilience but higher environmental awareness.
+    Document (89 chars):
+      You support balanced systems with moderate resilience but higher environmental awareness.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (157 chars):
+      Robust Supply Chains: you prefer systems with robust supply chains that guarantee affordability and availability, even during times of crisis or uncertainty.
+    Document (135 chars):
+      You prefer systems with robust supply chains that guarantee affordability and availability, even during times of crisis or uncertainty.
+    ➜ Text differs (not strict subset)
+
+
+Q7: Who do you think should be leading on this issue?
+Context: Emma says: During dessert, a heated discussion breaks out: who should be leading the transition for more sustainable products? And who should pay for it?
+
+  Option A:
+    Original (148 chars):
+      Shared Responsibility: I believe it should be a mix. I am willing to pay a moderate premium for products that clearly support sustainable practices.
+    Document (164 chars):
+      I don't mind paying significantly more for products that are proven to have minimal environmental impact, and it makes me feel aware and responsible for my choices.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (144 chars):
+      Institutional Lead: I think companies and policy makers should be leading on this issue, ensuring companies are not hiking prices for consumers.
+    Document (125 chars):
+      I believe it should be a mix. I am willing to pay a moderate premium for products that clearly support sustainable practices.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (185 chars):
+      Personal Investment: I don't mind paying significantly more for products that are proven to have minimal environmental impact, and it makes me feel aware and responsible for my choices.
+    Document (123 chars):
+      I think companies and policy makers should be leading on this issue, ensuring companies are not hiking prices for consumers
+    ➜ Text differs (not strict subset)
+
+
+Q8: How do think about this topic?
+Context: Emma says: My friends have left and I have started cleaning up. On the radio there is a discussion about policies supporting food self-sufficiency in Europe and how they can rely less on other countries. I think about this and reflect on our debates earlier this evening.
+
+  Option A:
+    Original (125 chars):
+      Self-Sufficiency Focus: you support self-sufficiency policies, favoring locally-produced products even if they limit variety.
+    Document (101 chars):
+      You support self-sufficiency policies, favoring locally-produced products even if they limit variety.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (135 chars):
+      Balanced Policy: you prefer to support policies that encourage a balanced approach to self-sufficiency while maintaining trade options.
+    Document (118 chars):
+      You prefer to support policies that encourage a balanced approach to self-sufficiency while maintaining trade options.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (116 chars):
+      Trade Focus: you value affordable imports and don't prioritize self-sufficiency as long as products meet your needs.
+    Document (103 chars):
+      You value affordable imports and don't prioritize self-sufficiency as long as products meet your needs.
+    ➜ Text differs (not strict subset)
+
+
+
+
+====================================================================================================
+LUCA
+====================================================================================================
+
+Q1: What approach do you take to animal feeding?
+Context: Luca says: I notice some neighbors adopting new feeding techniques to improve herd productivity and longevity. My feed supplier suggests a high-protein feed, but I'm unsure it fits my values and goals. After talking with my advisor, I'm presented with three options. Which one do I choose?
+
+  Option A:
+    Original (129 chars):
+      Natural Grazing: you opt for a low-impact, natural grazing method that prioritizes animal welfare and lower environmental impact.
+    Document (102 chars):
+      I would shift to organic farming and prioritize environmental sustainability over maximizing my yield.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (121 chars):
+      Regional Feed: you incorporate regionally-sourced feed to strike a balance between productivity and environmental impact.
+    Document (112 chars):
+      I would adopt sustainable farming practices that improve productivity while reducing my environmental footprint.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (119 chars):
+      High-Performance Feed: you adopt a high-performance feed to maximize productivity, even if it means relying on imports.
+    Document (122 chars):
+      I would adopt whatever technology or practices maximize my productivity and profit, regardless of external considerations.
+    ➜ Text differs (not strict subset)
+
+
+Q2: How do you manage your farm's impact on the landscape?
+Context: Luca says: While walking around my farm, I reflect on how my practices affect the surrounding landscape, considering whether converting some land to natural habitats or agroforestry is worth the potential impact on yield.
+
+  Option A:
+    Original (128 chars):
+      Rewilding Focus: you set aside significant parts of my land for rewilding and natural habitats, even if it reduces productivity.
+    Document (172 chars):
+      Yes, I want to be part of a community focused on sustainable agriculture and building resilient local food systems, even if it means sharing responsibility and some profit.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (108 chars):
+      Maintain Productivity: you prioritize productivity and maintain your current farmland without major changes.
+    Document (101 chars):
+      Yes, but only if joining gives me a clear economic advantage and doesn't compromise my profitability.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (109 chars):
+      Buffer Zones: you incorporate buffer zones and hedgerows, balancing productivity with landscape preservation.
+    Document (97 chars):
+      No, I prefer to work independently and market my products myself or through established channels.
+    ➜ Text differs (not strict subset)
+
+
+Q3: How do you prioritize resilience on your farm?
+Context: Luca says: Last summer's drought hit my farm hard, and with climate challenges becoming more frequent, I'm thinking about how to make my farm more resilient to shocks like droughts or floods.
+
+  Option A:
+    Original (129 chars):
+      Low-Input System: you shift to a low-input system that relies on natural resilience, even if it reduces yields in the short term.
+    Document (135 chars):
+      I would invest in water infrastructure like irrigation systems to make my farm more resilient to droughts and other climate challenges.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (183 chars):
+      Diversification: you diversify your crops and livestock, implementing use of special crops or specific breeding strategies to adapt to changing conditions while maintaining stability.
+    Document (99 chars):
+      I would adapt my crops and practices gradually, hoping to stay resilient without major investments.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (138 chars):
+      Infrastructure Investment: you invest in infrastructure like irrigation systems to mitigate environmental risks and maintain productivity.
+    Document (110 chars):
+      I would continue as I always have, trusting that my farm can handle environmental challenges as it has before.
+    ➜ Text differs (not strict subset)
+
+
+Q4: How do you respond to buyer preferences?
+Context: Luca says: One of my regular farmers market buyers is more conscious of animal welfare and sustainability and asks how my farming practices reflect these values.
+
+  Option A:
+    Original (130 chars):
+      Premium Sustainable: you market your products as high-welfare and sustainable, targeting niche consumers willing to pay a premium.
+    Document (149 chars):
+      I fully support protecting agricultural land, as it's crucial for food security and regional sustainability, even if it limits property value growth.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (121 chars):
+      Balanced Approach: you adjust my practices to ensure a balance between affordability, sustainability, and animal welfare.
+    Document (130 chars):
+      I support protecting agricultural land if it comes with support programs or incentives that help farmers stay economically viable.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (127 chars):
+      Affordable Products: you focus on producing affordable products to meet market demand, regardless of welfare or sustainability.
+    Document (138 chars):
+      I'm concerned about policies that restrict land use, as property development can be a significant income or retirement option for farmers.
+    ➜ Text differs (not strict subset)
+
+
+Q5: How do you incorporate multiple functions or purposes into your farming strategy?
+Context: Luca says: A representative from an environmental organization visits my farm to talk about multifunctionality, balancing food production with environmental goals. I'm interested but unsure how to move forward.
+
+  Option A:
+    Original (130 chars):
+      Environmental Stewardship: you fully embrace multifunctionality, shifting your focus to environmental stewardship over production.
+    Document (112 chars):
+      I grow crops that feed people: wheat, vegetables, and other food staples that contribute to local food security.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (139 chars):
+      Integrated Agroforestry: you integrate practices like agroforestry in food production and hopefully they will bring environmental benefits.
+    Document (128 chars):
+      I grow a mix of crops for food and non-food purposes (like medicinal plants or industrial crops) if they're economically viable.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (112 chars):
+      Production First: you focus on maximizing food production and considering the environmental impact as secondary.
+    Document (89 chars):
+      I grow whatever crops are most profitable, regardless of their purpose or broader impact.
+    ➜ Text differs (not strict subset)
+
+
+Q6: What measures do you take to preserve biodiversity?
+Context: Luca says: I've noticed a decline in wildlife diversity on my farm and am considering steps to preserve biodiversity. I do think this will require significant changes.
+
+  Option A:
+    Original (133 chars):
+      Natural Habitats: you transition parts of your farm to natural habitats to fully support biodiversity, even at the expense of yields.
+    Document (118 chars):
+      No, independence is worth more than a guaranteed contract. I'd rather work with local buyers or direct sales channels.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (117 chars):
+      Wildlife Corridors: you create targeted wildlife corridors and plant cover to balance biodiversity with productivity.
+    Document (97 chars):
+      Yes, but only if the contract respects my practices and allows me some flexibility in how I farm.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (104 chars):
+      Efficient Land Use: you focus on efficient land use for farming, minimizing habitat restoration efforts.
+    Document (90 chars):
+      Yes, absolutely. A guaranteed buyer and stable income is more important than independence.
+    ➜ Text differs (not strict subset)
+
+
+Q7: How do you ensure system resilience on your farm?
+Context: Luca says: A supplier warns me about possible feed delivery disruptions, prompting me to think about how to strengthen my farm's resilience to supply chain issues.
+
+  Option A:
+    Original (142 chars):
+      Self-Sufficient Systems: you transition to self-sufficient systems, such as growing your own feed, to minimize reliance on external suppliers.
+    Document (139 chars):
+      I support government subsidies for sustainable agriculture as they level the playing field and support the transition to greener practices.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (110 chars):
+      Mixed Sourcing: you use a mix of external and locally-sourced feed to reduce dependence on external suppliers.
+    Document (135 chars):
+      I support subsidies, but they should be structured to encourage innovation and efficiency rather than just compensate for higher costs.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (111 chars):
+      Multiple Suppliers: you sign contracts with multiple suppliers to guarantee a steady flow of affordable inputs.
+    Document (113 chars):
+      I'm skeptical of government intervention. Farmers should be able to compete on the open market without subsidies.
+    ➜ Text differs (not strict subset)
+
+
+Q8: How do you adapt his farming practices to public opinion?
+Context: Luca says: A local journalist comes to visit my farm. They ask how I respond to changing societal expectations around farming practices.
+
+  Option A:
+    Original (121 chars):
+      Lead Sustainably: you shift your practices significantly to align with public demand for sustainable and ethical farming.
+    Document (175 chars):
+      I want to develop the farm into a model of sustainable practices that attracts the next generation because it aligns with contemporary values and environmental responsibility.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (119 chars):
+      Balanced Adaptation: you adapt your practices to reflect a balance between public expectations and practical realities.
+    Document (130 chars):
+      I want to modernize and improve the farm's profitability and efficiency so it remains economically viable for the next generation.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (96 chars):
+      Efficiency Focus: you focus on efficiency and cost-effectiveness, regardless of public concerns.
+    Document (133 chars):
+      I want to keep the farm as much as it has always been, passing on the familiar traditions and ways of working to the next generation.
+    ➜ Text differs (not strict subset)
+
+
+
+
+====================================================================================================
+CLARA
+====================================================================================================
+
+Q1: What do you prioritize in your policy?
+Context: Clara says: I usually begin my mornings reviewing proposals. My team is divided between focusing on increasing food security, promoting sustainability and supporting small scale farmers.
+
+  Option A:
+    Original (106 chars):
+      Rural Support: policies that strongly support small-scale and local farmers to preserve rural livelihoods.
+    Document (113 chars):
+      Government should mandate strict environmental standards for all farms, ensuring sustainability across the board.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (86 chars):
+      Balanced Growth: balanced policies that integrate sustainability with economic growth.
+    Document (125 chars):
+      Government should incentivize sustainable practices through subsidies and support programs for farmers willing to transition.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (97 chars):
+      Food Security: policies that focus on maximizing food production to ensure food security for all.
+    Document (110 chars):
+      Government should stay out of farm practices; market demand will naturally push farmers toward sustainability.
+    ➜ Text differs (not strict subset)
+
+
+Q2: How do you approach the meeting?
+Context: Clara says: After reviewing I attend a meeting with stakeholders, including farmers, researchers, and private sector representatives. Each group has conflicting priorities.
+
+  Option A:
+    Original (114 chars):
+      Voice Underrepresented: you advocate for underrepresented groups, ensuring their voices are heard and prioritized.
+    Document (123 chars):
+      Direct income support: provide payments directly to farmers to ensure stable livelihoods, regardless of production methods.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (96 chars):
+      Common Ground: you seek common ground, crafting policies that balance diverse stakeholder needs.
+    Document (118 chars):
+      Conditional support: provide subsidies or payments only to farmers who meet environmental or sustainability standards.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (100 chars):
+      Large Producers: you prioritize the interests of large-scale producers to ensure economic stability.
+    Document (99 chars):
+      Minimal support: reduce government spending on farming and let the market determine farmer incomes.
+    ➜ Text differs (not strict subset)
+
+
+Q3: What focus do you choose?
+Context: Clara says: During a briefing, my advisors present data on the agricultural sector's contribution to climate change. I need to draft a policy response.
+
+  Option A:
+    Original (110 chars):
+      Agroecological Systems: policies that prioritize agroecological systems, even at the expense of lower outputs.
+    Document (117 chars):
+      Protect domestic farmers with tariffs and trade restrictions, even if it keeps some food prices higher for consumers.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (100 chars):
+      Climate-Smart: policies promoting climate-smart practices that balance productivity with resilience.
+    Document (106 chars):
+      Balance domestic support with fair trade practices that support both farmers and allow reasonable imports.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (97 chars):
+      Intensive High-Yield: policies that encourage intensive, high-yield systems with lower emissions.
+    Document (86 chars):
+      Maximize free trade to ensure consumers get the cheapest, most diverse food available.
+    ➜ Text differs (not strict subset)
+
+
+Q4: What stance do you take?
+Context: Clara says: I attend a parliamentary debate on animal welfare standards. Lobbyists argue for different levels of regulation.
+
+  Option A:
+    Original (98 chars):
+      Strict Standards: push for strict animal welfare standards, emphasizing ethics over cost concerns.
+    Document (104 chars):
+      Strictly protect all productive agricultural land from non-agricultural development through zoning laws.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (101 chars):
+      Moderate Standards: advocate for moderate standards that improve welfare without burdening producers.
+    Document (96 chars):
+      Protect some agricultural land but allow limited development in areas with less productive soil.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (98 chars):
+      Minimal Regulations: support minimal regulations to keep production costs low and food affordable.
+    Document (101 chars):
+      Allow free rein to market forces; landowners should decide whether to farm or develop their property.
+    ➜ Text differs (not strict subset)
+
+
+Q5: What do you champion?
+Context: Clara says: At a meeting on biodiversity, you hear proposals ranging from intensive monoculture systems to diverse, low-input systems.
+
+  Option A:
+    Original (79 chars):
+      Low-Input Protection: low-input systems that protect biodiversity at all costs.
+    Document (99 chars):
+      Support small-scale, family farms as a way to preserve rural communities and sustainable practices.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (182 chars):
+      Mixed Systems: mixed systems that balance biodiversity with agricultural productivity, their implementation might be more unlikely and difficult for farmers, due to the higher costs.
+    Document (111 chars):
+      Support farms of all sizes as long as they meet environmental standards, allowing natural market consolidation.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (87 chars):
+      High-Yield Efficiency: high-yield systems that prioritize efficiency over biodiversity.
+    Document (95 chars):
+      Support large-scale, efficient industrial farming that produces food most cheaply and reliably.
+    ➜ Text differs (not strict subset)
+
+
+Q6: What solution do you prioritize?
+Context: Clara says: A drought in a neighboring region is disrupting food supplies, I'm asked to propose an emergency response.
+
+  Option A:
+    Original (105 chars):
+      Self-Sufficient Systems: advocate for long-term investments in sustainable, self-sufficient food systems.
+    Document (130 chars):
+      Implement strict animal welfare standards domestically, even if it makes local products more expensive than imported alternatives.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (94 chars):
+      Local Subsidies: support local farmers with subsidies to build resilience and maintain supply.
+    Document (129 chars):
+      Implement moderate animal welfare standards and consider trade barriers to prevent cheap imports produced under weaker standards.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (82 chars):
+      Scale Imports: scale up imports to ensure affordable and consistent food supplies.
+    Document (105 chars):
+      Keep animal welfare standards flexible to allow farmers to compete on price with international producers.
+    ➜ Text differs (not strict subset)
+
+
+Q7: What approach do you take?
+Context: Clara says: In the evening, I'm reviewing a draft policy requiring companies to reduce their environmental footprint, which may increase food prices.
+
+  Option A:
+    Original (122 chars):
+      Strong Regulation: push for strong regulation that makes some foods more expensive due to higher sustainability standards.
+    Document (127 chars):
+      Yes, actively promote plant-based diets through education, taxation on meat products, or subsidies on plant-based alternatives.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (95 chars):
+      Gradual Changes: encourage gradual changes that balance affordability with environmental goals.
+    Document (115 chars):
+      Provide information so consumers can make informed choices, but don't use taxation or subsidies to influence diets.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (76 chars):
+      Minimize Costs: minimize costs for companies to keep food prices affordable.
+    Document (65 chars):
+      No, dietary choices are personal; government shouldn't interfere.
+    ➜ Text differs (not strict subset)
+
+
+Q8: What vision do you advocate?
+Context: Clara says: At the end of the day, I like to reflect. This time I choose to reflect on my vision for the future of agriculture and food systems.
+
+  Option A:
+    Original (105 chars):
+      Localized Low-Input: a localized, low-input system prioritizing resilience and environmental stewardship.
+    Document (124 chars):
+      Prioritize food security and resilience by promoting regional self-sufficiency and reduced reliance on global supply chains.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (109 chars):
+      Balanced Innovation: a balanced system integrating innovation, sustainability, and stakeholder collaboration.
+    Document (133 chars):
+      Maintain a balanced system that combines regional production with strategic international partnerships for resilience and efficiency.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (93 chars):
+      Efficient Global: a highly efficient global system focused on affordability and availability.
+    Document (128 chars):
+      Maximize efficiency and affordability through global markets and trade, relying on economies of scale and comparative advantage.
+    ➜ Text differs (not strict subset)
+
+
+
+
+====================================================================================================
+AHMED
+====================================================================================================
+
+Q1: How do you advocate for biodiversity in your research?
+Context: Dr. Ahmed says: In the morning, I present at a seminar where researchers debate genetic diversity in agriculture, weighing short-term yield gains against the long-term value of biodiversity.
+
+  Option A:
+    Original (117 chars):
+      Preserve Wild Breeds: you focus on preserving wild and local breeds, even at the cost of reduced agricultural output.
+    Document (82 chars):
+      Focus on proven, low-risk sustainable methods like agroforestry and crop rotation.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (110 chars):
+      Balance Improvement: you promote programs that balance genetic improvement with maintaining a broad gene pool.
+    Document (119 chars):
+      Explore a mix of traditional sustainable methods and emerging technologies like precision agriculture and gene editing.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (129 chars):
+      Selective Breeding: you emphasize selective breeding for traits that maximize productivity, even if it reduces genetic variation.
+    Document (105 chars):
+      Focus on cutting-edge technologies and high-risk innovations that could dramatically increase production.
+    ➜ Text differs (not strict subset)
+
+
+Q2: How do you address the situation?
+Context: Dr. Ahmed says: Back in the lab, my team presents a breakthrough genetic technique. While it promises to significantly improve productivity, ethical concerns about its application spark debate.
+
+  Option A:
+    Original (109 chars):
+      Halt Application: you halt the application, advocating for broader societal acceptance before implementation.
+    Document (108 chars):
+      Farmers should be research partners whose knowledge and experience shape the research questions and methods.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (111 chars):
+      Pilot Technique: you support piloting the technique, balancing ethical concerns with transparency and dialogue.
+    Document (98 chars):
+      I should involve farmers as test subjects and provide feedback, but I lead the research direction.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (112 chars):
+      Immediate Application: you push for immediate application of the technology to maximize agricultural efficiency.
+    Document (110 chars):
+      I should conduct controlled research in laboratory settings, minimizing the complexity of farmer interactions.
+    ➜ Text differs (not strict subset)
+
+
+Q3: How do you guide them?
+Context: Dr. Ahmed says: After lunch, I meet with your students. They are split between focusing on theoretical breakthroughs and pursuing practical applications in farming.
+
+  Option A:
+    Original (97 chars):
+      Integrate Theory: you promote integrating theory with practical, real-world farming applications.
+    Document (92 chars):
+      Avoid gene editing and focus on breeding and natural selection methods that consumers trust.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (111 chars):
+      Theoretical Breakthroughs: you encourage focusing on theoretical breakthroughs that advance the field globally.
+    Document (103 chars):
+      Research gene editing but invest heavily in public communication and engagement to build understanding.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (114 chars):
+      Field-Based Research: you prioritize field-based research that directly benefits local communities and ecosystems.
+    Document (111 chars):
+      Research gene editing primarily in controlled settings without emphasizing it publicly until results are clear.
+    ➜ Text differs (not strict subset)
+
+
+Q4: What strategy do you support?
+Context: Dr. Ahmed says: In the afternoon, I join a policy roundtable on mitigating livestock's impact on climate change. The group discusses strategies ranging from intensive systems to low-input approaches.
+
+  Option A:
+    Original (118 chars):
+      Low-Input Systems: advocating for low-input systems that focus on natural adaptation and minimal environmental impact.
+    Document (96 chars):
+      Only accept funding from public institutions to ensure research independence and public benefit.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (113 chars):
+      Balanced Systems: developing balanced systems that incorporate genetic traits for resilience and lower emissions.
+    Document (112 chars):
+      Accept private funding but negotiate clear agreements ensuring publication freedom and public access to results.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (100 chars):
+      Intensive Optimization: promoting intensive systems that optimize efficiency and minimize emissions.
+    Document (118 chars):
+      Accept any funding opportunity that advances productivity research, trusting that good science will emerge regardless.
+    ➜ Text differs (not strict subset)
+
+
+Q5: What role do you take?
+Context: Dr. Ahmed says: I receive an invitation to join a public-private partnership aimed at accelerating innovation in animal breeding. I must decide how to approach this collaboration.
+
+  Option A:
+    Original (104 chars):
+      Academia Leads: you ensure academia leads the initiative to maintain transparency and ethical oversight.
+    Document (94 chars):
+      Focus on natural soil processes and organic matter, studying how to work with natural systems.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (114 chars):
+      Balanced Collaboration: you support a balanced approach, emphasizing the need for academia-industry collaboration.
+    Document (90 chars):
+      Combine natural soil science with technology like sensors and AI for data-driven insights.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (112 chars):
+      Private Sector Leads: you advocate for the private sector to lead, leveraging their resources for rapid results.
+    Document (63 chars):
+      Mostly rely on high-tech solutions to monitor and manage soils.
+    ➜ Text differs (not strict subset)
+
+
+Q6: How do you respond?
+Context: Dr. Ahmed says: As I finish my day in the lab, I receive an email criticizing your involvement in projects funded by large corporations. I knows this could spark controversy.
+
+  Option A:
+    Original (107 chars):
+      Public Funding: you prioritize public funding to maintain independence and align fully with societal goals.
+    Document (89 chars):
+      Focus on production: develop technologies and methods to grow more food on existing land.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (121 chars):
+      Transparent Partnerships: you promote transparency in partnerships, ensuring ethical practices and public accountability.
+    Document (93 chars):
+      Focus on efficiency: research how to reduce food waste and improve food distribution systems.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (101 chars):
+      Corporate Funding: you emphasize the necessity of corporate funding for advancing impactful research.
+    Document (82 chars):
+      Balance both: research production improvements and food system efficiency equally.
+    ➜ Text differs (not strict subset)
+
+
+Q7: What aspect do you prioritize?
+Context: Dr. Ahmed says: During dinner, I receive a call about a grant focused on improving livestock health through genetic innovation. Please help me decide on the focus of my application.
+
+  Option A:
+    Original (105 chars):
+      Natural Traits: preserving natural health traits in traditional breeds, even at the cost of lower output.
+    Document (79 chars):
+      Develop universal solutions that can be applied across regions for consistency.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (105 chars):
+      Balanced Traits: improving genetic traits that balance health, welfare, and environmental sustainability.
+    Document (79 chars):
+      Develop region-specific approaches that adapt to local contexts and capacities.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (95 chars):
+      Disease Resistance: enhancing productivity by selecting animals with higher disease resistance.
+    Document (84 chars):
+      Focus on wealthy regions first; solutions will eventually diffuse to poorer regions.
+    ➜ Text differs (not strict subset)
+
+
+Q8: What is your main message?
+Context: Dr. Ahmed says: Later in the evening, I'm are asked to provide input for a policy briefing on sustainable livestock systems. I know my perspective will shape how these systems are supported.
+
+  Option A:
+    Original (105 chars):
+      Small-Scale Systems: promote small-scale, diverse systems as the cornerstone of sustainable food systems.
+    Document (83 chars):
+      Research should prioritize solving real-world problems for farmers and communities.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (105 chars):
+      Integrated Practices: advocate for policies that integrate sustainable practices into productive systems.
+    Document (70 chars):
+      Research should balance scientific rigor and real-world applicability.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (93 chars):
+      Intensive Farming: support intensive farming systems to meet global food demands efficiently.
+    Document (88 chars):
+      Research should pursue fundamental knowledge, allowing applications to follow naturally.
+    ➜ Text differs (not strict subset)
+
+
+
+
+====================================================================================================
+SOFIA
+====================================================================================================
+
+Q1: What partnership approach do you pursue?
+Context: Sofia says: Mid-morning, I meet with a local farming cooperative interested in supplying the company. The cooperative promotes sustainable practices but has higher costs compared to larger suppliers.
+
+  Option A:
+    Original (103 chars):
+      Ethical Cooperative: fully commit to the cooperative, prioritizing sustainability and ethical sourcing.
+    Document (103 chars):
+      Pursue mass-market opportunities with large retailers, accepting lower margins to reach many consumers.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (102 chars):
+      Balanced Partnership: establish a partnership with the cooperative, balancing cost and sustainability.
+    Document (86 chars):
+      Stay focused on premium, sustainable-focused retail where my values and margins align.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (98 chars):
+      Large Suppliers: partner with large suppliers to ensure lower production costs and higher margins.
+    Document (77 chars):
+      Balance both: offer products at different price points through both channels.
+    ➜ Text differs (not strict subset)
+
+
+Q2: What marketing approach do you support?
+Context: Sofia says: In a marketing strategy session, my team reviews data showing consumers increasingly value transparency in food production. They discuss how to respond.
+
+  Option A:
+    Original (102 chars):
+      Full Traceability: launch a progressive campaign emphasizing full traceability and eco-certifications.
+    Document (80 chars):
+      Commit exclusively to local sourcing to support farmers and ensure transparency.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (109 chars):
+      Gradual Transparency: promote transparency initiatives that show the company is moving toward sustainability.
+    Document (104 chars):
+      Source primarily locally but use global ingredients when local options are unavailable or unsustainable.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (108 chars):
+      Value Focus: highlight the affordability and convenience of products without focusing on production details.
+    Document (63 chars):
+      Source globally to minimize costs and maximize product variety.
+    ➜ Text differs (not strict subset)
+
+
+Q3: How do you respond?
+Context: Sofia says: I receive a report on the company's carbon emissions and their impact on supply chains. The sustainability team proposes new, greener logistics systems.
+
+  Option A:
+    Original (100 chars):
+      Overhaul Logistics: overhaul logistics to minimize emissions, even if it increases short-term costs.
+    Document (100 chars):
+      Yes, acquire farms to control the entire supply chain and ensure my values are reflected throughout.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (103 chars):
+      Gradual Investment: gradually invest in greener logistics that balance environmental impact with costs.
+    Document (105 chars):
+      Build partnerships with farms—investing in their sustainability practices while they retain independence.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (86 chars):
+      Current Systems: maintain current logistics systems to keep operations cost-efficient.
+    Document (92 chars):
+      No, stay focused on processing and marketing; rely on suppliers to manage farming decisions.
+    ➜ Text differs (not strict subset)
+
+
+Q4: What funding decision do you make?
+Context: Sofia says: In the afternoon, I attend a conference on agri-food innovation. A startup pitches a groundbreaking technology to improve soil health, but it requires significant investment.
+
+  Option A:
+    Original (103 chars):
+      Full Support: fully support the startup, prioritizing innovation that aligns with sustainability goals.
+    Document (93 chars):
+      Pursue all relevant certifications to demonstrate credibility and meet consumer expectations.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (94 chars):
+      Cautious Investment: invest cautiously, balancing risk with the potential for long-term gains.
+    Document (83 chars):
+      Pursue key certifications that align with my values and target market expectations.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (76 chars):
+      Proven Technologies: focus on proven technologies that ensure quick returns.
+    Document (80 chars):
+      Avoid certifications and rely on direct consumer relationships and transparency.
+    ➜ Text differs (not strict subset)
+
+
+Q5: What stance do you take?
+Context: Sofia says: My company is revising its animal welfare policies. Advocacy groups are pushing for higher standards, while some suppliers resist changes due to cost concerns.
+
+  Option A:
+    Original (106 chars):
+      High Standards: push for high welfare standards, aligning with consumer demand and ethical responsibility.
+    Document (99 chars):
+      Prioritize long-term sustainability for the company and planet, accepting lower short-term profits.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (112 chars):
+      Moderate Policies: advocate for moderate welfare policies that improve standards without drastic cost increases.
+    Document (86 chars):
+      Pursue 'purpose-driven profits'—finding ways to profit while advancing sustainability.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (112 chars):
+      Minimal Improvements: support minimal welfare improvements to maintain supplier relationships and affordability.
+    Document (98 chars):
+      Prioritize shareholder returns; assume that profitable companies can address sustainability later.
+    ➜ Text differs (not strict subset)
+
+
+Q6: What solution do you implement?
+Context: Sofia says: A major flood hits a region where my company sources key ingredients for its plant-based snacks, damaging roads, farms, and warehouses. Shipments of chickpeas and lentils are suddenly delayed, and shelves risk going empty. I must decide how to adapt to keep products flowing and meet customer demand.
+
+  Option A:
+    Original (100 chars):
+      Local Systems: focus on local suppliers and self-reliant systems to strengthen long-term resilience.
+    Document (101 chars):
+      Maintain strict transparency and evidence-based claims, even if it costs market share to competitors.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (109 chars):
+      Diversify Chains: diversify supply chains, balancing resilience with environmental and social considerations.
+    Document (71 chars):
+      Match their marketing claims but ensure everything I say is verifiable.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (92 chars):
+      Large Suppliers: source from large suppliers to ensure consistent supply at the lowest cost.
+    Document (93 chars):
+      Use the same marketing strategies as competitors; in marketing, claims just need to be legal.
+    ➜ Text differs (not strict subset)
+
+
+Q7: What do you prioritize?
+Context: Sofia says: During a board meeting, I face a critical decision: prioritize a high-margin product line or invest in a sustainable but lower-margin initiative.
+
+  Option A:
+    Original (110 chars):
+      Sustainable Initiative: the sustainable initiative, prioritizing long-term brand value over immediate profits.
+    Document (81 chars):
+      Stay independent to maintain full control over my company's values and decisions.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (105 chars):
+      Balanced Growth: a balanced approach that ensures financial growth while introducing sustainable options.
+    Document (89 chars):
+      Consider acquisition if the acquirer is committed to my company's sustainability mission.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (99 chars):
+      High-Margin Product: the high-margin product, focusing on maximizing profitability for the company.
+    Document (99 chars):
+      Accept acquisition if the financial offer is attractive; the acquirer will likely respect my brand.
+    ➜ Text differs (not strict subset)
+
+
+Q8: What perspective do you share?
+Context: Sofia says: At the end of the day, I participate in a panel discussion on the future of food. Panelists debate whether the private sector should lead sustainability efforts or if government intervention is necessary.
+
+  Option A:
+    Original (123 chars):
+      Lead by Example: the private sector must lead by example, taking bold steps toward sustainability regardless of regulation.
+    Document (111 chars):
+      Build a profitable business that models how to successfully align profit with sustainability and social impact.
+    ➜ Text differs (not strict subset)
+
+  Option B:
+    Original (102 chars):
+      Collaboration: collaboration between the private sector and policymakers is key to balanced solutions.
+    Document (99 chars):
+      Provide quality products that people want while maintaining fair labor and environmental practices.
+    ➜ Text differs (not strict subset)
+
+  Option C:
+    Original (112 chars):
+      Efficiency Priority: the private sector should prioritize efficiency and profitability, with minimal regulation.
+    Document (106 chars):
+      Make a good profit and provide employment for my team; other challenges are for governments and charities.
+    ➜ Text differs (not strict subset)
+
+
+
+====================================================================================================
+TOTAL OPTION TEXT DIFFERENCES: 119 options out of 120 total
+COMPARISON: 99.2% of all options have text differences
+====================================================================================================

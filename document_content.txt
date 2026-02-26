@@ -1,0 +1,1069 @@
+RUMIGEN Scenarios Game
+
+Disclaimer
+
+This needs to be some kind of pop-up message (important for the ethical part)
+
+This game is designed to explore possible future scenarios in agriculture and food production. The three scenarios presented are intentionally extreme to illustrate a wide range of potential outcomes. These scenarios are not predictions of the future but are tools for sparking discussion and understanding the complexities of decision-making in food systems. 
+
+While real-world outcomes are likely to fall somewhere between these extremes, the scenarios provide a framework for imagining how different priorities, policies, and technological developments could shape the agricultural landscape. They help us consider the trade-offs, opportunities, and challenges that may arise depending on the choices made by individuals, industries, and governments. 
+
+It’s important to note that the intent of this game is not to advocate for any specific path but to encourage reflection on the diverse factors influencing the future of food systems. The goal is to foster dialogue and inspire collaborative solutions that balance productivity, sustainability, and societal needs. 
+
+Shorter alternative:
+
+This game explores possible future scenarios in agriculture and food production. The three scenarios at the end are intentionally extreme to highlight different outcomes and spark discussion, rather than predict the future. While real-world systems will likely sit between these extremes, the scenarios help illustrate how choices around priorities, policies, and technology can shape food systems. The game does not promote a single path, but encourages reflection, dialogue, and collaborative thinking about balancing productivity, sustainability, and societal needs.
+
+Intro message (first welcome page):
+
+Copy of the demo intro: We would like to have a more elaborate message to complement the existing one, as a welcoming message, before the user clicks play.
+
+Intro copy that could work, edit it as you see fit: 
+
+Welcome to the world of RUMIGEN.
+
+Every day, we make choices.
+Behind those choices is a whole system of people, animals, and deliberations you rarely get to see.
+
+Step inside.
+ Explore the connections.
+ Discover how everyday life and livestock systems shape each other.
+
+There are no right or wrong answers!
+ just choices, consequences, and discovery.
+
+Meet the characters.
+Follow the stories.
+
+👉 Click to enter the simulation
+
+Rewritten version:
+
+Welcome to the world of RUMIGEN
+
+Every day, we make choices.
+Behind each one lies a hidden system of people, animals, and decisions we rarely get to see.
+
+Step inside.
+Explore connections.
+Discover how everyday life and livestock systems shape one another.
+
+There are no right or wrong answers.
+Only choices, consequences, and discovery.
+
+Meet the characters.
+Follow their stories.
+👉 Click to enter the simulation
+
+Meet five unique characters, each playing a different role within our food systems.
+
+Choose one to follow for a day, step into their shoes, face their dilemmas, and make the decisions they encounter.
+
+There are no right or wrong answers, only different perspectives, values, and trade-offs.
+
+Your choices will shape their path and reveal the complexity of the food system we’re all part of.
+
+Emma – The active citizen
+
+Description before you click on the character: Meet Emma, the active citizen curious about what connects her daily choices to life beyond the city. 
+
+If you click Emma: 
+Bio: Emma, 28, lives in the city and works at an NGO with a focus on the environment. She enjoys cooking and browsing secondhand shops. Her friends come from all walks of life, and they often get into thoughtful (and fun) conversations about values, choices, and the world around them. Raised in the inner city, Emma enjoys exploring local markets and learning about how products are made as she has limited experience with how farming and food production looks like in the countryside.
+
+Luca – The Farmer
+Description before you click on the character: Meet Luca, the farmer rooted in tradition and challenged by change.
+
+If you click Luca:
+Bio: Luca, 45, is a second-generation farmer running a mixed farm with crops and livestock. Proud of his heritage, he’s navigating the challenges of modernising his family business while staying sustainable. Growing up on the farm, Luca understands the pressures of meeting consumer demands and complying with ever-evolving regulations. He’s deeply connected to the land and strives to balance tradition and innovation.
+
+Clara – The Policymaker
+
+Description before you click on the character: Meet Clara, the policymaker navigating complex choices behind our food systems.
+
+If you click Clara:
+Bio: Clara, 38, is a government official specialising in agriculture and food policy. She’s known for her diplomatic skills and passion for improving food systems. With a degree in environmental law, Clara has worked in local and international agencies. She believes in stakeholder collaboration to craft policies that benefit both producers and consumers.
+
+Dr. Ahmed – The Researcher/Professor
+Description before you click on the character: Meet Ahmed, the researcher turning science into real-world solutions.
+
+If you click Ahmed:
+Bio: Dr. Ahmed, 52, is a renowned scientist specialising in animal genetics and sustainable agriculture. He spends his days in labs and classrooms, mentoring young researchers. With decades of research and numerous publications, Ahmed bridges the gap between academia and practice. He’s driven to find solutions to improve productivity while preserving biodiversity.
+
+Sofia – The Private Sector Representative
+Description before you click on the character: Meet Sofia, the business mind shaping how sustainability scales.
+
+If you click Sofia:
+Bio: Sofia, 34, is an ambitious marketing executive in a global food corporation. She’s passionate about innovation and scaling sustainable business models. After earning an MBA, Sofia joined the agri-food industry, focusing on strategies that align profitability with sustainability. She enjoys negotiating partnerships and advocating for corporate responsibility.
+
+Outcomes
+
+Answer A always gets ... points and leads to scenario 3 (link: )
+
+Answer B always gets ... points and leads to scenario 2 (link: )
+
+Answer C always gets ... points and leads to scenario 1 (link: )
+
+Start the journey with Emma
+
+Introduction:
+
+I am preparing a dinner party for my friends, which has me reflecting on my food choices, values and the bigger picture of sustainability. I need your help deciding where to shop. I care about the environment, but I also need to be practical. What do you think I should do? 
+
+By answering a few questions, you can help me get through the day!
+
+Question 1
+
+Emma says: I’m about to head out to shop for food for my party. Where should I go? It’s Saturday morning so all possible locations are open. 
+
+Where do you go shopping?
+
+A: The farmers’ market: it’s the furthest away with mid-price produce. You would be supporting farmers and getting high-quality fresh produce that is produced ethically, but they might not have everything you need.
+
+B: The specialty store: it’s a bit further away and more expensive but has all products you need, and you would be supporting a local sustainable business.
+
+C: The supermarket chain: it’s cheaper, closest to your apartment and is guaranteed to have all products and ingredients you need, but you cannot be sure if the products are sustainably produced as they are less transparent about their products.
+
+Trade-offs:
+
+You chose: The farmers’ market
+I contributed directly to farmers and chose fresh, seasonal food with a lower environmental footprint. It did take more time, though, and I needed a second stop to complete my list.
+
+You chose: The specialty store
+I supported a local business with sustainable practices and good quality products. It did take a while to travel there and was on the pricier side, which makes it harder to maintain.
+
+You chose: The supermarket chain
+I saved time and money with a convenient one-stop shop. However, my choices did support long supply chains and less transparent, industrial production.
+
+Question 2
+
+Emma says: On my way home, I saw a flyer that explained the benefits of local, small-scale farming. As I unpack my groceries and see the variety of brands and labels it gets me thinking. 
+
+When buying groceries, what matters most to you? Both in terms of price and the labels you trust.
+
+A: Supporting sustainable, local, or transparent food systems is your top priority, even if it costs more or limits your choices.
+
+B: You try to balance affordability with sustainability, looking for some eco-friendly or certified options when possible.
+
+C: Convenience, affordability, and familiar big brands matter most, sustainability is no issue for you.
+
+Trade-offs:
+
+You chose: Supporting sustainable food systems
+I put environmental and ethical values first, choosing local, certified, or minimally processed products. It supports small-scale farmers and sustainability, though it can come with higher costs, fewer options and less convenience.
+
+You chose: A balanced approach
+I try to balance price, convenience, and sustainability, picking certified or local products when I can. It’s a practical approach, but the trade-offs aren’t always clear.
+
+You chose: Convenience and affordability
+I love easy, accessible shopping and stick to familiar brands. It’s practical and budget-friendly, but it does come with a higher environmental footprint and less transparency.
+
+Question 3
+
+Emma says: My dinner party has started. One of my friends starts a discussion on animal welfare rights and how they should be a priority in farming and when buying food. 
+
+How do you respond to animal welfare concerns in your shopping habits?
+
+A: You avoid animal products, preferring to shop plant based and eating vegetarian or vegan. 
+
+B: You support products with certifications ensuring better living conditions for animals, even if they are pricier, and you eat less meat.
+
+C: You don’t prioritize or think about animal welfare when shopping.
+
+Trade-offs:
+
+You chose: Avoid animal products
+I eliminate animal-based foods. It significantly reduces the environmental and animal welfare impact, but also limits my diet.
+
+You chose: Certified or more ethical animal products
+You support higher animal welfare through labeled products or a partially plant-based diet. These often cost more, but reflect a concern for how animals are raised and treated.
+
+You chose: Don’t prioritise animal welfare
+Your choices are driven by cost or convenience, and animal welfare isn’t a deciding factor. This approach supports mainstream supply chains, but often involves lower standards of animal care.
+
+Question 4
+
+Emma says: Later in the evening, I listen as my friends debate the role of environmental protection in food production, with one arguing it is essential and another claiming it distracts from increasing productivity to feed a growing global population.
+
+How do you perceive environmental protection in our food systems?
+
+A: You often think about environmental protection and try to prioritize products that seem to be supportive of it.
+
+B: You try to be greener by shopping for organic and more sustainable products, but don’t think about environmental protection itself that much.
+
+C: You don’t really think about it.
+
+Trade-offs:
+
+You chose: Prioritize environmental protection
+I make conscious decisions to reduce my environmental footprint. It does require effort and comes with a higher cost, but it contributes to long-term ecological health.
+
+You chose: Some sustainable products
+I try to shop more sustainably, but environmental protection isn’t my central focus. It supports better practices but the impact is limited.
+
+You chose: Don’t think about it
+I don’t really consider environmental impact in food choices, I focus on other priorities! It’s a stress-free approach but it does allow unsustainable practices to continue to go unchallenged.
+
+Question 5
+
+Emma says: My friends then move on to another debate about the growing importance of local food, with some arguing that buying local is always better for sustainability while others believe global trade is essential for affordability, availability, and food security.
+
+How do you view buying local vs. imported products?
+
+A: You strictly support locally sourced food, buying most of your products from local farmer markets and coops, even if it means you pay more for your food. 
+
+B: You see local food as a way to support local farmers, you buy some of your food locally and are willing to pay a little bit more for these products.
+
+C: You prioritize affordability and don’t mind buying imported products.
+
+Trade-offs:
+
+You chose: Strictly local sourcing
+I fully commit to local food systems, resulting in sustainability and community support. This does mean there is less variety and higher prices so it does require a little more planning.
+
+You chose: Balanced local approach
+I try to support local farmers, but also still enjoy the benefits of global trade. It’s a thoughtful middle path, but my impact is smaller.
+
+You chose: Prioritize affordability
+I choose imported products, it gives me variety and is budget-friendly. However it supports longer supply chains, so higher emissions and less local support.
+
+Question 6
+
+Emma says: One of my friends, who works in climate monitoring, raises food system resilience, pointing to droughts and extreme weather and how they can disrupt supply chains, which leads us to discuss how climate events shape our views on trade and global supply chains.
+
+What do you think about this?
+
+A: You believe that self-reliant, small-scale food systems are essential to long-term sustainability and should be prioritized. 
+
+B: You support balanced systems with moderate resilience but higher environmental awareness.
+
+C: You prefer systems with robust supply chains that guarantee affordability and availability, even during times of crisis or uncertainty.
+
+Trade-offs:
+
+You chose: Local self-reliance
+I focus on smaller-scale, resilient systems that depend less on global trade. If a crisis occurs I can easily get products however de availability is limited and it costs more. 
+
+You chose: Balanced resilience approach
+I support systems that balance resilience and sustainability relying somewhat on global trade but mindful of risks. This is more adaptable, but not fully future-proof.
+
+You chose: Prioritize stable global supply chains
+I value consistent access and low prices. Which makes the climate a bit more vulnerable. 
+
+Question 7
+
+Emma says: During dessert, a heated discussion breaks out: who should be leading the transition for more sustainable products? And who should pay for it?
+
+Who do you think should be leading on this issue?
+
+A: I don’t mind paying significantly more for products that are proven to have minimal environmental impact, and it makes me feel aware and responsible for my choices.
+
+B: I believe it should be a mix. I am willing to pay a moderate premium for products that clearly support sustainable practices. 
+
+C: I think companies and policy makers should be leading on this issue, ensuring companies are not hiking prices for consumers
+
+Trade-offs:
+
+You chose: Shared responsibility with willingness to pay more
+
+You’re open to paying slightly more to support sustainable transitions. It’s a practical middle ground, though real impact still depends on broader system shifts.
+
+You chose: Companies and policymakers should lead
+
+You place responsibility on institutions and don’t want rising costs passed to consumers. While this reduces your personal burden, it may delay change if market demand is low.
+
+You chose: Consumer-led, even with high costs
+
+You embrace the idea of paying more for better products and systems. This puts values into action, but may strain budgets or limit access for others.
+
+Question 8
+
+Emma says: My friends have left and I have started cleaning up. On the radio there is a discussion about policies supporting food self-sufficiency in Europe and how they can rely less on other countries. I think about this and reflect on our debates earlier this evening.
+
+How do think about this topic?
+
+A: You support self-sufficiency policies, favoring locally-produced products even if they limit variety.
+
+B: You prefer to support policies that encourage a balanced approach to self-sufficiency while maintaining trade options.
+
+C: . You value affordable imports and don’t prioritize self-sufficiency as long as products meet your needs.
+
+Trade-offs:
+
+You chose: Prioritize self-sufficiency
+I favor regional production. It reduces import reliance but can lead to less variety. 
+
+You chose: Balanced self-sufficiency and trade
+I support regional food security but also keep global partnerships. It’s flexible forward-thinking, though may require policy changes and public support.
+
+You chose: Global imports
+I support trade and affordability, even if it means reliance on other regions.
+
+Start the journey with Luca
+
+Introduction:
+
+I am navigating a busy week on the farm! Juggling management, weather challenges and keeping up with buyers and neighbors. My role in changing agricultural landscape is pretty big, I have quite a few responsibilities, decisions to make and reflecting to do.
+
+By answering a few questions, you can help me get through the day!
+
+Question 1
+
+Luca says: I notice some neighbors adopting new feeding techniques to improve herd productivity and longevity. My feed supplier suggests a high-protein feed, but I’m unsure it fits my values and goals. After talking with my advisor, I’m presented with three options. Which one do I choose?
+
+What approach do you take to animal feeding?
+
+A: You opt for a low-impact, natural grazing method that prioritizes animal welfare and lower environmental impact. 
+
+B: You incorporate regionally-sourced feed to strike a balance between productivity and environmental impact.
+
+C: You adopt a high-performance feed to maximize productivity, even if it means relying on imports.
+
+Trade-offs:
+
+You chose: Regional Feed for Balanced Impact
+I aim to be both productive and environmentally conscious. This supports local economies but might be a little inconsistent or costs more.
+
+You chose: High-performance feed for productivity
+I value efficiency and output. This keeps your farm competitive, but at the cost of greater reliance on imports and potentially higher emissions.
+
+You chose: Natural grazing for welfare
+I’m committed to a low-impact system. It aligns with animal welfare and climate goals but may lower output or require more land.
+
+Question 2
+
+Luca says: While walking around my farm, I reflect on how my practices affect the surrounding landscape, considering whether converting some land to natural habitats or agroforestry is worth the potential impact on yield. 
+
+How do you manage your farm’s impact on the landscape?
+
+A: You set aside significant parts of your land for rewilding and natural habitats, even if it reduces productivity.
+
+B: You incorporate buffer zones and hedgerows, balancing productivity with landscape preservation.
+
+C: You prioritize productivity and maintain your current farmland without major changes.
+
+Trade-offs:
+
+You chose: Rewilding for biodiversity
+I’m leading on restoration and environmental care. This supports ecosystems, but it might imply lower yields and income.
+
+You chose: Mixed zones for balance
+I’m finding a compromise between conservation and productivity. It’s a thoughtful middle path, though it still requires more complex and structured effort and planning.
+
+You chose: Maximize productivity on existing land
+I’m focused on output and keeping systems unchanged. It’s efficient, but sometimes I miss opportunities to support biodiversity or future resilience.
+
+Question 3
+Luca says: Last summer’s drought hit my farm hard, and with climate challenges becoming more frequent, I’m thinking about how to make my farm more resilient to shocks like droughts or floods.
+
+How do you prioritize resilience on your farm?
+
+A: You shift to a low-input system that relies on natural resilience, even if it reduces yields in the short term.
+
+B: You diversify your crops and livestock, implementing use of special crops or specific breeding strategies to adapt to changing conditions while maintaining stability.
+
+C: You invest in infrastructure like irrigation systems to mitigate environmental risks and maintain productivity.
+
+Trade-offs
+
+You chose: Low-input natural resilience
+I’m embracing nature-based resilience. It’s a sustainable choice, but may involve lower income and increased uncertainty in the first period and mid-term.
+
+You chose: Diversify for adaptability
+
+I’m spreading risk across multiple activities. This makes mee more resilient, though it may complicate operations, limit specialization and costs more. 
+
+You chose: Invest in infrastructure
+I’m building technical solutions to stay productive. This may protect my farm short-term, but adds cost and resource use.
+
+Question 4
+
+Luca says: One of my regular farmers market buyers is more conscious of animal welfare and sustainability and asks how my farming practices reflect these values.
+
+How do you respond to buyer preferences?
+
+A: You market your products as high-welfare and sustainable, targeting niche consumers willing to pay a premium.
+
+B: You adjust your practices to ensure a balance between affordability, sustainability, and animal welfare. 
+
+C: You focus on producing affordable products to meet market demand, regardless of welfare or sustainability. 
+
+Trade-offs:
+
+You chose: Target conscious consumers
+I’m leaning into high standards and niche branding. This can boost loyalty and margins, but can narrow my market and raises costs.
+
+You chose: Balance ethics and price
+I’m adapting to shifting values without alienating price-conscious buyers. It’s a flexible, inclusive approach, but hard to optimize.
+
+You chose: Prioritize affordability
+I’m responding to price sensitivity and ensuring accessibility. However, this means I may miss chances to stand out or lead on sustainability.
+
+Question 5
+
+Luca says: A representative from an environmental organization visits my farm to talk about multifunctionality, balancing food production with environmental goals. I’m interested but unsure how to move forward.
+
+How do you incorporate multiple functions or purposes into your farming strategy?
+
+A: You fully embrace multifunctionality, shifting your focus to environmental stewardship over production.  
+
+B: You integrate practices like agroforestry in food production and hopefully they will bring environmental benefits.
+
+C: You focus on maximizing food production and considering the environmental impact as secondary.
+
+Trade-offs:
+
+You chose: Lead with environmental goals
+I’m shifting toward stewardship and long-term ecological impact. The difficulties of this choice could be mitigated with financial tools provided by national institutions and the European level. 
+
+You chose: Integrate environmental practices
+I’m aiming to support both food systems and nature. This makes my farm more diverse and resilient, though it takes extra effort.
+
+You chose: prioritize food production
+I’m focused on core outputs and food security. It’s clear and efficient, but could overlook the broader role farms can play.
+
+Question 6
+
+Luca says: I’ve noticed a decline in wildlife diversity on my farm and am considering steps to preserve biodiversity. I do think this will require significant changes.
+
+What measures do you take to preserve biodiversity?
+
+A: You transition parts of your farm to natural habitats to fully support biodiversity, even at the expense of yields.
+
+B: You create targeted wildlife corridors and plant cover to balance biodiversity with productivity.
+
+C: You focus on efficient land use for farming, minimizing habitat restoration efforts. 
+
+Trade-offs:
+
+You chose: Prioritize biodiversity
+I’m putting ecological recovery first. This strengthens environmental outcomes but comes with yield and profit trade-offs.
+
+You chose: Balanced biodiversity measures
+
+I’m supporting nature without sacrificing too much productivity. It’s a smart mix, but requires ongoing care and coordination.
+
+You chose: Prioritize efficient land use
+I’m staying focused on production. It’s a straightforward approach, but risks degrading ecosystem health long-term.
+
+Question 7
+
+Luca says: A supplier warns me about possible feed delivery disruptions, prompting me to think about how to strengthen my farm’s resilience to supply chain issues.
+
+How do you ensure system resilience on your farm?
+
+A: You transition to self-sufficient systems, such as growing your own feed, to minimize reliance on external suppliers. 
+
+B: You use a mix of external and locally-sourced feed to reduce dependence on external suppliers.
+
+C: You sign contracts with multiple suppliers to guarantee a steady flow of affordable inputs.
+
+Trade-offs:
+
+You chose: Become self-sufficient
+I’m opting for independence and resilience. It’s sustainable long-term, it does need planning, land, and upfront investment.
+
+You chose: Mix local and external inputs
+I’m building flexibility and local connections. This reduces risks while keeping some convenience, but takes coordination.
+
+You chose: Secure external supply lines
+I’m managing risk through the market. It’s cost-effective, but keeps me vulnerable to global disruptions.
+
+Question 8
+
+Luca says: A local journalist comes to visit my farm. They ask how I respond to changing societal expectations around farming practices.
+
+How do you adapt his farming practices to public opinion?
+
+A: You shift your practices significantly to align with public demand for sustainable and ethical farming. 
+
+B: You adapt your practices to reflect a balance between public expectations and practical realities. 
+
+C: You focus on efficiency and cost-effectiveness, regardless of public concerns.
+
+Trade-offs:
+
+You chose: Align with public values
+I’m leading the way in ethical and sustainable farming. It positions me as a role model, but may increase pressure and complexity
+
+You chose: Adapt with balance
+I’m responsive but grounded. This approach helps maintain trust and flexibility, though it may require ongoing compromise.
+
+You chose: Prioritize internal efficiency
+I’m focused on running my farm my way. It’s practical, but could create a dicsonnect with changing consumer values.
+
+Start the journey with Clara  
+
+Introduction:
+
+I’m starting a busy day in my office in Brussels! Between drafting new legislations and meeting with stakeholders, I’m juggling many responsibilities that will shape the future of agriculture and food systems. I have important decisions to make and could use your help with them. 
+
+By answering a few questions, you can help me get through the day!
+
+Question 1
+
+Clara says: I usually begin my mornings reviewing proposals. My team is divided between focusing on increasing food security, promoting sustainability and supporting small scale farmers.  
+
+What do you prioritize in your policy?
+
+A: Policies that strongly support small-scale and local farmers to preserve rural livelihoods.
+
+B: Balanced policies that integrate sustainability with economic growth. 
+
+C: Policies that focus on maximizing food production to ensure food security for all.
+
+Trade-offs:
+
+You chose: Support small-scale farmers
+I place rural resilience and equity at the center. This strengthens local economies but may require extra investment and coordination to scale.
+
+You chose: Balance sustainability and growth
+I’m building policies that address both ecological concerns and economic realities. It’s a realistic path forward but could lack bold action where needed.
+
+You chose: Maximize food production
+I aim to secure a steady food supply for everyone, prioritizing availability above all. While efficient, this may come at the cost of long-term environmental and social resilience.
+
+Question 2
+
+Clara says: After reviewing I attend a meeting with stakeholders, including farmers, researchers, and private sector representatives. Each group has conflicting priorities.
+
+How do you approach the meeting?
+
+A: You advocate for underrepresented groups, ensuring their voices are heard and prioritized.
+
+B: You seek common ground, crafting policies that balance diverse stakeholder needs.
+
+C: You prioritize the interests of large-scale producers to ensure economic stability.
+
+Trade-offs:
+
+You chose: Elevate underrepresented voices
+I champion equity in decision-making. This can bring fresh perspectives and justice to policy—but may challenge dominant interests.
+
+You chose: Find balance among stakeholders
+I’m navigating competing priorities with diplomacy. It’s a fair, inclusive approach, though reaching consensus may delay urgent decisions.
+
+You chose: Prioritize large-scale producers
+I’m safeguarding economic output and stability. This can keep systems running efficiently but may reinforce existing inequalities or environmental issues.
+
+Question 3
+
+Clara says: During a briefing, my advisors present data on the agricultural sector’s contribution to climate change. I need to draft a policy response.
+
+What focus do you choose?
+
+A: Policies that prioritize agroecological systems, even at the expense of lower outputs. 
+
+B: Policies promoting climate-smart practices that balance productivity with resilience.
+
+C: Policies that encourage intensive, high-yield systems with lower emissions.
+
+Trade-offs:
+
+You chose: Embrace agroecology
+I’m committing to systems that work with nature, not against it. This fosters long-term health but may limit short-term yields and scalability.
+
+You chose: Promote climate-smart practices
+I’m taking a forward-looking, balanced approach. It supports productivity and adaptation, though implementation can be complex and uneven.
+
+You chose: Low-emission intensive systems
+I’m maximising output while cutting emissions—focusing on tech-driven solutions. It’s efficient, but may still strain natural resources and ecosystems.
+
+Question 4
+
+Clara says: I attend a parliamentary debate on animal welfare standards. Lobbyists argue for different levels of regulation.
+
+What stance do you take?
+
+A: Push for strict animal welfare standards, emphasizing ethics over cost concerns. 
+
+B: Advocate for moderate standards that improve welfare without burdening producers.
+
+C: Support minimal regulations to keep production costs low and food affordable.
+
+Trade-offs:
+
+You chose: Strict welfare standards
+I’m setting a high ethical bar, protecting animal rights regardless of cost. It leads by example, but could face economic resistance.
+
+You chose: Moderate standards
+I’m advancing animal welfare step by step, balancing compassion with practicality. It’s politically viable, though progress may be slow.
+
+You chose: Minimal regulation
+I’m prioritizing cost control and market stability. While effective in keeping food prices low, this overlooks ethical and consumer concerns and might be at the expense of animals and environment.
+
+Question 5
+
+Clara says: At a meeting on biodiversity, you hear proposals ranging from intensive monoculture systems to diverse, low-input systems.
+
+What do you champion?
+
+A: Low-input systems that protect biodiversity at all costs. 
+
+B: Mixed systems that balance biodiversity with agricultural productivity, their implementation might be more unlikely and difficult for farmers, due to the higher costs.
+
+C: High-yield systems that prioritize efficiency over biodiversity. 
+
+Trade-offs:
+
+You chose: Prioritize biodiversity
+I’m focused on ecological integrity, even if yields drop. It’s a nature-first approach that may demand major shifts in consumption and distribution.
+
+You chose: Balance biodiversity and productivity
+I’m promoting innovation that doesn’t pit nature against farming. It’s complex to implement but supports multiple goals.
+
+You chose: Prioritize efficiency
+I’m working toward maximum output, which can feed more people. Yet, this often means sacrificing ecological health and long-term viability.
+
+Question 6
+
+Clara says: A drought in a neighboring region is disrupting food supplies, I’m asked to propose an emergency response.
+
+What solution do you prioritize?
+
+A: Advocate for long-term investments in sustainable, self-sufficient food systems.
+
+B: Support local farmers with subsidies to build resilience and maintain supply.
+
+C: Scale up imports to ensure affordable and consistent food supplies.
+
+Trade-offs:
+
+You chose: Invest in self-sufficiency
+I’m rethinking the system to prevent future shocks. It’s visionary, but slower to implement, and may require public support for higher costs.
+
+You chose: Subsidize local resilience
+I’m investing in your region’s future while responding to crisis. It supports long-term stability, but may not fully meet short-term needs.
+
+You chose: Increase imports
+I’m acting fast to stabilize prices and supply. It’s efficient for immediate relief but could entrench global dependencies and emissions.
+
+Question 7
+
+Clara says: In the evening, I’m reviewing a draft policy requiring companies to reduce their environmental footprint, which may increase food prices.
+
+What approach do you take?
+
+A: Push for strong regulation that makes some foods more expensive due to higher sustainability standards.
+
+B: Encourage gradual changes that balance affordability with environmental goals. 
+
+C: Minimize costs for companies to keep food prices affordable.
+
+Trade-offs:
+
+You chose: Prioritize environmental responsibility
+I’m enforcing accountability and pushing systems to evolve. It may raise prices, but puts sustainability front and center
+
+You chose: Gradual but firm change
+I’m promoting a just transition. It’s strategic and balanced, but requires monitoring and adjustment to stay effective.
+
+You chose: Keep food affordable
+I’m cautious about placing too much burden on companies or consumers. This maintains accessibility, but could slow environmental progress.
+
+Question 8
+
+Clara says: At the end of the day, I like to reflect. This time I choose to reflect on my vision for the future of agriculture and food systems.
+
+What vision do you advocate?
+
+A: A localized, low-input system prioritizing resilience and environmental stewardship.
+
+B: A balanced system integrating innovation, sustainability, and stakeholder collaboration. 
+
+C: A highly efficient global system focused on affordability and availability. 
+
+
+Trade-offs:
+
+You chose: Local and resilient food systems
+I imagine a deeply sustainable, community-rooted food future. It’s regenerative and values-driven, though harder to scale quickly.
+
+You chose: Balanced and collaborative future
+I see a future built on shared goals and innovation. It’s inclusive and adaptable, though may require constant negotiation and leadership.
+
+You chose: Global efficiency and affordability
+I envision a streamlined, interconnected food system that feeds the world affordably. It’s productive, but may be vulnerable to shocks and ethics blind spots.
+
+Start the journey with Dr. Ahmed 
+
+Introduction: 
+
+I’m preparing for a busy day of work! I start my morning with a seminar. After I have my meetings with my team and my students. We talk about topics as leading voices in agriculture and genetics but also about the future of sustainable farming.
+
+By answering a few questions, you can help me get through the day!
+
+Question 1
+
+Dr. Ahmed says: In the morning, I present at a seminar where researchers debate genetic diversity in agriculture, weighing short-term yield gains against the long-term value of biodiversity.
+
+How do you advocate for biodiversity in your research?
+
+A: You focus on preserving wild and local breeds, even at the cost of reduced agricultural output.
+
+B: You promote programs that balance genetic improvement with maintaining a broad gene pool.
+
+C: You emphasize selective breeding for traits that maximize productivity, even if it reduces genetic variation.
+
+Trade-offs:
+
+You chose: Preserve local and wild breeds
+I’m standing for genetic heritage and ecosystem health. This builds resilience but may limit competitiveness in high-output markets.
+
+You chose: Balance improvement and diversity
+I’m working to future-proof agriculture while meeting present needs. It’s a strategic mix of science, stewardship, and practicality.
+
+You chose: Maximize productivity
+I’m advancing science to deliver results now. It’s efficient and results-driven but risks narrowing genetic resilience.
+
+Question 2
+
+Dr. Ahmed says: Back in the lab, my team presents a breakthrough genetic technique. While it promises to significantly improve productivity, ethical concerns about its application spark debate.
+
+How do you address the situation?
+
+A: You halt the application, advocating for broader societal acceptance before implementation.
+
+B: You support piloting the technique, balancing ethical concerns with transparency and dialogue. 
+
+C: You push for immediate application of the technology to maximize agricultural efficiency.
+
+Trade-offs:
+
+You chose: Halt and reflect
+I’m prioritizing societal dialogue over technological speed. This protects public trust but may delay urgent solutions.
+
+You chose: Pilot with caution
+I’m charting a responsible path, testing innovation while keeping ethical debates open. It builds credibility, though it may slow progress.
+
+You chose: Immediate application
+I’m moving fast to bring innovation to the field. It’s ambitious, but risks public backlash and ethical dilemmas if trust is not built.
+
+Question 3
+
+Dr. Ahmed says: After lunch, I meet with my students. They are split between focusing on theoretical breakthroughs and pursuing practical applications in farming.
+
+How do you guide them?
+
+A: You prioritize field-based research that directly benefits local communities and ecosystems. 
+
+B: You encourage focusing on theoretical breakthroughs that advance the field globally.
+
+C: You promote integrating theory with practical, real-world farming applications.
+
+Trade-offs:
+
+You chose: Integrate theory and practice
+I’m mentoring the next generation to bridge research and reality. It’s well-rounded, though not always easy to balance.
+
+You chose: Focus on theory
+I’m fueling big-picture thinking and scientific innovation. It’s intellectually rich, though practical outcomes may take longer to emerge.
+
+You chose: Focus on local impact
+I’m rooting research in real-world relevance. It builds immediate benefits for communities, but may receive less recognition in academic circles.
+
+Question 4
+
+Dr. Ahmed says: In the afternoon, I join a policy roundtable on mitigating livestock’s impact on climate change. The group discusses strategies ranging from intensive systems to low-input approaches.
+
+What strategy do you support?
+
+A: Advocating for low-input systems that focus on natural adaptation and minimal environmental impact.
+
+B: Developing balanced systems that incorporate genetic traits for resilience and lower emissions.
+
+C: Promoting intensive systems that optimize efficiency and minimize emissions.
+
+Trade-offs:
+
+You chose: Low-input systems
+I’m pursuing harmony with nature, advocating for less intervention and more resilience. It’s transformative but may be seen as niche or less scalable.
+
+You chose: Balanced systems
+I’m combining innovation with ecological awareness. It’s a compromise that aims to satisfy productivity and sustainability goals.
+
+You chose: Promote intensive systems
+I’m working to scale impact fast through optimized systems. It’s efficient, but could strain ecological systems and social acceptance.
+
+Question 5
+
+Dr. Ahmed says: I receive an invitation to join a public-private partnership aimed at accelerating innovation in animal breeding. I must decide how to approach this collaboration.
+
+What role do you take?
+
+A: You ensure academia leads the initiative to maintain transparency and ethical oversight. 
+
+B: You support a balanced approach, emphasizing the need for academia-industry collaboration.
+
+C: You advocate for the private sector to lead, leveraging their resources for rapid results.
+
+Trade-offs:
+
+You chose: Academic leadership
+I’m guarding ethical rigor and public trust. It preserves integrity but may limit funding or innovation pace.
+
+You chose: Balanced collaboration
+I’m building bridges—leveraging strengths on both sides. It fosters synergy, though managing expectations can be challenging.
+
+You chose: Private sector leadership
+I’m aiming for speed and scalability through industry muscle. It can accelerate innovation but raises questions about accountability.
+
+Question 6
+
+Dr. Ahmed says: As I finish my day in the lab, I receive an email criticizing my involvement in projects funded by large corporations. I know this could spark controversy.
+
+How do you respond?
+
+A: You prioritize public funding to maintain independence and align fully with societal goals.
+
+B: You promote transparency in partnerships, ensuring ethical practices and public accountability.
+
+C: You emphasize the necessity of corporate funding for advancing impactful research.
+
+Trade-offs:
+
+You chose: Prioritize public funding
+I’m committed to independence and the public good. This ensures alignment with social values but may limit resources or project scope.
+
+You chose: Promote transparency
+I’m opening the doors to scrutiny to build trust. It’s a strong middle ground, but requires constant effort and communication.
+
+You chose: Justify corporate funding
+I’m defending the pragmatic route-funding fuels science. It’s realistic, though public trust may hinge on transparency.
+
+Question 7
+
+Dr. Ahmed says: During dinner, I receive a call about a grant focused on improving livestock health through genetic innovation. Please help me decide on the focus of my application.
+
+What aspect do you prioritize?
+
+A: Preserving natural health traits in traditional breeds, even at the cost of lower output.
+
+B: Improving genetic traits that balance health, welfare, and environmental sustainability.
+
+C: Enhancing productivity by selecting animals with higher disease resistance.
+
+Trade-offs:
+
+You chose: Preserve natural traits
+I’m protecting genetic heritage and ecological balance. It’s future-oriented, but may need more support to compete with commercial systems.
+
+You chose: Balanced genetic improvements
+I’m addressing multiple challenges at once: productivity, welfare, and environment. It’s ambitious and holistic, but not a quick fix.
+
+You chose: Disease resistance for productivity
+I’m focused on optimizing animal performance. It’s impactful for food systems but may overlook long-term ecosystem complexity.
+
+Question 8
+
+Dr. Ahmed says: Later in the evening, I’m asked to provide input for a policy briefing on sustainable livestock systems. I know my perspective will shape how these systems are supported.
+
+What is your main message?
+
+A: Promote small-scale, diverse systems as the cornerstone of sustainable food systems. 
+
+B: Advocate for policies that integrate sustainable practices into productive systems.
+
+C: Support intensive farming systems to meet global food demands efficiently.
+
+Trade-offs:
+
+You chose: Small-scale diverse systems
+I’m reimagining the food system from the ground up. It’s community-driven and resilient, but may face barriers to broad adoption.
+
+You chose: Integrate sustainability into productivity
+I’m aligning policy with innovation and stewardship. It’s a balanced approach with wide appeal, though implementation may be complex.
+
+You chose: Intensive farming systems
+I’m focusing on feeding the world efficiently. It’s production-first, but may sideline environmental or social concerns.
+
+Start the journey with Sofia
+
+Introduction:
+
+I wake up bright and early, ready to tackle a full day of meetings, decisions and pitches that will shape my companies impact on food systems and sustainability! 
+
+By answering a few questions, you can help me get through the day!
+
+Question 1
+
+Sofia says: Mid-morning, I meet with a local farming cooperative interested in supplying the company. The cooperative promotes sustainable practices but has higher costs compared to larger suppliers.
+
+What partnership approach do you pursue?
+
+A: Fully commit to the cooperative, prioritizing sustainability and ethical sourcing.
+
+B: Establish a partnership with the cooperative, balancing cost and sustainability.
+
+C: Partner with large suppliers to ensure lower production costs and higher margins.
+
+Trade-offs:
+
+You chose: Fully support the cooperative
+I’m putting principles first and investing in a transparent, ethical model. It’s aligned with sustainability but may demand higher consumer prices or tighter margins.
+
+You chose: Balanced partnership
+I’m building supply chains that respect both sustainability and business health. It’s adaptable, but requires ongoing negotiation and trust.
+
+You chose: Large suppliers
+I’m protecting margins and scaling efficiently. It’s financially sound, but risks distancing the brand from ethical sourcing values.
+
+Question 2
+
+Sofia says: In a marketing strategy session, my team reviews data showing consumers increasingly value transparency in food production. They discuss how to respond.
+
+What marketing approach do you support?
+
+A: Promote transparency initiatives that show the company is moving toward sustainability.
+
+B: Launch a progressive campaign emphasizing full traceability and eco-certifications.
+
+C: Highlight the affordability and convenience of products without focusing on production details. 
+
+Trade-offs:
+
+You chose: Full traceability
+I’m taking a stand for openness and sustainability. It’s high-impact branding, but requires systems that match the message.
+
+You chose: Moderate transparency
+I’m signaling positive change without overpromising. It’s a calculated step that can build consumer trust over time.
+
+You chose: Affordability and convenience
+I’m doubling down on what sells: simple value. It appeals to mass markets but may overlook rising demands for accountability.
+
+Question 3
+
+Sofia says: I receive a report on the company’s carbon emissions and their impact on supply chains. The sustainability team proposes new, greener logistics systems.
+
+How do you respond?
+
+A: Overhaul logistics to minimize emissions, even if it increases short-term costs.
+
+B: Gradually invest in greener logistics that balance environmental impact with costs.
+
+C: Maintain current logistics systems to keep operations cost-efficient. 
+
+Trade-offs:
+
+You chose: Full logistics overhaul
+I’m making a bold move to align logistics with climate goals. It shows leadership but requires financial and stakeholder resilience.
+
+You chose: Gradual investments
+I’m balancing environmental concerns with economic logic. It’s a steady path forward, measured, but progress-oriented.
+
+You chose: Maintain current systems
+I’m optimizing for operational efficiency and cost control. It keeps margins intact, but may draw criticism in sustainability assessments.
+
+Question 4
+
+Sofia says: In the afternoon, I attend a conference on agri-food innovation. A startup pitches a groundbreaking technology to improve soil health, but it requires significant investment.
+
+What funding decision do you make?
+
+A: Fully support the startup, prioritizing innovation that aligns with sustainability goals.
+
+B: Invest cautiously, balancing risk with the potential for long-term gains.
+
+C: Focus on proven technologies that ensure quick returns.
+
+Trade-offs:
+
+You chose: Full startup support
+I’m investing in transformation over certainty. It’s visionary and values-driven, but comes with financial risk and the need for patient capital.
+
+You chose: Cautious investment
+I’m taking a calculated risk on innovation. It’s the middle road—supporting change while protecting stability.
+
+You chose: Proven technologies
+I’m playing it safe and smart. Ensuring ROI and minimizing risk. It’s strategic, though it may limit disruptive innovation.
+
+Question 5
+
+Sofia says: My company is revising its animal welfare policies. Advocacy groups are pushing for higher standards, while some suppliers resist changes due to cost concerns.
+
+What stance do you take?
+
+A: Push for high welfare standards, aligning with consumer demand and ethical responsibility.
+
+B: Advocate for moderate welfare policies that improve standards without drastic cost increases.
+
+C: Support minimal welfare improvements to maintain supplier relationships and affordability. 
+
+Trade-offs:
+
+You chose: High welfare standards
+I’m responding to the ethical imperative head-on. It strengthens the brand’s values, but may require supply chain reform and consumer buy-in.
+
+You chose: Moderate welfare standards
+I’m lifting standards at a manageable pace. It signals responsibility without shocking the supply chain.
+
+You chose: Minimal improvements
+I’m prioritizing supplier stability and cost control. It’s business-friendly, but may fall short of consumer or advocacy expectations.
+
+Question 6
+
+Sofia says: A major flood hits a region where my company sources key ingredients for its plant-based snacks, damaging roads, farms, and warehouses. Shipments of chickpeas and lentils are suddenly delayed, and shelves risk going empty. I must decide how to adapt to keep products flowing and meet customer demand.
+
+What solution do you implement?
+
+A: Focus on local suppliers and self-reliant systems to strengthen long-term resilience. 
+
+B: Diversify supply chains, balancing resilience with environmental and social considerations.
+
+C: Source from large suppliers to ensure consistent supply at the lowest cost.
+
+Trade-offs:
+
+You chose: Local, self-reliant systems
+I’m building long-term resilience through proximity and sustainability. It’s bold and values-led, but may raise costs and limit supply flexibility.
+
+You chose: Diversify supply chains
+I’m managing complexity for resilience. It’s a smart balance, adaptive and robust, though harder to coordinate.
+
+You chose: Large suppliers
+I’m ensuring business continuity through scale and efficiency. It’s low-risk short term but may increase vulnerability to future shocks.
+
+Question 7
+
+Sofia says: During a board meeting, I face a critical decision: prioritize a high-margin product line or invest in a sustainable but lower-margin initiative.
+
+What do you prioritize?
+
+A: The sustainable initiative, prioritizing long-term brand value over immediate profits.
+
+B: A balanced approach that ensures financial growth while introducing sustainable options.
+
+C: The high-margin product, focusing on maximizing profitability for the company.
+
+Trade-offs:
+
+You chose: Sustainable initiative
+I’m investing in future brand equity and purpose. It’s a bold move that signals leadership, even if it slows short-term gains.
+
+You chose: Balanced approach
+I’m aligning sustainability with financial strategy. It’s steady and adaptable, but requires careful storytelling and product design.
+
+You chose: High-margin product
+I’m staying focused on profitability. It’s clear-cut for growth, but may fall behind on ethical or environmental expectations.
+
+Question 8
+
+Sofia says: At the end of the day, I participate in a panel discussion on the future of food. Panelists debate whether the private sector should lead sustainability efforts or if government intervention is necessary.
+
+What perspective do you share?
+
+A: The private sector must lead by example, taking bold steps toward sustainability regardless of regulation.
+
+B: Collaboration between the private sector and policymakers is key to balanced solutions.
+
+C: The private sector should prioritize efficiency and profitability, with minimal regulation.
+
+Trade-offs:
+
+You chose: Private sector leadership
+I’m calling for bold action beyond compliance. It’s ambitious and inspiring, but it demands vision, transparency, and commitment.
+
+You chose: Collaboration is key
+I’m building bridges between sectors for real change. It’s practical and inclusive, though consensus-building takes time.
+
+You chose: Prioritize profit and efficiency
+I’m emphasizing the market’s role in driving progress. It’s a clean message, but may invite criticism for downplaying accountability.

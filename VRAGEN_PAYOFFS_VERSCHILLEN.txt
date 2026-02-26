@@ -1,0 +1,242 @@
+====================================================================================================
+VRAGEN EN PAYOFFS VERSCHILLEN - DOCUMENT vs ORIGINELE JSON (NA SYNC)
+====================================================================================================
+
+
+####################################################################################################
+# EMMA
+####################################################################################################
+
+VRAAG 1: Where do you go shopping?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 2: When buying groceries, what matters most to you? Both in terms of price and the labels you trust.
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 3: How do you respond to animal welfare concerns in your shopping habits?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 4: How do you perceive environmental protection in our food systems?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 5: How do you view buying local vs. imported products?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 6: What do you think about this?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 7: Who do you think should be leading on this issue?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 8: How do think about this topic?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+SUBTOTAAL EMMA: 24 verschillen
+
+
+####################################################################################################
+# LUCA
+####################################################################################################
+
+VRAAG 1: What approach do you take to animal feeding?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 2: How do you manage your farm's impact on the landscape?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 3: How do you prioritize resilience on your farm?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 4: How do you respond to buyer preferences?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 5: How do you incorporate multiple functions or purposes into your farming strategy?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 6: What measures do you take to preserve biodiversity?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 7: How do you ensure system resilience on your farm?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 8: How do you adapt his farming practices to public opinion?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+SUBTOTAAL LUCA: 24 verschillen
+
+
+####################################################################################################
+# CLARA
+####################################################################################################
+
+VRAAG 1: What do you prioritize in your policy?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 2: How do you approach the meeting?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 3: What focus do you choose?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 4: What stance do you take?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 5: What do you champion?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 6: What solution do you prioritize?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 7: What approach do you take?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 8: What vision do you advocate?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+SUBTOTAAL CLARA: 24 verschillen
+
+
+####################################################################################################
+# AHMED
+####################################################################################################
+
+VRAAG 1: How do you advocate for biodiversity in your research?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 2: How do you address the situation?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 3: How do you guide them?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 4: What strategy do you support?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 5: What role do you take?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 6: How do you respond?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 7: What aspect do you prioritize?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 8: What is your main message?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+SUBTOTAAL AHMED: 24 verschillen
+
+
+####################################################################################################
+# SOFIA
+####################################################################################################
+
+VRAAG 1: What partnership approach do you pursue?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 2: What marketing approach do you support?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 3: How do you respond?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 4: What funding decision do you make?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 5: What stance do you take?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 6: What solution do you implement?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 7: What do you prioritize?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+VRAAG 8: What perspective do you share?
+  PAYOFF A
+  PAYOFF B
+  PAYOFF C
+
+SUBTOTAAL SOFIA: 24 verschillen
+
+====================================================================================================
+TOTAAL VERSCHILLEN: 120 items
+====================================================================================================

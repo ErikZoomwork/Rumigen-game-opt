@@ -1,0 +1,890 @@
+====================================================================================================
+ALL TEXTUAL DIFFERENCES: DOCUMENT vs JSON
+====================================================================================================
+
+
+
+====================================================================================================
+EMMA - ALL TEXTUAL DIFFERENCES
+====================================================================================================
+
+
+[QUESTION 1]
+JSON QUESTION: Where do you go shopping?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: The farmers' market: it's the furthest away with mid-price produce. You would be supporting farmers and getting high-quality fresh produce, but they might not have everything you need.
+    >> Similar text not found in document
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: The specialty store: it's a bit further away and more expensive but has all products you need, and you would be supporting a local sustainable business.
+    >> Similar text not found in document
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: The supermarket chain: it's cheaper, closest to your apartment and is guaranteed to have all products and ingredients you need, but they are less transparent about their products.
+    >> Similar text not found in document
+
+
+[QUESTION 2]
+JSON QUESTION: When buying groceries, what matters most to you? Both in terms of price and the labels you trust.
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Sustainability First: supporting sustainable, local, or transparent food systems is your top priority, even if it costs more or limits your choices.
+    >> Similar text not found in document
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Approach: you try to balance affordability with sustainability, looking for some eco-friendly or certified options when possible.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I try to balance price, convenience, and sustainability, picking certified or lo...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Convenience & Affordability: convenience, affordability, and familiar big brands matter most, even if sustainability is less clear.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I love easy, accessible shopping and stick to familiar brands. It's practical an...
+
+
+[QUESTION 3]
+JSON QUESTION: How do you respond to animal welfare concerns in your shopping habits?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Plant-Based: you avoid animal products, preferring to shop plant based and eating vegetarian or vegan.
+    >> Similar text not found in document
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Certified Products: you support products with certifications ensuring better living conditions for animals, even if they are pricier, and you eat less meat.
+    >> Similar text not found in document
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: No Priority: you don't prioritize or think about animal welfare when shopping.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: Your choices are driven by cost or convenience, and animal welfare isn't a decid...
+
+
+[QUESTION 4]
+JSON QUESTION: How do you perceive environmental protection in our food systems?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Environmental Priority: you often think about environmental protection and try to prioritize products that seem to be supportive of it.
+    >> Similar text not found in document
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Moderate Green: you try to be greener by shopping for organic and more sustainable products, but don't think about environmental protection itself that much.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I try to shop more sustainably, but environmental protection isn't my central fo...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Other Priorities: you don't really think about it.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I don't really consider environmental impact in food choices, I focus on other p...
+
+
+[QUESTION 5]
+JSON QUESTION: How do you view buying local vs. imported products?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Strictly Local: you strictly support locally sourced food, buying most of your products from local farmer markets and coops, even if it means you pay more for your food.
+    >> Similar text not found in document
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Mixed Local: you see local food as a way to support local farmers, you buy some of your food locally and are willing to pay a little bit more for these products.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I try to support local farmers, but also still enjoy the benefits of global trad...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Global Trade: you prioritize affordability and don't mind buying imported products.
+    >> Similar text not found in document
+
+
+[QUESTION 6]
+JSON QUESTION: What do you think about this?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Self-Reliant Systems: you believe that self-reliant, small-scale food systems are essential to long-term sustainability and should be prioritized.
+    >> Similar text not found in document
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Resilience: you support balanced systems with moderate resilience but higher environmental awareness.
+    >> Similar text not found in document
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Robust Supply Chains: you prefer systems with robust supply chains that guarantee affordability and availability, even during times of crisis or uncertainty.
+    >> Similar text not found in document
+
+
+[QUESTION 7]
+JSON QUESTION: Who do you think should be leading on this issue?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Shared Responsibility: I believe it should be a mix. I am willing to pay a moderate premium for products that clearly support sustainable practices.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: You're open to paying slightly more to support sustainable transitions. It's a p...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Institutional Lead: I think companies and policy makers should be leading on this issue, ensuring companies are not hiking prices for consumers.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: You place responsibility on institutions and don't want rising costs passed to c...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Personal Investment: I don't mind paying significantly more for products that are proven to have minimal environmental impact, and it makes me feel aware and responsible for my choices.
+    >> Similar text not found in document
+
+
+[QUESTION 8]
+JSON QUESTION: How do think about this topic?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Self-Sufficiency Focus: you support self-sufficiency policies, favoring locally-produced products even if they limit variety.
+    >> Similar text not found in document
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Policy: you prefer to support policies that encourage a balanced approach to self-sufficiency while maintaining trade options.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I support regional food security but also keep global partnerships. It's flexibl...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Trade Focus: you value affordable imports and don't prioritize self-sufficiency as long as products meet your needs.
+    >> Similar text not found in document
+
+
+>>> Emma has 33 text differences
+
+
+====================================================================================================
+LUCA - ALL TEXTUAL DIFFERENCES
+====================================================================================================
+
+
+[QUESTION 1]
+JSON QUESTION: What approach do you take to animal feeding?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Natural Grazing: you opt for a low-impact, natural grazing method that prioritizes animal welfare and lower environmental impact.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm committed to a low-impact system. It aligns with animal welfare and climate ...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Regional Feed: you incorporate regionally-sourced feed to strike a balance between productivity and environmental impact.
+    >> Similar text not found in document
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: High-Performance Feed: you adopt a high-performance feed to maximize productivity, even if it means relying on imports.
+    >> Similar text not found in document
+
+
+[QUESTION 2]
+JSON QUESTION: How do you manage your farm's impact on the landscape?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Rewilding Focus: you set aside significant parts of my land for rewilding and natural habitats, even if it reduces productivity.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm leading on restoration and environmental care. This supports ecosystems, but...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Maintain Productivity: you prioritize productivity and maintain your current farmland without major changes.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm focused on output and keeping systems unchanged. It's efficient, but sometim...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Buffer Zones: you incorporate buffer zones and hedgerows, balancing productivity with landscape preservation.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm finding a compromise between conservation and productivity. It's a thoughtfu...
+
+
+[QUESTION 3]
+JSON QUESTION: How do you prioritize resilience on your farm?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Low-Input System: you shift to a low-input system that relies on natural resilience, even if it reduces yields in the short term.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm embracing nature-based resilience. It's a sustainable choice, but may involv...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Diversification: you diversify your crops and livestock, implementing use of special crops or specific breeding strategies to adapt to changing conditions while maintaining stability.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm spreading risk across multiple activities. This makes mee more resilient, th...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Infrastructure Investment: you invest in infrastructure like irrigation systems to mitigate environmental risks and maintain productivity.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm building technical solutions to stay productive. This may protect my farm sh...
+
+
+[QUESTION 4]
+JSON QUESTION: How do you respond to buyer preferences?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Premium Sustainable: you market your products as high-welfare and sustainable, targeting niche consumers willing to pay a premium.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm leaning into high standards and niche branding. This can boost loyalty and m...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Approach: you adjust my practices to ensure a balance between affordability, sustainability, and animal welfare.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm adapting to shifting values without alienating price-conscious buyers. It's ...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Affordable Products: you focus on producing affordable products to meet market demand, regardless of welfare or sustainability.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm responding to price sensitivity and ensuring accessibility. However, this me...
+
+
+[QUESTION 5]
+JSON QUESTION: How do you incorporate multiple functions or purposes into your farming strategy?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Environmental Stewardship: you fully embrace multifunctionality, shifting your focus to environmental stewardship over production.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm shifting toward stewardship and long-term ecological impact. The difficultie...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Integrated Agroforestry: you integrate practices like agroforestry in food production and hopefully they will bring environmental benefits.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm aiming to support both food systems and nature. This makes my farm more dive...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Production First: you focus on maximizing food production and considering the environmental impact as secondary.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm focused on core outputs and food security. It's clear and efficient, but cou...
+
+
+[QUESTION 6]
+JSON QUESTION: What measures do you take to preserve biodiversity?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Natural Habitats: you transition parts of your farm to natural habitats to fully support biodiversity, even at the expense of yields.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm putting ecological recovery first. This strengthens environmental outcomes b...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Wildlife Corridors: you create targeted wildlife corridors and plant cover to balance biodiversity with productivity.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm supporting nature without sacrificing too much productivity. It's a smart mi...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Efficient Land Use: you focus on efficient land use for farming, minimizing habitat restoration efforts.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm staying focused on production. It's a straightforward approach, but risks de...
+
+
+[QUESTION 7]
+JSON QUESTION: How do you ensure system resilience on your farm?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Self-Sufficient Systems: you transition to self-sufficient systems, such as growing your own feed, to minimize reliance on external suppliers.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm opting for independence and resilience. It's sustainable long-term, it does ...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Mixed Sourcing: you use a mix of external and locally-sourced feed to reduce dependence on external suppliers.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm building flexibility and local connections. This reduces risks while keeping...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Multiple Suppliers: you sign contracts with multiple suppliers to guarantee a steady flow of affordable inputs.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm managing risk through the market. It's cost-effective, but keeps me vulnerab...
+
+
+[QUESTION 8]
+JSON QUESTION: How do you adapt his farming practices to public opinion?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Lead Sustainably: you shift your practices significantly to align with public demand for sustainable and ethical farming.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm leading the way in ethical and sustainable farming. It positions me as a rol...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Adaptation: you adapt your practices to reflect a balance between public expectations and practical realities.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm responsive but grounded. This approach helps maintain trust and flexibility,...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Efficiency Focus: you focus on efficiency and cost-effectiveness, regardless of public concerns.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm focused on running my farm my way. It's practical, but could create a dicson...
+
+
+>>> Luca has 46 text differences
+
+
+====================================================================================================
+CLARA - ALL TEXTUAL DIFFERENCES
+====================================================================================================
+
+
+[QUESTION 1]
+JSON QUESTION: What do you prioritize in your policy?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Rural Support: policies that strongly support small-scale and local farmers to preserve rural livelihoods.
+    >> Similar text not found in document
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Growth: balanced policies that integrate sustainability with economic growth.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm building policies that address both ecological concerns and economic realiti...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Food Security: policies that focus on maximizing food production to ensure food security for all.
+    >> Similar text not found in document
+
+
+[QUESTION 2]
+JSON QUESTION: How do you approach the meeting?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Voice Underrepresented: you advocate for underrepresented groups, ensuring their voices are heard and prioritized.
+    >> Similar text not found in document
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Common Ground: you seek common ground, crafting policies that balance diverse stakeholder needs.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm navigating competing priorities with diplomacy. It's a fair, inclusive appro...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Large Producers: you prioritize the interests of large-scale producers to ensure economic stability.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm safeguarding economic output and stability. This can keep systems running ef...
+
+
+[QUESTION 3]
+JSON QUESTION: What focus do you choose?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Agroecological Systems: policies that prioritize agroecological systems, even at the expense of lower outputs.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm committing to systems that work with nature, not against it. This fosters lo...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Climate-Smart: policies promoting climate-smart practices that balance productivity with resilience.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm taking a forward-looking, balanced approach. It supports productivity and ad...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Intensive High-Yield: policies that encourage intensive, high-yield systems with lower emissions.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm maximising output while cutting emissions—focusing on tech-driven solutions....
+
+
+[QUESTION 4]
+JSON QUESTION: What stance do you take?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Strict Standards: push for strict animal welfare standards, emphasizing ethics over cost concerns.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm setting a high ethical bar, protecting animal rights regardless of cost. It ...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Moderate Standards: advocate for moderate standards that improve welfare without burdening producers.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm advancing animal welfare step by step, balancing compassion with practicalit...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Minimal Regulations: support minimal regulations to keep production costs low and food affordable.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm prioritizing cost control and market stability. While effective in keeping f...
+
+
+[QUESTION 5]
+JSON QUESTION: What do you champion?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Low-Input Protection: low-input systems that protect biodiversity at all costs.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm focused on ecological integrity, even if yields drop. It's a nature-first ap...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Mixed Systems: mixed systems that balance biodiversity with agricultural productivity, their implementation might be more unlikely and difficult for farmers, due to the higher costs.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm promoting innovation that doesn't pit nature against farming. It's complex t...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: High-Yield Efficiency: high-yield systems that prioritize efficiency over biodiversity.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm working toward maximum output, which can feed more people. Yet, this often m...
+
+
+[QUESTION 6]
+JSON QUESTION: What solution do you prioritize?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Self-Sufficient Systems: advocate for long-term investments in sustainable, self-sufficient food systems.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm rethinking the system to prevent future shocks. It's visionary, but slower t...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Local Subsidies: support local farmers with subsidies to build resilience and maintain supply.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm investing in your region's future while responding to crisis. It supports lo...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Scale Imports: scale up imports to ensure affordable and consistent food supplies.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm acting fast to stabilize prices and supply. It's efficient for immediate rel...
+
+
+[QUESTION 7]
+JSON QUESTION: What approach do you take?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Strong Regulation: push for strong regulation that makes some foods more expensive due to higher sustainability standards.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm enforcing accountability and pushing systems to evolve. It may raise prices,...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Gradual Changes: encourage gradual changes that balance affordability with environmental goals.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm promoting a just transition. It's strategic and balanced, but requires monit...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Minimize Costs: minimize costs for companies to keep food prices affordable.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm cautious about placing too much burden on companies or consumers. This maint...
+
+
+[QUESTION 8]
+JSON QUESTION: What vision do you advocate?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Localized Low-Input: a localized, low-input system prioritizing resilience and environmental stewardship.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I imagine a deeply sustainable, community-rooted food future. It's regenerative ...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Innovation: a balanced system integrating innovation, sustainability, and stakeholder collaboration.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I see a future built on shared goals and innovation. It's inclusive and adaptabl...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Efficient Global: a highly efficient global system focused on affordability and availability.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I envision a streamlined, interconnected food system that feeds the world afford...
+
+
+>>> Clara has 45 text differences
+
+
+====================================================================================================
+AHMED - ALL TEXTUAL DIFFERENCES
+====================================================================================================
+
+
+[QUESTION 1]
+JSON QUESTION: How do you advocate for biodiversity in your research?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Preserve Wild Breeds: you focus on preserving wild and local breeds, even at the cost of reduced agricultural output.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm standing for genetic heritage and ecosystem health. This builds resilience b...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balance Improvement: you promote programs that balance genetic improvement with maintaining a broad gene pool.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm working to future-proof agriculture while meeting present needs. It's a stra...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Selective Breeding: you emphasize selective breeding for traits that maximize productivity, even if it reduces genetic variation.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm advancing science to deliver results now. It's efficient and results-driven ...
+
+
+[QUESTION 2]
+JSON QUESTION: How do you address the situation?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Halt Application: you halt the application, advocating for broader societal acceptance before implementation.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm prioritizing societal dialogue over technological speed. This protects publi...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Pilot Technique: you support piloting the technique, balancing ethical concerns with transparency and dialogue.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm charting a responsible path, testing innovation while keeping ethical debate...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Immediate Application: you push for immediate application of the technology to maximize agricultural efficiency.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm moving fast to bring innovation to the field. It's ambitious, but risks publ...
+
+
+[QUESTION 3]
+JSON QUESTION: How do you guide them?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Integrate Theory: you promote integrating theory with practical, real-world farming applications.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm mentoring the next generation to bridge research and reality. It's well-roun...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Theoretical Breakthroughs: you encourage focusing on theoretical breakthroughs that advance the field globally.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm fueling big-picture thinking and scientific innovation. It's intellectually ...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Field-Based Research: you prioritize field-based research that directly benefits local communities and ecosystems.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm rooting research in real-world relevance. It builds immediate benefits for c...
+
+
+[QUESTION 4]
+JSON QUESTION: What strategy do you support?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Low-Input Systems: advocating for low-input systems that focus on natural adaptation and minimal environmental impact.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm pursuing harmony with nature, advocating for less intervention and more resi...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Systems: developing balanced systems that incorporate genetic traits for resilience and lower emissions.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm combining innovation with ecological awareness. It's a compromise that aims ...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Intensive Optimization: promoting intensive systems that optimize efficiency and minimize emissions.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm working to scale impact fast through optimized systems. It's efficient, but ...
+
+
+[QUESTION 5]
+JSON QUESTION: What role do you take?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Academia Leads: you ensure academia leads the initiative to maintain transparency and ethical oversight.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm guarding ethical rigor and public trust. It preserves integrity but may limi...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Collaboration: you support a balanced approach, emphasizing the need for academia-industry collaboration.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm building bridges—leveraging strengths on both sides. It fosters synergy, tho...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Private Sector Leads: you advocate for the private sector to lead, leveraging their resources for rapid results.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm aiming for speed and scalability through industry muscle. It can accelerate ...
+
+
+[QUESTION 6]
+JSON QUESTION: How do you respond?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Public Funding: you prioritize public funding to maintain independence and align fully with societal goals.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm committed to independence and the public good. This ensures alignment with s...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Transparent Partnerships: you promote transparency in partnerships, ensuring ethical practices and public accountability.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm opening the doors to scrutiny to build trust. It's a strong middle ground, b...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Corporate Funding: you emphasize the necessity of corporate funding for advancing impactful research.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm defending the pragmatic route-funding fuels science. It's realistic, though ...
+
+
+[QUESTION 7]
+JSON QUESTION: What aspect do you prioritize?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Natural Traits: preserving natural health traits in traditional breeds, even at the cost of lower output.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm protecting genetic heritage and ecological balance. It's future-oriented, bu...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Traits: improving genetic traits that balance health, welfare, and environmental sustainability.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm addressing multiple challenges at once: productivity, welfare, and environme...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Disease Resistance: enhancing productivity by selecting animals with higher disease resistance.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm focused on optimizing animal performance. It's impactful for food systems bu...
+
+
+[QUESTION 8]
+JSON QUESTION: What is your main message?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Small-Scale Systems: promote small-scale, diverse systems as the cornerstone of sustainable food systems.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm reimagining the food system from the ground up. It's community-driven and re...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Integrated Practices: advocate for policies that integrate sustainable practices into productive systems.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm aligning policy with innovation and stewardship. It's a balanced approach wi...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Intensive Farming: support intensive farming systems to meet global food demands efficiently.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm focusing on feeding the world efficiently. It's production-first, but may si...
+
+
+>>> Ahmed has 48 text differences
+
+
+====================================================================================================
+SOFIA - ALL TEXTUAL DIFFERENCES
+====================================================================================================
+
+
+[QUESTION 1]
+JSON QUESTION: What partnership approach do you pursue?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Ethical Cooperative: fully commit to the cooperative, prioritizing sustainability and ethical sourcing.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm putting principles first and investing in a transparent, ethical model. It's...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Partnership: establish a partnership with the cooperative, balancing cost and sustainability.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm building supply chains that respect both sustainability and business health....
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Large Suppliers: partner with large suppliers to ensure lower production costs and higher margins.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm protecting margins and scaling efficiently. It's financially sound, but risk...
+
+
+[QUESTION 2]
+JSON QUESTION: What marketing approach do you support?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Full Traceability: launch a progressive campaign emphasizing full traceability and eco-certifications.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm taking a stand for openness and sustainability. It's high-impact branding, b...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Gradual Transparency: promote transparency initiatives that show the company is moving toward sustainability.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm signaling positive change without overpromising. It's a calculated step that...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Value Focus: highlight the affordability and convenience of products without focusing on production details.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm doubling down on what sells: simple value. It appeals to mass markets but ma...
+
+
+[QUESTION 3]
+JSON QUESTION: How do you respond?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Overhaul Logistics: overhaul logistics to minimize emissions, even if it increases short-term costs.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm making a bold move to align logistics with climate goals. It shows leadershi...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Gradual Investment: gradually invest in greener logistics that balance environmental impact with costs.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm balancing environmental concerns with economic logic. It's a steady path for...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Current Systems: maintain current logistics systems to keep operations cost-efficient.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm optimizing for operational efficiency and cost control. It keeps margins int...
+
+
+[QUESTION 4]
+JSON QUESTION: What funding decision do you make?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Full Support: fully support the startup, prioritizing innovation that aligns with sustainability goals.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm investing in transformation over certainty. It's visionary and values-driven...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Cautious Investment: invest cautiously, balancing risk with the potential for long-term gains.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm taking a calculated risk on innovation. It's the middle road—supporting chan...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Proven Technologies: focus on proven technologies that ensure quick returns.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm playing it safe and smart. Ensuring ROI and minimizing risk. It's strategic,...
+
+
+[QUESTION 5]
+JSON QUESTION: What stance do you take?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: High Standards: push for high welfare standards, aligning with consumer demand and ethical responsibility.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm responding to the ethical imperative head-on. It strengthens the brand's val...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Moderate Policies: advocate for moderate welfare policies that improve standards without drastic cost increases.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm lifting standards at a manageable pace. It signals responsibility without sh...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Minimal Improvements: support minimal welfare improvements to maintain supplier relationships and affordability.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm prioritizing supplier stability and cost control. It's business-friendly, bu...
+
+
+[QUESTION 6]
+JSON QUESTION: What solution do you implement?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Local Systems: focus on local suppliers and self-reliant systems to strengthen long-term resilience.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm building long-term resilience through proximity and sustainability. It's bol...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Diversify Chains: diversify supply chains, balancing resilience with environmental and social considerations.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm managing complexity for resilience. It's a smart balance, adaptive and robus...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Large Suppliers: source from large suppliers to ensure consistent supply at the lowest cost.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm ensuring business continuity through scale and efficiency. It's low-risk sho...
+
+
+[QUESTION 7]
+JSON QUESTION: What do you prioritize?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Sustainable Initiative: the sustainable initiative, prioritizing long-term brand value over immediate profits.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm investing in future brand equity and purpose. It's a bold move that signals ...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Balanced Growth: a balanced approach that ensures financial growth while introducing sustainable options.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm aligning sustainability with financial strategy. It's steady and adaptable, ...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: High-Margin Product: the high-margin product, focusing on maximizing profitability for the company.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm staying focused on profitability. It's clear-cut for growth, but may fall be...
+
+
+[QUESTION 8]
+JSON QUESTION: What perspective do you share?
+
+  Option A: [DIFFERENCE FOUND]
+    JSON: Lead by Example: the private sector must lead by example, taking bold steps toward sustainability regardless of regulation.
+    >> Similar text not found in document
+    PAYOFF A: [DIFFERENCE]
+      JSON: I'm calling for bold action beyond compliance. It's ambitious and inspiring, but...
+
+  Option B: [DIFFERENCE FOUND]
+    JSON: Collaboration: collaboration between the private sector and policymakers is key to balanced solutions.
+    >> Similar text not found in document
+    PAYOFF B: [DIFFERENCE]
+      JSON: I'm building bridges between sectors for real change. It's practical and inclusi...
+
+  Option C: [DIFFERENCE FOUND]
+    JSON: Efficiency Priority: the private sector should prioritize efficiency and profitability, with minimal regulation.
+    >> Similar text not found in document
+    PAYOFF C: [DIFFERENCE]
+      JSON: I'm emphasizing the market's role in driving progress. It's a clean message, but...
+
+
+>>> Sofia has 48 text differences
+
+
+
+====================================================================================================
+TOTAL TEXTUAL DIFFERENCES FOUND: 220
+====================================================================================================

@@ -1,0 +1,341 @@
+====================================================================================================
+VERGELIJKING NA CLEANUP: ORIGINELE JSON vs DOCUMENT REFERENCE
+====================================================================================================
+
+
+####################################################################################################
+# EMMA
+####################################################################################################
+
+Q1: Where do you go shopping?...
+  OPT A
+  OPT B
+  OPT C
+
+Q2: When buying groceries, what matters most to you? Both in ter...
+  OPT A
+  OPT B
+  OPT C
+
+Q3: How do you respond to animal welfare concerns in your shoppi...
+  OPT A
+  OPT B
+  OPT C
+
+Q4: How do you perceive environmental protection in our food sys...
+  OPT A
+  OPT B
+  OPT C
+
+Q5: How do you view buying local vs. imported products?...
+  OPT A
+  OPT B
+  OPT C
+
+Q6: What do you think about this?...
+  OPT A
+  OPT B
+  OPT C
+
+Q7: Who do you think should be leading on this issue?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q8: How do think about this topic?...
+  OPT A
+  OPT B
+  OPT C
+
+SUBTOTAAL EMMA: 27 verschillen
+
+
+####################################################################################################
+# LUCA
+####################################################################################################
+
+Q1: What approach do you take to animal feeding?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q2: How do you manage your farm's impact on the landscape?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q3: How do you prioritize resilience on your farm?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q4: How do you respond to buyer preferences?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q5: How do you incorporate multiple functions or purposes into y...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q6: What measures do you take to preserve biodiversity?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q7: How do you ensure system resilience on your farm?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q8: How do you adapt his farming practices to public opinion?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+SUBTOTAAL LUCA: 48 verschillen
+
+
+####################################################################################################
+# CLARA
+####################################################################################################
+
+Q1: What do you prioritize in your policy?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q2: How do you approach the meeting?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q3: What focus do you choose?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q4: What stance do you take?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q5: What do you champion?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q6: What solution do you prioritize?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q7: What approach do you take?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q8: What vision do you advocate?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+SUBTOTAAL CLARA: 48 verschillen
+
+
+####################################################################################################
+# AHMED
+####################################################################################################
+
+Q1: How do you advocate for biodiversity in your research?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q2: How do you address the situation?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q3: How do you guide them?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q4: What strategy do you support?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q5: What role do you take?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q6: How do you respond?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q7: What aspect do you prioritize?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q8: What is your main message?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+SUBTOTAAL AHMED: 48 verschillen
+
+
+####################################################################################################
+# SOFIA
+####################################################################################################
+
+Q1: What partnership approach do you pursue?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q2: What marketing approach do you support?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q3: How do you respond?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q4: What funding decision do you make?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q5: What stance do you take?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q6: What solution do you implement?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q7: What do you prioritize?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+Q8: What perspective do you share?...
+  OPT A
+  OPT B
+  OPT C
+  TRADE A (format)
+  TRADE B (format)
+  TRADE C (format)
+
+SUBTOTAAL SOFIA: 48 verschillen
+
+====================================================================================================
+TOTAAL ALLE VERSCHILLEN: 219 items
+====================================================================================================

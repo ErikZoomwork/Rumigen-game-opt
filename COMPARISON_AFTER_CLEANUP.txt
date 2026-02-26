@@ -1,0 +1,333 @@
+====================================================================================================
+COMPLETE COMPARISON: ORIGINELE JSON vs DOCUMENT REFERENCE (Na alle cleanup)
+====================================================================================================
+
+
+####################################################################################################
+# EMMA
+####################################################################################################
+
+Q1: Where do you go shopping?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+
+Q2: When buying groceries, what matters most to you? Both in terms of pric...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+
+Q3: How do you respond to animal welfare concerns in your shopping habits?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+
+Q4: How do you perceive environmental protection in our food systems?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+
+Q5: How do you view buying local vs. imported products?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+
+Q6: What do you think about this?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+
+Q7: Who do you think should be leading on this issue?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q8: How do think about this topic?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+
+TOTAAL VERSCHILLEN: 27 elementen
+
+####################################################################################################
+# LUCA
+####################################################################################################
+
+Q1: What approach do you take to animal feeding?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q2: How do you manage your farm's impact on the landscape?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q3: How do you prioritize resilience on your farm?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q4: How do you respond to buyer preferences?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q5: How do you incorporate multiple functions or purposes into your farmin...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q6: What measures do you take to preserve biodiversity?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q7: How do you ensure system resilience on your farm?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q8: How do you adapt his farming practices to public opinion?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+TOTAAL VERSCHILLEN: 48 elementen
+
+####################################################################################################
+# CLARA
+####################################################################################################
+
+Q1: What do you prioritize in your policy?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q2: How do you approach the meeting?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q3: What focus do you choose?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q4: What stance do you take?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q5: What do you champion?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q6: What solution do you prioritize?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q7: What approach do you take?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q8: What vision do you advocate?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+TOTAAL VERSCHILLEN: 48 elementen
+
+####################################################################################################
+# AHMED
+####################################################################################################
+
+Q1: How do you advocate for biodiversity in your research?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q2: How do you address the situation?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q3: How do you guide them?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q4: What strategy do you support?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q5: What role do you take?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q6: How do you respond?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q7: What aspect do you prioritize?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q8: What is your main message?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+TOTAAL VERSCHILLEN: 48 elementen
+
+####################################################################################################
+# SOFIA
+####################################################################################################
+
+Q1: What partnership approach do you pursue?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q2: What marketing approach do you support?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q3: How do you respond?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q4: What funding decision do you make?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q5: What stance do you take?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q6: What solution do you implement?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q7: What do you prioritize?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+Q8: What perspective do you share?...
+  OPTION A: VERSCHIL
+  OPTION B: VERSCHIL
+  OPTION C: VERSCHIL
+  TRADEOFF A: VERSCHIL (format)
+  TRADEOFF B: VERSCHIL (format)
+  TRADEOFF C: VERSCHIL (format)
+
+TOTAAL VERSCHILLEN: 48 elementen

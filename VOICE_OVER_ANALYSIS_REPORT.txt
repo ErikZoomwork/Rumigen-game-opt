@@ -1,0 +1,310 @@
+====================================================================================================
+RUMIGEN GAME - VOICE-OVER DISCREPANCY ANALYSIS REPORT
+Generated from Word Document vs JSON Scenarios vs Actual Audio Files
+====================================================================================================
+
+
+======================================================================
+CHARACTER: EMMA (EMMA)
+======================================================================
+Questions in JSON: 8
+Actual audio files available: 33
+
+INTRO VOICE-OVER               [YES]
+
+QUESTION DETAILS:
+----------------------------------------------------------------------
+
+Q1: Where do you go shopping?...
+  Location: Shopping District
+  Context: Emma says: I'm about to head out to shop for food for my par...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q2: When buying groceries, what matters most to you? Both in ter...
+  Location: Your Apartment
+  Context: Emma says: On my way home, I saw a flyer that explained the ...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q3: How do you respond to animal welfare concerns in your shoppi...
+  Location: Dinner Party
+  Context: Emma says: My dinner party has started. One of my friends st...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q4: How do you perceive environmental protection in our food sys...
+  Location: Dinner Party
+  Context: Emma says: Later in the evening, I listen as my friends deba...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q5: How do you view buying local vs. imported products?...
+  Location: Dinner Party
+  Context: Emma says: My friends then move on to another debate about t...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q6: What do you think about this?...
+  Location: Dinner Party (Evening)
+  Context: Emma says: One of my friends, who works in climate monitorin...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q7: Who do you think should be leading on this issue?...
+  Location: Dinner Party (Evening)
+  Context: Emma says: During dessert, a heated discussion breaks out: w...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q8: How do think about this topic?...
+  Location: Your Apartment (Night)
+  Context: Emma says: My friends have left and I have started cleaning ...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+======================================================================
+
+======================================================================
+CHARACTER: LUCA (LUCA)
+======================================================================
+Questions in JSON: 8
+Actual audio files available: 33
+
+INTRO VOICE-OVER               [YES]
+
+QUESTION DETAILS:
+----------------------------------------------------------------------
+
+Q1: What approach do you take to animal feeding?...
+  Location: The Farm
+  Context: Luca says: I notice some neighbors adopting new feeding tech...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q2: How do you manage your farm's impact on the landscape?...
+  Location: The Farm
+  Context: Luca says: While walking around my farm, I reflect on how my...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q3: How do you prioritize resilience on your farm?...
+  Location: The Farm
+  Context: Luca says: Last summer's drought hit my farm hard, and with ...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q4: How do you respond to buyer preferences?...
+  Location: Farmers Market
+  Context: Luca says: One of my regular farmers market buyers is more c...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q5: How do you incorporate multiple functions or purposes into y...
+  Location: Farmers Market
+  Context: Luca says: A representative from an environmental organizati...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q6: What measures do you take to preserve biodiversity?...
+  Location: The Farm
+  Context: Luca says: I've noticed a decline in wildlife diversity on m...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q7: How do you ensure system resilience on your farm?...
+  Location: The Farm
+  Context: Luca says: A supplier warns me about possible feed delivery ...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q8: How do you adapt his farming practices to public opinion?...
+  Location: The Farm
+  Context: Luca says: A local journalist comes to visit my farm. They a...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+======================================================================
+
+======================================================================
+CHARACTER: CLARA (CLARA)
+======================================================================
+Questions in JSON: 8
+Actual audio files available: 33
+
+INTRO VOICE-OVER               [YES]
+
+QUESTION DETAILS:
+----------------------------------------------------------------------
+
+Q1: What do you prioritize in your policy?...
+  Location: Brussels Office
+  Context: Clara says: I usually begin my mornings reviewing proposals....
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q2: How do you approach the meeting?...
+  Location: Meeting Room
+  Context: Clara says: After reviewing I attend a meeting with stakehol...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q3: What focus do you choose?...
+  Location: Meeting Room
+  Context: Clara says: During a briefing, my advisors present data on t...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q4: What stance do you take?...
+  Location: Meeting Room
+  Context: Clara says: I attend a parliamentary debate on animal welfar...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q5: What do you champion?...
+  Location: Meeting Room
+  Context: Clara says: At a meeting on biodiversity, you hear proposals...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q6: What solution do you prioritize?...
+  Location: Meeting Room
+  Context: Clara says: A drought in a neighboring region is disrupting ...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q7: What approach do you take?...
+  Location: Brussels Office (Evening)
+  Context: Clara says: In the evening, I'm reviewing a draft policy req...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q8: What vision do you advocate?...
+  Location: Home
+  Context: Clara says: At the end of the day, I like to reflect. This t...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+======================================================================
+
+======================================================================
+CHARACTER: AHMED (AHMED)
+======================================================================
+Questions in JSON: 8
+Actual audio files available: 33
+
+INTRO VOICE-OVER               [YES]
+
+QUESTION DETAILS:
+----------------------------------------------------------------------
+
+Q1: How do you advocate for biodiversity in your research?...
+  Location: University Seminar
+  Context: Dr. Ahmed says: In the morning, I present at a seminar where...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q2: How do you address the situation?...
+  Location: Research Lab
+  Context: Dr. Ahmed says: Back in the lab, my team presents a breakthr...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q3: How do you guide them?...
+  Location: University Office
+  Context: Dr. Ahmed says: After lunch, I meet with your students. They...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q4: What strategy do you support?...
+  Location: Policy Roundtable
+  Context: Dr. Ahmed says: In the afternoon, I join a policy roundtable...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q5: What role do you take?...
+  Location: University Office
+  Context: Dr. Ahmed says: I receive an invitation to join a public-pri...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q6: How do you respond?...
+  Location: Research Lab
+  Context: Dr. Ahmed says: As I finish my day in the lab, I receive an ...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q7: What aspect do you prioritize?...
+  Location: Home
+  Context: Dr. Ahmed says: During dinner, I receive a call about a gran...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q8: What is your main message?...
+  Location: Home
+  Context: Dr. Ahmed says: Later in the evening, I'm are asked to provi...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+======================================================================
+
+======================================================================
+CHARACTER: SOFIA (SOFIA)
+======================================================================
+Questions in JSON: 8
+Actual audio files available: 33
+
+INTRO VOICE-OVER               [YES]
+
+QUESTION DETAILS:
+----------------------------------------------------------------------
+
+Q1: What partnership approach do you pursue?...
+  Location: Corporate Office
+  Context: Sofia says: Mid-morning, I meet with a local farming coopera...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q2: What marketing approach do you support?...
+  Location: Meeting Room
+  Context: Sofia says: In a marketing strategy session, my team reviews...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q3: How do you respond?...
+  Location: Corporate Office
+  Context: Sofia says: I receive a report on the company's carbon emiss...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q4: What funding decision do you make?...
+  Location: Conference
+  Context: Sofia says: In the afternoon, I attend a conference on agri-...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q5: What stance do you take?...
+  Location: Corporate Office
+  Context: Sofia says: My company is revising its animal welfare polici...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q6: What solution do you implement?...
+  Location: Crisis Management Room
+  Context: Sofia says: A major flood hits a region where my company sou...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q7: What do you prioritize?...
+  Location: Board Meeting
+  Context: Sofia says: During a board meeting, I face a critical decisi...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+Q8: What perspective do you share?...
+  Location: Panel Discussion
+  Context: Sofia says: At the end of the day, I participate in a panel ...
+  Context Voice-Over: [YES]
+  Payoff A: [OK] | Payoff B: [OK] | Payoff C: [OK]
+
+======================================================================

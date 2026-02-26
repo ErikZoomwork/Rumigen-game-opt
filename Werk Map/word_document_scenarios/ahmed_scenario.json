@@ -1,0 +1,298 @@
+{
+  "Ahmed": {
+    "character": {
+      "name": "Ahmed",
+      "role": "The Researcher",
+      "description": "Meet Ahmed, the researcher exploring innovative solutions to food system challenges.",
+      "bio": "Ahmed, 38, is an agricultural scientist and researcher at a leading European research institute with a focus on food systems, sustainability, and emerging technologies. He has published extensively on climate adaptation, crop genetics, and sustainable intensification. Ahmed is passionate about finding evidence-based solutions to feed a growing global population while protecting the environment. He collaborates with farmers, policymakers, and international organizations, and is comfortable presenting complex information to diverse audiences.",
+      "music": "assets/audio/music/Ahmed_Song.mp3"
+    },
+    "intro": {
+      "text": "I'm working on several research projects exploring solutions to food system challenges: climate adaptation, sustainable production methods, new technologies, and trade-offs between different goals. I need to decide which innovations to focus on and how to communicate them to different audiences. What approach do you think works best?\n\nBy answering a few questions, you can help guide my research priorities!",
+      "background": "ahmed-q1",
+      "parallaxEffect": "zoom"
+    },
+    "questions": [
+      {
+        "number": 1,
+        "context": "Ahmed says: I'm deciding which agricultural innovations to focus my research on. Some look promising for productivity but have uncertain environmental impacts; others are more proven for sustainability but less dramatic in results.",
+        "text": "Which research direction should I prioritize?",
+        "options": {
+          "A": "Preserve Wild Breeds: you focus on preserving wild and local breeds, even at the cost of reduced agricultural output.",
+          "B": "Balance Improvement: you promote programs that balance genetic improvement with maintaining a broad gene pool.",
+          "C": "Selective Breeding: you emphasize selective breeding for traits that maximize productivity, even if it reduces genetic variation."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: preserve wild breeds",
+            "text": "I'm standing for genetic heritage and ecosystem health. This builds resilience but may limit competitiveness in high-output markets.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: balance improvement",
+            "text": "I'm working to future-proof agriculture while meeting present needs. It's a strategic mix of science, stewardship, and practicality.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: selective breeding",
+            "text": "I'm advancing science to deliver results now. It's efficient and results-driven but risks narrowing genetic resilience.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "University Seminar",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 2,
+        "context": "Ahmed says: I'm conducting research with farmers to test new practices. How involved should farmers be in designing the research?",
+        "text": "What's the appropriate role for farmers in agricultural research?",
+        "options": {
+          "A": "Halt Application: you halt the application, advocating for broader societal acceptance before implementation.",
+          "B": "Pilot Technique: you support piloting the technique, balancing ethical concerns with transparency and dialogue.",
+          "C": "Immediate Application: you push for immediate application of the technology to maximize agricultural efficiency."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: halt application",
+            "text": "I'm prioritizing societal dialogue over technological speed. This protects public trust but may delay urgent solutions.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: pilot technique",
+            "text": "I'm charting a responsible path, testing innovation while keeping ethical debates open. It builds credibility, though it may slow progress.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: immediate application",
+            "text": "I'm moving fast to bring innovation to the field. It's ambitious, but risks public backlash and ethical dilemmas if trust is not built.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Research Lab",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 3,
+        "context": "Ahmed says: I'm researching gene-edited crops designed for climate resilience. This technology is powerful but faces consumer skepticism and regulatory uncertainty. How should I approach this?",
+        "text": "How should I approach research on genetic technologies for agriculture?",
+        "options": {
+          "A": "Integrate Theory: you promote integrating theory with practical, real-world farming applications.",
+          "B": "Theoretical Breakthroughs: you encourage focusing on theoretical breakthroughs that advance the field globally.",
+          "C": "Field-Based Research: you prioritize field-based research that directly benefits local communities and ecosystems."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: integrate theory",
+            "text": "I'm mentoring the next generation to bridge research and reality. It's well-rounded, though not always easy to balance.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: theoretical breakthroughs",
+            "text": "I'm fueling big-picture thinking and scientific innovation. It's intellectually rich, though practical outcomes may take longer to emerge.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: field-based research",
+            "text": "I'm rooting research in real-world relevance. It builds immediate benefits for communities, but may receive less recognition in academic circles.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "University Office",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 4,
+        "context": "Ahmed says: A private agribusiness company wants to fund my research on productivity-boosting techniques. They request significant influence over which findings get published and how.",
+        "text": "How should I approach research funding and independence?",
+        "options": {
+          "A": "Low-Input Systems: advocating for low-input systems that focus on natural adaptation and minimal environmental impact.",
+          "B": "Balanced Systems: developing balanced systems that incorporate genetic traits for resilience and lower emissions.",
+          "C": "Intensive Optimization: promoting intensive systems that optimize efficiency and minimize emissions."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: low-input systems",
+            "text": "I'm pursuing harmony with nature, advocating for less intervention and more resilience. It's transformative but may be seen as niche or less scalable.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: balanced systems",
+            "text": "I'm combining innovation with ecological awareness. It's a compromise that aims to satisfy productivity and sustainability goals.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: intensive optimization",
+            "text": "I'm working to scale impact fast through optimized systems. It's efficient, but could strain ecological systems and social acceptance.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Policy Roundtable",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 5,
+        "context": "Ahmed says: I'm researching approaches to soil degradation. I could focus on high-tech solutions like soil sensors and AI, or on understanding natural soil processes better.",
+        "text": "What approach interests you most for studying soil?",
+        "options": {
+          "A": "Academia Leads: you ensure academia leads the initiative to maintain transparency and ethical oversight.",
+          "B": "Balanced Collaboration: you support a balanced approach, emphasizing the need for academia-industry collaboration.",
+          "C": "Private Sector Leads: you advocate for the private sector to lead, leveraging their resources for rapid results."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: academia leads",
+            "text": "I'm guarding ethical rigor and public trust. It preserves integrity but may limit funding or innovation pace.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: balanced collaboration",
+            "text": "I'm building bridges—leveraging strengths on both sides. It fosters synergy, though managing expectations can be challenging.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: private sector leads",
+            "text": "I'm aiming for speed and scalability through industry muscle. It can accelerate innovation but raises questions about accountability.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "University Office",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 6,
+        "context": "Ahmed says: A major question in food security research is how to feed more people with fewer resources. Should I focus on producing more food, or on making food distribution more efficient?",
+        "text": "Where should food security research focus?",
+        "options": {
+          "A": "Public Funding: you prioritize public funding to maintain independence and align fully with societal goals.",
+          "B": "Transparent Partnerships: you promote transparency in partnerships, ensuring ethical practices and public accountability.",
+          "C": "Corporate Funding: you emphasize the necessity of corporate funding for advancing impactful research."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: public funding",
+            "text": "I'm committed to independence and the public good. This ensures alignment with social values but may limit resources or project scope.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: transparent partnerships",
+            "text": "I'm opening the doors to scrutiny to build trust. It's a strong middle ground, but requires constant effort and communication.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: corporate funding",
+            "text": "I'm defending the pragmatic route-funding fuels science. It's realistic, though public trust may hinge on transparency.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Research Lab",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 7,
+        "context": "Ahmed says: I'm researching climate adaptation for agriculture. How should I approach regional differences, since climate impacts vary widely?",
+        "text": "How should research address regional differences in climate impacts?",
+        "options": {
+          "A": "Natural Traits: preserving natural health traits in traditional breeds, even at the cost of lower output.",
+          "B": "Balanced Traits: improving genetic traits that balance health, welfare, and environmental sustainability.",
+          "C": "Disease Resistance: enhancing productivity by selecting animals with higher disease resistance."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: natural traits",
+            "text": "I'm protecting genetic heritage and ecological balance. It's future-oriented, but may need more support to compete with commercial systems.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: balanced traits",
+            "text": "I'm addressing multiple challenges at once: productivity, welfare, and environment. It's ambitious and holistic, but not a quick fix.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: disease resistance",
+            "text": "I'm focused on optimizing animal performance. It's impactful for food systems but may overlook long-term ecosystem complexity.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Home",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      },
+      {
+        "number": 8,
+        "context": "Ahmed says: I'm mentoring the next generation of agricultural researchers. What research culture should I help them develop?",
+        "text": "What should be the purpose of agricultural research?",
+        "options": {
+          "A": "Small-Scale Systems: promote small-scale, diverse systems as the cornerstone of sustainable food systems.",
+          "B": "Integrated Practices: advocate for policies that integrate sustainable practices into productive systems.",
+          "C": "Intensive Farming: support intensive farming systems to meet global food demands efficiently."
+        },
+        "tradeoffs": {
+          "A": {
+            "title": "You chose: small-scale systems",
+            "text": "I'm reimagining the food system from the ground up. It's community-driven and resilient, but may face barriers to broad adoption.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "B": {
+            "title": "You chose: integrated practices",
+            "text": "I'm aligning policy with innovation and stewardship. It's a balanced approach with wide appeal, though implementation may be complex.",
+            "payoffParallaxEffect": "zoom"
+          },
+          "C": {
+            "title": "You chose: intensive farming",
+            "text": "I'm focusing on feeding the world efficiently. It's production-first, but may sideline environmental or social concerns.",
+            "payoffParallaxEffect": "zoom"
+          }
+        },
+        "location": "Home",
+        "background": "ahmed-q1",
+        "parallaxEffect": "zoom",
+        "scoring": {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        }
+      }
+    ]
+  }
+}

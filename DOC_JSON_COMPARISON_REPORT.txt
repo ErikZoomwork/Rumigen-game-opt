@@ -1,0 +1,265 @@
+====================================================================================================
+RUMIGEN GAME - DOCUMENT vs JSON CONTENT COMPARISON REPORT
+====================================================================================================
+
+
+================================================================================
+EMMA - THE ACTIVE CITIZEN
+================================================================================
+
+JSON BIO:
+  Emma, 28, lives in the city and works at an NGO with a focus on the environment. She enjoys cooking and browsing secondhand shops. Her friends come from all walks of life, and they often get into thoughtful (and fun) conversations about values, choices, and the world around them. Raised in the inner city, Emma enjoys exploring local markets and learning about how products are made as she has limited experience with how farming and food production looks like in the countryside.
+
+DOC BIO: [FOUND IN DOCUMENT]
+
+JSON QUESTIONS: 8
+DOC QUESTIONS: 8 (Scene-based)
+
+QUESTION COMPARISON:
+
+  Q1: Where do you go shopping?...
+    Location: Shopping District
+    Options: 3
+
+  Q2: When buying groceries, what matters most to you? B...
+    Location: Your Apartment
+    Options: 3
+
+  Q3: How do you respond to animal welfare concerns in y...
+    Location: Dinner Party
+    Options: 3
+
+  Q4: How do you perceive environmental protection in ou...
+    Location: Dinner Party
+    Options: 3
+
+  Q5: How do you view buying local vs. imported products...
+    Location: Dinner Party
+    Options: 3
+
+  Q6: What do you think about this?...
+    Location: Dinner Party (Evening)
+    Options: 3
+
+  Q7: Who do you think should be leading on this issue?...
+    Location: Dinner Party (Evening)
+    Options: 3
+
+  Q8: How do think about this topic?...
+    Location: Your Apartment (Night)
+    Options: 3
+
+================================================================================
+LUCA - THE FARMER
+================================================================================
+
+JSON BIO:
+  Luca, 45, is a second-generation farmer running a mixed farm with crops and livestock. Proud of his heritage, he's navigating the challenges of modernising his family business while staying sustainable. Growing up on the farm, Luca understands the pressures of meeting consumer demands and complying with ever-evolving regulations. He's deeply connected to the land and strives to balance tradition and innovation.
+
+JSON QUESTIONS: 8
+
+QUESTION COMPARISON:
+
+  Q1: What approach do you take to animal feeding?...
+    Location: The Farm
+    Options: 3
+
+  Q2: How do you manage your farm's impact on the landsc...
+    Location: The Farm
+    Options: 3
+
+  Q3: How do you prioritize resilience on your farm?...
+    Location: The Farm
+    Options: 3
+
+  Q4: How do you respond to buyer preferences?...
+    Location: Farmers Market
+    Options: 3
+
+  Q5: How do you incorporate multiple functions or purpo...
+    Location: Farmers Market
+    Options: 3
+
+  Q6: What measures do you take to preserve biodiversity...
+    Location: The Farm
+    Options: 3
+
+  Q7: How do you ensure system resilience on your farm?...
+    Location: The Farm
+    Options: 3
+
+  Q8: How do you adapt his farming practices to public o...
+    Location: The Farm
+    Options: 3
+
+================================================================================
+CLARA - THE POLICYMAKER
+================================================================================
+
+JSON BIO:
+  Clara, 38, is a government official specialising in agriculture and food policy. She's known for her diplomatic skills and passion for improving food systems. With a degree in environmental law, Clara has worked in local and international agencies. She believes in stakeholder collaboration to craft policies that benefit both producers and consumers.
+
+JSON QUESTIONS: 8
+
+QUESTION COMPARISON:
+
+  Q1: What do you prioritize in your policy?...
+    Location: Brussels Office
+    Options: 3
+
+  Q2: How do you approach the meeting?...
+    Location: Meeting Room
+    Options: 3
+
+  Q3: What focus do you choose?...
+    Location: Meeting Room
+    Options: 3
+
+  Q4: What stance do you take?...
+    Location: Meeting Room
+    Options: 3
+
+  Q5: What do you champion?...
+    Location: Meeting Room
+    Options: 3
+
+  Q6: What solution do you prioritize?...
+    Location: Meeting Room
+    Options: 3
+
+  Q7: What approach do you take?...
+    Location: Brussels Office (Evening)
+    Options: 3
+
+  Q8: What vision do you advocate?...
+    Location: Home
+    Options: 3
+
+================================================================================
+AHMED - THE RESEARCHER
+================================================================================
+
+JSON BIO:
+  Dr. Ahmed, 52, is a renowned scientist specialising in animal genetics and sustainable agriculture. He spends his days in labs and classrooms, mentoring young researchers. With decades of research and numerous publications, Ahmed bridges the gap between academia and practice. He's driven to find solutions to improve productivity while preserving biodiversity.
+
+JSON QUESTIONS: 8
+
+QUESTION COMPARISON:
+
+  Q1: How do you advocate for biodiversity in your resea...
+    Location: University Seminar
+    Options: 3
+
+  Q2: How do you address the situation?...
+    Location: Research Lab
+    Options: 3
+
+  Q3: How do you guide them?...
+    Location: University Office
+    Options: 3
+
+  Q4: What strategy do you support?...
+    Location: Policy Roundtable
+    Options: 3
+
+  Q5: What role do you take?...
+    Location: University Office
+    Options: 3
+
+  Q6: How do you respond?...
+    Location: Research Lab
+    Options: 3
+
+  Q7: What aspect do you prioritize?...
+    Location: Home
+    Options: 3
+
+  Q8: What is your main message?...
+    Location: Home
+    Options: 3
+
+================================================================================
+SOFIA - THE PRIVATE SECTOR REPRESENTATIVE
+================================================================================
+
+JSON BIO:
+  Sofia, 34, is an ambitious marketing executive in a global food corporation. She's passionate about innovation and scaling sustainable business models. After earning an MBA, Sofia joined the agri-food industry, focusing on strategies that align profitability with sustainability. She enjoys negotiating partnerships and advocating for corporate responsibility.
+
+JSON QUESTIONS: 8
+
+QUESTION COMPARISON:
+
+  Q1: What partnership approach do you pursue?...
+    Location: Corporate Office
+    Options: 3
+
+  Q2: What marketing approach do you support?...
+    Location: Meeting Room
+    Options: 3
+
+  Q3: How do you respond?...
+    Location: Corporate Office
+    Options: 3
+
+  Q4: What funding decision do you make?...
+    Location: Conference
+    Options: 3
+
+  Q5: What stance do you take?...
+    Location: Corporate Office
+    Options: 3
+
+  Q6: What solution do you implement?...
+    Location: Crisis Management Room
+    Options: 3
+
+  Q7: What do you prioritize?...
+    Location: Board Meeting
+    Options: 3
+
+  Q8: What perspective do you share?...
+    Location: Panel Discussion
+    Options: 3
+
+================================================================================
+SUMMARY & DISCREPANCIES
+================================================================================
+
+OVERALL COMPARISON:
+  - Total Characters: 5 (Emma, Luca, Clara, Ahmed, Sofia)
+  - Questions per character: 8
+  - Options per question: 3 (A, B, C)
+  - Total questions across all 5 characters: 40
+  - Total options across all questions: 120
+
+JSON COMPLETENESS CHECK:
+
+  Emma: [OK]
+    - Questions: 8/8
+    - Bio: Yes
+    - Music track: Yes
+    - Intro text: Yes
+
+  Luca: [OK]
+    - Questions: 8/8
+    - Bio: Yes
+    - Music track: Yes
+    - Intro text: Yes
+
+  Clara: [OK]
+    - Questions: 8/8
+    - Bio: Yes
+    - Music track: Yes
+    - Intro text: Yes
+
+  Ahmed: [OK]
+    - Questions: 8/8
+    - Bio: Yes
+    - Music track: Yes
+    - Intro text: Yes
+
+  Sofia: [OK]
+    - Questions: 8/8
+    - Bio: Yes
+    - Music track: Yes
+    - Intro text: Yes

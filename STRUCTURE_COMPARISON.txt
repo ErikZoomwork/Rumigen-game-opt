@@ -1,0 +1,149 @@
+========================================================================================================================
+STRUCTURELE VERGELIJKING: ORIGINELE JSON vs DOCUMENT REFERENCE FILES
+========================================================================================================================
+
+
+########################################################################################################################
+# EMMA
+########################################################################################################################
+
+CHARACTER OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: music
+  ALLEEN IN DOCUMENT: description
+
+INTRO OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, parallaxEffect
+
+QUESTIONS - VELD STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, location, parallaxEffect, scoring
+
+TRADEOFFS - STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ORIGINEEL: dict
+    Velden: title, text, payoffParallaxEffect
+  DOCUMENT: str
+
+
+########################################################################################################################
+# LUCA
+########################################################################################################################
+
+CHARACTER OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: music
+  ALLEEN IN DOCUMENT: description
+
+INTRO OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, parallaxEffect
+
+QUESTIONS - VELD STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, location, parallaxEffect, scoring
+
+TRADEOFFS - STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ORIGINEEL: dict
+    Velden: title, text, payoffParallaxEffect
+  DOCUMENT: str
+
+
+########################################################################################################################
+# CLARA
+########################################################################################################################
+
+CHARACTER OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: music
+  ALLEEN IN DOCUMENT: description
+
+INTRO OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, parallaxEffect
+
+QUESTIONS - VELD STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, location, parallaxEffect, scoring
+
+TRADEOFFS - STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ORIGINEEL: dict
+    Velden: title, text, payoffParallaxEffect
+  DOCUMENT: str
+
+
+########################################################################################################################
+# AHMED
+########################################################################################################################
+
+CHARACTER OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: music
+  ALLEEN IN DOCUMENT: description
+
+INTRO OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, parallaxEffect
+
+QUESTIONS - VELD STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, location, parallaxEffect, scoring
+
+TRADEOFFS - STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ORIGINEEL: dict
+    Velden: title, text, payoffParallaxEffect
+  DOCUMENT: str
+
+
+########################################################################################################################
+# SOFIA
+########################################################################################################################
+
+CHARACTER OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: music
+  ALLEEN IN DOCUMENT: description
+
+INTRO OBJECT:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, parallaxEffect
+
+QUESTIONS - VELD STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ALLEEN IN ORIGINEEL: background, location, parallaxEffect, scoring
+
+TRADEOFFS - STRUCTUUR:
+------------------------------------------------------------------------------------------------------------------------
+  ORIGINEEL: dict
+    Velden: title, text, payoffParallaxEffect
+  DOCUMENT: str
+
+========================================================================================================================
+SAMENVATTING STRUCTURELE VERSCHILLEN
+========================================================================================================================
+
+ORIGINELE JSON:
+  - Character: volledig profiel (name, role, bio, music)
+  - Intro: text + background + parallaxEffect + music reference
+  - Questions: location, background, parallaxEffect + scoring fields
+  - Tradeoffs: structured dict {title, text, payoffParallaxEffect}
+  - GEBRUIK: Game UI met visuele effecten en scoring
+
+DOCUMENT REFERENCE FILES:
+  - Character: basis info (name, role, description, bio)
+  - Intro: alleen tekst
+  - Questions: alleen basis content (context, text, options, tradeoffs)
+  - Tradeoffs: simplified string values
+  - GEBRUIK: Clean content reference, geen UI metadata
+  
+VOORDEEL DOCUMENT REFERENCE:
+  - Lesbaarder voor inhoudelijke vergelijking
+  - Geen game-specifieke metadata
+  - Makkelijker om inhoud te updaten
+  - Kan als template dienen voor andere implementaties
+
+========================================================================================================================

@@ -1077,8 +1077,11 @@ document.getElementById('nextBtn').addEventListener('click', () => {
         document.querySelector('.character-display').classList.remove('answered');
         document.querySelector('.questions-panel').classList.remove('hidden');
         const btn = document.getElementById('nextBtn');
+        btn.style.transition = 'none';
         btn.style.opacity = '0';
         btn.style.pointerEvents = 'none';
+        // Restore transition after instant hide so hover/show animations still work
+        requestAnimationFrame(() => { btn.style.transition = ''; });
         
         // Start playing the new question audio automatically
         if (audioContext) {

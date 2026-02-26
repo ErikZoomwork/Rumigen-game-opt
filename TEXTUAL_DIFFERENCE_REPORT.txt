@@ -1,0 +1,333 @@
+====================================================================================================
+TEXTUAL CONTENT COMPARISON: DOCUMENT vs JSON
+====================================================================================================
+
+
+================================================================================
+EMMA - TEXTUAL ANALYSIS
+================================================================================
+
+Q1: [EXACT MATCH in DOC]
+  Text: Where do you go shopping?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q2: [EXACT MATCH in DOC]
+  Text: When buying groceries, what matters most to you? Both in terms of pric...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q3: [EXACT MATCH in DOC]
+  Text: How do you respond to animal welfare concerns in your shopping habits?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q4: [EXACT MATCH in DOC]
+  Text: How do you perceive environmental protection in our food systems?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q5: [EXACT MATCH in DOC]
+  Text: How do you view buying local vs. imported products?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q6: [EXACT MATCH in DOC]
+  Text: What do you think about this?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q7: [EXACT MATCH in DOC]
+  Text: Who do you think should be leading on this issue?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q8: [EXACT MATCH in DOC]
+  Text: How do think about this topic?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+================================================================================
+LUCA - TEXTUAL ANALYSIS
+================================================================================
+
+Q1: [EXACT MATCH in DOC]
+  Text: What approach do you take to animal feeding?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q2: [NEEDS CHECK]
+  JSON text: How do you manage your farm's impact on the landscape?
+  Status: Question wording may differ in document
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q3: [EXACT MATCH in DOC]
+  Text: How do you prioritize resilience on your farm?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q4: [EXACT MATCH in DOC]
+  Text: How do you respond to buyer preferences?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q5: [EXACT MATCH in DOC]
+  Text: How do you incorporate multiple functions or purposes into your farmin...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q6: [EXACT MATCH in DOC]
+  Text: What measures do you take to preserve biodiversity?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q7: [EXACT MATCH in DOC]
+  Text: How do you ensure system resilience on your farm?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q8: [EXACT MATCH in DOC]
+  Text: How do you adapt his farming practices to public opinion?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+================================================================================
+CLARA - TEXTUAL ANALYSIS
+================================================================================
+
+Q1: [EXACT MATCH in DOC]
+  Text: What do you prioritize in your policy?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q2: [EXACT MATCH in DOC]
+  Text: How do you approach the meeting?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q3: [EXACT MATCH in DOC]
+  Text: What focus do you choose?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q4: [EXACT MATCH in DOC]
+  Text: What stance do you take?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q5: [EXACT MATCH in DOC]
+  Text: What do you champion?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q6: [EXACT MATCH in DOC]
+  Text: What solution do you prioritize?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q7: [EXACT MATCH in DOC]
+  Text: What approach do you take?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q8: [EXACT MATCH in DOC]
+  Text: What vision do you advocate?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+================================================================================
+AHMED - TEXTUAL ANALYSIS
+================================================================================
+
+Q1: [EXACT MATCH in DOC]
+  Text: How do you advocate for biodiversity in your research?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q2: [EXACT MATCH in DOC]
+  Text: How do you address the situation?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q3: [EXACT MATCH in DOC]
+  Text: How do you guide them?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q4: [EXACT MATCH in DOC]
+  Text: What strategy do you support?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q5: [EXACT MATCH in DOC]
+  Text: What role do you take?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q6: [EXACT MATCH in DOC]
+  Text: How do you respond?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q7: [EXACT MATCH in DOC]
+  Text: What aspect do you prioritize?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q8: [EXACT MATCH in DOC]
+  Text: What is your main message?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+================================================================================
+SOFIA - TEXTUAL ANALYSIS
+================================================================================
+
+Q1: [EXACT MATCH in DOC]
+  Text: What partnership approach do you pursue?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q2: [EXACT MATCH in DOC]
+  Text: What marketing approach do you support?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q3: [EXACT MATCH in DOC]
+  Text: How do you respond?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q4: [EXACT MATCH in DOC]
+  Text: What funding decision do you make?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q5: [EXACT MATCH in DOC]
+  Text: What stance do you take?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q6: [EXACT MATCH in DOC]
+  Text: What solution do you implement?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q7: [EXACT MATCH in DOC]
+  Text: What do you prioritize?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+Q8: [EXACT MATCH in DOC]
+  Text: What perspective do you share?...
+  Option A: [TEXT MAY DIFFER]
+  Option B: [TEXT MAY DIFFER]
+  Option C: [TEXT MAY DIFFER]
+
+
+====================================================================================================
+DISCREPANCY SUMMARY
+====================================================================================================
+
+Found 121 potential text differences:
+  - Emma Q1 Option A: Text may differ
+  - Emma Q1 Option B: Text may differ
+  - Emma Q1 Option C: Text may differ
+  - Emma Q2 Option A: Text may differ
+  - Emma Q2 Option B: Text may differ
+  - Emma Q2 Option C: Text may differ
+  - Emma Q3 Option A: Text may differ
+  - Emma Q3 Option B: Text may differ
+  - Emma Q3 Option C: Text may differ
+  - Emma Q4 Option A: Text may differ
+  - Emma Q4 Option B: Text may differ
+  - Emma Q4 Option C: Text may differ
+  - Emma Q5 Option A: Text may differ
+  - Emma Q5 Option B: Text may differ
+  - Emma Q5 Option C: Text may differ
+  - Emma Q6 Option A: Text may differ
+  - Emma Q6 Option B: Text may differ
+  - Emma Q6 Option C: Text may differ
+  - Emma Q7 Option A: Text may differ
+  - Emma Q7 Option B: Text may differ
+
+
+====================================================================================================
+DETAILED SAMPLE COMPARISON: EMMA Q1
+====================================================================================================
+
+JSONS Q1 QUESTION:
+: Where do you go shopping?
+
+JSON Q1 OPTIONS:
+
+A: The farmers' market: it's the furthest away with mid-price produce. You would be supporting farmers and getting high-quality fresh produce, but they might not have everything you need.
+
+B: The specialty store: it's a bit further away and more expensive but has all products you need, and you would be supporting a local sustainable business.
+
+C: The supermarket chain: it's cheaper, closest to your apartment and is guaranteed to have all products and ingredients you need, but they are less transparent about their products.
+
+
+JSON Q1 TRADEOFFS:
+
+A TITLE: Emma's Choice: The Farmers' Market
+A TEXT: I contributed directly to farmers and chose fresh, seasonal food with a lower environmental footprint. It did take more time, though, and I needed a second stop to complete my list.
+
+B TITLE: Emma's Choice: The Specialty Store
+B TEXT: I supported a local business with sustainable practices and good quality products. It did take a while to travel there and was on the pricier side, which makes it harder to maintain.
+
+C TITLE: Emma's Choice: The Supermarket
+C TEXT: I saved time and money with a convenient one-stop shop. However, my choices did support long supply chains and less transparent, industrial production.
+
+
+DOCUMENT SEARCH RESULTS:
+
+Searching for Emma's Q1 content in document...
+[YES] Found exact question: 'Where do you go shopping?'
+
+Document section:
+Where do you go shopping?
+
+A: The farmers’ market: it’s the furthest away with mid-price produce. You would be supporting farmers and getting high-quality fresh produce that is produced ethically, but they might not have everything you need.
+
+B: The specialty store: it’s a bit further away and more 

@@ -1,0 +1,71 @@
+
+====================================================================================================
+SCENARIO DIFFERENCES SUMMARY
+====================================================================================================
+
+📋 STRUCTURAL DIFFERENCES:
+----------------------------------------------------------------------------------------------------
+  • Emma: Document adds 'description' field to character
+  • Emma: Tradeoff format differs - Original: structured dict, Document: string
+  • Emma: Scoring information MISSING in document version
+  • Luca: Document adds 'description' field to character
+  • Luca: Tradeoff format differs - Original: structured dict, Document: string
+  • Luca: Scoring information MISSING in document version
+  • Clara: Document adds 'description' field to character
+  • Clara: Tradeoff format differs - Original: structured dict, Document: string
+  • Clara: Scoring information MISSING in document version
+  • Ahmed: Document adds 'description' field to character
+  • Ahmed: Tradeoff format differs - Original: structured dict, Document: string
+  • Ahmed: Scoring information MISSING in document version
+  • Sofia: Document adds 'description' field to character
+  • Sofia: Tradeoff format differs - Original: structured dict, Document: string
+  • Sofia: Scoring information MISSING in document version
+
+📝 TEXT OPTION DIFFERENCES:
+----------------------------------------------------------------------------------------------------
+  • Emma: 23 option(s) have different text (23/24 options)
+  • Luca: 24 option(s) have different text (24/24 options)
+  • Clara: 24 option(s) have different text (24/24 options)
+  • Ahmed: 24 option(s) have different text (24/24 options)
+  • Sofia: 24 option(s) have different text (24/24 options)
+
+🎨 METADATA DIFFERENCES:
+----------------------------------------------------------------------------------------------------
+  • Emma: Music track missing from document version
+  • Emma intro: Missing parallaxEffect, background
+  • Emma: Missing visualization keys: ['background', 'location', 'parallaxEffect']
+  • Luca: Music track missing from document version
+  • Luca intro: Missing parallaxEffect, background
+  • Luca: Missing visualization keys: ['background', 'location', 'parallaxEffect']
+  • Clara: Music track missing from document version
+  • Clara intro: Missing parallaxEffect, background
+  • Clara: Missing visualization keys: ['background', 'location', 'parallaxEffect']
+  • Ahmed: Music track missing from document version
+  • Ahmed intro: Missing parallaxEffect, background
+  • Ahmed: Missing visualization keys: ['background', 'location', 'parallaxEffect']
+  • Sofia: Music track missing from document version
+  • Sofia intro: Missing parallaxEffect, background
+  • Sofia: Missing visualization keys: ['background', 'location', 'parallaxEffect']
+
+====================================================================================================
+CONCLUSION:
+====================================================================================================
+
+The Document Reference JSON files extracted from the proposal document contain:
+✓ All question text and contexts
+✓ All option A/B/C text (some variants from proposal vs current JSON)
+✓ All tradeoff/payoff text
+
+BUT are MISSING:
+✗ Character bios (different - extracted from doc instead of original)
+✗ Scoring system (A=3, B=2, C=1) - not in document version
+✗ Visualization properties (location, background, parallaxEffect)
+✗ Payoff metadata (title + structured format)
+✗ Music track references
+✗ Intro metadata (background, parallaxEffect)
+
+RECOMMENDATION:
+To use the document reference files as working documents, you should either:
+1. Keep them as reference-only (for comparing proposal vs implementation text)
+2. Merge the missing metadata FROM original JSON files INTO document versions
+3. Use document versions to identify where text was changed between proposal and current JSON

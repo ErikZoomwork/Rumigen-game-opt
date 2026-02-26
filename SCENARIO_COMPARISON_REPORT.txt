@@ -1,0 +1,381 @@
+================================================================================
+SCENARIO COMPARISON REPORT: Original JSON vs Document Reference
+================================================================================
+
+
+================================================================================
+EMMA - DIFFERENCES
+================================================================================
+
+📝 INTRO SECTION:
+   ✓ Intro text is IDENTICAL
+
+❓ QUESTIONS (8 total for Emma):
+
+   Q1:
+      ✓ Question text: IDENTICAL
+      ✓ Context: IDENTICAL
+      ⚠️  Options: 2/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q2:
+      ✓ Question text: IDENTICAL
+      ✓ Context: IDENTICAL
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q3:
+      ✓ Question text: IDENTICAL
+      ✓ Context: IDENTICAL
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q4:
+      ✓ Question text: IDENTICAL
+      ✓ Context: IDENTICAL
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q5:
+      ✓ Question text: IDENTICAL
+      ✓ Context: IDENTICAL
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q6:
+      ✓ Question text: IDENTICAL
+      ✓ Context: IDENTICAL
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q7:
+      ✓ Question text: IDENTICAL
+      ✓ Context: IDENTICAL
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q8:
+      ✓ Question text: IDENTICAL
+      ✓ Context: IDENTICAL
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+================================================================================
+LUCA - DIFFERENCES
+================================================================================
+
+📝 INTRO SECTION:
+   ❌ Intro text is DIFFERENT
+
+   Original has keys: ['text', 'background', 'parallaxEffect']
+   Document has keys: ['text']
+
+❓ QUESTIONS (8 total for Luca):
+
+   Q1:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q2:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q3:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q4:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q5:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q6:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q7:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q8:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+================================================================================
+CLARA - DIFFERENCES
+================================================================================
+
+📝 INTRO SECTION:
+   ❌ Intro text is DIFFERENT
+
+   Original has keys: ['text', 'background', 'parallaxEffect']
+   Document has keys: ['text']
+
+❓ QUESTIONS (8 total for Clara):
+
+   Q1:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q2:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q3:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q4:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q5:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q6:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q7:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q8:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+================================================================================
+AHMED - DIFFERENCES
+================================================================================
+
+📝 INTRO SECTION:
+   ❌ Intro text is DIFFERENT
+
+   Original has keys: ['text', 'background', 'parallaxEffect']
+   Document has keys: ['text']
+
+❓ QUESTIONS (8 total for Ahmed):
+
+   Q1:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q2:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q3:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q4:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q5:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q6:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q7:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q8:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+================================================================================
+SOFIA - DIFFERENCES
+================================================================================
+
+📝 INTRO SECTION:
+   ❌ Intro text is DIFFERENT
+
+   Original has keys: ['text', 'background', 'parallaxEffect']
+   Document has keys: ['text']
+
+❓ QUESTIONS (8 total for Sofia):
+
+   Q1:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q2:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q3:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q4:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q5:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q6:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q7:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
+
+   Q8:
+      ❌ Question text: DIFFERENT
+      ❌ Context: DIFFERENT
+      ⚠️  Options: 3/3 have DIFFERENT text
+      ⚠️  Tradeoffs: Original has STRUCTURED format (title + text)
+      ❌ Scoring: MISSING in document version
+      ⚠️  Missing visualization: location, background, parallaxEffect
