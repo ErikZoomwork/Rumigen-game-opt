@@ -22,21 +22,21 @@
         "options": {
           "A": "The farmers' market: it's the furthest away with mid-price produce. You would be supporting farmers and getting high-quality fresh produce, but they might not have everything you need.",
           "B": "The specialty store: it's a bit further away and more expensive but has all products you need, and you would be supporting a local sustainable business.",
-          "C": "The supermarket chain: it's cheaper, closest to your apartment and is guaranteed to have all products and ingredients you need, but they are less transparent about their products."
+          "C": "The supermarket chain: it's cheaper, closest to your apartment and is guaranteed to have all products and ingredients you need, but you cannot be sure if the products are sustainably produced as they are less transparent about their products."
         },
         "tradeoffs": {
           "A": {
-            "title": "Emma's Choice: The Farmers' Market",
+            "title": "You chose: The farmers' market",
             "text": "I contributed directly to farmers and chose fresh, seasonal food with a lower environmental footprint. It did take more time, though, and I needed a second stop to complete my list.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Emma's Choice: The Specialty Store",
+            "title": "You chose: The specialty store",
             "text": "I supported a local business with sustainable practices and good quality products. It did take a while to travel there and was on the pricier side, which makes it harder to maintain.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Emma's Choice: The Supermarket",
+            "title": "You chose: The supermarket chain",
             "text": "I saved time and money with a convenient one-stop shop. However, my choices did support long supply chains and less transparent, industrial production.",
             "payoffParallaxEffect": "drift"
           }
@@ -61,17 +61,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Emma's Choice: Sustainability First",
+            "title": "You chose: sustainability first",
             "text": "I put environmental and ethical values first, choosing local, certified, or minimally processed products. It supports small-scale farmers and sustainability, though it can come with higher costs, fewer options and less convenience.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Emma's Choice: Balanced Approach",
+            "title": "You chose: balanced approach",
             "text": "I try to balance price, convenience, and sustainability, picking certified or local products when I can. It's a practical approach, but the trade-offs aren't always clear.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Emma's Choice: Convenience & Affordability",
+            "title": "You chose: convenience & affordability",
             "text": "I love easy, accessible shopping and stick to familiar brands. It's practical and budget-friendly, but it does come with a higher environmental footprint and less transparency.",
             "payoffParallaxEffect": "drift"
           }
@@ -96,17 +96,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Emma's Choice: Plant-Based",
+            "title": "You chose: plant-based",
             "text": "I eliminate animal-based foods. It significantly reduces the environmental and animal welfare impact, but also limits my diet.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Emma's Choice: Certified Products",
+            "title": "You chose: certified products",
             "text": "You support higher animal welfare through labeled products or a partially plant-based diet. These often cost more, but reflect a concern for how animals are raised and treated.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Emma's Choice: No Priority",
+            "title": "You chose: no priority",
             "text": "Your choices are driven by cost or convenience, and animal welfare isn't a deciding factor. This approach supports mainstream supply chains, but often involves lower standards of animal care.",
             "payoffParallaxEffect": "drift"
           }
@@ -131,17 +131,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Emma's Choice: Environmental Priority",
+            "title": "You chose: environmental priority",
             "text": "I make conscious decisions to reduce my environmental footprint. It does require effort and comes with a higher cost, but it contributes to long-term ecological health.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Emma's Choice: Moderate Green",
+            "title": "You chose: moderate green",
             "text": "I try to shop more sustainably, but environmental protection isn't my central focus. It supports better practices but the impact is limited.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Emma's Choice: Other Priorities",
+            "title": "You chose: other priorities",
             "text": "I don't really consider environmental impact in food choices, I focus on other priorities! It's a stress-free approach but it does allow unsustainable practices to continue to go unchallenged.",
             "payoffParallaxEffect": "drift"
           }
@@ -166,17 +166,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Emma's Choice: Strictly Local",
+            "title": "You chose: strictly local",
             "text": "I fully commit to local food systems, resulting in sustainability and community support. This does mean there is less variety and higher prices so it does require a little more planning.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Emma's Choice: Mixed Local",
+            "title": "You chose: mixed local",
             "text": "I try to support local farmers, but also still enjoy the benefits of global trade. It's a thoughtful middle path, but my impact is smaller.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Emma's Choice: Global Trade",
+            "title": "You chose: global trade",
             "text": "I choose imported products, it gives me variety and is budget-friendly. However it supports longer supply chains, so higher emissions and less local support.",
             "payoffParallaxEffect": "drift"
           }
@@ -201,17 +201,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Emma's Choice: Self-Reliant Systems",
+            "title": "You chose: self-reliant systems",
             "text": "I focus on smaller-scale, resilient systems that depend less on global trade. If a crisis occurs I can easily get products however de availability is limited and it costs more.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Emma's Choice: Balanced Resilience",
+            "title": "You chose: balanced resilience",
             "text": "I support systems that balance resilience and sustainability relying somewhat on global trade but mindful of risks. This is more adaptable, but not fully future-proof.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Emma's Choice: Robust Supply",
+            "title": "You chose: robust supply",
             "text": "I value consistent access and low prices. Which makes the climate a bit more vulnerable.",
             "payoffParallaxEffect": "drift"
           }
@@ -236,17 +236,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Emma's Choice: Shared Responsibility",
+            "title": "You chose: shared responsibility",
             "text": "You're open to paying slightly more to support sustainable transitions. It's a practical middle ground, though real impact still depends on broader system shifts.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Emma's Choice: Institutional Lead",
+            "title": "You chose: institutional lead",
             "text": "You place responsibility on institutions and don't want rising costs passed to consumers. While this reduces your personal burden, it may delay change if market demand is low.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Emma's Choice: Personal Investment",
+            "title": "You chose: personal investment",
             "text": "You embrace the idea of paying more for better products and systems. This puts values into action, but may strain budgets or limit access for others.",
             "payoffParallaxEffect": "drift"
           }
@@ -271,17 +271,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Emma's Choice: Self-Sufficiency",
+            "title": "You chose: self-sufficiency",
             "text": "I favor regional production. It reduces import reliance but can lead to less variety.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Emma's Choice: Balanced Policy",
+            "title": "You chose: balanced policy",
             "text": "I support regional food security but also keep global partnerships. It's flexible forward-thinking, though may require policy changes and public support.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Emma's Choice: Trade Focus",
+            "title": "You chose: trade focus",
             "text": "I support trade and affordability, even if it means reliance on other regions.",
             "payoffParallaxEffect": "drift"
           }

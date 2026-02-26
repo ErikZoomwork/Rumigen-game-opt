@@ -7,7 +7,7 @@
       "music": "assets/audio/music/Luca_Song.mp3"
     },
     "intro": {
-      "text": "I am navigating a busy week on the farm! Juggling management, weather challenges and keeping up with buyers and neighbors. My role in changing agricultural landscape is pretty big, I have quite a few responsibilities, decisions to make and reflecting to do.\n\nBy answering a few questions, you can help me get through the day!",
+      "text": "I'm thinking about the future of my farm. With changing weather patterns, new policies, and consumer interests in sustainability, things are getting complex. I need to make some important decisions for the years ahead. What do you think I should prioritize?\n\nBy answering a few questions, you can help me navigate these choices!",
       "background": "luca-q1-q2",
       "parallaxEffect": "drift"
     },
@@ -18,7 +18,7 @@
         "background": "luca-q1-q2",
         "parallaxEffect": "drift",
         "context": "Luca says: I notice some neighbors adopting new feeding techniques to improve herd productivity and longevity. My feed supplier suggests a high-protein feed, but I'm unsure it fits my values and goals. After talking with my advisor, I'm presented with three options. Which one do I choose?",
-        "text": "What approach do you take to animal feeding?",
+        "text": "What approach to farming productivity appeals to you the most?",
         "options": {
           "A": "Natural Grazing: you opt for a low-impact, natural grazing method that prioritizes animal welfare and lower environmental impact.",
           "B": "Regional Feed: you incorporate regionally-sourced feed to strike a balance between productivity and environmental impact.",
@@ -26,17 +26,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Luca's Choice: Natural Grazing",
+            "title": "You chose: natural grazing",
             "text": "I'm committed to a low-impact system. It aligns with animal welfare and climate goals but may lower output or require more land.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Luca's Choice: Regional Feed",
+            "title": "You chose: regional feed",
             "text": "I aim to be both productive and environmentally conscious. This supports local economies but might be a little inconsistent or costs more.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Luca's Choice: High-Performance",
+            "title": "You chose: high-performance",
             "text": "I value efficiency and output. This keeps your farm competitive, but at the cost of greater reliance on imports and potentially higher emissions.",
             "payoffParallaxEffect": "drift"
           }
@@ -53,7 +53,7 @@
         "background": "luca-q1-q2",
         "parallaxEffect": "drift",
         "context": "Luca says: While walking around my farm, I reflect on how my practices affect the surrounding landscape, considering whether converting some land to natural habitats or agroforestry is worth the potential impact on yield.",
-        "text": "How do you manage your farm's impact on the landscape?",
+        "text": "Would you join a cooperative or network marketing local sustainable produce?",
         "options": {
           "A": "Rewilding Focus: you set aside significant parts of my land for rewilding and natural habitats, even if it reduces productivity.",
           "B": "Maintain Productivity: you prioritize productivity and maintain your current farmland without major changes.",
@@ -61,17 +61,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Luca's Choice: Rewilding Focus",
+            "title": "You chose: rewilding focus",
             "text": "I'm leading on restoration and environmental care. This supports ecosystems, but it might imply lower yields and income.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Luca's Choice: Maintain Current",
+            "title": "You chose: maintain current",
             "text": "I'm focused on output and keeping systems unchanged. It's efficient, but sometimes I miss opportunities to support biodiversity or future resilience.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Luca's Choice: Buffer Zones",
+            "title": "You chose: buffer zones",
             "text": "I'm finding a compromise between conservation and productivity. It's a thoughtful middle path, though it still requires more complex and structured effort and planning.",
             "payoffParallaxEffect": "drift"
           }
@@ -88,7 +88,7 @@
         "background": "luca-q1-q2",
         "parallaxEffect": "drift",
         "context": "Luca says: Last summer's drought hit my farm hard, and with climate challenges becoming more frequent, I'm thinking about how to make my farm more resilient to shocks like droughts or floods.",
-        "text": "How do you prioritize resilience on your farm?",
+        "text": "How do you want to handle climate risks on your farm?",
         "options": {
           "A": "Low-Input System: you shift to a low-input system that relies on natural resilience, even if it reduces yields in the short term.",
           "B": "Diversification: you diversify your crops and livestock, implementing use of special crops or specific breeding strategies to adapt to changing conditions while maintaining stability.",
@@ -96,17 +96,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Luca's Choice: Low-Input",
+            "title": "You chose: low-input",
             "text": "I'm embracing nature-based resilience. It's a sustainable choice, but may involve lower income and increased uncertainty in the first period and mid-term.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Luca's Choice: Diversification",
+            "title": "You chose: diversification",
             "text": "I'm spreading risk across multiple activities. This makes mee more resilient, though it may complicate operations, limit specialization and costs more.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Luca's Choice: Infrastructure",
+            "title": "You chose: infrastructure",
             "text": "I'm building technical solutions to stay productive. This may protect my farm short-term, but adds cost and resource use.",
             "payoffParallaxEffect": "drift"
           }
@@ -123,7 +123,7 @@
         "background": "luca-q1-q2",
         "parallaxEffect": "drift",
         "context": "Luca says: One of my regular farmers market buyers is more conscious of animal welfare and sustainability and asks how my farming practices reflect these values.",
-        "text": "How do you respond to buyer preferences?",
+        "text": "How do you feel about policies protecting farmland from development?",
         "options": {
           "A": "Premium Sustainable: you market your products as high-welfare and sustainable, targeting niche consumers willing to pay a premium.",
           "B": "Balanced Approach: you adjust my practices to ensure a balance between affordability, sustainability, and animal welfare.",
@@ -131,17 +131,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Luca's Choice: Premium Sustainable",
+            "title": "You chose: premium sustainable",
             "text": "I'm leaning into high standards and niche branding. This can boost loyalty and margins, but can narrow my market and raises costs.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Luca's Choice: Balanced Approach",
+            "title": "You chose: balanced approach",
             "text": "I'm adapting to shifting values without alienating price-conscious buyers. It's a flexible, inclusive approach, but hard to optimize.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Luca's Choice: Affordable Products",
+            "title": "You chose: affordable products",
             "text": "I'm responding to price sensitivity and ensuring accessibility. However, this means I may miss chances to stand out or lead on sustainability.",
             "payoffParallaxEffect": "drift"
           }
@@ -158,7 +158,7 @@
         "background": "luca-q1-q2",
         "parallaxEffect": "drift",
         "context": "Luca says: A representative from an environmental organization visits my farm to talk about multifunctionality, balancing food production with environmental goals. I'm interested but unsure how to move forward.",
-        "text": "How do you incorporate multiple functions or purposes into your farming strategy?",
+        "text": "How do you decide what crops to grow?",
         "options": {
           "A": "Environmental Stewardship: you fully embrace multifunctionality, shifting your focus to environmental stewardship over production.",
           "B": "Integrated Agroforestry: you integrate practices like agroforestry in food production and hopefully they will bring environmental benefits.",
@@ -166,17 +166,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Luca's Choice: Environmental Stewardship",
+            "title": "You chose: environmental stewardship",
             "text": "I'm shifting toward stewardship and long-term ecological impact. The difficulties of this choice could be mitigated with financial tools provided by national institutions and the European level.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Luca's Choice: Integrated Agroforestry",
+            "title": "You chose: integrated agroforestry",
             "text": "I'm aiming to support both food systems and nature. This makes my farm more diverse and resilient, though it takes extra effort.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Luca's Choice: Production Focus",
+            "title": "You chose: production focus",
             "text": "I'm focused on core outputs and food security. It's clear and efficient, but could overlook the broader role farms can play.",
             "payoffParallaxEffect": "drift"
           }
@@ -193,7 +193,7 @@
         "background": "luca-q1-q2",
         "parallaxEffect": "drift",
         "context": "Luca says: I've noticed a decline in wildlife diversity on my farm and am considering steps to preserve biodiversity. I do think this will require significant changes.",
-        "text": "What measures do you take to preserve biodiversity?",
+        "text": "Would you sign a long-term contract with a major buyer, even if it limits your independence?",
         "options": {
           "A": "Natural Habitats: you transition parts of your farm to natural habitats to fully support biodiversity, even at the expense of yields.",
           "B": "Wildlife Corridors: you create targeted wildlife corridors and plant cover to balance biodiversity with productivity.",
@@ -201,17 +201,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Luca's Choice: Natural Habitats",
+            "title": "You chose: natural habitats",
             "text": "I'm putting ecological recovery first. This strengthens environmental outcomes but comes with yield and profit trade-offs.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Luca's Choice: Wildlife Corridors",
+            "title": "You chose: wildlife corridors",
             "text": "I'm supporting nature without sacrificing too much productivity. It's a smart mix, but requires ongoing care and coordination.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Luca's Choice: Efficient Land Use",
+            "title": "You chose: efficient land use",
             "text": "I'm staying focused on production. It's a straightforward approach, but risks degrading ecosystem health long-term.",
             "payoffParallaxEffect": "drift"
           }
@@ -228,7 +228,7 @@
         "background": "luca-q1-q2",
         "parallaxEffect": "drift",
         "context": "Luca says: A supplier warns me about possible feed delivery disruptions, prompting me to think about how to strengthen my farm's resilience to supply chain issues.",
-        "text": "How do you ensure system resilience on your farm?",
+        "text": "How do you feel about government subsidies for sustainable farming?",
         "options": {
           "A": "Self-Sufficient Systems: you transition to self-sufficient systems, such as growing your own feed, to minimize reliance on external suppliers.",
           "B": "Mixed Sourcing: you use a mix of external and locally-sourced feed to reduce dependence on external suppliers.",
@@ -236,17 +236,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Luca's Choice: Self-Sufficient",
+            "title": "You chose: self-sufficient",
             "text": "I'm opting for independence and resilience. It's sustainable long-term, it does need planning, land, and upfront investment.",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Luca's Choice: Mixed Sourcing",
+            "title": "You chose: mixed sourcing",
             "text": "I'm building flexibility and local connections. This reduces risks while keeping some convenience, but takes coordination.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Luca's Choice: Multiple Suppliers",
+            "title": "You chose: multiple suppliers",
             "text": "I'm managing risk through the market. It's cost-effective, but keeps me vulnerable to global disruptions.",
             "payoffParallaxEffect": "drift"
           }
@@ -263,7 +263,7 @@
         "background": "luca-q1-q2",
         "parallaxEffect": "drift",
         "context": "Luca says: A local journalist comes to visit my farm. They ask how I respond to changing societal expectations around farming practices.",
-        "text": "How do you adapt his farming practices to public opinion?",
+        "text": "What's your vision for the next generation on your farm?",
         "options": {
           "A": "Lead Sustainably: you shift your practices significantly to align with public demand for sustainable and ethical farming.",
           "B": "Balanced Adaptation: you adapt your practices to reflect a balance between public expectations and practical realities.",
@@ -271,17 +271,17 @@
         },
         "tradeoffs": {
           "A": {
-            "title": "Luca's Choice: Lead Sustainably",
+            "title": "You chose: lead sustainably",
             "text": "I'm leading the way in ethical and sustainable farming. It positions me as a role model, but may increase pressure and complexity",
             "payoffParallaxEffect": "drift"
           },
           "B": {
-            "title": "Luca's Choice: Balanced Adaptation",
+            "title": "You chose: balanced adaptation",
             "text": "I'm responsive but grounded. This approach helps maintain trust and flexibility, though it may require ongoing compromise.",
             "payoffParallaxEffect": "drift"
           },
           "C": {
-            "title": "Luca's Choice: Efficiency Focus",
+            "title": "You chose: efficiency focus",
             "text": "I'm focused on running my farm my way. It's practical, but could create a dicsonnect with changing consumer values.",
             "payoffParallaxEffect": "drift"
           }
