@@ -1,6 +1,9 @@
 // Screen management
 let selectedCharacter = 'emma'; // Default character
 
+// Cache-busting version — increment when deploying new assets
+const ASSET_VERSION = Date.now();
+
 // Character name mapping: key → display name (also used as folder/file prefix)
 const CHARACTER_NAMES = {
     emma: 'Emma', luca: 'Luca', clara: 'Clara', ahmed: 'Ahmed', sofia: 'Sofia'
@@ -93,7 +96,7 @@ async function preloadScene(sceneName) {
         await Promise.all(
             paths.slice(i, i + BATCH).map(async (p) => {
                 try {
-                    const res = await fetch(p);
+                    const res = await fetch(`${p}?v=${ASSET_VERSION}`);
                     if (res.ok) SVG_PRELOAD_CACHE[p] = await res.blob();
                 } catch (e) { /* ignore — not critical */ }
             })
@@ -711,7 +714,7 @@ async function preloadCharacterBackgrounds(characterName) {
         await Promise.all(
             allPaths.slice(i, i + BATCH).map(async (svgPath) => {
                 try {
-                    const res = await fetch(svgPath, { priority: 'low' });
+                    const res = await fetch(`${svgPath}?v=${ASSET_VERSION}`, { priority: 'low' });
                     if (res.ok) SVG_PRELOAD_CACHE[svgPath] = await res.blob();
                 } catch (e) {
                     console.warn(`Failed to preload: ${svgPath}`);
