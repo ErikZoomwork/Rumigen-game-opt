@@ -21,13 +21,39 @@
         </div>
     </div>
 
+    <!-- Disclaimer Modal -->
+    <div id="disclaimer-modal" class="disclaimer-modal">
+        <div class="disclaimer-content">
+            <h2>About This Game</h2>
+            <p>This game explores possible future scenarios in agriculture and food production. The three scenarios at the end are intentionally extreme to highlight different outcomes and spark discussion, rather than predict the future. While real-world systems will likely sit between these extremes, the scenarios help illustrate how choices around priorities, policies, and technology can shape food systems. The game does not promote a single path, but encourages reflection, dialogue, and collaborative thinking about balancing productivity, sustainability, and societal needs.</p>
+            <button class="disclaimer-btn" onclick="closedisclaimer()">I Understand</button>
+        </div>
+    </div>
+  
+
     <!-- Welcome Screen -->
     <div id="welcome-screen" class="screen active">
         <div class="welcome-content">
             <img src="assets/images/rumigen-logo.png" alt="RUMIGEN" class="rumigen-logo">
             <h1 class="game-title">RUMIGEN Scenario Game</h1>
             <p class="game-subtitle">An interactive exploration of food system values and trade-offs</p>
-            <button class="btn-primary" onclick="showCharacterSelection()">Start Game</button>
+            
+            <!-- Intro Text -->
+            <div class="intro-text-section">
+                <p class="intro-line intro-line-1">Welcome to the world of RUMIGEN</p>
+                <p class="intro-line intro-line-2">Every day, we make choices.<br>
+                Behind each one lies a hidden system of people, animals, and decisions we rarely get to see.</p>
+                
+                <p class="intro-line intro-line-3">Step inside. Explore connections.<br>
+                Discover how everyday life and livestock systems shape one another.</p>
+                
+                <p class="intro-line intro-line-4">There are no right or wrong answers.<br>
+                Only choices, consequences, and discovery.</p>
+                
+                <p class="intro-line intro-line-5">Meet the characters. Follow their stories.</p>
+            </div>
+            
+            <button class="btn-primary" onclick="showCharacterSelection()">Click to enter the simulation</button>
         </div>
     </div>
 
@@ -132,6 +158,12 @@
 
         <!-- Questions Panel -->
         <div class="questions-panel hidden">
+            <!-- Top Navigation Buttons -->
+            <div class="questions-nav-buttons">
+                <button class="nav-btn home-btn" onclick="goHome()">Home</button>
+                <button class="nav-btn prev-btn" onclick="gotoPreviousQuestion()" id="prevBtn">Previous Question</button>
+            </div>
+            
             <img src="assets/images/rumigen-logo.png" alt="RUMIGEN" class="questions-logo">
             <div class="question-header" id="questionLocation">📍 LOCATION: Shopping District</div>
             <div class="emma-intro">
