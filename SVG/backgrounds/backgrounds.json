@@ -1,1 +1,67 @@
-{"backgrounds":[]}
+﻿{
+    "backgrounds":  [
+                        {
+                            "layers":  [
+                                           {
+                                               "number":  1,
+                                               "layerClass":  "layer-6",
+                                               "name":  "voorgrond"
+                                           },
+                                           {
+                                               "number":  2,
+                                               "layerClass":  "layer-5",
+                                               "name":  "midden"
+                                           },
+                                           {
+                                               "number":  3,
+                                               "layerClass":  "layer-4",
+                                               "name":  "background"
+                                           }
+                                       ],
+                            "name":  "agro",
+                            "displayName":  "Agro"
+                        },
+                        {
+                            "layers":  [
+                                           {
+                                               "number":  1,
+                                               "layerClass":  "layer-6",
+                                               "name":  "voorgrond"
+                                           },
+                                           {
+                                               "number":  2,
+                                               "layerClass":  "layer-5",
+                                               "name":  "midden"
+                                           },
+                                           {
+                                               "number":  3,
+                                               "layerClass":  "layer-4",
+                                               "name":  "background"
+                                           }
+                                       ],
+                            "name":  "hightech",
+                            "displayName":  "Hightech"
+                        },
+                        {
+                            "layers":  [
+                                           {
+                                               "number":  1,
+                                               "layerClass":  "layer-6",
+                                               "name":  "voorgrond"
+                                           },
+                                           {
+                                               "number":  2,
+                                               "layerClass":  "layer-5",
+                                               "name":  "midden"
+                                           },
+                                           {
+                                               "number":  3,
+                                               "layerClass":  "layer-4",
+                                               "name":  "background"
+                                           }
+                                       ],
+                            "name":  "modern",
+                            "displayName":  "Modern"
+                        }
+                    ]
+}

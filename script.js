@@ -465,6 +465,11 @@ let characterData = null;
 // Track current question and score
 let currentQuestion = 0;
 let totalScore = 0;
+
+// Scenario paragraph navigation
+let scenarioParagraphs = [];
+let currentScenarioParagraph = 0;
+let isShowingScenario = false;
 let isInIntroModal = false; // Flag to prevent event listener during intro
 
 // ===== DYNAMIC BACKGROUND SYSTEM =====
@@ -697,6 +702,11 @@ async function preloadCharacterBackgrounds(characterName) {
         ensurePayoffBackground(scene);
     });
 
+    // Also pre-create the three eindscenario backgrounds so they are ready when the game ends
+    ['agro', 'hightech', 'modern'].forEach(scene => {
+        if (BACKGROUND_CONFIG[scene]) ensurePayoffBackground(scene);
+    });
+
     // Collect unique SVG paths not yet cached
     const allPaths = [];
     for (const sceneName of scenesToLoad) {
@@ -729,7 +739,7 @@ async function preloadCharacterBackgrounds(characterName) {
 const PARALLAX_CLASSES = [
     'parallax-effect-scroll-left', 'parallax-effect-scroll-right',
     'parallax-effect-zoom-gentle', 'parallax-effect-zoom', 'parallax-effect-static',
-    'parallax-effect-mixed', 'parallax-effect-drift'
+    'parallax-effect-mixed', 'parallax-effect-drift', 'parallax-effect-pan'
 ];
 
 // Load a question background – creates the DOM element lazily on first use
@@ -1049,8 +1059,8 @@ function closeTradeoff() {
 
 // Next question button
 document.getElementById('nextBtn').addEventListener('click', () => {
-    // Prevent listener from firing during intro modal
-    if (isInIntroModal) {
+    // Prevent listener from firing during intro modal or scenario display
+    if (isInIntroModal || isShowingScenario) {
         return;
     }
     
@@ -1151,34 +1161,101 @@ function loadQuestion(index) {
 // Function to show final scenario based on score
 function showScenario() {
     const charName = characterData ? characterData.character.name : 'Character';
-    let scenario;
     let scenarioTitle;
-    let scenarioText;
-    
+    let scenarioBackground;
+
     if (totalScore <= 12) {
-        scenario = 1;
         scenarioTitle = "The High-Technology Scenario";
-        scenarioText = "<p>Let us imagine a future with no technological limits in order to ensure large-scale production of milk and meat at low cost. Animal production is largely automated and highly industrialised, similar to factory systems. Simplicity and uniformity are prioritised.</p><p>This means that animals are treated as objects serving a profitability goal, and they find it difficult to express their natural behaviour. In this system, livestock control is strict, and it is possible to monitor their health and efficiency through statistical measurements.</p><p>Significant financial resources are invested in research, innovation, and the development of new technologies. Funding comes from the European Union and national governments, but also—and above all—from private companies. Competition in the development of new technologies is fierce, and large companies with substantial budgets dominate the market.</p><p>Large-scale farms have a competitive advantage, leading to the disappearance of smaller farms. The European Union has now become the most technologically advanced agricultural region in the world, thanks to these very large farms and their high-tech infrastructure.</p><p>Europe provides a constant and reliable supply of red meat and dairy products to the EU and to international markets. Southern regions are unable to compete with the EU in the production of low-cost meat and become incapable of providing their populations with sustainably and locally produced food.</p><p>In the long term, large companies in other regions of the world will also gain access to new technologies, although not at the same pace as European companies.</p>";
+        scenarioBackground = 'hightech';
+        scenarioParagraphs = [
+            "Let us imagine a future without technological limits, where milk and meat are produced on a large scale at low cost. Livestock farming is highly automated and industrialised, prioritising simplicity and uniformity. Animals are treated as production units, with little opportunity to express natural behaviour, while their health and efficiency are strictly controlled and monitored.",
+            "Heavy investment in innovation—driven largely by private companies—intensifies competition, allowing large corporations to dominate and pushing smaller farms out of the market. This results in a sector dominated by large-scale, high-tech operations, making Europe the most technologically advanced agricultural region.",
+            "Europe supplies a constant flow of meat and dairy to global markets, while other regions struggle to compete with low-cost production and become unable to provide sustainable, locally produced food."
+        ];
     } else if (totalScore >= 20) {
-        scenario = 3;
         scenarioTitle = "The Nature-Based Scenario";
-        scenarioText = "<p>In this scenario, EU citizens and policymakers have decided that current methods of animal production are too harmful to the environment and the climate. New European policies have been introduced, requiring farmers, processing industries, and retailers to drastically limit their production, processing, and sale of red meat and dairy products.</p><p>Many cattle farms have closed or converted their animal production to other activities. Some cattle farms have been converted to pig and poultry farming, which emit fewer greenhouse gases and require less agricultural land for feed. Others have been converted to plant-based production, which requires even less land.</p><p>Within the livestock sector, there is little funding or incentive to invest in new cutting-edge technologies, as the economic scale is too small to be profitable. Basic breeding technologies, such as crossbreeding cattle with desired traits, continue to be used.</p><p>The preservation of the natural environment and animal welfare are absolute priorities. Farming systems such as agroforestry, where animals graze in more natural landscapes, become widespread. These systems allow animals to behave more in line with their natural instincts and help address various health and welfare issues.</p><p>Very little European cattle and sheep farming remains. These systems supply high-quality meat at high prices to affluent consumers in niche markets. At the same time, European citizens with low or middle incomes must significantly reduce their meat consumption or seek alternative sources of animal protein.</p><p>Some people have shifted towards more plant-based diets, but not everyone is willing to give up red meat and dairy products and rely on imported products.</p>";
+        scenarioBackground = 'agro';
+        scenarioParagraphs = [
+            "In this future, EU citizens and policymakers conclude that current livestock production is too harmful to the environment and climate. Strict policies drastically reduce the production and sale of red meat and dairy. Many cattle farms close or shift to pig and poultry farming, or to plant-based production, which requires less land.",
+            "With the sector shrinking, there is little incentive to invest in advanced technologies, and only basic breeding methods remain in use. Environmental protection and animal welfare become top priorities, leading to more natural systems like agroforestry, where animals can express natural behaviour.",
+            "Only a small number of cattle and sheep farms remain, supplying high-quality, expensive products to niche markets. As a result, many Europeans reduce their meat consumption or turn to plant-based alternatives, while some continue to rely on imports."
+        ];
     } else {
-        scenario = 2;
         scenarioTitle = "The Precautionary Scenario";
-        scenarioText = "<p>In this future scenario, the main objective is to create an efficient and low-risk agricultural production system. Livestock farming focuses on animal welfare, disease resistance, and reducing the environmental and climate impact of animal production.</p><p>At first glance, agriculture and landscapes resemble what we know today. When travelling through the countryside, you would pass farms and fields that look familiar, sometimes with cows and sheep grazing. Animal breeds are adapted to regional climates and geographical conditions.</p><p>Social ties between farmers and other rural communities are strong, and even stronger than they are today. Animals are bred and selected to meet the requirements of the European market, while ensuring high productivity with a limited impact on the environment.</p><p>In line with current trends, the number of farms in Europe will decrease over time, and large farms will be more competitive than small ones. Advanced breeding technologies, such as genome editing and laboratory breeding, are permitted in the EU, but only after thorough assessment and on the condition that they improve animal health or reduce environmental and climate footprints.</p><p>Within the EU, a biobank exists containing samples of eggs and sperm from different breeds, so that older breeds can be restored in case certain characteristics of new breeds are later regretted.</p><p>European livestock farming offers red meat and dairy products across different price and quality ranges to meet consumer demand within the EU. However, the limited use of technology by European farmers represents a competitive disadvantage compared to other regions of the world, which may have more liberal regulations.</p><p>As a result, EU animal production is no longer sufficient to export to countries outside the EU, as is the case today.</p>";
+        scenarioBackground = 'modern';
+        scenarioParagraphs = [
+            "In this future scenario, the main goal is to create an efficient, low-risk agricultural system. Livestock farming emphasises animal welfare, disease resistance, and reducing environmental and climate impacts. Farms and landscapes still appear familiar, with regionally adapted breeds and grazing animals, while strong social ties in rural communities persist.",
+            "Animals are bred to meet European market demands with high productivity and limited environmental impact. However, the number of farms declines over time, with large farms outcompeting smaller ones. Advanced breeding technologies are allowed only under strict conditions, and a biobank preserves genetic material to restore older breeds if needed.",
+            "European livestock farming supplies meat and dairy across price and quality ranges for EU consumers. Yet stricter regulations and more limited use of technology create a competitive disadvantage globally, reducing the EU's ability to export beyond its borders."
+        ];
     }
-    
-    // Hide tradeoff modal and show scenario result
+
+    // Load the matching eindscenario background
+    ensurePayoffBackground(scenarioBackground);
+    document.querySelectorAll('.payoff-container').forEach(c => {
+        c.classList.remove('active', ...PARALLAX_CLASSES);
+    });
+    setTimeout(() => {
+        const bg = document.querySelector(`.payoff-${scenarioBackground}`);
+        if (bg) {
+            bg.classList.add('active', 'parallax-effect-pan');
+        }
+    }, 100);
+
+    // Hide the "Next Question" button — no more questions after the final scenario
+    const nextQBtn = document.getElementById('nextBtn');
+    if (nextQBtn) { nextQBtn.style.opacity = '0'; nextQBtn.style.pointerEvents = 'none'; }
+
     document.getElementById('tradeoffModal').classList.remove('active');
     document.getElementById('tradeoffTitle').textContent = `${charName}'s Future: ${scenarioTitle}`;
-    document.getElementById('tradeoffText').innerHTML = `${scenarioText}`;
     document.getElementById('tradeoffModal').classList.add('active');
-    const btn = document.getElementById('nextBtn');
-    btn.textContent = 'Play Again';
-    btn.style.opacity = '1';
-    btn.style.pointerEvents = 'auto';
-    btn.onclick = () => location.reload();
+
+    isShowingScenario = true;
+    currentScenarioParagraph = 0;
+    showScenarioParagraph();
+}
+
+// Advances through scenario paragraphs one at a time
+function showScenarioParagraph() {
+    const total = scenarioParagraphs.length;
+    const index = currentScenarioParagraph;
+
+    const subtitleEl = document.querySelector('#tradeoffModal .tradeoff-choice');
+    if (subtitleEl) subtitleEl.textContent = `Part ${index + 1} of ${total}`;
+
+    document.getElementById('tradeoffText').innerHTML = `<p>${scenarioParagraphs[index]}</p>`;
+
+    // Show the scenario nav button row
+    const navButtons = document.getElementById('scenarioNavButtons');
+    navButtons.style.display = 'flex';
+
+    const nextBtn = document.getElementById('scenarioNextBtn');
+    const prevBtn = document.getElementById('scenarioPrevBtn');
+
+    // Previous button: only visible from part 2 onward
+    if (index > 0) {
+        prevBtn.style.opacity = '1';
+        prevBtn.style.pointerEvents = 'auto';
+        prevBtn.onclick = () => {
+            currentScenarioParagraph--;
+            showScenarioParagraph();
+        };
+    } else {
+        prevBtn.style.opacity = '0';
+        prevBtn.style.pointerEvents = 'none';
+    }
+
+    // Next button: Next → or Play Again on last paragraph
+    if (index < total - 1) {
+        nextBtn.textContent = 'Next →';
+        nextBtn.onclick = () => {
+            currentScenarioParagraph++;
+            showScenarioParagraph();
+        };
+    } else {
+        nextBtn.textContent = 'Play Again';
+        nextBtn.onclick = () => location.reload();
+    }
 }
 
 voiceAudio.addEventListener('ended', () => {

@@ -686,6 +686,43 @@ body {
 .parallax-effect-drift .layer-5 { animation: driftLeft  42s ease-in-out infinite alternate; }
 .parallax-effect-drift .layer-6 { animation: driftLeft  50s ease-in-out infinite alternate; }
 
+/* Parallax Effect: pan (panorama scroll left→right→left, for wide images) */
+.parallax-effect-pan .parallax-layer {
+    animation: none;
+    width: 100vw;
+    min-width: 100vw;
+    left: 0;
+    overflow: hidden;
+}
+/* Hide the duplicate segment */
+.parallax-effect-pan .parallax-layer .layer-segment:nth-child(2),
+.parallax-effect-pan .parallax-layer > object:nth-child(2) {
+    display: none;
+}
+/* Single segment fills the layer */
+.parallax-effect-pan .parallax-layer .layer-segment {
+    width: 100vw;
+    min-width: 100vw;
+}
+/* The image pans via object-position — no translateX needed */
+.parallax-effect-pan .parallax-layer .layer-segment img,
+.parallax-effect-pan .parallax-layer > img {
+    width: 100vw;
+    min-width: 100vw;
+    object-fit: cover;
+    object-position: 0% 50%;
+    animation: panLeftRight 40s ease-in-out infinite alternate;
+}
+/* Subtle parallax depth — foreground only slightly faster than background */
+.parallax-effect-pan .layer-4 .layer-segment img { animation-duration: 60s; }
+.parallax-effect-pan .layer-5 .layer-segment img { animation-duration: 55s; }
+.parallax-effect-pan .layer-6 .layer-segment img { animation-duration: 50s; }
+
+@keyframes panLeftRight {
+    from { object-position: 0% 50%; }
+    to   { object-position: 100% 50%; }
+}
+
 /* Parallax Effect: static (no animation) */
 .parallax-effect-static .parallax-layer {
     animation: none;
@@ -1339,6 +1376,11 @@ body {
     align-self: flex-start;
 }
 
+#scenarioPrevBtn {
+    background: #4a5568;
+    box-shadow: 0 10px 30px rgba(74, 85, 104, 0.3);
+}
+
 .payoff-container.active ~ .left-column-wrapper .restart-button {
     opacity: 1;
     pointer-events: auto;
@@ -1520,6 +1562,28 @@ body {
 
 .continue-button {
     display: none;
+}
+
+.scenario-next-btn {
+    display: none;
+    margin-top: 15px;
+    opacity: 0;
+    pointer-events: none;
+    position: static;
+    align-self: flex-start;
+}
+
+.scenario-nav-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+}
+
+.scenario-nav-buttons .restart-button {
+    opacity: 1;
+    pointer-events: auto;
+    position: static;
 }
 /* Disclaimer Modal */
 .disclaimer-modal {

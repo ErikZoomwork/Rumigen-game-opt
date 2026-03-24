@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 14760 1900">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <filter id="luminosity-noclip" x="1245.277" y="917.982" width="12.851" height="5.12" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip1" x="1245.277" y="-9824.24" width="12.851" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="1245.277" y="-9824.24" width="12.851" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_2" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="13740.31" y1="922.285" x2="13728.112" y2="917.319" gradientTransform="translate(14985.968) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <mask id="mask" x="1245.277" y="917.982" width="12.851" height="5.12" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip);">
+        <g style="mask: url(#mask-1);">
+          <polygon points="1245.834 923.102 1258.129 918.223 1258.049 917.982 1245.277 921.425 1245.834 923.102 1245.834 923.102" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_2); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_5" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="13740.31" y1="922.285" x2="13728.112" y2="917.319" gradientTransform="translate(14985.968) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="luminosity-noclip2" x="1245.473" y="921.384" width="18.749" height="2.771" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip3" x="1245.473" y="-9824.24" width="18.749" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-3" x="1245.473" y="-9824.24" width="18.749" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_21" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="13738.366" y1="922.482" x2="13715.769" y2="924.893" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-2" x="1245.473" y="921.384" width="18.749" height="2.771" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip2);">
+        <g style="mask: url(#mask-3);">
+          <polygon points="1245.473 923.143 1264.197 924.155 1264.221 923.902 1245.639 921.384 1245.473 923.143 1245.473 923.143" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_21); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_51" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="13738.366" y1="922.482" x2="13715.769" y2="924.893" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip4" x="1272.243" y="929.21" width="31.107" height="4.565" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip5" x="1272.243" y="-9824.24" width="31.107" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-5" x="1272.243" y="-9824.24" width="31.107" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_22" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="13710.606" y1="930.544" x2="13682.6" y2="932.665" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-4" x="1272.243" y="929.21" width="31.107" height="4.565" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip4);">
+        <g style="mask: url(#mask-5);">
+          <polygon points="1272.243 930.965 1303.32 933.775 1303.349 933.523 1272.444 929.21 1272.243 930.965 1272.243 930.965" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_22); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_52" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="13710.606" y1="930.544" x2="13682.6" y2="932.665" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip6" x="1251.803" y="928.63" width="20.54" height="2.975" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip7" x="1251.803" y="-9824.24" width="20.54" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-7" x="1251.803" y="-9824.24" width="20.54" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_23" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="13713.624" y1="930.117" x2="13734.165" y2="930.117" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-6" x="1251.803" y="928.63" width="20.54" height="2.975" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip6);">
+        <g style="mask: url(#mask-7);">
+          <polygon points="1272.344 929.234 1251.803 928.63 1251.803 931.604 1272.344 931 1272.344 929.234 1272.344 929.234" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_23); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_53" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="13713.624" y1="930.117" x2="13734.165" y2="930.117" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip8" x="1125.031" y="914.714" width="11.32" height="8.304" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip9" x="1125.031" y="-9824.24" width="11.32" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-9" x="1125.031" y="-9824.24" width="11.32" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_24" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="13859.934" y1="923.176" x2="13846.021" y2="913.197" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-8" x="1125.031" y="914.714" width="11.32" height="8.304" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip8);">
+        <g style="mask: url(#mask-9);">
+          <polygon points="1125.92 923.018 1136.351 918.364 1134.225 914.714 1125.031 921.492 1125.92 923.018 1125.92 923.018" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_24); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_54" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="13859.934" y1="923.176" x2="13846.021" y2="913.197" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip10" x="1125.476" y="920.768" width="18.411" height="2.975" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip11" x="1125.476" y="-9824.24" width="18.411" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-11" x="1125.476" y="-9824.24" width="18.411" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_25" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="13858.52" y1="922.727" x2="13838.466" y2="922.151" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-10" x="1125.476" y="920.768" width="18.411" height="2.975" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip10);">
+        <g style="mask: url(#mask-11);">
+          <polygon points="1125.476 923.138 1143.887 923.742 1143.887 920.768 1125.476 921.372 1125.476 923.138 1125.476 923.138" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_25); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_55" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="13858.52" y1="922.727" x2="13838.466" y2="922.151" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip12" x="1067.682" y="929.174" width="31.107" height="4.565" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip13" x="1067.682" y="-9824.24" width="31.107" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-13" x="1067.682" y="-9824.24" width="31.107" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_26" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="13887.179" y1="931.457" x2="13918.286" y2="931.457" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-12" x="1067.682" y="929.174" width="31.107" height="4.565" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip12);">
+        <g style="mask: url(#mask-13);">
+          <polygon points="1098.587 929.174 1067.682 933.488 1067.711 933.74 1098.789 930.929 1098.587 929.174 1098.587 929.174" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_26); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_56" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="13887.179" y1="931.457" x2="13918.286" y2="931.457" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip14" x="1098.688" y="928.594" width="20.54" height="2.975" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip15" x="1098.688" y="-9824.24" width="20.54" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-15" x="1098.688" y="-9824.24" width="20.54" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_27" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="13884.864" y1="930.635" x2="13866.873" y2="930.059" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-14" x="1098.688" y="928.594" width="20.54" height="2.975" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip14);">
+        <g style="mask: url(#mask-15);">
+          <polygon points="1098.688 930.965 1119.228 931.569 1119.228 928.594 1098.688 929.198 1098.688 930.965 1098.688 930.965" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_27); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_57" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="13884.864" y1="930.635" x2="13866.873" y2="930.059" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip16" x="4802.857" y="716.334" width="12.447" height="6.367" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip17" x="4802.857" y="-9824.24" width="12.447" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-17" x="4802.857" y="-9824.24" width="12.447" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_28" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="10191.518" y1="728.362" x2="10179.32" y2="723.396" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-16" x="4802.857" y="716.334" width="12.447" height="6.367" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip16);">
+        <g style="mask: url(#mask-17);">
+          <polygon points="4803.585 722.701 4815.303 716.565 4815.199 716.334 4802.857 721.092 4803.585 722.701 4803.585 722.701" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_28); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_58" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="10191.518" y1="728.362" x2="10179.32" y2="723.396" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip18" x="4803.212" y="721.013" width="18.746" height="1.766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip19" x="4803.212" y="-9824.24" width="18.746" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-19" x="4803.212" y="-9824.24" width="18.746" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_29" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="10189.559" y1="728.549" x2="10166.962" y2="730.959" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-18" x="4803.212" y="721.013" width="18.746" height="1.766" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip18);">
+        <g style="mask: url(#mask-19);">
+          <polygon points="4803.23 722.78 4821.958 721.831 4821.956 721.577 4803.212 721.013 4803.23 722.78 4803.23 722.78" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_29); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_59" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="10189.559" y1="728.549" x2="10166.962" y2="730.959" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip20" x="4830.671" y="725.997" width="31.204" height="1.766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip21" x="4830.671" y="-9824.24" width="31.204" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-21" x="4830.671" y="-9824.24" width="31.204" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_210" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="10161.814" y1="736.621" x2="10133.808" y2="738.742" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-20" x="4830.671" y="725.997" width="31.204" height="1.766" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip20);">
+        <g style="mask: url(#mask-21);">
+          <polygon points="4830.671 727.764 4861.872 727.314 4861.874 727.06 4830.688 725.997 4830.671 727.764 4830.671 727.764" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_210); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_510" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="10161.814" y1="736.621" x2="10133.808" y2="738.742" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip22" x="4810.099" y="726.032" width="20.675" height="4.502" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip23" x="4810.099" y="-9824.24" width="20.675" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-23" x="4810.099" y="-9824.24" width="20.675" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_211" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="10164.832" y1="736.194" x2="10185.373" y2="736.194" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-22" x="4810.099" y="726.032" width="20.675" height="4.502" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip22);">
+        <g style="mask: url(#mask-23);">
+          <polygon points="4830.59 726.032 4810.099 727.575 4810.41 730.534 4830.775 727.788 4830.59 726.032 4830.59 726.032" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_211); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_511" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="10164.832" y1="736.194" x2="10185.373" y2="736.194" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip24" x="4683.275" y="726.012" width="10.932" height="9.126" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip25" x="4683.275" y="-9824.24" width="10.932" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-25" x="4683.275" y="-9824.24" width="10.932" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_212" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="10311.142" y1="729.254" x2="10297.229" y2="719.274" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-24" x="4683.275" y="726.012" width="10.932" height="9.126" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip24);">
+        <g style="mask: url(#mask-25);">
+          <polygon points="4684.318 735.138 4694.206 729.42 4691.711 726.012 4683.275 733.713 4684.318 735.138 4684.318 735.138" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_212); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_512" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="10311.142" y1="729.254" x2="10297.229" y2="719.274" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip26" x="4683.704" y="731.024" width="18.558" height="4.28" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip27" x="4683.704" y="-9824.24" width="18.558" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-27" x="4683.704" y="-9824.24" width="18.558" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_213" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="10309.728" y1="728.804" x2="10289.674" y2="728.228" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-26" x="4683.704" y="731.024" width="18.558" height="4.28" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip26);">
+        <g style="mask: url(#mask-27);">
+          <polygon points="4683.889 735.304 4702.262 733.982 4701.951 731.024 4683.704 733.547 4683.889 735.304 4683.889 735.304" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_213); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_513" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="10309.728" y1="728.804" x2="10289.674" y2="728.228" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip28" x="4627.492" y="744.114" width="30.669" height="7.764" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip29" x="4627.492" y="-9824.24" width="30.669" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-29" x="4627.492" y="-9824.24" width="30.669" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_214" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="10338.387" y1="737.534" x2="10369.494" y2="737.534" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-28" x="4627.492" y="744.114" width="30.669" height="7.764" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip28);">
+        <g style="mask: url(#mask-29);">
+          <polygon points="4657.777 744.114 4627.492 751.631 4627.547 751.879 4658.161 745.839 4657.777 744.114 4657.777 744.114" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_214); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_514" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="10338.387" y1="737.534" x2="10369.494" y2="737.534" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip30" x="4657.88" y="741.382" width="20.675" height="4.502" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip31" x="4657.88" y="-9824.24" width="20.675" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-31" x="4657.88" y="-9824.24" width="20.675" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_215" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="10336.072" y1="736.712" x2="10318.081" y2="736.136" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-30" x="4657.88" y="741.382" width="20.675" height="4.502" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip30);">
+        <g style="mask: url(#mask-31);">
+          <polygon points="4658.065 745.884 4678.555 744.341 4678.245 741.382 4657.88 744.128 4658.065 745.884 4658.065 745.884" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_215); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_515" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="10336.072" y1="736.712" x2="10318.081" y2="736.136" gradientTransform="translate(14863.094 -1066.558) rotate(174.007) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip32" x="2847.774" y="611.353" width="13.237" height="1.765" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip33" x="2847.774" y="-9824.24" width="13.237" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-33" x="2847.774" y="-9824.24" width="13.237" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_216" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="12130.843" y1="384.994" x2="12118.645" y2="380.029" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-32" x="2847.774" y="611.353" width="13.237" height="1.765" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip32);">
+        <g style="mask: url(#mask-33);">
+          <polygon points="2847.774 613.118 2861 612.943 2861.011 612.689 2847.851 611.353 2847.774 613.118 2847.774 613.118" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_216); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_516" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="12130.843" y1="384.994" x2="12118.645" y2="380.029" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip34" x="2847.421" y="611.444" width="17.246" height="9.206" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip35" x="2847.421" y="-9824.24" width="17.246" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-35" x="2847.421" y="-9824.24" width="17.246" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_217" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="12128.899" y1="385.192" x2="12106.302" y2="387.602" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-34" x="2847.421" y="611.444" width="17.246" height="9.206" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip34);">
+        <g style="mask: url(#mask-35);">
+          <polygon points="2847.421 613.027 2864.554 620.649 2864.667 620.422 2848.204 611.444 2847.421 613.027 2847.421 613.027" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_217); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_517" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="12128.899" y1="385.192" x2="12106.302" y2="387.602" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip36" x="2869.643" y="628.312" width="28.15" height="15.274" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip37" x="2869.643" y="-9824.24" width="28.15" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-37" x="2869.643" y="-9824.24" width="28.15" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_218" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="12101.14" y1="393.254" x2="12073.133" y2="395.375" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-36" x="2869.643" y="628.312" width="28.15" height="15.274" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip36);">
+        <g style="mask: url(#mask-37);">
+          <polygon points="2869.643 629.88 2897.676 643.586 2897.793 643.361 2870.457 628.312 2869.643 629.88 2869.643 629.88" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_218); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_518" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="12101.14" y1="393.254" x2="12073.133" y2="395.375" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip38" x="2850.319" y="620.411" width="20.035" height="9.538" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip39" x="2850.319" y="-9824.24" width="20.035" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-39" x="2850.319" y="-9824.24" width="20.035" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_219" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="12104.158" y1="392.827" x2="12124.698" y2="392.827" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-38" x="2850.319" y="620.411" width="20.035" height="9.538" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip38);">
+        <g style="mask: url(#mask-39);">
+          <polygon points="2870.354 628.298 2851.38 620.411 2850.319 623.19 2869.725 629.949 2870.354 628.298 2870.354 628.298" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_219); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_519" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="12104.158" y1="392.827" x2="12124.698" y2="392.827" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip40" x="2735.484" y="565.488" width="11.691" height="4.797" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip41" x="2735.484" y="-9824.24" width="11.691" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-41" x="2735.484" y="-9824.24" width="11.691" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_220" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="12250.467" y1="385.886" x2="12236.554" y2="375.907" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-40" x="2735.484" y="565.488" width="11.691" height="4.797" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip40);">
+        <g style="mask: url(#mask-41);">
+          <polygon points="2735.771 570.285 2747.176 569.656 2746.49 565.488 2735.484 568.542 2735.771 570.285 2735.771 570.285" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_220); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_520" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="12250.467" y1="385.886" x2="12236.554" y2="375.907" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip42" x="2735.312" y="568.588" width="18.046" height="8.779" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip43" x="2735.312" y="-9824.24" width="18.046" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-43" x="2735.312" y="-9824.24" width="18.046" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_221" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="12249.054" y1="385.436" x2="12228.999" y2="384.861" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-42" x="2735.312" y="568.588" width="18.046" height="8.779" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip42);">
+        <g style="mask: url(#mask-43);">
+          <polygon points="2735.312 570.238 2752.298 577.367 2753.358 574.588 2735.942 568.588 2735.312 570.238 2735.312 570.238" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_221); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_521" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="12249.054" y1="385.436" x2="12228.999" y2="384.861" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip44" x="2677.564" y="559.302" width="30.474" height="8.701" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip45" x="2677.564" y="-9824.24" width="30.474" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-45" x="2677.564" y="-9824.24" width="30.474" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_222" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="12277.712" y1="394.167" x2="12308.819" y2="394.167" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-44" x="2677.564" y="559.302" width="30.474" height="8.701" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip44);">
+        <g style="mask: url(#mask-45);">
+          <polygon points="2708.039 566.291 2677.627 559.302 2677.564 559.548 2707.601 568.002 2708.039 566.291 2708.039 566.291" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_222); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_522" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="12277.712" y1="394.167" x2="12308.819" y2="394.167" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip46" x="2707.495" y="566.349" width="20.035" height="9.538" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip47" x="2707.495" y="-9824.24" width="20.035" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-47" x="2707.495" y="-9824.24" width="20.035" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_223" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="12275.398" y1="393.345" x2="12257.406" y2="392.769" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-46" x="2707.495" y="566.349" width="20.035" height="9.538" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip46);">
+        <g style="mask: url(#mask-47);">
+          <polygon points="2707.495 568 2726.469 575.888 2727.53 573.108 2708.124 566.349 2707.495 568 2707.495 568" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_223); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_523" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="12275.398" y1="393.345" x2="12257.406" y2="392.769" gradientTransform="translate(14318.746 4577.803) rotate(-159.112) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip48" x="12040.724" y="856.039" width="13.053" height="4.2" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip49" x="12040.724" y="-9824.24" width="13.053" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-49" x="12040.724" y="-9824.24" width="13.053" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_224" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="2946.817" y1="854.878" x2="2934.619" y2="849.912" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-48" x="12040.724" y="856.039" width="13.053" height="4.2" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip48);">
+        <g style="mask: url(#mask-49);">
+          <polygon points="12041.155 860.24 12053.777 856.286 12053.715 856.039 12040.724 858.527 12041.155 860.24 12041.155 860.24" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_224); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_524" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="2946.817" y1="854.878" x2="2934.619" y2="849.912" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip50" x="12040.791" y="858.513" width="18.641" height="4.139" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip51" x="12040.791" y="-9824.24" width="18.641" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-51" x="12040.791" y="-9824.24" width="18.641" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_225" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="2944.874" y1="855.075" x2="2922.277" y2="857.485" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-50" x="12040.791" y="858.513" width="18.641" height="4.139" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip50);">
+        <g style="mask: url(#mask-51);">
+          <polygon points="12040.791 860.254 12059.389 862.652 12059.432 862.401 12041.087 858.513 12040.791 860.254 12040.791 860.254" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_225); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_525" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="2944.874" y1="855.075" x2="2922.277" y2="857.485" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip52" x="12066.908" y="868.304" width="30.831" height="6.842" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip53" x="12066.908" y="-9824.24" width="30.831" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-53" x="12066.908" y="-9824.24" width="30.831" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_226" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="2917.114" y1="863.137" x2="2889.108" y2="865.258" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-52" x="12066.908" y="868.304" width="30.831" height="6.842" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip52);">
+        <g style="mask: url(#mask-53);">
+          <polygon points="12066.908 870.039 12097.691 875.145 12097.739 874.896 12067.239 868.304 12066.908 870.039 12066.908 870.039" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_226); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_526" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="2917.114" y1="863.137" x2="2889.108" y2="865.258" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip54" x="12046.477" y="866.195" width="20.659" height="3.887" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip55" x="12046.477" y="-9824.24" width="20.659" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-55" x="12046.477" y="-9824.24" width="20.659" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_227" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="2920.132" y1="862.71" x2="2940.672" y2="862.71" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-54" x="12046.477" y="866.195" width="20.659" height="3.887" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip54);">
+        <g style="mask: url(#mask-55);">
+          <polygon points="12067.136 868.32 12046.698 866.195 12046.477 869.161 12067.005 870.082 12067.136 868.32 12067.136 868.32" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_227); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_527" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="2920.132" y1="862.71" x2="2940.672" y2="862.71" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip56" x="11920.803" y="843.602" width="11.521" height="7.665" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip57" x="11920.803" y="-9824.24" width="11.521" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-57" x="11920.803" y="-9824.24" width="11.521" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_228" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="3066.442" y1="855.769" x2="3052.528" y2="845.79" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-56" x="11920.803" y="843.602" width="11.521" height="7.665" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip56);">
+        <g style="mask: url(#mask-57);">
+          <polygon points="11921.577 851.267 11932.324 847.399 11930.475 843.602 11920.803 849.679 11921.577 851.267 11921.577 851.267" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_228); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_528" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="3066.442" y1="855.769" x2="3052.528" y2="845.79" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip58" x="11921.125" y="849.592" width="18.536" height="3.729" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip59" x="11921.125" y="-9824.24" width="18.536" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-59" x="11921.125" y="-9824.24" width="18.536" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_229" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="3065.028" y1="855.32" x2="3044.974" y2="854.744" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-58" x="11921.125" y="849.592" width="18.536" height="3.729" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip58);">
+        <g style="mask: url(#mask-59);">
+          <polygon points="11921.125 851.354 11939.44 853.321 11939.66 850.355 11921.256 849.592 11921.125 851.354 11921.125 851.354" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_229); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_529" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="3065.028" y1="855.32" x2="3044.974" y2="854.744" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip60" x="11862.723" y="855.381" width="31.211" height="2.264" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip61" x="11862.723" y="-9824.24" width="31.211" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-61" x="11862.723" y="-9824.24" width="31.211" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_230" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="3093.687" y1="864.05" x2="3124.793" y2="864.05" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-60" x="11862.723" y="855.381" width="31.211" height="2.264" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip60);">
+        <g style="mask: url(#mask-61);">
+          <polygon points="11893.862 855.381 11862.723 857.391 11862.733 857.644 11893.934 857.145 11893.862 855.381 11893.862 855.381" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_230); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_530" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="3093.687" y1="864.05" x2="3124.793" y2="864.05" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip62" x="11893.83" y="855.412" width="20.659" height="3.887" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip63" x="11893.83" y="-9824.24" width="20.659" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-63" x="11893.83" y="-9824.24" width="20.659" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_231" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="3091.372" y1="863.228" x2="3073.381" y2="862.652" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-62" x="11893.83" y="855.412" width="20.659" height="3.887" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip62);">
+        <g style="mask: url(#mask-63);">
+          <polygon points="11893.83 857.173 11914.269 859.298 11914.49 856.332 11893.961 855.412 11893.83 857.173 11893.83 857.173" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_231); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_531" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="3091.372" y1="863.228" x2="3073.381" y2="862.652" gradientTransform="translate(15043.121 225.334) rotate(-175.749) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip64" x="13859.12" y="743.244" width="12.316" height="6.689" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip65" x="13859.12" y="-9824.24" width="12.316" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-65" x="13859.12" y="-9824.24" width="12.316" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_232" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="1122.168" y1="756.848" x2="1109.97" y2="751.883" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-64" x="13859.12" y="743.244" width="12.316" height="6.689" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip64);">
+        <g style="mask: url(#mask-65);">
+          <polygon points="13859.893 749.932 13871.436 743.472 13871.325 743.244 13859.12 748.344 13859.893 749.932 13859.893 749.932" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_232); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_532" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="1122.168" y1="756.848" x2="1109.97" y2="751.883" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip66" x="13859.473" y="748.256" width="18.762" height="1.765" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip67" x="13859.473" y="-9824.24" width="18.762" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-67" x="13859.473" y="-9824.24" width="18.762" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_233" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="1120.225" y1="757.045" x2="1097.628" y2="759.456" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-66" x="13859.473" y="748.256" width="18.762" height="1.765" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip66);">
+        <g style="mask: url(#mask-67);">
+          <polygon points="13859.54 750.021 13878.235 748.551 13878.225 748.297 13859.473 748.256 13859.54 750.021 13859.54 750.021" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_233); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_533" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="1120.225" y1="757.045" x2="1097.628" y2="759.456" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip68" x="13887.077" y="752.472" width="31.208" height="1.766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip69" x="13887.077" y="-9824.24" width="31.208" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-69" x="13887.077" y="-9824.24" width="31.208" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_234" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="1092.465" y1="765.108" x2="1064.459" y2="767.228" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-68" x="13887.077" y="752.472" width="31.208" height="1.766" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip68);">
+        <g style="mask: url(#mask-69);">
+          <polygon points="13887.109 754.238 13918.286 752.918 13918.281 752.664 13887.077 752.472 13887.109 754.238 13887.109 754.238" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_234); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_534" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="1092.465" y1="765.108" x2="1064.459" y2="767.228" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip70" x="13866.541" y="752.509" width="20.673" height="5.063" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip71" x="13866.541" y="-9824.24" width="20.673" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-71" x="13866.541" y="-9824.24" width="20.673" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_235" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="1095.483" y1="764.68" x2="1116.023" y2="764.68" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-70" x="13866.541" y="752.509" width="20.673" height="5.063" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip70);">
+        <g style="mask: url(#mask-71);">
+          <polygon points="13886.981 752.509 13866.541 754.623 13866.934 757.572 13887.214 754.26 13886.981 752.509 13886.981 752.509" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_235); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_535" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="1095.483" y1="764.68" x2="1116.023" y2="764.68" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip72" x="13739.937" y="756.362" width="10.808" height="9.328" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip73" x="13739.937" y="-9824.24" width="10.808" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-73" x="13739.937" y="-9824.24" width="10.808" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_236" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="1241.793" y1="757.74" x2="1227.879" y2="747.761" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-72" x="13739.937" y="756.362" width="10.808" height="9.328" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip72);">
+        <g style="mask: url(#mask-73);">
+          <polygon points="13741.019 765.691 13750.744 759.699 13748.155 756.362 13739.937 764.295 13741.019 765.691 13741.019 765.691" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_236); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_536" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="1241.793" y1="757.74" x2="1227.879" y2="747.761" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip74" x="13740.361" y="761.087" width="18.563" height="4.782" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip75" x="13740.361" y="-9824.24" width="18.563" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-75" x="13740.361" y="-9824.24" width="18.563" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_237" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="1240.379" y1="757.29" x2="1220.325" y2="756.714" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-74" x="13740.361" y="761.087" width="18.563" height="4.782" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip74);">
+        <g style="mask: url(#mask-75);">
+          <polygon points="13740.595 765.868 13758.924 764.035 13758.531 761.087 13740.361 764.117 13740.595 765.868 13740.595 765.868" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_237); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_537" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="1240.379" y1="757.29" x2="1220.325" y2="756.714" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip76" x="13684.675" y="775.404" width="30.496" height="8.604" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip77" x="13684.675" y="-9824.24" width="30.496" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-77" x="13684.675" y="-9824.24" width="30.496" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_238" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="1269.038" y1="766.02" x2="1300.144" y2="766.02" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-76" x="13684.675" y="775.404" width="30.496" height="8.604" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip76);">
+        <g style="mask: url(#mask-77);">
+          <polygon points="13714.739 775.404 13684.675 783.762 13684.737 784.008 13715.171 777.117 13714.739 775.404 13714.739 775.404" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_238); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_538" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="1269.038" y1="766.02" x2="1300.144" y2="766.02" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip78" x="13714.842" y="772.102" width="20.673" height="5.063" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip79" x="13714.842" y="-9824.24" width="20.673" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-79" x="13714.842" y="-9824.24" width="20.673" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_239" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="1266.723" y1="765.198" x2="1248.732" y2="764.623" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-78" x="13714.842" y="772.102" width="20.673" height="5.063" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip78);">
+        <g style="mask: url(#mask-79);">
+          <polygon points="13715.076 777.165 13735.516 775.051 13735.123 772.102 13714.842 775.414 13715.076 777.165 13715.076 777.165" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_239); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_539" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="1266.723" y1="765.198" x2="1248.732" y2="764.623" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip80" x="9248.221" y="358.975" width="12.316" height="6.689" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip81" x="9248.221" y="-9824.24" width="12.316" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-81" x="9248.221" y="-9824.24" width="12.316" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_240" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="5641.893" y1="-233.176" x2="5629.695" y2="-238.141" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-80" x="9248.221" y="358.975" width="12.316" height="6.689" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip80);">
+        <g style="mask: url(#mask-81);">
+          <polygon points="9248.994 365.664 9260.536 359.204 9260.425 358.975 9248.221 364.076 9248.994 365.664 9248.994 365.664" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_240); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_540" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="5641.893" y1="-233.176" x2="5629.695" y2="-238.141" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip82" x="9248.574" y="363.988" width="18.762" height="1.765" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip83" x="9248.574" y="-9824.24" width="18.762" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-83" x="9248.574" y="-9824.24" width="18.762" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_241" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="5639.949" y1="-232.979" x2="5617.352" y2="-230.568" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-82" x="9248.574" y="363.988" width="18.762" height="1.765" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip82);">
+        <g style="mask: url(#mask-83);">
+          <polygon points="9248.641 365.753 9267.336 364.282 9267.326 364.029 9248.574 363.988 9248.641 365.753 9248.641 365.753" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_241); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_541" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="5639.949" y1="-232.979" x2="5617.352" y2="-230.568" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip84" x="9276.178" y="368.203" width="31.208" height="1.766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip85" x="9276.178" y="-9824.24" width="31.208" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-85" x="9276.178" y="-9824.24" width="31.208" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_242" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="5612.189" y1="-224.916" x2="5584.183" y2="-222.796" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-84" x="9276.178" y="368.203" width="31.208" height="1.766" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip84);">
+        <g style="mask: url(#mask-85);">
+          <polygon points="9276.21 369.969 9307.386 368.65 9307.382 368.396 9276.178 368.203 9276.21 369.969 9276.21 369.969" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_242); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_542" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="5612.189" y1="-224.916" x2="5584.183" y2="-222.796" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip86" x="9255.641" y="368.24" width="20.673" height="5.063" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip87" x="9255.641" y="-9824.24" width="20.673" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-87" x="9255.641" y="-9824.24" width="20.673" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_243" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="5615.207" y1="-225.344" x2="5635.747" y2="-225.344" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-86" x="9255.641" y="368.24" width="20.673" height="5.063" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip86);">
+        <g style="mask: url(#mask-87);">
+          <polygon points="9276.081 368.24 9255.641 370.355 9256.034 373.304 9276.315 369.991 9276.081 368.24 9276.081 368.24" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_243); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_543" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="5615.207" y1="-225.344" x2="5635.747" y2="-225.344" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip88" x="9129.037" y="372.094" width="10.808" height="9.328" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip89" x="9129.037" y="-9824.24" width="10.808" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-89" x="9129.037" y="-9824.24" width="10.808" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_244" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="5761.517" y1="-232.284" x2="5747.604" y2="-242.263" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-88" x="9129.037" y="372.094" width="10.808" height="9.328" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip88);">
+        <g style="mask: url(#mask-89);">
+          <polygon points="9130.12 381.422 9139.845 375.431 9137.255 372.094 9129.037 380.027 9130.12 381.422 9130.12 381.422" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_244); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_544" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="5761.517" y1="-232.284" x2="5747.604" y2="-242.263" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip90" x="9129.462" y="376.818" width="18.563" height="4.782" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip91" x="9129.462" y="-9824.24" width="18.563" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-91" x="9129.462" y="-9824.24" width="18.563" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_245" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="5760.103" y1="-232.734" x2="5740.049" y2="-233.31" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-90" x="9129.462" y="376.818" width="18.563" height="4.782" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip90);">
+        <g style="mask: url(#mask-91);">
+          <polygon points="9129.695 381.6 9148.025 379.767 9147.632 376.818 9129.462 379.849 9129.695 381.6 9129.695 381.6" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_245); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_545" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="5760.103" y1="-232.734" x2="5740.049" y2="-233.31" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip92" x="9073.776" y="391.136" width="30.496" height="8.604" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip93" x="9073.776" y="-9824.24" width="30.496" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-93" x="9073.776" y="-9824.24" width="30.496" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_246" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="5788.762" y1="-224.003" x2="5819.869" y2="-224.003" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-92" x="9073.776" y="391.136" width="30.496" height="8.604" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip92);">
+        <g style="mask: url(#mask-93);">
+          <polygon points="9103.84 391.136 9073.776 399.494 9073.838 399.74 9104.272 392.849 9103.84 391.136 9103.84 391.136" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_246); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_546" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="5788.762" y1="-224.003" x2="5819.869" y2="-224.003" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <filter id="luminosity-noclip94" x="9103.943" y="387.834" width="20.673" height="5.063" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip95" x="9103.943" y="-9824.24" width="20.673" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-95" x="9103.943" y="-9824.24" width="20.673" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_247" data-name="Áåçûìÿííûé ãðàäèåíò 2" x1="5786.447" y1="-224.826" x2="5768.456" y2="-225.401" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_2"/>
+    <mask id="mask-94" x="9103.943" y="387.834" width="20.673" height="5.063" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip94);">
+        <g style="mask: url(#mask-95);">
+          <polygon points="9104.176 392.897 9124.616 390.782 9124.223 387.834 9103.943 391.146 9104.176 392.897 9104.176 392.897" style="fill: url(#_Áåçûìÿííûé_ãðàäèåíò_247); mix-blend-mode: multiply;"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="_Áåçûìÿííûé_ãðàäèåíò_547" data-name="Áåçûìÿííûé ãðàäèåíò 5" x1="5786.447" y1="-224.826" x2="5768.456" y2="-225.401" gradientTransform="translate(14871.961 -149.313) rotate(172.409) scale(1 -1)" xlink:href="#_Áåçûìÿííûé_ãðàäèåíò_5"/>
+    <clipPath id="clippath">
+      <path d="M14428.308,1259.191l33.605,393.383s-27.675,14.826-57.327,0l10.873-393.383s3.954-19.768,12.849,0Z" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path d="M13623.38,1229.701l14.109,393.497s-25.745,16.712-46.097-1.044l21.579-392.688s7.008-8.152,10.409.236Z" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <path d="M5775.049,1295.182l32.463,346.094s-51.511,20.816-88.306-5.466l17.619-316.41" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <path d="M2299.04,1229.701l14.109,393.497s-25.745,16.712-46.097-1.044l21.579-392.688s7.008-8.152,10.409.236Z" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <path d="M8899.319,1229.701l-14.109,393.497s25.745,16.712,46.097-1.044l-21.579-392.688s-7.008-8.152-10.409.236Z" style="fill: none;"/>
+    </clipPath>
+  </defs>
+  <g style="isolation: isolate;">
+            <g id="Hightech_-_01_Voorgrond">
+      <g>
+        <g>
+          <path d="M13484.65,1928.027h-509.674s13.93-74.068,66.372-56.034c9.014-102.262,85.577-100.034,109.57-49.912,37.104-103.587,116.079-97.114,146.222-13.366,48.208-27.846,85.08-7.721,91.637,56.55,56.539-46.525,95.873,62.762,95.873,62.762Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13216.905 1926.073 13227.508 1779.013 13226.029 1778.814 13215.425 1925.875 13216.905 1926.073" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13296.88 1928.551 13338.999 1833.897 13337.726 1832.849 13295.608 1927.502 13296.88 1928.551" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13145.265 1928.605 13146.483 1927.448 13087.357 1812.538 13086.139 1813.695 13145.265 1928.605" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13113.943 1867.371 13114.397 1865.446 13067.332 1844.899 13066.878 1846.823 13113.943 1867.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13063.081 1928.864 13063.913 1927.189 13017.682 1884.716 13016.849 1886.391 13063.081 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13217.409 1900.218 13218.707 1899.234 13178.312 1800.775 13177.014 1801.76 13217.409 1900.218" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13223.197 1839.54 13257.918 1804.756 13257.036 1803.132 13222.315 1837.916 13223.197 1839.54" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13312.493 1892.9 13370.093 1872.972 13369.726 1871.016 13312.127 1890.943 13312.493 1892.9" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M14429.501,1927.768h-667.082s18.232-96.943,86.871-73.34c11.797-133.845,112.007-130.929,143.41-65.326,48.563-135.58,151.929-127.107,191.382-17.494,63.097-36.446,111.356-10.105,119.938,74.015,74.001-60.894,125.482,82.146,125.482,82.146Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14079.064 1925.211 14092.942 1732.732 14091.006 1732.472 14077.127 1924.952 14079.064 1925.211" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14183.738 1928.454 14238.866 1804.567 14237.2 1803.195 14182.073 1927.081 14183.738 1928.454" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13985.298 1928.525 13986.893 1927.01 13909.506 1776.61 13907.911 1778.125 13985.298 1928.525" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <g style="opacity: .2;">
+            <polygon points="13944.303 1848.379 13944.898 1845.86 13883.297 1818.966 13882.702 1821.485 13944.303 1848.379" style="fill: #fff; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          </g>
+          <polygon points="13877.732 1928.864 13878.822 1926.671 13818.312 1871.08 13817.222 1873.273 13877.732 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14079.724 1891.371 14081.423 1890.082 14028.552 1761.216 14026.853 1762.505 14079.724 1891.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14087.3 1811.953 14132.744 1766.426 14131.589 1764.3 14086.145 1809.827 14087.3 1811.953" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14204.174 1881.793 14279.564 1855.71 14279.083 1853.149 14203.694 1879.231 14204.174 1881.793" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M12745.784,1928.241h486.864s-13.307-55.113-63.401-41.694c-8.61-76.092-81.747-74.435-104.666-37.139-35.444-77.079-110.884-72.262-139.678-9.945-46.05-20.72-81.272-5.745-87.535,42.078-54.009-34.619-91.582,46.7-91.582,46.7Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13001.547 1926.788 12991.418 1817.361 12992.831 1817.213 13002.961 1926.64 13001.547 1926.788" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="12925.151 1928.631 12884.917 1858.2 12886.133 1857.42 12926.367 1927.851 12925.151 1928.631" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13069.981 1928.672 13068.817 1927.81 13125.298 1842.307 13126.461 1843.168 13069.981 1928.672" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13099.901 1883.108 13099.467 1881.676 13144.426 1866.386 13144.86 1867.818 13099.901 1883.108" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13148.487 1928.864 13147.692 1927.618 13191.854 1896.014 13192.649 1897.26 13148.487 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="13001.065 1907.549 12999.825 1906.816 13038.412 1833.554 13039.653 1834.287 13001.065 1907.549" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="12995.536 1862.399 12962.369 1836.516 12963.212 1835.308 12996.379 1861.191 12995.536 1862.399" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="12910.236 1902.104 12855.214 1887.276 12855.565 1885.82 12910.587 1900.648 12910.236 1902.104" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M13921.491,1927.967h701.198s-19.165-79.376-91.313-60.05c-12.401-109.591-117.735-107.203-150.745-53.488-51.047-111.011-159.699-104.074-201.169-14.324-66.323-29.842-117.051-8.274-126.071,60.603-77.785-49.859-131.9,67.26-131.9,67.26Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <g style="opacity: .2;">
+            <polygon points="14289.85 1925.873 14275.262 1768.273 14277.297 1768.061 14291.886 1925.661 14289.85 1925.873" style="fill: #fff; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          </g>
+          <polygon points="14179.822 1928.528 14121.875 1827.091 14123.626 1825.968 14181.572 1927.405 14179.822 1928.528" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14388.411 1928.587 14386.735 1927.346 14468.08 1804.201 14469.756 1805.441 14388.411 1928.587" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14431.502 1862.964 14430.878 1860.902 14495.629 1838.881 14496.253 1840.944 14431.502 1862.964" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14501.478 1928.864 14500.333 1927.069 14563.937 1881.552 14565.082 1883.347 14501.478 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14289.156 1898.165 14287.37 1897.11 14342.944 1791.596 14344.731 1792.651 14289.156 1898.165" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14281.193 1833.139 14233.424 1795.861 14234.638 1794.121 14282.406 1831.399 14281.193 1833.139" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="14158.341 1890.323 14079.096 1868.967 14079.601 1866.87 14158.846 1888.226 14158.341 1890.323" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M5406.963,1928.027h-509.674s13.93-74.068,66.372-56.034c9.014-102.262,85.577-100.034,109.57-49.912,37.104-103.587,116.079-97.114,146.222-13.366,48.208-27.846,85.08-7.721,91.637,56.55,56.539-46.525,95.873,62.762,95.873,62.762Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5139.217 1926.073 5149.821 1779.013 5148.341 1778.814 5137.737 1925.875 5139.217 1926.073" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5219.192 1928.551 5261.311 1833.897 5260.039 1832.849 5217.92 1927.502 5219.192 1928.551" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5067.577 1928.605 5068.795 1927.448 5009.669 1812.538 5008.451 1813.695 5067.577 1928.605" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5036.256 1867.371 5036.709 1865.446 4989.644 1844.899 4989.19 1846.823 5036.256 1867.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4985.393 1928.864 4986.225 1927.189 4939.994 1884.716 4939.162 1886.391 4985.393 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5139.722 1900.218 5141.019 1899.234 5100.625 1800.775 5099.326 1801.76 5139.722 1900.218" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5145.509 1839.54 5180.23 1804.756 5179.348 1803.132 5144.628 1837.916 5145.509 1839.54" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5234.806 1892.9 5292.406 1872.972 5292.039 1871.016 5234.439 1890.943 5234.806 1892.9" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M6257.46,1927.768h-667.082s18.232-96.943,86.871-73.34c11.797-133.845,112.007-130.929,143.41-65.326,48.563-135.58,151.929-127.107,191.382-17.494,63.097-36.446,111.356-10.105,119.938,74.015,74.001-60.894,125.482,82.146,125.482,82.146Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5907.023 1925.211 5920.901 1732.732 5918.965 1732.472 5905.086 1924.952 5907.023 1925.211" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="6011.697 1928.454 6066.825 1804.567 6065.159 1803.195 6010.032 1927.081 6011.697 1928.454" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5813.257 1928.525 5814.852 1927.01 5737.465 1776.61 5735.87 1778.125 5813.257 1928.525" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5772.262 1848.379 5772.857 1845.86 5711.256 1818.966 5710.661 1821.485 5772.262 1848.379" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5705.691 1928.864 5706.781 1926.671 5646.271 1871.08 5645.181 1873.273 5705.691 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5907.683 1891.371 5909.382 1890.082 5856.511 1761.216 5854.812 1762.505 5907.683 1891.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5915.259 1811.953 5960.703 1766.426 5959.548 1764.3 5914.104 1809.827 5915.259 1811.953" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="6032.133 1881.793 6107.523 1855.71 6107.042 1853.149 6031.653 1879.231 6032.133 1881.793" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M4668.096,1928.241h494.333s-13.511-55.113-64.374-41.694c-8.742-76.092-83.001-74.435-106.272-37.139-35.987-77.079-112.585-72.262-141.821-9.945-46.757-20.72-82.519-5.745-88.878,42.078-54.837-34.619-92.987,46.7-92.987,46.7Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4927.783 1926.788 4917.499 1817.361 4918.933 1817.213 4929.218 1926.64 4927.783 1926.788" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4850.215 1928.631 4809.364 1858.2 4810.598 1857.42 4851.449 1927.851 4850.215 1928.631" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4997.267 1928.672 4996.085 1927.81 5053.432 1842.307 5054.613 1843.168 4997.267 1928.672" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5027.646 1883.108 5027.205 1881.676 5072.854 1866.386 5073.294 1867.818 5027.646 1883.108" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5076.977 1928.864 5076.17 1927.618 5121.01 1896.014 5121.817 1897.26 5076.977 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4927.294 1907.549 4926.035 1906.816 4965.214 1833.554 4966.473 1834.287 4927.294 1907.549" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4921.68 1862.399 4888.004 1836.516 4888.859 1835.308 4922.535 1861.191 4921.68 1862.399" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4835.072 1902.104 4779.205 1887.276 4779.561 1885.82 4835.428 1900.648 4835.072 1902.104" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M5740.051,1927.518h701.198s-19.165-79.376-91.313-60.05c-12.401-109.591-117.735-107.203-150.745-53.488-51.047-111.011-159.699-104.074-201.169-14.324-66.323-29.842-117.051-8.274-126.071,60.603-77.785-49.859-131.9,67.26-131.9,67.26Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="6108.411 1925.425 6093.822 1767.825 6095.857 1767.612 6110.446 1925.212 6108.411 1925.425" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5998.382 1928.08 5940.436 1826.643 5942.186 1825.519 6000.133 1926.956 5998.382 1928.08" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="6206.972 1928.138 6205.295 1926.898 6286.64 1803.752 6288.316 1804.993 6206.972 1928.138" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="6250.062 1862.515 6249.438 1860.453 6314.189 1838.433 6314.814 1840.495 6250.062 1862.515" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="6320.038 1928.416 6318.893 1926.621 6382.497 1881.103 6383.642 1882.898 6320.038 1928.416" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="6107.716 1897.717 6105.931 1896.662 6161.505 1791.147 6163.291 1792.202 6107.716 1897.717" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="6099.753 1832.69 6051.985 1795.413 6053.198 1793.673 6100.967 1830.95 6099.753 1832.69" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="5976.901 1889.874 5897.657 1868.518 5898.162 1866.422 5977.406 1887.777 5976.901 1889.874" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M4666.64,1927.768h-667.082s18.232-96.943,86.871-73.34c11.797-133.845,112.007-130.929,143.41-65.326,48.563-135.58,151.929-127.107,191.382-17.494,63.097-36.446,111.356-10.105,119.938,74.015,74.001-60.894,125.482,82.146,125.482,82.146Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4316.202 1925.211 4330.081 1732.732 4328.145 1732.472 4314.266 1924.952 4316.202 1925.211" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4420.877 1928.454 4476.005 1804.567 4474.339 1803.195 4419.212 1927.081 4420.877 1928.454" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4222.437 1928.525 4224.032 1927.01 4146.645 1776.61 4145.05 1778.125 4222.437 1928.525" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4181.442 1848.379 4182.037 1845.86 4120.435 1818.966 4119.841 1821.485 4181.442 1848.379" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4114.871 1928.864 4115.961 1926.671 4055.451 1871.08 4054.361 1873.273 4114.871 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4316.863 1891.371 4318.562 1890.082 4265.691 1761.216 4263.992 1762.505 4316.863 1891.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4324.439 1811.953 4369.883 1766.426 4368.728 1764.3 4323.284 1809.827 4324.439 1811.953" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4441.313 1881.793 4516.703 1855.71 4516.222 1853.149 4440.833 1879.231 4441.313 1881.793" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M4263.208,1928.027h-509.674s13.93-74.068,66.372-56.034c9.014-102.262,85.577-100.034,109.57-49.912,37.104-103.587,116.079-97.114,146.222-13.366,48.208-27.846,85.08-7.721,91.637,56.55,56.539-46.525,95.873,62.762,95.873,62.762Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3995.462 1926.073 4006.066 1779.013 4004.586 1778.814 3993.982 1925.875 3995.462 1926.073" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4075.437 1928.551 4117.556 1833.897 4116.284 1832.849 4074.165 1927.502 4075.437 1928.551" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3923.822 1928.605 3925.04 1927.448 3865.914 1812.538 3864.696 1813.695 3923.822 1928.605" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3892.501 1867.371 3892.954 1865.446 3845.889 1844.899 3845.435 1846.823 3892.501 1867.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3841.638 1928.864 3842.47 1927.189 3796.239 1884.716 3795.406 1886.391 3841.638 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3995.966 1900.218 3997.264 1899.234 3956.87 1800.775 3955.571 1801.76 3995.966 1900.218" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4001.754 1839.54 4036.475 1804.756 4035.593 1803.132 4000.873 1837.916 4001.754 1839.54" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="4091.05 1892.9 4148.65 1872.972 4148.283 1871.016 4090.684 1890.943 4091.05 1892.9" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M3524.341,1928.241h486.864s-13.307-55.113-63.401-41.694c-8.61-76.092-81.747-74.435-104.666-37.139-35.444-77.079-110.884-72.262-139.678-9.945-46.05-20.72-81.272-5.745-87.535,42.078-54.009-34.619-91.582,46.7-91.582,46.7Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3780.105 1926.788 3769.975 1817.361 3771.388 1817.213 3781.518 1926.64 3780.105 1926.788" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3703.708 1928.631 3663.474 1858.2 3664.69 1857.42 3704.924 1927.851 3703.708 1928.631" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3848.538 1928.672 3847.374 1927.81 3903.855 1842.307 3905.018 1843.168 3848.538 1928.672" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3878.458 1883.108 3878.024 1881.676 3922.983 1866.386 3923.417 1867.818 3878.458 1883.108" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3927.044 1928.864 3926.249 1927.618 3970.412 1896.014 3971.207 1897.26 3927.044 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3779.622 1907.549 3778.383 1906.816 3816.969 1833.554 3818.21 1834.287 3779.622 1907.549" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3774.093 1862.399 3740.926 1836.516 3741.769 1835.308 3774.936 1861.191 3774.093 1862.399" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3688.794 1902.104 3633.772 1887.276 3634.122 1885.82 3689.144 1900.648 3688.794 1902.104" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M9307.62,1928.027h509.674s-13.93-74.068-66.372-56.034c-9.014-102.262-85.577-100.034-109.57-49.912-37.104-103.587-116.079-97.114-146.222-13.366-48.208-27.846-85.08-7.721-91.637,56.55-56.539-46.525-95.873,62.762-95.873,62.762Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9575.365 1926.073 9564.762 1779.013 9566.241 1778.814 9576.845 1925.875 9575.365 1926.073" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9495.39 1928.551 9453.271 1833.897 9454.544 1832.849 9496.663 1927.502 9495.39 1928.551" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9647.005 1928.605 9645.787 1927.448 9704.914 1812.538 9706.132 1813.695 9647.005 1928.605" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9678.327 1867.371 9677.873 1865.446 9724.938 1844.899 9725.392 1846.823 9678.327 1867.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9729.189 1928.864 9728.357 1927.189 9774.588 1884.716 9775.421 1886.391 9729.189 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9574.861 1900.218 9573.563 1899.234 9613.958 1800.775 9615.256 1801.76 9574.861 1900.218" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9569.073 1839.54 9534.352 1804.756 9535.234 1803.132 9569.955 1837.916 9569.073 1839.54" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9479.777 1892.9 9422.177 1872.972 9422.544 1871.016 9480.143 1890.943 9479.777 1892.9" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M8940.415,1927.768h-667.082s18.232-96.943,86.871-73.34c11.797-133.845,112.007-130.929,143.41-65.326,48.563-135.58,151.929-127.107,191.382-17.494,63.097-36.446,111.356-10.105,119.938,74.015,74.001-60.894,125.482,82.146,125.482,82.146Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8589.978 1925.211 8603.856 1732.732 8601.92 1732.472 8588.041 1924.952 8589.978 1925.211" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8694.653 1928.454 8749.78 1804.567 8748.114 1803.195 8692.987 1927.081 8694.653 1928.454" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8496.212 1928.525 8497.807 1927.01 8420.42 1776.61 8418.826 1778.125 8496.212 1928.525" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8455.218 1848.379 8455.812 1845.86 8394.211 1818.966 8393.616 1821.485 8455.218 1848.379" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8388.647 1928.864 8389.736 1926.671 8329.226 1871.08 8328.137 1873.273 8388.647 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8590.638 1891.371 8592.337 1890.082 8539.467 1761.216 8537.767 1762.505 8590.638 1891.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8598.214 1811.953 8643.658 1766.426 8642.504 1764.3 8597.06 1809.827 8598.214 1811.953" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8715.088 1881.793 8790.478 1855.71 8789.997 1853.149 8714.608 1879.231 8715.088 1881.793" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M10046.486,1928.241h-494.333s13.511-55.113,64.374-41.694c8.742-76.092,83.001-74.435,106.272-37.139,35.987-77.079,112.585-72.262,141.821-9.945,46.757-20.72,82.519-5.745,88.878,42.078,54.837-34.619,92.987,46.7,92.987,46.7Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9786.799 1926.788 9797.084 1817.361 9795.649 1817.213 9785.364 1926.64 9786.799 1926.788" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9864.367 1928.631 9905.218 1858.2 9903.984 1857.42 9863.133 1927.851 9864.367 1928.631" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9717.315 1928.672 9718.497 1927.81 9661.15 1842.307 9659.969 1843.168 9717.315 1928.672" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9686.937 1883.108 9687.377 1881.676 9641.728 1866.386 9641.288 1867.818 9686.937 1883.108" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9637.605 1928.864 9638.412 1927.618 9593.573 1896.014 9592.765 1897.26 9637.605 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9787.289 1907.549 9788.547 1906.816 9749.369 1833.554 9748.109 1834.287 9787.289 1907.549" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9792.902 1862.399 9826.578 1836.516 9825.723 1835.308 9792.047 1861.191 9792.902 1862.399" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9879.511 1902.104 9935.377 1887.276 9935.021 1885.82 9879.155 1900.648 9879.511 1902.104" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M8423.007,1927.518h701.198s-19.165-79.376-91.313-60.05c-12.401-109.591-117.735-107.203-150.745-53.488-51.047-111.011-159.699-104.074-201.169-14.324-66.323-29.842-117.051-8.274-126.071,60.603-77.785-49.859-131.9,67.26-131.9,67.26Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8791.366 1925.425 8776.777 1767.825 8778.812 1767.612 8793.401 1925.212 8791.366 1925.425" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8681.338 1928.08 8623.391 1826.643 8625.142 1825.519 8683.088 1926.956 8681.338 1928.08" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8889.927 1928.138 8888.251 1926.898 8969.596 1803.752 8971.271 1804.993 8889.927 1928.138" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8933.018 1862.515 8932.393 1860.453 8997.145 1838.433 8997.769 1840.495 8933.018 1862.515" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="9002.993 1928.416 9001.848 1926.621 9065.453 1881.103 9066.598 1882.898 9002.993 1928.416" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8790.671 1897.717 8788.886 1896.662 8844.46 1791.147 8846.247 1792.202 8790.671 1897.717" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8782.708 1832.69 8734.94 1795.413 8736.153 1793.673 8783.922 1830.95 8782.708 1832.69" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="8659.857 1889.874 8580.612 1868.518 8581.117 1866.422 8660.361 1887.777 8659.857 1889.874" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M10047.943,1927.768h667.082s-18.232-96.943-86.871-73.34c-11.797-133.845-112.007-130.929-143.41-65.326-48.563-135.58-151.929-127.107-191.382-17.494-63.097-36.446-111.356-10.105-119.938,74.015-74.001-60.894-125.482,82.146-125.482,82.146Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10398.38 1925.211 10384.501 1732.732 10386.438 1732.472 10400.316 1924.952 10398.38 1925.211" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10293.705 1928.454 10238.577 1804.567 10240.243 1803.195 10295.37 1927.081 10293.705 1928.454" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10492.145 1928.525 10490.551 1927.01 10567.938 1776.61 10569.532 1778.125 10492.145 1928.525" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10533.14 1848.379 10532.545 1845.86 10594.147 1818.966 10594.741 1821.485 10533.14 1848.379" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10599.711 1928.864 10598.621 1926.671 10659.131 1871.08 10660.221 1873.273 10599.711 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10397.719 1891.371 10396.021 1890.082 10448.891 1761.216 10450.59 1762.505 10397.719 1891.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10390.144 1811.953 10344.699 1766.426 10345.854 1764.3 10391.298 1809.827 10390.144 1811.953" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10273.269 1881.793 10197.88 1855.71 10198.36 1853.149 10273.749 1879.231 10273.269 1881.793" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <path d="M11516.312,1928.027h509.674s-13.93-74.068-66.372-56.034c-9.014-102.262-85.577-100.034-109.57-49.912-37.104-103.587-116.079-97.114-146.222-13.366-48.208-27.846-85.08-7.721-91.637,56.55-56.539-46.525-95.873,62.762-95.873,62.762Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11784.058 1926.073 11773.454 1779.013 11774.934 1778.814 11785.538 1925.875 11784.058 1926.073" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11704.083 1928.551 11661.964 1833.897 11663.236 1832.849 11705.355 1927.502 11704.083 1928.551" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11855.698 1928.605 11854.48 1927.448 11913.606 1812.538 11914.824 1813.695 11855.698 1928.605" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11887.019 1867.371 11886.565 1865.446 11933.631 1844.899 11934.085 1846.823 11887.019 1867.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11937.882 1928.864 11937.05 1927.189 11983.281 1884.716 11984.113 1886.391 11937.882 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11783.553 1900.218 11782.256 1899.234 11822.65 1800.775 11823.949 1801.76 11783.553 1900.218" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11777.765 1839.54 11743.045 1804.756 11743.926 1803.132 11778.647 1837.916 11777.765 1839.54" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11688.469 1892.9 11630.869 1872.972 11631.236 1871.016 11688.836 1890.943 11688.469 1892.9" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M10571.462,1927.768h667.082s-18.232-96.943-86.871-73.34c-11.797-133.845-112.007-130.929-143.41-65.326-48.563-135.58-151.929-127.107-191.382-17.494-63.097-36.446-111.356-10.105-119.938,74.015-74.001-60.894-125.482,82.146-125.482,82.146Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10921.899 1925.211 10908.021 1732.732 10909.957 1732.472 10923.836 1924.952 10921.899 1925.211" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10817.225 1928.454 10762.097 1804.567 10763.763 1803.195 10818.89 1927.081 10817.225 1928.454" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11015.665 1928.525 11014.07 1927.01 11091.457 1776.61 11093.051 1778.125 11015.665 1928.525" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <g style="opacity: .2;">
+            <polygon points="11056.66 1848.379 11056.065 1845.86 11117.666 1818.966 11118.261 1821.485 11056.66 1848.379" style="fill: #fff; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          </g>
+          <polygon points="11123.231 1928.864 11122.141 1926.671 11182.651 1871.08 11183.741 1873.273 11123.231 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10921.239 1891.371 10919.54 1890.082 10972.41 1761.216 10974.11 1762.505 10921.239 1891.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10913.663 1811.953 10868.219 1766.426 10869.373 1764.3 10914.818 1809.827 10913.663 1811.953" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10796.789 1881.793 10721.399 1855.71 10721.88 1853.149 10797.269 1879.231 10796.789 1881.793" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M12255.179,1928.241h-486.864s13.307-55.113,63.401-41.694c8.61-76.092,81.747-74.435,104.666-37.139,35.444-77.079,110.884-72.262,139.678-9.945,46.05-20.72,81.272-5.745,87.535,42.078,54.009-34.619,91.582,46.7,91.582,46.7Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11999.415 1926.788 12009.545 1817.361 12008.132 1817.213 11998.002 1926.64 11999.415 1926.788" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="12075.811 1928.631 12116.045 1858.2 12114.83 1857.42 12074.596 1927.851 12075.811 1928.631" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11930.981 1928.672 11932.145 1927.81 11875.665 1842.307 11874.501 1843.168 11930.981 1928.672" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11901.062 1883.108 11901.496 1881.676 11856.537 1866.386 11856.103 1867.818 11901.062 1883.108" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11852.476 1928.864 11853.271 1927.618 11809.108 1896.014 11808.313 1897.26 11852.476 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="11999.897 1907.549 12001.137 1906.816 11962.55 1833.554 11961.31 1834.287 11999.897 1907.549" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="12005.427 1862.399 12038.594 1836.516 12037.751 1835.308 12004.584 1861.191 12005.427 1862.399" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="12090.726 1902.104 12145.748 1887.276 12145.398 1885.82 12090.376 1900.648 12090.726 1902.104" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M11079.472,1927.967h-701.198s19.165-79.376,91.313-60.05c12.401-109.591,117.735-107.203,150.745-53.488,51.047-111.011,159.699-104.074,201.169-14.324,66.323-29.842,117.051-8.274,126.071,60.603,77.785-49.859,131.9,67.26,131.9,67.26Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <g style="opacity: .2;">
+            <polygon points="10711.113 1925.873 10725.701 1768.273 10723.666 1768.061 10709.077 1925.661 10711.113 1925.873" style="fill: #fff; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          </g>
+          <polygon points="10821.141 1928.528 10879.087 1827.091 10877.337 1825.968 10819.39 1927.405 10821.141 1928.528" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10612.552 1928.587 10614.228 1927.346 10532.883 1804.201 10531.207 1805.441 10612.552 1928.587" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10569.461 1862.964 10570.085 1860.902 10505.334 1838.881 10504.709 1840.944 10569.461 1862.964" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10499.485 1928.864 10500.63 1927.069 10437.026 1881.552 10435.881 1883.347 10499.485 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10711.807 1898.165 10713.593 1897.11 10658.018 1791.596 10656.232 1792.651 10711.807 1898.165" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10719.77 1833.139 10767.539 1795.861 10766.325 1794.121 10718.557 1831.399 10719.77 1833.139" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="10842.622 1890.323 10921.866 1868.967 10921.361 1866.87 10842.117 1888.226 10842.622 1890.323" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M1458.305,1928.027h509.674s-13.93-74.068-66.372-56.034c-9.014-102.262-85.577-100.034-109.57-49.912-37.104-103.587-116.079-97.114-146.222-13.366-48.208-27.846-85.08-7.721-91.637,56.55-56.539-46.525-95.873,62.762-95.873,62.762Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1726.051 1926.073 1715.447 1779.013 1716.927 1778.814 1727.531 1925.875 1726.051 1926.073" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1646.076 1928.551 1603.957 1833.897 1605.229 1832.849 1647.348 1927.502 1646.076 1928.551" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1797.691 1928.605 1796.473 1927.448 1855.599 1812.538 1856.817 1813.695 1797.691 1928.605" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1829.012 1867.371 1828.558 1865.446 1875.624 1844.899 1876.077 1846.823 1829.012 1867.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1879.875 1928.864 1879.042 1927.189 1925.274 1884.716 1926.106 1886.391 1879.875 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1725.546 1900.218 1724.248 1899.234 1764.643 1800.775 1765.942 1801.76 1725.546 1900.218" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1719.758 1839.54 1685.037 1804.756 1685.919 1803.132 1720.64 1837.916 1719.758 1839.54" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1630.462 1892.9 1572.862 1872.972 1573.229 1871.016 1630.829 1890.943 1630.462 1892.9" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M7115.645,1927.768h667.082s-18.232-96.943-86.871-73.34c-11.797-133.845-112.007-130.929-143.41-65.326-48.563-135.58-151.929-127.107-191.382-17.494-63.097-36.446-111.356-10.105-119.938,74.015-74.001-60.894-125.482,82.146-125.482,82.146Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7466.082 1925.211 7452.204 1732.732 7454.14 1732.472 7468.019 1924.952 7466.082 1925.211" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7361.407 1928.454 7306.28 1804.567 7307.946 1803.195 7363.073 1927.081 7361.407 1928.454" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7559.848 1928.525 7558.253 1927.01 7635.64 1776.61 7637.234 1778.125 7559.848 1928.525" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7600.842 1848.379 7600.248 1845.86 7661.849 1818.966 7662.444 1821.485 7600.842 1848.379" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7667.413 1928.864 7666.324 1926.671 7726.834 1871.08 7727.923 1873.273 7667.413 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7465.422 1891.371 7463.723 1890.082 7516.593 1761.216 7518.293 1762.505 7465.422 1891.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7457.846 1811.953 7412.402 1766.426 7413.556 1764.3 7459 1809.827 7457.846 1811.953" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7340.972 1881.793 7265.582 1855.71 7266.062 1853.149 7341.452 1879.231 7340.972 1881.793" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M2197.171,1928.241h-494.333s13.511-55.113,64.374-41.694c8.742-76.092,83.001-74.435,106.272-37.139,35.987-77.079,112.585-72.262,141.821-9.945,46.757-20.72,82.519-5.745,88.878,42.078,54.837-34.619,92.987,46.7,92.987,46.7Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1937.484 1926.788 1947.769 1817.361 1946.334 1817.213 1936.049 1926.64 1937.484 1926.788" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2015.053 1928.631 2055.904 1858.2 2054.67 1857.42 2013.818 1927.851 2015.053 1928.631" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1868.001 1928.672 1869.183 1927.81 1811.836 1842.307 1810.654 1843.168 1868.001 1928.672" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1837.622 1883.108 1838.063 1881.676 1792.414 1866.386 1791.973 1867.818 1837.622 1883.108" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1788.291 1928.864 1789.098 1927.618 1744.258 1896.014 1743.451 1897.26 1788.291 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1937.974 1907.549 1939.233 1906.816 1900.054 1833.554 1898.794 1834.287 1937.974 1907.549" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="1943.588 1862.399 1977.264 1836.516 1976.408 1835.308 1942.732 1861.191 1943.588 1862.399" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2030.196 1902.104 2086.062 1887.276 2085.706 1885.82 2029.84 1900.648 2030.196 1902.104" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M7633.053,1927.518h-701.198s19.165-79.376,91.313-60.05c12.401-109.591,117.735-107.203,150.745-53.488,51.047-111.011,159.699-104.074,201.169-14.324,66.323-29.842,117.051-8.274,126.071,60.603,77.785-49.859,131.9,67.26,131.9,67.26Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7264.694 1925.425 7279.283 1767.825 7277.248 1767.612 7262.659 1925.212 7264.694 1925.425" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7374.722 1928.08 7432.669 1826.643 7430.918 1825.519 7372.972 1926.956 7374.722 1928.08" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7166.133 1928.138 7167.809 1926.898 7086.464 1803.752 7084.789 1804.993 7166.133 1928.138" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7123.042 1862.515 7123.667 1860.453 7058.915 1838.433 7058.291 1840.495 7123.042 1862.515" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7053.066 1928.416 7054.212 1926.621 6990.607 1881.103 6989.462 1882.898 7053.066 1928.416" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7265.388 1897.717 7267.174 1896.662 7211.6 1791.147 7209.813 1792.202 7265.388 1897.717" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7273.352 1832.69 7321.12 1795.413 7319.906 1793.673 7272.138 1830.95 7273.352 1832.69" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="7396.203 1889.874 7475.448 1868.518 7474.943 1866.422 7395.699 1887.777 7396.203 1889.874" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M2198.628,1927.768h667.082s-18.232-96.943-86.871-73.34c-11.797-133.845-112.007-130.929-143.41-65.326-48.563-135.58-151.929-127.107-191.382-17.494-63.097-36.446-111.356-10.105-119.938,74.015-74.001-60.894-125.482,82.146-125.482,82.146Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2549.065 1925.211 2535.187 1732.732 2537.123 1732.472 2551.002 1924.952 2549.065 1925.211" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2444.391 1928.454 2389.263 1804.567 2390.929 1803.195 2446.056 1927.081 2444.391 1928.454" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2642.831 1928.525 2641.236 1927.01 2718.623 1776.61 2720.217 1778.125 2642.831 1928.525" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2683.826 1848.379 2683.231 1845.86 2744.832 1818.966 2745.427 1821.485 2683.826 1848.379" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2750.397 1928.864 2749.307 1926.671 2809.817 1871.08 2810.907 1873.273 2750.397 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2548.405 1891.371 2546.706 1890.082 2599.577 1761.216 2601.276 1762.505 2548.405 1891.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2540.829 1811.953 2495.385 1766.426 2496.539 1764.3 2541.984 1809.827 2540.829 1811.953" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2423.955 1881.793 2348.565 1855.71 2349.046 1853.149 2424.435 1879.231 2423.955 1881.793" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M2602.06,1928.027h509.674s-13.93-74.068-66.372-56.034c-9.014-102.262-85.577-100.034-109.57-49.912-37.104-103.587-116.079-97.114-146.222-13.366-48.208-27.846-85.08-7.721-91.637,56.55-56.539-46.525-95.873,62.762-95.873,62.762Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2869.806 1926.073 2859.202 1779.013 2860.682 1778.814 2871.286 1925.875 2869.806 1926.073" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2789.831 1928.551 2747.712 1833.897 2748.984 1832.849 2791.103 1927.502 2789.831 1928.551" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2941.446 1928.605 2940.228 1927.448 2999.354 1812.538 3000.572 1813.695 2941.446 1928.605" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2972.767 1867.371 2972.313 1865.446 3019.379 1844.899 3019.832 1846.823 2972.767 1867.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3023.63 1928.864 3022.797 1927.189 3069.029 1884.716 3069.861 1886.391 3023.63 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2869.301 1900.218 2868.003 1899.234 2908.398 1800.775 2909.697 1801.76 2869.301 1900.218" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2863.513 1839.54 2828.792 1804.756 2829.674 1803.132 2864.395 1837.916 2863.513 1839.54" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2774.217 1892.9 2716.617 1872.972 2716.984 1871.016 2774.584 1890.943 2774.217 1892.9" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M3340.926,1928.241h-486.864s13.307-55.113,63.401-41.694c8.61-76.092,81.747-74.435,104.666-37.139,35.444-77.079,110.884-72.262,139.678-9.945,46.05-20.72,81.272-5.745,87.535,42.078,54.009-34.619,91.582,46.7,91.582,46.7Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3085.163 1926.788 3095.292 1817.361 3093.879 1817.213 3083.75 1926.64 3085.163 1926.788" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3161.559 1928.631 3201.793 1858.2 3200.578 1857.42 3160.344 1927.851 3161.559 1928.631" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3016.729 1928.672 3017.893 1927.81 2961.413 1842.307 2960.249 1843.168 3016.729 1928.672" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2986.81 1883.108 2987.244 1881.676 2942.285 1866.386 2941.851 1867.818 2986.81 1883.108" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="2938.224 1928.864 2939.019 1927.618 2894.856 1896.014 2894.061 1897.26 2938.224 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3085.645 1907.549 3086.885 1906.816 3048.298 1833.554 3047.058 1834.287 3085.645 1907.549" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3091.174 1862.399 3124.341 1836.516 3123.499 1835.308 3090.332 1861.191 3091.174 1862.399" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="3176.474 1902.104 3231.496 1887.276 3231.145 1885.82 3176.123 1900.648 3176.474 1902.104" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M300.617,1927.768h667.082s-18.232-96.943-86.871-73.34c-11.797-133.845-112.007-130.929-143.41-65.326-48.563-135.58-151.929-127.107-191.382-17.494-63.097-36.446-111.356-10.105-119.938,74.015-74.001-60.894-125.482,82.146-125.482,82.146Z" style="fill: #8ba96a; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="651.054 1925.211 637.176 1732.732 639.112 1732.472 652.991 1924.952 651.054 1925.211" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="546.38 1928.454 491.252 1804.567 492.918 1803.195 548.045 1927.081 546.38 1928.454" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="744.82 1928.525 743.225 1927.01 820.612 1776.61 822.207 1778.125 744.82 1928.525" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="785.815 1848.379 785.22 1845.86 846.821 1818.966 847.416 1821.485 785.815 1848.379" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="852.386 1928.864 851.296 1926.671 911.806 1871.08 912.896 1873.273 852.386 1928.864" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="650.394 1891.371 648.695 1890.082 701.566 1761.216 703.265 1762.505 650.394 1891.371" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="642.818 1811.953 597.374 1766.426 598.529 1764.3 643.973 1809.827 642.818 1811.953" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="525.944 1881.793 450.554 1855.71 451.035 1853.149 526.424 1879.231 525.944 1881.793" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+        <g>
+          <path d="M818.026,1927.518H116.827s19.165-79.376,91.313-60.05c12.401-109.591,117.735-107.203,150.745-53.488,51.047-111.011,159.699-104.074,201.169-14.324,66.323-29.842,117.051-8.274,126.071,60.603,77.785-49.859,131.9,67.26,131.9,67.26Z" style="fill: #7f9a61; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="449.666 1925.425 464.255 1767.825 462.22 1767.612 447.631 1925.212 449.666 1925.425" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="559.695 1928.08 617.641 1826.643 615.891 1825.519 557.944 1926.956 559.695 1928.08" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="351.105 1928.138 352.782 1926.898 271.437 1803.752 269.761 1804.993 351.105 1928.138" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="308.015 1862.515 308.639 1860.453 243.888 1838.433 243.263 1840.495 308.015 1862.515" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="238.039 1928.416 239.184 1926.621 175.58 1881.103 174.434 1882.898 238.039 1928.416" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="450.361 1897.717 452.146 1896.662 396.572 1791.147 394.785 1792.202 450.361 1897.717" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="458.324 1832.69 506.092 1795.413 504.879 1793.673 457.11 1830.95 458.324 1832.69" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+          <polygon points="581.176 1889.874 660.42 1868.518 659.915 1866.422 580.671 1887.777 581.176 1889.874" style="fill: #fff; opacity: .2; stroke: #657260; stroke-miterlimit: 10; stroke-width: 3px;"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

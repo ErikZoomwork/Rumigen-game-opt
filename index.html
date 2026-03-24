@@ -25,7 +25,7 @@
     <div id="disclaimer-modal" class="disclaimer-modal">
         <div class="disclaimer-content">
             <h2>About This Game</h2>
-            <p>This game explores possible future scenarios in agriculture and food production. The three scenarios at the end are intentionally extreme to highlight different outcomes and spark discussion, rather than predict the future. While real-world systems will likely sit between these extremes, the scenarios help illustrate how choices around priorities, policies, and technology can shape food systems. The game does not promote a single path, but encourages reflection, dialogue, and collaborative thinking about balancing productivity, sustainability, and societal needs.</p>
+            <p>This game explores possible future scenarios in agriculture and food production. The three scenarios at the end are intentional archetypes to highlight different outcomes and spark discussion, rather than predict the future. While real-world systems will likely sit between these archetypes, the scenarios help illustrate how choices around priorities, policies, and technology can shape food systems. The game does not promote a single path, but encourages reflection, dialogue, and collaborative thinking about balancing productivity, sustainability, and societal needs.</p>
             <button class="disclaimer-btn" onclick="closedisclaimer()">I Understand</button>
         </div>
     </div>
@@ -145,6 +145,10 @@
                     <div class="tradeoff-choice">Here's what I learned:</div>
                     <div class="tradeoff-explanation" id="tradeoffText">Trade-off text will appear here.</div>
                     <button class="continue-button" onclick="closeTradeoff()">Continue →</button>
+                    <div class="scenario-nav-buttons" id="scenarioNavButtons" style="display:none;">
+                        <button class="restart-button" id="scenarioPrevBtn">← Previous</button>
+                        <button class="restart-button" id="scenarioNextBtn">Next →</button>
+                    </div>
                 </div>
             </div>
 
