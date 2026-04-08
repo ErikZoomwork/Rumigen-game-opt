@@ -338,33 +338,40 @@ body {
 /* Mobile Responsive for Character Cards */
 @media (max-width: 768px) {
     .character-container {
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .character-logo {
         max-width: 220px;
         margin-bottom: 1.5rem;
+        padding: 0 20px;
     }
 
     .character-container h1 {
         font-size: 1.75rem;
         margin-bottom: 0.5rem;
+        padding: 0 20px;
     }
 
     .character-subtitle {
         font-size: 0.95rem;
         margin-bottom: 1rem;
+        padding: 0 20px;
     }
 
     .character-grid {
         gap: 1rem;
-        padding: 10px 0;
+        /* 7.5vw side padding so first/last card can scroll to center (cards are 85vw) */
+        padding: 10px 7.5vw;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
     }
 
     .character-card {
         min-width: 260px;
         flex: 0 0 85vw;
         max-height: 70dvh;
+        scroll-snap-align: center;
     }
 
     .character-image {
@@ -397,18 +404,9 @@ body {
         font-size: 0.9rem;
     }
 
+    /* Hide arrows on mobile — users swipe between cards */
     .nav-arrow {
-        width: 40px;
-        height: 40px;
-        font-size: 1.2rem;
-    }
-
-    .nav-arrow.left {
-        left: -15px;
-    }
-
-    .nav-arrow.right {
-        right: -15px;
+        display: none;
     }
 }
 
@@ -1316,6 +1314,9 @@ body {
     left: 0;
     width: 100%;
     height: auto;
+    will-change: opacity;
+    transform: translateZ(0);
+    backface-visibility: hidden;
 }
 
 .layer object {
@@ -1333,12 +1334,14 @@ body {
 .layer-eyes {
     z-index: 3;
     opacity: 0;
+    transition: opacity 40ms linear;
 }
 .layer-eyes.active { opacity: 1; }
 
 .layer-mouth {
     z-index: 4;
     opacity: 0;
+    transition: opacity 30ms linear;
 }
 .layer-mouth.active { opacity: 1; }
 

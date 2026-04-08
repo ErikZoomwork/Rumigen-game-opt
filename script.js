@@ -365,25 +365,31 @@ let lastBlinkTime = 0;
 
 function switchMouth(mouthName) {
     if (currentMouth === mouthName || !mouthLayers) return;
-    mouthLayers.forEach(layer => layer.classList.remove('active'));
     const charElement = document.getElementById(`char-${selectedCharacter}`);
     if (!charElement) return;
     const selectedLayer = charElement.querySelector(`[data-mouth="${mouthName}"]`);
+    // Add new active class first to avoid a blank-frame flash
     if (selectedLayer) {
         selectedLayer.classList.add('active');
     }
+    mouthLayers.forEach(layer => {
+        if (layer !== selectedLayer) layer.classList.remove('active');
+    });
     currentMouth = mouthName;
 }
 
 function switchEyes(eyesName) {
     if (currentEyes === eyesName || !eyeLayers) return;
-    eyeLayers.forEach(layer => layer.classList.remove('active'));
     const charElement = document.getElementById(`char-${selectedCharacter}`);
     if (!charElement) return;
     const selectedLayer = charElement.querySelector(`[data-eyes="${eyesName}"]`);
+    // Add new active class first to avoid a blank-frame flash
     if (selectedLayer) {
         selectedLayer.classList.add('active');
     }
+    eyeLayers.forEach(layer => {
+        if (layer !== selectedLayer) layer.classList.remove('active');
+    });
     currentEyes = eyesName;
 }
 
