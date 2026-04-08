@@ -1320,7 +1320,7 @@ body {
     backface-visibility: hidden;
 }
 
-.layer object {
+.layer img {
     width: 100%;
     height: auto;
     max-height: 100dvh;
@@ -1328,6 +1328,8 @@ body {
     object-position: bottom;
     pointer-events: none;
     display: block;
+    /* SVGs as <img> render in the main document context \u2014 properly GPU-composited */
+    transform: translateZ(0);
 }
 
 .layer-base { z-index: 2; }

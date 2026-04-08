@@ -16,7 +16,9 @@ function ensureCharacterElement(characterName) {
 
     const name = CHARACTER_NAMES[characterName] || (characterName.charAt(0).toUpperCase() + characterName.slice(1));
     const path = `SVG/characters/${name}`;
-    const o = (file) => `<object data="${path}/${file}" type="image/svg+xml"></object>`;
+    // Use <img> instead of <object> — renders in the main document context,
+    // properly GPU-composited via will-change:opacity, no per-layer browsing context.
+    const o = (file) => `<img src="${path}/${file}" alt="" draggable="false">`;
 
     const div = document.createElement('div');
     div.id = id;
@@ -48,16 +50,16 @@ function showCharacterSelection() {
     showScreen('character-screen');
 }
 
-// Wait for all <object> SVG layers of a character to finish loading (4 s timeout fallback)
+// Wait for all <img> SVG layers of a character to finish loading (4 s timeout fallback)
 function waitForCharacterSVGs(characterName) {
     return new Promise((resolve) => {
         const charElement = document.getElementById(`char-${characterName}`);
         if (!charElement) return resolve();
 
-        const objects = Array.from(charElement.querySelectorAll('object'));
-        if (objects.length === 0) return resolve();
+        const imgs = Array.from(charElement.querySelectorAll('img'));
+        if (imgs.length === 0) return resolve();
 
-        let remaining = objects.length;
+        let remaining = imgs.length;
         let resolved = false;
         const done = () => {
             if (resolved) return;
@@ -66,13 +68,12 @@ function waitForCharacterSVGs(characterName) {
         // Fallback: never stall the game for more than 4 seconds
         const timer = setTimeout(() => { resolved = true; resolve(); }, 4000);
 
-        objects.forEach(obj => {
-            // contentDocument is already set when the object is fully parsed
-            if (obj.contentDocument && obj.contentDocument.documentElement) {
+        imgs.forEach(img => {
+            if (img.complete && img.naturalWidth > 0) {
                 done();
             } else {
-                obj.addEventListener('load', done, { once: true });
-                obj.addEventListener('error', done, { once: true });
+                img.addEventListener('load', done, { once: true });
+                img.addEventListener('error', done, { once: true });
             }
         });
     });
