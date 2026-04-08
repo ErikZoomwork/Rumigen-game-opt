@@ -754,20 +754,24 @@ function loadBackground(sceneName, parallaxEffect = 'scroll-left') {
     ensureQuestionBackground(sceneName);
     currentQuestionScene = sceneName; // remember for payoff fallback
 
-    document.querySelectorAll('.question-background').forEach(bg => {
-        bg.classList.remove('active', ...PARALLAX_CLASSES);
-    });
-
     const targetBg = document.querySelector(`.question-${sceneName}`);
-    if (targetBg) {
-        targetBg.classList.add('active', `parallax-effect-${parallaxEffect}`);
-    } else {
+    const fallbackBg = (() => {
+        if (targetBg) return null;
         console.warn(`Background not found: ${sceneName}`);
         const firstBg = Object.keys(BACKGROUND_CONFIG)[0];
         ensureQuestionBackground(firstBg);
-        const fallback = document.querySelector(`.question-${firstBg}`);
-        if (fallback) fallback.classList.add('active', `parallax-effect-${parallaxEffect}`);
+        return document.querySelector(`.question-${firstBg}`);
+    })();
+    const newBg = targetBg || fallbackBg;
+
+    // Add new active BEFORE removing old ones — prevents blank-frame flash
+    if (newBg) {
+        PARALLAX_CLASSES.forEach(c => newBg.classList.remove(c));
+        newBg.classList.add('active', `parallax-effect-${parallaxEffect}`);
     }
+    document.querySelectorAll('.question-background').forEach(bg => {
+        if (bg !== newBg) bg.classList.remove('active', ...PARALLAX_CLASSES);
+    });
 }
 
 // Load a payoff background – creates the DOM element lazily on first use
