@@ -779,20 +779,24 @@ function loadBackground(sceneName, parallaxEffect = 'scroll-left') {
 function loadPayoffBackground(sceneName, parallaxEffect = 'scroll-left') {
     ensurePayoffBackground(sceneName);
 
-    document.querySelectorAll('.payoff-container').forEach(c => {
-        c.classList.remove('active', ...PARALLAX_CLASSES);
-    });
-
-    const activePayoff = document.querySelector(`.payoff-${sceneName}`);
-    if (activePayoff) {
-        activePayoff.classList.add('active', `parallax-effect-${parallaxEffect}`);
-    } else {
+    const targetPayoff = document.querySelector(`.payoff-${sceneName}`);
+    const fallbackPayoff = (() => {
+        if (targetPayoff) return null;
         console.warn(`Payoff scene not found: ${sceneName}`);
         const firstBg = Object.keys(BACKGROUND_CONFIG)[0];
         ensurePayoffBackground(firstBg);
-        const fallback = document.querySelector(`.payoff-${firstBg}`);
-        if (fallback) fallback.classList.add('active', `parallax-effect-${parallaxEffect}`);
+        return document.querySelector(`.payoff-${firstBg}`);
+    })();
+    const newPayoff = targetPayoff || fallbackPayoff;
+
+    // Add new active BEFORE removing old ones — prevents blank-frame flash
+    if (newPayoff) {
+        PARALLAX_CLASSES.forEach(c => newPayoff.classList.remove(c));
+        newPayoff.classList.add('active', `parallax-effect-${parallaxEffect}`);
     }
+    document.querySelectorAll('.payoff-container').forEach(c => {
+        if (c !== newPayoff) c.classList.remove('active', ...PARALLAX_CLASSES);
+    });
 }
 
 // Function to load character data from JSON
@@ -899,45 +903,29 @@ document.querySelectorAll('.option-button').forEach(button => {
             document.querySelector('.character-display').classList.add('answered');
             document.querySelector('.question-background.active').classList.add('fade-out');
             
-            // Switch payoff background based on JSON
-            // Default: same scene as the current question background
+            // Switch payoff background — add new BEFORE removing old (no blank-frame flash)
             let payoffScene = EXPORT_BACKGROUND_MAP[selectedCharacter]?.[currentQ?.number] || currentQuestionScene || Object.keys(BACKGROUND_CONFIG)[0];
-            let payoffEffect = 'scroll-left'; // default
+            let payoffEffect = 'scroll-left';
             if (currentQ && currentQ.tradeoffs && currentQ.tradeoffs[option]) {
                 const tradeoff = currentQ.tradeoffs[option];
                 if (typeof tradeoff === 'object') {
-                    if (tradeoff.payoffBackground) {
-                        payoffScene = tradeoff.payoffBackground;
-                    }
-                    if (tradeoff.payoffParallaxEffect) {
-                        payoffEffect = tradeoff.payoffParallaxEffect;
-                    }
+                    if (tradeoff.payoffBackground) payoffScene = tradeoff.payoffBackground;
+                    if (tradeoff.payoffParallaxEffect) payoffEffect = tradeoff.payoffParallaxEffect;
                 }
             }
-            
-            // Hide all payoff containers and show the selected one
+
+            ensurePayoffBackground(payoffScene);
+            const newPayoff = document.querySelector(`.payoff-${payoffScene}`);
+            if (newPayoff) {
+                PARALLAX_CLASSES.forEach(c => newPayoff.classList.remove(c));
+                newPayoff.classList.add('active', `parallax-effect-${payoffEffect}`);
+            }
+            // Deactivate all OTHER payoff containers after activating the new one
             document.querySelectorAll('.payoff-container').forEach(container => {
-                container.classList.remove('active');
-                // Remove all parallax effect classes
-                container.classList.remove('parallax-effect-scroll-left', 'parallax-effect-scroll-right',
-                                          'parallax-effect-zoom-gentle', 'parallax-effect-static', 'parallax-effect-mixed');
-            });
-            
-            setTimeout(() => {
-                const activePayoff = document.querySelector(`.payoff-${payoffScene}`);
-                if (activePayoff) {
-                    activePayoff.classList.add('active');
-                    activePayoff.classList.add(`parallax-effect-${payoffEffect}`);
-                } else {
-                    console.warn(`Payoff scene not found: ${payoffScene}. Available:`, Object.keys(BACKGROUND_CONFIG));
-                    const firstBg = Object.keys(BACKGROUND_CONFIG)[0];
-                    const fallback = document.querySelector(`.payoff-${firstBg}`);
-                    if (fallback) {
-                        fallback.classList.add('active');
-                        fallback.classList.add(`parallax-effect-${payoffEffect}`);
-                    }
+                if (container !== newPayoff) {
+                    container.classList.remove('active', ...PARALLAX_CLASSES);
                 }
-            }, 200);
+            });
             setTimeout(() => {
                 document.getElementById('tradeoffModal').classList.add('active');
                 // Show next button after modal appears

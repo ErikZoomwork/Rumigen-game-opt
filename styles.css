@@ -762,11 +762,10 @@ body {
     pointer-events: none;
     background: #b8e6e3;
     overflow: hidden;
-    display: none;
+    will-change: opacity, transform;
 }
 
 .payoff-container.active {
-    display: block;
     opacity: 1;
     transform: scale(1);
     pointer-events: auto;
@@ -786,11 +785,10 @@ body {
     pointer-events: none;
     background: #b8e6e3;
     overflow: hidden;
-    display: none;
+    will-change: opacity, transform;
 }
 
 .intro-container.active {
-    display: block;
     opacity: 1;
     transform: scale(1);
     pointer-events: none;
@@ -1286,10 +1284,10 @@ body {
     }
 
     .character-display.answered {
-        left: auto;
-        right: 5%;
-        transform: none;
-        width: 50vw;
+        /* Shift right using transform only — avoids un-interpolatable left:auto/right combo */
+        left: 50%;
+        transform: translateX(5%);
+        width: 55vw;
         max-height: 60dvh;
     }
 }
