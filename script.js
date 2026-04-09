@@ -291,13 +291,7 @@ function loadPayoffAudio(audioPath) {
     // Pause current audio
     payoffAudio.pause();
 
-    // Disconnect existing source if it exists
-    if (payoffSource) {
-        try { payoffSource.disconnect(); } catch (e) { /* ignore */ }
-        payoffSource = null;
-    }
-
-    // Update source
+    // Update source (don't touch payoffSource — it stays connected)
     payoffAudio.src = audioPath;
     currentPayoffPath = audioPath;
 
@@ -856,15 +850,25 @@ document.querySelectorAll('.option-button').forEach(button => {
             
             // Setup payoff audio with lip-sync on its own analyser (no bleed from voice)
             audioContext.resume().then(() => {
-                // Create payoff source and connect to dedicated payoffAnalyser
+                // Create payoff source once (createMediaElementSource can only be called once per element)
                 if (!payoffSource) {
                     payoffSource = audioContext.createMediaElementSource(payoffAudio);
                     payoffSource.connect(payoffAnalyser);
                     payoffSource.connect(audioContext.destination);
                 }
 
-                payoffAudio.play();
-                startLipSync(payoffAnalyser);
+                // Wait for audio data before playing to avoid silent/partial playback
+                const tryPlay = () => {
+                    payoffAudio.play().then(() => {
+                        startLipSync(payoffAnalyser);
+                    }).catch(err => console.warn('Payoff play failed:', err));
+                };
+
+                if (payoffAudio.readyState >= 3) {
+                    tryPlay();
+                } else {
+                    payoffAudio.addEventListener('canplaythrough', tryPlay, { once: true });
+                }
             });
             
             document.querySelector('.questions-panel').classList.add('hidden');
