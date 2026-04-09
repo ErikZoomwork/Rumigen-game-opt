@@ -337,9 +337,10 @@ body {
 
 /* Mobile Responsive for Character Cards */
 @media (max-width: 768px) {
-    /* Welcome screen: compact flex layout so button stays in view on portrait phones */
+    /* Welcome screen: fill parent exactly, no scrolling */
     #welcome-screen {
         align-items: stretch;
+        justify-content: stretch;
         overflow: hidden;
     }
 
@@ -347,7 +348,8 @@ body {
         padding: 15px 20px 0;
         display: flex;
         flex-direction: column;
-        height: 100dvh;
+        height: 100%;
+        max-width: 100%;
         overflow: hidden;
     }
 
