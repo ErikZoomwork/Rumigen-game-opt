@@ -1232,11 +1232,19 @@ function goHome() {
     selectedCharacter = '';
     characterData = null;
     characterQuestions = [];
-    
+
+    // Remove .active from all fixed overlay elements so they stop blocking touch input
+    document.querySelectorAll('.payoff-container, .intro-container, .question-background').forEach(el => {
+        el.classList.remove('active', 'fade-out');
+    });
+    document.querySelector('.character-display')?.classList.remove('answered');
+    document.querySelector('.questions-panel')?.classList.remove('hidden');
+
     // Hide game screen and show character selection
     showScreen('character-screen');
-    
+
     // Stop all audio
+    stopLipSync();
     pauseVoice();
     payoffAudio.pause();
     musicAudio.pause();
