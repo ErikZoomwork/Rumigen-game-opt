@@ -369,16 +369,19 @@ body {
     }
 
     .intro-text-section {
-        padding: 0.75rem 1rem;
+        padding: 0.5rem 0.75rem;
         margin-bottom: 0;
+        border: none;
+        background: transparent;
         flex: 1;
         min-height: 0;
         overflow-y: auto;
     }
 
     .intro-text-section p {
-        font-size: 0.85rem;
-        margin-bottom: 0.5rem;
+        font-size: 0.8rem;
+        line-height: 1.4;
+        margin-bottom: 0.4rem;
     }
 
     .btn-primary {
