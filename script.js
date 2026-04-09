@@ -809,6 +809,9 @@ async function loadCharacterData(characterName) {
 document.querySelectorAll('.option-button').forEach(button => {
     button.addEventListener('click', function() {
         if (this.classList.contains('clickable')) {
+            // Immediately lock ALL option buttons to prevent double-clicks / rapid tapping
+            document.querySelectorAll('.option-button').forEach(b => b.classList.remove('clickable'));
+
             const option = this.dataset.option;
             
             // Add score (A=3, B=2, C=1)
@@ -1101,6 +1104,9 @@ function loadQuestion(index) {
     
     document.getElementById('optionC').querySelector('.option-title').textContent = optC.title;
     document.getElementById('optionC').querySelector('.option-description').textContent = optC.description;
+
+    // Re-enable option buttons for the new question
+    document.querySelectorAll('.option-button').forEach(b => b.classList.add('clickable'));
     
     // Update previous button state
     updatePrevButtonState();
