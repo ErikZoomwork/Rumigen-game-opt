@@ -181,6 +181,11 @@ body {
     box-shadow: 0 6px 12px rgba(24, 82, 133, 0.4);
 }
 
+/* Duplicate mobile-only start button — hidden on desktop */
+.mobile-start-btn {
+    display: none;
+}
+
 /* Character Selection Screen */
 #character-screen {
     display: flex;
@@ -380,7 +385,13 @@ body {
         margin-bottom: 0.4rem;
     }
 
-    #welcome-screen .btn-primary {
+    /* Hide the original in-content button on mobile, show the out-of-flow one */
+    .welcome-content .btn-primary {
+        display: none;
+    }
+
+    .mobile-start-btn {
+        display: block !important;
         position: absolute;
         bottom: 40px;
         left: 20px;
