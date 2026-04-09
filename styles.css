@@ -1143,11 +1143,13 @@ body {
         padding: max(20px, env(safe-area-inset-top)) 20px max(30px, env(safe-area-inset-bottom)) 20px;
         justify-content: flex-start;
         opacity: 0;
+        pointer-events: none;
         transition: opacity 2s ease;
     }
 
     .questions-panel.show {
         opacity: 1;
+        pointer-events: auto;
     }
 
     .question-header {
