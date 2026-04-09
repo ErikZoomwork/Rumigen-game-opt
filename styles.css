@@ -337,6 +337,55 @@ body {
 
 /* Mobile Responsive for Character Cards */
 @media (max-width: 768px) {
+    /* Welcome screen: compact layout so button stays in view on portrait phones */
+    #welcome-screen {
+        align-items: flex-start;
+    }
+
+    .welcome-content {
+        padding: 20px 20px 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100dvh;
+    }
+
+    .rumigen-logo {
+        max-width: 160px;
+        margin-bottom: 0.75rem;
+    }
+
+    .game-title {
+        font-size: 1.6rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .game-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .intro-text-section {
+        padding: 0.75rem 1rem;
+        margin-bottom: 0;
+        flex: 1;
+        overflow-y: auto;
+    }
+
+    .intro-text-section p {
+        font-size: 0.85rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .btn-primary {
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        border-radius: 0;
+        margin-top: 0;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
     .character-container {
         padding: 20px 0;
     }
