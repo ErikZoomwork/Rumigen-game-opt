@@ -382,7 +382,7 @@ body {
 
     #welcome-screen .btn-primary {
         position: fixed;
-        bottom: 20px;
+        bottom: 40px;
         left: 20px;
         width: calc(100% - 40px);
         border-radius: 0.5rem;
