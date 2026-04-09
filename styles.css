@@ -578,6 +578,16 @@ body {
     50% { transform: scale(1.05); }
 }
 
+/* Pause all parallax animations on inactive backgrounds — saves GPU for invisible scenes */
+.question-background:not(.active) .parallax-layer,
+.question-background:not(.active) [class*="layer-"],
+.payoff-container:not(.active) .parallax-layer,
+.payoff-container:not(.active) [class*="layer-"],
+.intro-container:not(.active) .parallax-layer,
+.intro-container:not(.active) [class*="layer-"] {
+    animation-play-state: paused;
+}
+
 /* Parallax Effect: scroll-left (default) */
 .parallax-effect-scroll-left .parallax-layer {
     animation: scrollLeft var(--parallax-duration, 60s) linear infinite;
@@ -1302,7 +1312,6 @@ body {
     left: 0;
     width: 100%;
     height: auto;
-    will-change: opacity;
     transform: translateZ(0);
     backface-visibility: hidden;
 }

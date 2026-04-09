@@ -1,9 +1,6 @@
 // Screen management
 let selectedCharacter = 'emma'; // Default character
 
-// Cache-busting version — increment when deploying new assets
-const ASSET_VERSION = Date.now();
-
 // Character name mapping: key → display name (also used as folder/file prefix)
 const CHARACTER_NAMES = {
     emma: 'Emma', luca: 'Luca', clara: 'Clara', ahmed: 'Ahmed', sofia: 'Sofia'
@@ -80,29 +77,11 @@ function waitForCharacterSVGs(characterName) {
 }
 
 // Preload all SVG layers for a single background scene
-async function preloadScene(sceneName) {
+// Creates DOM elements so their <img> tags start loading immediately via browser cache.
+function preloadScene(sceneName) {
     if (!sceneName) return;
     ensureQuestionBackground(sceneName);
     ensurePayoffBackground(sceneName);
-
-    const config = BACKGROUND_CONFIG[sceneName];
-    if (!config?.layers) return;
-
-    const paths = config.layers
-        .map(layer => `${config.path}/${layer.file}`)
-        .filter(p => !SVG_PRELOAD_CACHE[p]);
-
-    const BATCH = 8;
-    for (let i = 0; i < paths.length; i += BATCH) {
-        await Promise.all(
-            paths.slice(i, i + BATCH).map(async (p) => {
-                try {
-                    const res = await fetch(`${p}?v=${ASSET_VERSION}`);
-                    if (res.ok) SVG_PRELOAD_CACHE[p] = await res.blob();
-                } catch (e) { /* ignore — not critical */ }
-            })
-        );
-    }
 }
 
 async function selectCharacter(characterName) {
@@ -137,8 +116,7 @@ async function selectCharacter(characterName) {
         || Object.values(EXPORT_BACKGROUND_MAP[characterName] || {})[0]
         || null;
     if (introSceneName) {
-        showLoadingOverlay(`Loading backgrounds...`);
-        await preloadScene(introSceneName);
+        preloadScene(introSceneName);
     }
 
     // Everything is ready — reveal the game
@@ -503,7 +481,6 @@ let isInIntroModal = false; // Flag to prevent event listener during intro
 // Backgrounds are loaded dynamically from SVG/backgrounds/backgrounds.json
 let BACKGROUND_CONFIG = {};
 let EXPORT_BACKGROUND_MAP = {};
-let SVG_PRELOAD_CACHE = {};
 let currentQuestionScene = null; // tracks the last loaded question background for payoff fallback
 
 // Function to load backgrounds configuration from JSON
@@ -734,33 +711,8 @@ async function preloadCharacterBackgrounds(characterName) {
         if (BACKGROUND_CONFIG[scene]) ensurePayoffBackground(scene);
     });
 
-    // Collect unique SVG paths not yet cached
-    const allPaths = [];
-    for (const sceneName of scenesToLoad) {
-        const config = BACKGROUND_CONFIG[sceneName];
-        if (!config?.layers) continue;
-        for (const layer of config.layers) {
-            const p = `${config.path}/${layer.file}`;
-            if (!SVG_PRELOAD_CACHE[p]) allPaths.push(p);
-        }
-    }
-
-    // Fetch in parallel batches of 8 so we don't overwhelm the browser
-    const BATCH = 8;
-    for (let i = 0; i < allPaths.length; i += BATCH) {
-        await Promise.all(
-            allPaths.slice(i, i + BATCH).map(async (svgPath) => {
-                try {
-                    const res = await fetch(`${svgPath}?v=${ASSET_VERSION}`, { priority: 'low' });
-                    if (res.ok) SVG_PRELOAD_CACHE[svgPath] = await res.blob();
-                } catch (e) {
-                    console.warn(`Failed to preload: ${svgPath}`);
-                }
-            })
-        );
-    }
-
-    console.log(`✅ Preloading complete. ${Object.keys(SVG_PRELOAD_CACHE).length} SVGs cached.`);
+    // DOM creation above triggers <img> loads via browser HTTP cache — no manual fetch needed.
+    console.log(`✅ Background DOM ready for ${scenesToLoad.length} scenes.`);
 }
 
 const PARALLAX_CLASSES = [
