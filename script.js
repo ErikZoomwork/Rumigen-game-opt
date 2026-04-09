@@ -78,10 +78,31 @@ function waitForCharacterSVGs(characterName) {
 
 // Preload all SVG layers for a single background scene
 // Creates DOM elements so their <img> tags start loading immediately via browser cache.
+// Returns a promise that resolves when all images in the scene are loaded.
 function preloadScene(sceneName) {
-    if (!sceneName) return;
+    if (!sceneName) return Promise.resolve();
     ensureQuestionBackground(sceneName);
     ensurePayoffBackground(sceneName);
+
+    // Wait for all <img> in both question and payoff containers for this scene
+    const imgs = [
+        ...document.querySelectorAll(`.question-${sceneName} img`),
+        ...document.querySelectorAll(`.payoff-${sceneName} img`)
+    ];
+    if (imgs.length === 0) return Promise.resolve();
+
+    return new Promise(resolve => {
+        let remaining = imgs.length;
+        const timer = setTimeout(resolve, 6000); // 6s fallback
+        const done = () => { if (--remaining <= 0) { clearTimeout(timer); resolve(); } };
+        imgs.forEach(img => {
+            if (img.complete && img.naturalWidth > 0) { done(); }
+            else {
+                img.addEventListener('load', done, { once: true });
+                img.addEventListener('error', done, { once: true });
+            }
+        });
+    });
 }
 
 async function selectCharacter(characterName) {
@@ -116,7 +137,8 @@ async function selectCharacter(characterName) {
         || Object.values(EXPORT_BACKGROUND_MAP[characterName] || {})[0]
         || null;
     if (introSceneName) {
-        preloadScene(introSceneName);
+        showLoadingOverlay(`Loading backgrounds...`);
+        await preloadScene(introSceneName);
     }
 
     // Everything is ready — reveal the game
