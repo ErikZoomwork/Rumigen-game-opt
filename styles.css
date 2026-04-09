@@ -471,10 +471,8 @@ body {
     height: 100dvh;
     overflow: hidden;
     z-index: 100;
-    transition: opacity 1.5s ease, transform 1.5s ease;
     opacity: 0;
     pointer-events: none;
-    will-change: opacity;
 }
 
 .question-background.active {
@@ -484,7 +482,6 @@ body {
 
 .question-background.fade-out {
     opacity: 0;
-    transform: scale(1.05);
 }
 
 .parallax-layer {
@@ -757,17 +754,13 @@ body {
     height: 100dvh;
     z-index: 200;
     opacity: 0;
-    transform: scale(0.95);
-    transition: opacity 1.5s ease, transform 1.5s ease;
     pointer-events: none;
     background: #b8e6e3;
     overflow: hidden;
-    will-change: opacity, transform;
 }
 
 .payoff-container.active {
     opacity: 1;
-    transform: scale(1);
     pointer-events: auto;
 }
 
@@ -780,17 +773,13 @@ body {
     height: 100dvh;
     z-index: 200;
     opacity: 0;
-    transform: scale(0.95);
-    transition: opacity 1.5s ease, transform 1.5s ease;
     pointer-events: none;
     background: #b8e6e3;
     overflow: hidden;
-    will-change: opacity, transform;
 }
 
 .intro-container.active {
     opacity: 1;
-    transform: scale(1);
     pointer-events: none;
 }
 
