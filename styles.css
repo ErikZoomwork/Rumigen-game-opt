@@ -381,10 +381,11 @@ body {
     }
 
     #welcome-screen .btn-primary {
-        position: fixed;
+        position: absolute;
         bottom: 40px;
         left: 20px;
-        width: calc(100% - 40px);
+        right: 20px;
+        width: auto;
         border-radius: 0.5rem;
         margin: 0;
         padding: 1rem;
