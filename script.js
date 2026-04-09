@@ -285,55 +285,50 @@ function pauseVoice() {
 // Function to load new audio into voiceAudio element
 function loadVoiceAudio(audioPath) {
     if (currentVoicePath === audioPath) return; // Already loaded
-    
+
     // Pause current audio (promise-safe)
     pauseVoice();
-    
+
     // Update source
     console.log('Loading voice audio:', audioPath);
     voiceAudio.src = audioPath;
     currentVoicePath = audioPath;
-    
+
     // Reconnect to audio context if initialized
     if (audioInitialized) {
         if (!voiceSource) {
-            // Source node doesn't exist yet (initAudio ran before first src was set) — create it now
             voiceSource = audioContext.createMediaElementSource(voiceAudio);
             voiceSource.connect(analyser);
             voiceSource.connect(audioContext.destination);
         }
-        // If voiceSource already exists, it automatically tracks the new src — no action needed
     }
-    
+
     console.log('Loaded voice audio:', audioPath);
 }
 
 // Function to load new audio into payoffAudio element
 function loadPayoffAudio(audioPath) {
     if (currentPayoffPath === audioPath) return; // Already loaded
-    
+
     // Pause current audio
     payoffAudio.pause();
-    
+
     // Disconnect existing source if it exists
     if (payoffSource) {
-        try {
-            payoffSource.disconnect();
-        } catch (e) {
-            // Ignore disconnect errors
-        }
+        try { payoffSource.disconnect(); } catch (e) { /* ignore */ }
         payoffSource = null;
     }
-    
+
     // Update source
     payoffAudio.src = audioPath;
     currentPayoffPath = audioPath;
-    
+
     console.log('Loaded payoff audio:', audioPath);
 }
 
 let audioContext = null;
-let analyser = null;
+let analyser = null;        // used for voice lip-sync
+let payoffAnalyser = null;  // separate analyser for payoff audio — prevents bleed
 let voiceSource = null;
 let payoffSource = null;
 let audioInitialized = false;
@@ -341,17 +336,24 @@ let audioInitialized = false;
 function initAudio() {
     if (audioInitialized) return;
     audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+    // Voice analyser
     analyser = audioContext.createAnalyser();
     analyser.fftSize = 512;
     analyser.smoothingTimeConstant = 0.3;
-    
+
+    // Payoff analyser — identical settings, completely separate graph
+    payoffAnalyser = audioContext.createAnalyser();
+    payoffAnalyser.fftSize = 512;
+    payoffAnalyser.smoothingTimeConstant = 0.3;
+
     // Only create source if voiceAudio has a src
     if (voiceAudio.src) {
         voiceSource = audioContext.createMediaElementSource(voiceAudio);
         voiceSource.connect(analyser);
         voiceSource.connect(audioContext.destination);
     }
-    
+
     audioInitialized = true;
 }
 
@@ -363,6 +365,8 @@ let animationFrame = null;
 let currentMouth = 'smile';
 let currentEyes = 'normal';
 let lastBlinkTime = 0;
+// Guard against multiple concurrent analyzeAudio loops
+let _loopId = 0;
 
 function switchMouth(mouthName) {
     if (currentMouth === mouthName || !mouthLayers) return;
@@ -409,15 +413,18 @@ function handleBlinking(now) {
     }
 }
 
-function analyzeAudio() {
-    if (!analyser) return;
-    
-    analyser.getByteFrequencyData(dataArray);
+function analyzeAudio(activeAnalyser) {
+    if (!activeAnalyser) return;
+
+    // Capture the loop ID at start — if a newer loop is started, this one exits
+    const myLoopId = _loopId;
+
+    activeAnalyser.getByteFrequencyData(dataArray);
     const now = performance.now();
-    
+
     const midFreq = dataArray.slice(10, 40).reduce((a, b) => a + b) / 30;
     const voiceEnergy = midFreq / 255;
-    
+
     if (voiceEnergy < 0.12) {
         switchMouth('rest');
     } else if (voiceEnergy < 0.28) {
@@ -427,12 +434,33 @@ function analyzeAudio() {
     } else {
         switchMouth('AI');
     }
-    
+
     handleBlinking(now);
-    
-    if (isPlaying) {
-        animationFrame = requestAnimationFrame(analyzeAudio);
+
+    if (isPlaying && myLoopId === _loopId) {
+        animationFrame = requestAnimationFrame(() => analyzeAudio(activeAnalyser));
     }
+}
+
+// Helper: stop any running lip-sync loop
+function stopLipSync() {
+    _loopId++; // invalidates any running loop
+    isPlaying = false;
+    if (animationFrame) {
+        cancelAnimationFrame(animationFrame);
+        animationFrame = null;
+    }
+    switchMouth('smile');
+    switchEyes('normal');
+}
+
+// Helper: start lip-sync loop on the given analyser node
+function startLipSync(activeAnalyser) {
+    stopLipSync();   // cancel any previous loop first
+    isPlaying = true;
+    _loopId++;       // new loop generation
+    lastBlinkTime = performance.now();
+    analyzeAudio(activeAnalyser);
 }
 
 // Audio button
@@ -444,24 +472,16 @@ document.getElementById('audioBtn').addEventListener('click', () => {
         audioContext.resume().then(() => {
             playVoice();
             musicAudio.play();
-            
-            isPlaying = true;
-            document.getElementById('audioBtn').textContent = '⏸️ Pause';
             switchEyes('normal');
-            lastBlinkTime = performance.now();
-            analyzeAudio();
+            startLipSync(analyser);
+            document.getElementById('audioBtn').textContent = '⏸️ Pause';
         });
     } else {
         pauseVoice();
         musicAudio.pause();
-        isPlaying = false;
-            const charDisplayName = characterData ? characterData.character.name : 'Story';
-            document.getElementById('audioBtn').textContent = `Play ${charDisplayName}'s Story`;
-        switchMouth('smile');
-        switchEyes('normal');
-        if (animationFrame) {
-            cancelAnimationFrame(animationFrame);
-        }
+        stopLipSync();
+        const charDisplayName = characterData ? characterData.character.name : 'Story';
+        document.getElementById('audioBtn').textContent = `Play ${charDisplayName}'s Story`;
     }
 });
 
@@ -866,15 +886,10 @@ document.querySelectorAll('.option-button').forEach(button => {
             // Stop active voice-over
             pauseVoice();
             voiceAudio.currentTime = 0;
-            
+
             // Stop lip-sync animation
-            isPlaying = false;
-            switchMouth('smile');
-            switchEyes('normal');
-            if (animationFrame) {
-                cancelAnimationFrame(animationFrame);
-            }
-            
+            stopLipSync();
+
             // Load payoff audio for this choice
             const payoffPath = getPayoffAudioPath(selectedCharacter, currentQ.number, option);
             loadPayoffAudio(payoffPath);
@@ -884,19 +899,17 @@ document.querySelectorAll('.option-button').forEach(button => {
                 initAudio();
             }
             
-            // Setup payoff audio with lip-sync
+            // Setup payoff audio with lip-sync on its own analyser (no bleed from voice)
             audioContext.resume().then(() => {
-                // Create new media element source for payoff only if not exists
+                // Create payoff source and connect to dedicated payoffAnalyser
                 if (!payoffSource) {
                     payoffSource = audioContext.createMediaElementSource(payoffAudio);
-                    payoffSource.connect(analyser);
+                    payoffSource.connect(payoffAnalyser);
                     payoffSource.connect(audioContext.destination);
                 }
-                
+
                 payoffAudio.play();
-                isPlaying = true;
-                lastBlinkTime = performance.now();
-                analyzeAudio();
+                startLipSync(payoffAnalyser);
             });
             
             document.querySelector('.questions-panel').classList.add('hidden');
@@ -991,9 +1004,7 @@ function showCharacterIntro() {
         audioContext.resume().then(() => {
             playVoice();
             musicAudio.play();
-            isPlaying = true;
-            lastBlinkTime = performance.now();
-            analyzeAudio();
+            startLipSync(analyser);
         });
     }, 500);
 }
@@ -1015,13 +1026,8 @@ function closeIntro() {
     // Stop intro audio
     pauseVoice();
     voiceAudio.currentTime = 0;
-    isPlaying = false;
-    switchMouth('smile');
-    switchEyes('normal');
-    if (animationFrame) {
-        cancelAnimationFrame(animationFrame);
-    }
-    
+    stopLipSync();
+
     // Load first question now
     loadQuestion(0);
     
@@ -1044,9 +1050,7 @@ function closeIntro() {
             audioContext.resume().then(() => {
                 playVoice();
                 musicAudio.play();
-                isPlaying = true;
-                lastBlinkTime = performance.now();
-                analyzeAudio();
+                startLipSync(analyser);
             });
         }
     }, 500);
@@ -1069,13 +1073,8 @@ document.getElementById('nextBtn').addEventListener('click', () => {
         // Stop current audio immediately
         payoffAudio.pause();
         payoffAudio.currentTime = 0;
-        isPlaying = false;
-        switchMouth('smile');
-        switchEyes('normal');
-        if (animationFrame) {
-            cancelAnimationFrame(animationFrame);
-        }
-        
+        stopLipSync();
+
         loadQuestion(currentQuestion);
         document.getElementById('tradeoffModal').classList.remove('active');
         // Hide all payoff containers
@@ -1096,9 +1095,7 @@ document.getElementById('nextBtn').addEventListener('click', () => {
         if (audioContext) {
             audioContext.resume().then(() => {
                 playVoice();
-                isPlaying = true;
-                lastBlinkTime = performance.now();
-                analyzeAudio();
+                startLipSync(analyser);
             });
         }
     } else {
@@ -1258,21 +1255,11 @@ function showScenarioParagraph() {
 }
 
 voiceAudio.addEventListener('ended', () => {
-    isPlaying = false;
-    switchMouth('smile');
-    switchEyes('normal');
-    if (animationFrame) {
-        cancelAnimationFrame(animationFrame);
-    }
+    stopLipSync();
 });
 
 payoffAudio.addEventListener('ended', () => {
-    isPlaying = false;
-    switchMouth('smile');
-    switchEyes('normal');
-    if (animationFrame) {
-        cancelAnimationFrame(animationFrame);
-    }
+    stopLipSync();
 });
 
 switchMouth('smile');
@@ -1325,9 +1312,7 @@ function gotoPreviousQuestion() {
         if (audioContext) {
             audioContext.resume().then(() => {
                 playVoice();
-                isPlaying = true;
-                lastBlinkTime = performance.now();
-                analyzeAudio();
+                startLipSync(analyser);
             });
         }
     }

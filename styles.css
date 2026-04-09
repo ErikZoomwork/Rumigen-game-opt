@@ -1335,14 +1335,14 @@ body {
 .layer-eyes {
     z-index: 3;
     opacity: 0;
-    transition: opacity 40ms linear;
+    transition: opacity 50ms linear;
 }
 .layer-eyes.active { opacity: 1; }
 
 .layer-mouth {
     z-index: 4;
     opacity: 0;
-    transition: opacity 30ms linear;
+    transition: opacity 50ms linear;
 }
 .layer-mouth.active { opacity: 1; }
 
