@@ -140,38 +140,42 @@ async function selectCharacter(characterName) {
 
     showLoadingOverlay(`Loading ${displayName}...`);
 
-    // Lazily inject character SVG layers if not yet created
-    ensureCharacterElement(characterName);
+    try {
+        // Lazily inject character SVG layers if not yet created
+        ensureCharacterElement(characterName);
 
-    // Hide all character layers, show selected one
-    document.querySelectorAll('.character-layers').forEach(layer => {
-        layer.style.display = 'none';
-    });
-    const charElement = document.getElementById(`char-${characterName}`);
-    if (charElement) {
-        charElement.style.display = 'block';
-        mouthLayers = charElement.querySelectorAll('.layer-mouth');
-        eyeLayers = charElement.querySelectorAll('.layer-eyes');
+        // Hide all character layers, show selected one
+        document.querySelectorAll('.character-layers').forEach(layer => {
+            layer.style.display = 'none';
+        });
+        const charElement = document.getElementById(`char-${characterName}`);
+        if (charElement) {
+            charElement.style.display = 'block';
+            mouthLayers = charElement.querySelectorAll('.layer-mouth');
+            eyeLayers = charElement.querySelectorAll('.layer-eyes');
+        }
+
+        // Start loading audio + character data immediately
+        loadVoiceAudio(getIntroAudioPath(characterName));
+        await loadCharacterData(characterName);
+
+        // Wait for the character's SVG layers to be fully rendered
+        showLoadingOverlay(`Loading ${displayName}...`);
+        await waitForCharacterSVGs(characterName);
+
+        // Preload the intro background scene before revealing the game
+        const introSceneName = (characterData?.intro?.background)
+            || Object.values(EXPORT_BACKGROUND_MAP[characterName] || {})[0]
+            || null;
+        if (introSceneName) {
+            showLoadingOverlay(`Loading backgrounds...`);
+            await preloadScene(introSceneName);
+        }
+    } catch (e) {
+        console.error('Error loading character:', e);
     }
 
-    // Start loading audio + character data immediately
-    loadVoiceAudio(getIntroAudioPath(characterName));
-    await loadCharacterData(characterName);
-
-    // Wait for the character's SVG layers to be fully rendered
-    showLoadingOverlay(`Loading ${displayName}...`);
-    await waitForCharacterSVGs(characterName);
-
-    // Preload the intro background scene before revealing the game
-    const introSceneName = (characterData?.intro?.background)
-        || Object.values(EXPORT_BACKGROUND_MAP[characterName] || {})[0]
-        || null;
-    if (introSceneName) {
-        showLoadingOverlay(`Loading backgrounds...`);
-        await preloadScene(introSceneName);
-    }
-
-    // Everything is ready — reveal the game
+    // Everything is ready — reveal the game (even if something failed, don't stay stuck)
     showScreen('game-screen');
     showCharacterIntro();
     hideLoadingOverlay();
@@ -324,12 +328,14 @@ function loadVoiceAudio(audioPath) {
     voiceAudio.src = audioPath;
     currentVoicePath = audioPath;
 
-    // Reconnect to audio context if initialized
-    if (audioInitialized) {
-        if (!voiceSource) {
+    // Connect to audio context if initialized but source not yet created
+    if (audioInitialized && audioContext && !voiceSource) {
+        try {
             voiceSource = audioContext.createMediaElementSource(voiceAudio);
             voiceSource.connect(analyser);
             voiceSource.connect(audioContext.destination);
+        } catch (e) {
+            console.warn('Could not connect voice source:', e);
         }
     }
 
@@ -359,26 +365,26 @@ let audioInitialized = false;
 
 function initAudio() {
     if (audioInitialized) return;
-    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    try {
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
-    // Voice analyser
-    analyser = audioContext.createAnalyser();
-    analyser.fftSize = 512;
-    analyser.smoothingTimeConstant = 0.3;
+        // Voice analyser
+        analyser = audioContext.createAnalyser();
+        analyser.fftSize = 512;
+        analyser.smoothingTimeConstant = 0.3;
 
-    // Payoff analyser — identical settings, completely separate graph
-    payoffAnalyser = audioContext.createAnalyser();
-    payoffAnalyser.fftSize = 512;
-    payoffAnalyser.smoothingTimeConstant = 0.3;
+        // Payoff analyser — identical settings, completely separate graph
+        payoffAnalyser = audioContext.createAnalyser();
+        payoffAnalyser.fftSize = 512;
+        payoffAnalyser.smoothingTimeConstant = 0.3;
 
-    // Only create source if voiceAudio has a src
-    if (voiceAudio.src) {
-        voiceSource = audioContext.createMediaElementSource(voiceAudio);
-        voiceSource.connect(analyser);
-        voiceSource.connect(audioContext.destination);
+        // Don't create MediaElementSource here — defer to loadVoiceAudio / first play
+        // (iOS Safari can fail if the element has no src or hasn't been user-activated)
+
+        audioInitialized = true;
+    } catch (e) {
+        console.error('initAudio failed:', e);
     }
-
-    audioInitialized = true;
 }
 
 const bufferLength = 256;
@@ -1010,12 +1016,27 @@ function showCharacterIntro() {
     // Auto-play intro audio after a short delay
     // AudioContext was already initialized + resumed in selectCharacter() within the user gesture
     setTimeout(() => {
-        if (audioContext) {
-            audioContext.resume().then(() => {
-                playVoice();
-                musicAudio.play().catch(() => {});
-                startLipSync(analyser);
-            });
+        try {
+            if (!audioInitialized) {
+                initAudio();
+            }
+            if (audioContext) {
+                audioContext.resume().then(() => {
+                    // Ensure voice source is connected before playing
+                    if (!voiceSource && audioContext && analyser) {
+                        try {
+                            voiceSource = audioContext.createMediaElementSource(voiceAudio);
+                            voiceSource.connect(analyser);
+                            voiceSource.connect(audioContext.destination);
+                        } catch (e) { console.warn('Voice source connect:', e); }
+                    }
+                    playVoice();
+                    musicAudio.play().catch(() => {});
+                    startLipSync(analyser);
+                }).catch(() => {});
+            }
+        } catch (e) {
+            console.warn('Intro audio failed:', e);
         }
     }, 500);
 }
