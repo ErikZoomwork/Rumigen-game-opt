@@ -1342,11 +1342,7 @@ function showScenario() {
     payoffAudio.currentTime = 0;
     stopLipSync();
 
-    // 2. Keep character suspended (already suspended from payoff on mobile)
-    //    On desktop, suspend now since character is not visible during scenario
-    suspendImgs(document.querySelector('.character-display'));
-
-    // 3. Free ALL existing backgrounds (question + payoff) — clear imgs first
+    // 2. Free ALL existing backgrounds (question + payoff) — clear imgs first
     document.querySelectorAll('.payoff-container img, .question-background img').forEach(img => { img.src = ''; });
     _createdBgs.forEach(key => removeBackground(key));
 
