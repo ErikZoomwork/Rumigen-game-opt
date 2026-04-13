@@ -720,8 +720,10 @@ function removeBackground(key) {
 function cleanupBackgrounds(keepScenes) {
     const keepSet = new Set();
     keepScenes.forEach(s => { keepSet.add(`question-${s}`); keepSet.add(`payoff-${s}`); });
-    // Also always keep eindscenario payoffs if they exist
-    ['agro', 'hightech', 'modern'].forEach(s => keepSet.add(`payoff-${s}`));
+    // On desktop, keep eindscenario payoffs; on mobile, they'll be created on-demand
+    if (window.innerWidth > 768) {
+        ['agro', 'hightech', 'modern'].forEach(s => keepSet.add(`payoff-${s}`));
+    }
 
     const toRemove = [];
     _createdBgs.forEach(key => {
@@ -1150,8 +1152,9 @@ document.getElementById('nextBtn').addEventListener('click', () => {
 
         loadQuestion(currentQuestion);
         document.getElementById('tradeoffModal').classList.remove('active');
-        // Hide all payoff containers
+        // Hide all payoff containers and free their memory immediately
         document.querySelectorAll('.payoff-container').forEach(container => {
+            container.querySelectorAll('img').forEach(img => { img.src = ''; });
             container.classList.remove('active');
         });
         document.querySelectorAll('.question-background').forEach(bg => bg.classList.remove('fade-out'));
@@ -1201,17 +1204,21 @@ function loadQuestion(index) {
     // Preload the NEXT question's background so transition is smooth
     preloadNextQuestionBackground(index);
 
-    // Clean up old backgrounds — keep current, previous, and next scenes only
+    // Clean up old backgrounds — on mobile, aggressively keep ONLY current scene
+    const isMobile = window.innerWidth <= 768;
     const keepScenes = [backgroundScene];
-    if (index > 0) {
-        const prevQ = characterQuestions[index - 1];
-        const prevScene = EXPORT_BACKGROUND_MAP[selectedCharacter]?.[prevQ.number] || prevQ.background;
-        if (prevScene) keepScenes.push(prevScene);
-    }
-    const nextQ = characterQuestions[index + 1];
-    if (nextQ) {
-        const nextScene = EXPORT_BACKGROUND_MAP[selectedCharacter]?.[nextQ.number] || nextQ.background;
-        if (nextScene) keepScenes.push(nextScene);
+    if (!isMobile) {
+        // On desktop, also keep previous and next for smoother transitions
+        if (index > 0) {
+            const prevQ = characterQuestions[index - 1];
+            const prevScene = EXPORT_BACKGROUND_MAP[selectedCharacter]?.[prevQ.number] || prevQ.background;
+            if (prevScene) keepScenes.push(prevScene);
+        }
+        const nextQ = characterQuestions[index + 1];
+        if (nextQ) {
+            const nextScene = EXPORT_BACKGROUND_MAP[selectedCharacter]?.[nextQ.number] || nextQ.background;
+            if (nextScene) keepScenes.push(nextScene);
+        }
     }
     // Also keep intro scene
     const introScene = characterData?.intro?.background;
