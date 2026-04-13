@@ -43,6 +43,19 @@ function showScreen(screenId) {
     document.getElementById(screenId).classList.add('active');
 }
 
+// Prevent character selection when swiping on mobile (iOS fires click after touchmove)
+let _touchStartX = 0;
+let _touchMoved = false;
+document.addEventListener('touchstart', (e) => {
+    _touchStartX = e.touches[0].clientX;
+    _touchMoved = false;
+}, { passive: true });
+document.addEventListener('touchmove', (e) => {
+    if (Math.abs(e.touches[0].clientX - _touchStartX) > 10) {
+        _touchMoved = true;
+    }
+}, { passive: true });
+
 function showCharacterSelection() {
     showScreen('character-screen');
 }
@@ -106,16 +119,23 @@ function preloadScene(sceneName) {
 }
 
 async function selectCharacter(characterName) {
+    // Ignore taps that were actually swipes (iOS fires click after touchmove on cards)
+    if (_touchMoved) return;
+
     const displayName = CHARACTER_NAMES[characterName] || characterName;
     selectedCharacter = characterName;
 
     // Initialize AudioContext immediately in the user gesture handler (required for iOS Safari)
-    if (!audioInitialized) {
-        initAudio();
-    }
-    // Resume audio context within user gesture — iOS Safari requires this
-    if (audioContext && audioContext.state === 'suspended') {
-        audioContext.resume().catch(() => {});
+    try {
+        if (!audioInitialized) {
+            initAudio();
+        }
+        // Resume audio context within user gesture — iOS Safari requires this
+        if (audioContext && audioContext.state === 'suspended') {
+            audioContext.resume().catch(() => {});
+        }
+    } catch (e) {
+        console.warn('Audio init failed (will retry later):', e);
     }
 
     showLoadingOverlay(`Loading ${displayName}...`);

@@ -69,49 +69,49 @@
             <div class="character-selection-wrapper">
                 <button class="nav-arrow left" id="scroll-left" aria-label="Scroll left">‹</button>
                 <div class="character-grid" id="character-grid">
-                    <div class="character-card" onclick="selectEmma()">
+                    <div class="character-card" onclick="selectEmma()" role="button">
                         <img src="assets/images/Character - Emma.jpg" alt="Emma" class="character-image" onerror="this.style.display='none'">
                         <div class="character-content">
                             <div class="character-name">Emma</div>
                             <div class="character-role">The Active Citizen</div>
                             <div class="character-bio">Emma, 28, lives in the city and works at an NGO with a focus on the environment. She enjoys cooking and browsing secondhand shops. Her friends come from all walks of life, and they often get into thoughtful (and fun) conversations about values, choices, and the world around them. Raised in the inner city, Emma enjoys exploring local markets and learning about how products are made as she has limited experience with how farming and food production looks like in the countryside.</div>
-                            <button class="select-btn">Select Emma →</button>
+                            <button class="select-btn" onclick="event.stopPropagation(); selectEmma()">Select Emma →</button>
                         </div>
                     </div>
-                    <div class="character-card" onclick="selectLuca()">
+                    <div class="character-card" onclick="selectLuca()" role="button">
                         <img src="assets/images/Character - Luca.jpg" alt="Luca" class="character-image" onerror="this.style.display='none'">
                         <div class="character-content">
                             <div class="character-name">Luca</div>
                             <div class="character-role">The Farmer</div>
                             <div class="character-bio">Luca, 45, is a second-generation farmer running a mixed farm with crops and livestock. Proud of his heritage, he's navigating the challenges of modernising his family business while staying sustainable. Growing up on the farm, Luca understands the pressures of meeting consumer demands and complying with ever-evolving regulations. He's deeply connected to the land and strives to balance tradition and innovation.</div>
-                            <button class="select-btn">Select Luca →</button>
+                            <button class="select-btn" onclick="event.stopPropagation(); selectLuca()">Select Luca →</button>
                         </div>
                     </div>
-                    <div class="character-card" onclick="selectClara()">
+                    <div class="character-card" onclick="selectClara()" role="button">
                         <img src="assets/images/Character - Clara.jpg" alt="Clara" class="character-image" onerror="this.style.display='none'">
                         <div class="character-content">
                             <div class="character-name">Clara</div>
                             <div class="character-role">The Policymaker</div>
                             <div class="character-bio">Clara, 38, is a government official specialising in agriculture and food policy. She's known for her diplomatic skills and passion for improving food systems. With a degree in environmental law, Clara has worked in local and international agencies. She believes in stakeholder collaboration to craft policies that benefit both producers and consumers.</div>
-                            <button class="select-btn">Select Clara →</button>
+                            <button class="select-btn" onclick="event.stopPropagation(); selectClara()">Select Clara →</button>
                         </div>
                     </div>
-                    <div class="character-card" onclick="selectAhmed()">
+                    <div class="character-card" onclick="selectAhmed()" role="button">
                         <img src="assets/images/Character - Ahmed.jpg" alt="Dr. Ahmed" class="character-image" onerror="this.style.display='none'">
                         <div class="character-content">
                             <div class="character-name">Dr. Ahmed</div>
                             <div class="character-role">The Researcher</div>
                             <div class="character-bio">Dr. Ahmed, 52, is a renowned scientist specialising in animal genetics and sustainable agriculture. He spends his days in labs and classrooms, mentoring young researchers. With decades of research and numerous publications, Ahmed bridges the gap between academia and practice. He's driven to find solutions to improve productivity while preserving biodiversity.</div>
-                            <button class="select-btn">Select Ahmed →</button>
+                            <button class="select-btn" onclick="event.stopPropagation(); selectAhmed()">Select Ahmed →</button>
                         </div>
                     </div>
-                    <div class="character-card" onclick="selectSofia()">
+                    <div class="character-card" onclick="selectSofia()" role="button">
                         <img src="assets/images/Character - Sofia.jpg" alt="Sofia" class="character-image" onerror="this.style.display='none'">
                         <div class="character-content">
                             <div class="character-name">Sofia</div>
                             <div class="character-role">The Private Sector Representative</div>
                             <div class="character-bio">Sofia, 34, is an ambitious marketing executive in a global food corporation. She's passionate about innovation and scaling sustainable business models. After earning an MBA, Sofia joined the agri-food industry, focusing on strategies that align profitability with sustainability. She enjoys negotiating partnerships and advocating for corporate responsibility.</div>
-                            <button class="select-btn">Select Sofia →</button>
+                            <button class="select-btn" onclick="event.stopPropagation(); selectSofia()">Select Sofia →</button>
                         </div>
                     </div>
                 </div>
