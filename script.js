@@ -164,13 +164,11 @@ async function selectCharacter(characterName) {
         await waitForCharacterSVGs(characterName);
 
         // Preload the intro background scene before revealing the game
+        // Only create the intro container layers — skip question/payoff preload to save memory
         const introSceneName = (characterData?.intro?.background)
             || Object.values(EXPORT_BACKGROUND_MAP[characterName] || {})[0]
             || null;
-        if (introSceneName) {
-            showLoadingOverlay(`Loading backgrounds...`);
-            await preloadScene(introSceneName);
-        }
+        // Don't call preloadScene here — showCharacterIntro will create the intro layers directly
     } catch (e) {
         console.error('Error loading character:', e);
     }
@@ -643,7 +641,8 @@ async function loadBackgroundsConfig() {
 }
 
 // Function to create background DOM structure dynamically
-function createBackgroundElement(sceneName, containerType = 'question') {
+// singleSegment: if true, only create 1 segment per layer (saves memory for non-scrolling scenes)
+function createBackgroundElement(sceneName, containerType = 'question', singleSegment = false) {
     const config = BACKGROUND_CONFIG[sceneName];
     if (!config) {
         console.error(`Background config not found for: ${sceneName}`);
@@ -674,7 +673,7 @@ function createBackgroundElement(sceneName, containerType = 'question') {
             layerDiv.style.setProperty('--parallax-zoom-duration', `${zoomDuration}s`);
         }
         
-        if (layerConfig.duplicateSegments) {
+        if (layerConfig.duplicateSegments && !singleSegment) {
             // Create two segments for seamless scrolling
             for (let i = 0; i < 2; i++) {
                 const segment = document.createElement('div');
@@ -765,7 +764,8 @@ function ensurePayoffBackground(sceneName) {
     if (_createdBgs.has(key)) return;
     const gameScreen = document.getElementById('game-screen');
     if (!gameScreen) return;
-    const el = createBackgroundElement(sceneName, 'payoff-container');
+    // Payoff uses zoom/pan effects, not scrolling — single segment saves ~50% memory
+    const el = createBackgroundElement(sceneName, 'payoff-container', true);
     if (!el) return;
     const anchor = gameScreen.querySelector(
         '.intro-container, .left-column-wrapper, .pilot-badge, .character-display, .questions-panel'
@@ -780,7 +780,7 @@ async function initializeBackgrounds() {
     console.log('Background config loaded for', Object.keys(BACKGROUND_CONFIG).length, 'scenes (DOM created on-demand)');
 }
 
-// Preload SVGs for a character – NOW LAZY: only pre-create the intro + Q1 scene
+// Preload SVGs for a character – NOW LAZY: only pre-create Q1 scene
 // Remaining scenes are created on-demand as the player progresses.
 async function preloadCharacterBackgrounds(characterName) {
     const charKey = characterName.toLowerCase();
@@ -791,19 +791,13 @@ async function preloadCharacterBackgrounds(characterName) {
         return;
     }
 
-    // Only preload Q1 and Q2 scenes (if they exist) — rest loaded on demand
+    // Only preload Q1 scene — rest loaded on demand when each question loads
     const q1Scene = backgroundScenes[1];
-    const q2Scene = backgroundScenes[2];
     if (q1Scene) {
         ensureQuestionBackground(q1Scene);
-        ensurePayoffBackground(q1Scene);
-    }
-    if (q2Scene && q2Scene !== q1Scene) {
-        ensureQuestionBackground(q2Scene);
-        ensurePayoffBackground(q2Scene);
     }
 
-    console.log(`✅ Lazy preload: Q1${q2Scene ? '+Q2' : ''} backgrounds ready for ${characterName}.`);
+    console.log(`✅ Lazy preload: Q1 background ready for ${characterName}.`);
 }
 
 const PARALLAX_CLASSES = [
@@ -1036,8 +1030,8 @@ function showCharacterIntro() {
     introModal.classList.add('active');
     introContainer.classList.add('active');
     
-    // Load background scene for the intro based on JSON
-    const introBg = createBackgroundElement(introBackground, 'payoff-container');
+    // Load background scene for the intro based on JSON (single segment to save memory)
+    const introBg = createBackgroundElement(introBackground, 'payoff-container', true);
     if (introBg) {
         introContainer.innerHTML = '';
         introBg.querySelectorAll('.parallax-layer').forEach(layer => {
