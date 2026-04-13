@@ -732,13 +732,15 @@ function cleanupBackgrounds(keepScenes) {
 }
 
 // Pre-create the next question's background so it's ready when needed
+// On mobile, skip preloading to save memory — backgrounds load on-demand instead
 function preloadNextQuestionBackground(currentIndex) {
+    if (window.innerWidth <= 768) return; // Skip on mobile — memory is tight
     const nextQ = characterQuestions[currentIndex + 1];
     if (!nextQ) return;
     const nextScene = EXPORT_BACKGROUND_MAP[selectedCharacter]?.[nextQ.number] || nextQ.background;
     if (nextScene) {
         ensureQuestionBackground(nextScene);
-        ensurePayoffBackground(nextScene);
+        // Don't preload payoff — only created when user actually answers
     }
 }
 
@@ -748,7 +750,9 @@ function ensureQuestionBackground(sceneName) {
     if (_createdBgs.has(key)) return;
     const gameScreen = document.getElementById('game-screen');
     if (!gameScreen) return;
-    const el = createBackgroundElement(sceneName, 'question');
+    // On mobile use single segments to halve memory — scroll seam is barely visible on small screens
+    const isMobile = window.innerWidth <= 768;
+    const el = createBackgroundElement(sceneName, 'question', isMobile);
     if (!el) return;
     // Insert before the first non-background child so it stays behind all UI
     const anchor = gameScreen.querySelector(
@@ -1081,7 +1085,11 @@ function closeIntro() {
     introContainer.classList.remove('active');
     // Remove parallax effect classes
     introContainer.classList.remove('parallax-effect-scroll-left', 'parallax-effect-scroll-right',
-                                     'parallax-effect-zoom-gentle', 'parallax-effect-static', 'parallax-effect-mixed');
+                                     'parallax-effect-zoom-gentle', 'parallax-effect-static', 'parallax-effect-mixed',
+                                     'parallax-effect-zoom', 'parallax-effect-drift', 'parallax-effect-pan');
+    // Free intro background layers from memory
+    introContainer.querySelectorAll('img').forEach(img => { img.src = ''; });
+    introContainer.innerHTML = '';
     
     // Reset restart button text (will be hidden by CSS until payoff)
     const restartBtn = document.getElementById('nextBtn');
@@ -1208,6 +1216,7 @@ function loadQuestion(index) {
     // Also keep intro scene
     const introScene = characterData?.intro?.background;
     if (introScene) keepScenes.push(introScene);
+    // Don't keep intro scene in cleanup — it was already freed in closeIntro
     cleanupBackgrounds(keepScenes.filter(Boolean));
     
     // Split options into title and description
