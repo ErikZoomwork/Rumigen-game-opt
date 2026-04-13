@@ -6,6 +6,37 @@ const CHARACTER_NAMES = {
     emma: 'Emma', luca: 'Luca', clara: 'Clara', ahmed: 'Ahmed', sofia: 'Sofia'
 };
 
+// ── Mobile memory helpers ─────────────────────────────────────────────
+// On iPhone, decoded SVG bitmaps eat ~24 MB each at 3× retina.
+// Suspending invisible layers (character + faded-out question bg) during
+// the payoff/tradeoff modal frees hundreds of MB.
+const _suspendedSrcs = new Map(); // img → original src
+
+function suspendImgs(container) {
+    if (!container) return;
+    container.querySelectorAll('img').forEach(img => {
+        if (img.src && !_suspendedSrcs.has(img)) {
+            _suspendedSrcs.set(img, img.getAttribute('src'));
+            img.removeAttribute('src');
+        }
+    });
+}
+
+function restoreImgs(container) {
+    if (!container) return;
+    container.querySelectorAll('img').forEach(img => {
+        const original = _suspendedSrcs.get(img);
+        if (original !== undefined) {
+            img.src = original;
+            _suspendedSrcs.delete(img);
+        }
+    });
+}
+
+function isMobileDevice() {
+    return window.innerWidth <= 768;
+}
+
 // Build and inject character SVG layers lazily (only when the character is first selected)
 function ensureCharacterElement(characterName) {
     const id = `char-${characterName}`;
@@ -983,6 +1014,20 @@ document.querySelectorAll('.option-button').forEach(button => {
                 }
             }
 
+            // ── Mobile memory optimisation ───────────────────────────────
+            // On mobile the full-screen tradeoff modal hides the character
+            // and question background, so free their decoded bitmaps (~500 MB).
+            if (isMobileDevice()) {
+                suspendImgs(document.querySelector('.character-display'));
+                // Remove question background entirely — it's behind the modal
+                const activeQBg = document.querySelector('.question-background.active');
+                if (activeQBg) {
+                    activeQBg.querySelectorAll('img').forEach(img => { img.src = ''; });
+                    activeQBg.remove();
+                    _createdBgs.delete(`question-${payoffScene}`);
+                }
+            }
+
             ensurePayoffBackground(payoffScene);
             const newPayoff = document.querySelector(`.payoff-${payoffScene}`);
             if (newPayoff) {
@@ -1150,6 +1195,9 @@ document.getElementById('nextBtn').addEventListener('click', () => {
         payoffAudio.currentTime = 0;
         stopLipSync();
 
+        // Restore character SVG layers before showing next question (suspended during payoff on mobile)
+        restoreImgs(document.querySelector('.character-display'));
+
         loadQuestion(currentQuestion);
         document.getElementById('tradeoffModal').classList.remove('active');
         // Hide all payoff containers and free their memory immediately
@@ -1290,32 +1338,43 @@ function showScenario() {
         ];
     }
 
-    // Clean up old question/payoff backgrounds to free memory before loading scenario bg
-    cleanupBackgrounds([scenarioBackground]);
+    // ── Aggressive memory cleanup before loading scenario background ──
+    // 1. Stop payoff audio (still playing from last answer)
+    payoffAudio.pause();
+    payoffAudio.currentTime = 0;
+    stopLipSync();
 
-    // Load the matching eindscenario background
-    ensurePayoffBackground(scenarioBackground);
-    document.querySelectorAll('.payoff-container').forEach(c => {
-        c.classList.remove('active', ...PARALLAX_CLASSES);
-    });
-    setTimeout(() => {
+    // 2. Keep character suspended (already suspended from payoff on mobile)
+    //    On desktop, suspend now since character is not visible during scenario
+    suspendImgs(document.querySelector('.character-display'));
+
+    // 3. Free ALL existing backgrounds (question + payoff) — clear imgs first
+    document.querySelectorAll('.payoff-container img, .question-background img').forEach(img => { img.src = ''; });
+    _createdBgs.forEach(key => removeBackground(key));
+
+    // 4. Defer eindscenario bg creation by one frame so browser can GC freed bitmaps
+    requestAnimationFrame(() => {
+        ensurePayoffBackground(scenarioBackground);
+        document.querySelectorAll('.payoff-container').forEach(c => {
+            c.classList.remove('active', ...PARALLAX_CLASSES);
+        });
         const bg = document.querySelector(`.payoff-${scenarioBackground}`);
         if (bg) {
             bg.classList.add('active', 'parallax-effect-pan');
         }
-    }, 100);
 
-    // Hide the "Next Question" button — no more questions after the final scenario
-    const nextQBtn = document.getElementById('nextBtn');
-    if (nextQBtn) { nextQBtn.style.opacity = '0'; nextQBtn.style.pointerEvents = 'none'; }
+        // Hide the "Next Question" button — no more questions after the final scenario
+        const nextQBtn = document.getElementById('nextBtn');
+        if (nextQBtn) { nextQBtn.style.opacity = '0'; nextQBtn.style.pointerEvents = 'none'; }
 
-    document.getElementById('tradeoffModal').classList.remove('active');
-    document.getElementById('tradeoffTitle').textContent = `${charName}'s Future: ${scenarioTitle}`;
-    document.getElementById('tradeoffModal').classList.add('active');
+        document.getElementById('tradeoffModal').classList.remove('active');
+        document.getElementById('tradeoffTitle').textContent = `${charName}'s Future: ${scenarioTitle}`;
+        document.getElementById('tradeoffModal').classList.add('active');
 
-    isShowingScenario = true;
-    currentScenarioParagraph = 0;
-    showScenarioParagraph();
+        isShowingScenario = true;
+        currentScenarioParagraph = 0;
+        showScenarioParagraph();
+    });
 }
 
 // Advances through scenario paragraphs one at a time
@@ -1388,6 +1447,9 @@ function goHome() {
     characterData = null;
     characterQuestions = [];
 
+    // Restore any suspended character imgs so they work if the same character is reselected
+    restoreImgs(document.querySelector('.character-display'));
+
     // Remove .active from all fixed overlay elements so they stop blocking touch input
     document.querySelectorAll('.payoff-container, .intro-container, .question-background').forEach(el => {
         el.classList.remove('active', 'fade-out');
@@ -1412,6 +1474,10 @@ function goHome() {
 function gotoPreviousQuestion() {
     if (currentQuestion > 0) {
         currentQuestion--;
+
+        // Restore character SVGs if they were suspended during payoff
+        restoreImgs(document.querySelector('.character-display'));
+
         loadQuestion(currentQuestion);
         
         // Hide tradeoff modal if visible
