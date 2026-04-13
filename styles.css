@@ -21,6 +21,21 @@ body {
     touch-action: manipulation;
 }
 
+/* Version badge */
+#version-badge {
+    position: fixed;
+    top: 4px;
+    left: 4px;
+    background: rgba(0,0,0,0.35);
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    z-index: 999999;
+    pointer-events: none;
+    font-family: monospace;
+}
+
 /* Loading Overlay */
 .loading-overlay {
     position: fixed;
