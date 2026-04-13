@@ -108,6 +108,16 @@ function preloadScene(sceneName) {
 async function selectCharacter(characterName) {
     const displayName = CHARACTER_NAMES[characterName] || characterName;
     selectedCharacter = characterName;
+
+    // Initialize AudioContext immediately in the user gesture handler (required for iOS Safari)
+    if (!audioInitialized) {
+        initAudio();
+    }
+    // Resume audio context within user gesture — iOS Safari requires this
+    if (audioContext && audioContext.state === 'suspended') {
+        audioContext.resume().catch(() => {});
+    }
+
     showLoadingOverlay(`Loading ${displayName}...`);
 
     // Lazily inject character SVG layers if not yet created
@@ -465,7 +475,7 @@ document.getElementById('audioBtn').addEventListener('click', () => {
         }
         audioContext.resume().then(() => {
             playVoice();
-            musicAudio.play();
+            musicAudio.play().catch(() => {});
             switchEyes('normal');
             startLipSync(analyser);
             document.getElementById('audioBtn').textContent = '⏸️ Pause';
@@ -978,15 +988,15 @@ function showCharacterIntro() {
     questionsPanel.classList.add('hidden');
     
     // Auto-play intro audio after a short delay
+    // AudioContext was already initialized + resumed in selectCharacter() within the user gesture
     setTimeout(() => {
-        if (!audioInitialized) {
-            initAudio();
+        if (audioContext) {
+            audioContext.resume().then(() => {
+                playVoice();
+                musicAudio.play().catch(() => {});
+                startLipSync(analyser);
+            });
         }
-        audioContext.resume().then(() => {
-            playVoice();
-            musicAudio.play();
-            startLipSync(analyser);
-        });
     }, 500);
 }
 
@@ -1030,7 +1040,7 @@ function closeIntro() {
         if (audioContext) {
             audioContext.resume().then(() => {
                 playVoice();
-                musicAudio.play();
+                musicAudio.play().catch(() => {});
                 startLipSync(analyser);
             });
         }

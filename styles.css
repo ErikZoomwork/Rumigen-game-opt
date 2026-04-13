@@ -4,10 +4,22 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+    overscroll-behavior: none;
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f8fafc;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overscroll-behavior: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 /* Loading Overlay */
@@ -351,7 +363,9 @@ body {
 
     .welcome-content {
         padding: 15px 20px 70px;
+        padding-bottom: calc(70px + env(safe-area-inset-bottom, 0px));
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
         height: 100%;
         max-width: 100%;
         text-align: center;
@@ -393,9 +407,9 @@ body {
     .mobile-start-btn {
         display: block !important;
         position: absolute;
-        bottom: 40px;
-        left: 20px;
-        right: 20px;
+        bottom: calc(40px + env(safe-area-inset-bottom, 0px));
+        left: max(20px, env(safe-area-inset-left, 0px));
+        right: max(20px, env(safe-area-inset-right, 0px));
         width: auto;
         border-radius: 0.5rem;
         margin: 0;
@@ -1151,11 +1165,12 @@ body {
     .questions-panel {
         width: 100vw;
         height: 100dvh;
-        padding: max(20px, env(safe-area-inset-top)) 20px max(30px, env(safe-area-inset-bottom)) 20px;
+        padding: max(20px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(30px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
         justify-content: flex-start;
         opacity: 0;
         pointer-events: none;
         transition: opacity 2s ease;
+        -webkit-overflow-scrolling: touch;
     }
 
     .questions-panel.show {
@@ -1349,7 +1364,7 @@ body {
         transform: translateX(-50%);
         width: 100vw;
         max-height: 75dvh;
-        bottom: env(safe-area-inset-bottom, 0);
+        bottom: env(safe-area-inset-bottom, 0px);
     }
 
     .character-display.answered {
@@ -1516,13 +1531,14 @@ body {
     }
     .left-column-wrapper {
         justify-content: space-between;
-        padding: 20px;
+        padding: max(20px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
         max-width: 100vw;
         min-width: unset;
     }
     .tradeoff-content {
         max-height: 60vh;
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
 }
 
