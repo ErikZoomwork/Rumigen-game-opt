@@ -702,6 +702,47 @@ function createBackgroundElement(sceneName, containerType = 'question') {
 // Track which background DOM elements have already been created
 const _createdBgs = new Set();
 
+// Remove a background DOM element and free its memory
+function removeBackground(key) {
+    if (!_createdBgs.has(key)) return;
+    const type = key.startsWith('payoff-') ? 'payoff' : 'question';
+    const sceneName = key.replace(/^(payoff|question)-/, '');
+    const selector = type === 'payoff' ? `.payoff-${sceneName}` : `.question-${sceneName}`;
+    const el = document.querySelector(selector);
+    if (el) {
+        // Clear img src to free memory before removing from DOM
+        el.querySelectorAll('img').forEach(img => { img.src = ''; });
+        el.remove();
+    }
+    _createdBgs.delete(key);
+}
+
+// Clean up backgrounds that are no longer needed (keep only active + specified scenes)
+function cleanupBackgrounds(keepScenes) {
+    const keepSet = new Set();
+    keepScenes.forEach(s => { keepSet.add(`question-${s}`); keepSet.add(`payoff-${s}`); });
+    // Also always keep eindscenario payoffs if they exist
+    ['agro', 'hightech', 'modern'].forEach(s => keepSet.add(`payoff-${s}`));
+
+    const toRemove = [];
+    _createdBgs.forEach(key => {
+        if (!keepSet.has(key)) toRemove.push(key);
+    });
+    toRemove.forEach(key => removeBackground(key));
+    if (toRemove.length > 0) console.log(`🧹 Cleaned up ${toRemove.length} unused backgrounds`);
+}
+
+// Pre-create the next question's background so it's ready when needed
+function preloadNextQuestionBackground(currentIndex) {
+    const nextQ = characterQuestions[currentIndex + 1];
+    if (!nextQ) return;
+    const nextScene = EXPORT_BACKGROUND_MAP[selectedCharacter]?.[nextQ.number] || nextQ.background;
+    if (nextScene) {
+        ensureQuestionBackground(nextScene);
+        ensurePayoffBackground(nextScene);
+    }
+}
+
 // Lazily insert a question-background element the first time it is needed
 function ensureQuestionBackground(sceneName) {
     const key = `question-${sceneName}`;
@@ -739,7 +780,8 @@ async function initializeBackgrounds() {
     console.log('Background config loaded for', Object.keys(BACKGROUND_CONFIG).length, 'scenes (DOM created on-demand)');
 }
 
-// Preload SVGs for a character – parallel batches, creates DOM lazily first
+// Preload SVGs for a character – NOW LAZY: only pre-create the intro + Q1 scene
+// Remaining scenes are created on-demand as the player progresses.
 async function preloadCharacterBackgrounds(characterName) {
     const charKey = characterName.toLowerCase();
     const backgroundScenes = EXPORT_BACKGROUND_MAP[charKey];
@@ -749,22 +791,19 @@ async function preloadCharacterBackgrounds(characterName) {
         return;
     }
 
-    const scenesToLoad = [...new Set(Object.values(backgroundScenes))];
-    console.log(`📥 Pre-creating ${scenesToLoad.length} background scenes for ${characterName}...`);
+    // Only preload Q1 and Q2 scenes (if they exist) — rest loaded on demand
+    const q1Scene = backgroundScenes[1];
+    const q2Scene = backgroundScenes[2];
+    if (q1Scene) {
+        ensureQuestionBackground(q1Scene);
+        ensurePayoffBackground(q1Scene);
+    }
+    if (q2Scene && q2Scene !== q1Scene) {
+        ensureQuestionBackground(q2Scene);
+        ensurePayoffBackground(q2Scene);
+    }
 
-    // Create DOM elements for every scene this character needs (lazy, all at once)
-    scenesToLoad.forEach(scene => {
-        ensureQuestionBackground(scene);
-        ensurePayoffBackground(scene);
-    });
-
-    // Also pre-create the three eindscenario backgrounds so they are ready when the game ends
-    ['agro', 'hightech', 'modern'].forEach(scene => {
-        if (BACKGROUND_CONFIG[scene]) ensurePayoffBackground(scene);
-    });
-
-    // DOM creation above triggers <img> loads via browser HTTP cache — no manual fetch needed.
-    console.log(`✅ Background DOM ready for ${scenesToLoad.length} scenes.`);
+    console.log(`✅ Lazy preload: Q1${q2Scene ? '+Q2' : ''} backgrounds ready for ${characterName}.`);
 }
 
 const PARALLAX_CLASSES = [
@@ -1156,6 +1195,26 @@ function loadQuestion(index) {
     if (backgroundScene) {
         loadBackground(backgroundScene, parallaxEffect);
     }
+
+    // Preload the NEXT question's background so transition is smooth
+    preloadNextQuestionBackground(index);
+
+    // Clean up old backgrounds — keep current, previous, and next scenes only
+    const keepScenes = [backgroundScene];
+    if (index > 0) {
+        const prevQ = characterQuestions[index - 1];
+        const prevScene = EXPORT_BACKGROUND_MAP[selectedCharacter]?.[prevQ.number] || prevQ.background;
+        if (prevScene) keepScenes.push(prevScene);
+    }
+    const nextQ = characterQuestions[index + 1];
+    if (nextQ) {
+        const nextScene = EXPORT_BACKGROUND_MAP[selectedCharacter]?.[nextQ.number] || nextQ.background;
+        if (nextScene) keepScenes.push(nextScene);
+    }
+    // Also keep intro scene
+    const introScene = characterData?.intro?.background;
+    if (introScene) keepScenes.push(introScene);
+    cleanupBackgrounds(keepScenes.filter(Boolean));
     
     // Split options into title and description
     const splitOption = (text) => {
@@ -1220,6 +1279,9 @@ function showScenario() {
             "European livestock farming supplies meat and dairy across price and quality ranges for EU consumers. Yet stricter regulations and more limited use of technology create a competitive disadvantage globally, reducing the EU's ability to export beyond its borders."
         ];
     }
+
+    // Clean up old question/payoff backgrounds to free memory before loading scenario bg
+    cleanupBackgrounds([scenarioBackground]);
 
     // Load the matching eindscenario background
     ensurePayoffBackground(scenarioBackground);
@@ -1322,6 +1384,10 @@ function goHome() {
     });
     document.querySelector('.character-display')?.classList.remove('answered');
     document.querySelector('.questions-panel')?.classList.remove('hidden');
+
+    // Free all background memory
+    const allKeys = [..._createdBgs];
+    allKeys.forEach(key => removeBackground(key));
 
     // Hide game screen and show character selection
     showScreen('character-screen');
