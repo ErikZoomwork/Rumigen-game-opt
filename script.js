@@ -1015,11 +1015,9 @@ document.querySelectorAll('.option-button').forEach(button => {
             }
 
             // ── Mobile memory optimisation ───────────────────────────────
-            // On mobile the full-screen tradeoff modal hides the character
-            // and question background, so free their decoded bitmaps (~500 MB).
+            // On mobile, remove the faded-out question background to free decoded bitmaps.
+            // Character SVGs stay loaded — they are visible during the payoff.
             if (isMobileDevice()) {
-                suspendImgs(document.querySelector('.character-display'));
-                // Remove question background entirely — it's behind the modal
                 const activeQBg = document.querySelector('.question-background.active');
                 if (activeQBg) {
                     activeQBg.querySelectorAll('img').forEach(img => { img.src = ''; });
